@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>📚 期末冲刺学习系统 — 五科全覆盖</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 侧边栏 -->
+<nav id="sidebar">
+  <div class="sidebar-header">
+    <div class="logo">📚 期末冲刺</div>
+    <small>五科学习系统</small>
+  </div>
+
+  <div class="sidebar-menu">
+    <a href="#dashboard" class="menu-item active" data-nav="dashboard">
+      <span class="menu-icon">📊</span> 学习仪表盘
+    </a>
+    <a href="#checklist" class="menu-item" data-nav="checklist">
+      <span class="menu-icon">✅</span> 知识清单
+    </a>
+    <a href="#plan" class="menu-item" data-nav="plan">
+      <span class="menu-icon">📅</span> 五天冲刺计划
+    </a>
+    <a href="#knowledge" class="menu-item" data-nav="knowledge">
+      <span class="menu-icon">📖</span> 知识点学习
+    </a>
+    <a href="#practice" class="menu-item" data-nav="practice">
+      <span class="menu-icon">✍️</span> 真题练习
+    </a>
+    <a href="#exam" class="menu-item" data-nav="exam">
+      <span class="menu-icon">🎲</span> 随机组卷
+    </a>
+    <a href="#wrong" class="menu-item" data-nav="wrong">
+      <span class="menu-icon">📝</span> 错题本
+    </a>
+    <a href="#tutorials" class="menu-item" data-nav="tutorials">
+      <span class="menu-icon">📚</span> 零基础教程
+    </a>
+    <a href="#review" class="menu-item" data-nav="review">
+      <span class="menu-icon">🔄</span> 记忆曲线复习
+    </a>
+    <a href="#predict" class="menu-item" data-nav="predict">
+      <span class="menu-icon">🔮</span> 考前预测卷
+    </a>
+  </div>
+
+  <div class="sidebar-footer">
+    <button id="themeToggle" title="切换深色模式">🌙</button>
+    <button id="importBtn" title="加载题库(单击) / 文件导入(双击)">📥 加载题库</button>
+    <button id="clearDataBtn" title="清除所有学习数据">🗑️ 重置数据</button>
+    <input type="file" id="fileInput" accept=".md" hidden>
+  </div>
+</nav>
+
+<!-- 主内容区 -->
+<main id="main">
+
+  <!-- 仪表盘 -->
+  <section id="dashboard" class="page active">
+    <h1>📊 学习仪表盘</h1>
+    <div class="stats-grid" id="statsGrid">
+      <div class="stat-card"><div class="stat-num" id="totalQ">--</div><div class="stat-label">题库总数</div></div>
+      <div class="stat-card"><div class="stat-num" id="doneQ">--</div><div class="stat-label">已练习题</div></div>
+      <div class="stat-card"><div class="stat-num" id="rightRate">--</div><div class="stat-label">正确率</div></div>
+      <div class="stat-card"><div class="stat-num" id="wrongCount">--</div><div class="stat-label">错题数</div></div>
+    </div>
+    <div class="subject-progress" id="subjectProgress"></div>
+    <div class="hot-topics" id="hotTopics"></div>
+  </section>
+
+  <!-- 知识清单 -->
+  <section id="checklist" class="page">
+    <h1>✅ 五科知识清单</h1>
+    <p style="color:var(--text-secondary);margin-bottom:16px;">背过打钩，按科目追踪进度</p>
+    <div class="checklist-toolbar">
+      <select id="clSubject"><option value="all">全部科目</option></select>
+      <select id="clLevel"><option value="all">全部等级</option><option value="A">A级必考</option><option value="B">B级高概率</option></select>
+      <span id="clProgress" style="font-weight:700;margin-left:auto;"></span>
+    </div>
+    <div id="checklistArea"></div>
+  </section>
+
+  <!-- 五天计划 -->
+  <section id="plan" class="page">
+    <h1>📅 五天冲刺计划</h1>
+    <div class="plan-grid" id="planGrid"></div>
+  </section>
+
+  <!-- 知识点学习 -->
+  <section id="knowledge" class="page">
+    <h1>📖 知识点学习</h1>
+    <div class="filter-bar">
+      <select id="kSubject"><option value="all">全部科目</option></select>
+      <select id="kLevel"><option value="all">全部等级</option><option value="A">A级(必考)</option><option value="B">B级(高概率)</option><option value="C">C级(低概率)</option></select>
+    </div>
+    <div class="knowledge-list" id="knowledgeList"></div>
+  </section>
+
+  <!-- 真题练习 -->
+  <section id="practice" class="page">
+    <div class="practice-header">
+      <h1>✍️ 真题练习</h1>
+      <div class="practice-controls">
+        <select id="pSubject"><option value="all">全部科目</option></select>
+        <select id="pType"><option value="all">全部题型</option></select>
+        <select id="pLevel"><option value="all">全部等级</option><option value="A">A级</option><option value="B">B级</option></select>
+        <label style="display:flex;align-items:center;gap:6px;font-size:13px;color:var(--text-secondary);cursor:pointer;white-space:nowrap;"><input type="checkbox" id="pUnpracticed" checked> 只刷未做题</label>
+        <button id="startPractice" class="btn-primary">开始练习</button>
+      </div>
+    </div>
+    <div id="practiceArea" class="practice-area">
+      <div class="empty-state">👆 选择条件后点击"开始练习"</div>
+    </div>
+  </section>
+
+  <!-- 随机组卷 -->
+  <section id="exam" class="page">
+    <h1>🎲 随机组卷</h1>
+    <div class="exam-config">
+      <div class="config-row">
+        <label>科目：</label>
+        <select id="eSubject"><option value="all">全部</option></select>
+      </div>
+      <div class="config-row">
+        <label>题目数量：</label>
+        <input type="number" id="eCount" value="20" min="5" max="100">
+      </div>
+      <div class="config-row">
+        <label>时长(分钟)：</label>
+        <input type="number" id="eTime" value="30" min="5" max="120">
+      </div>
+      <button id="startExam" class="btn-primary">开始考试</button>
+    </div>
+    <div id="examArea" class="exam-area">
+      <div class="empty-state">⚙️ 配置后点击"开始考试"</div>
+    </div>
+  </section>
+
+  <!-- 错题本 -->
+  <section id="wrong" class="page">
+    <h1>📝 错题本</h1>
+    <div class="wrong-toolbar">
+      <select id="wSubject"><option value="all">全部科目</option></select>
+      <button id="retryWrong" class="btn-primary">重做错题</button>
+      <button id="clearWrong" class="btn-danger">清空错题本</button>
+    </div>
+    <div class="wrong-list" id="wrongList">
+      <div class="empty-state">🎉 暂无错题，继续保持！</div>
+    </div>
+  </section>
+
+  <!-- 零基础教程 -->
+  <section id="tutorials" class="page">
+    <h1>📚 五科零基础教程</h1>
+    <p style="color:var(--text-secondary);margin-bottom:16px;">按课件章节顺序编写，零基础友好，每科2-4小时读完</p>
+    <div class="tutorial-nav" id="tutorialNav"></div>
+    <div class="tutorial-content" id="tutorialContent">
+      <div class="empty-state">👆 选择一科开始学习</div>
+    </div>
+  </section>
+
+  <!-- 记忆曲线复习 -->
+  <section id="review" class="page">
+    <h1>🔄 艾宾浩斯记忆曲线复习</h1>
+    <div class="review-info">
+      <p>基于遗忘曲线自动安排复习：20分钟 → 1小时 → 1天 → 3天 → 7天</p>
+    </div>
+    <div class="review-stats" id="reviewStats"></div>
+    <div class="review-list" id="reviewList">
+      <div class="empty-state">📖 完成练习后这里会自动安排复习任务</div>
+    </div>
+  </section>
+
+  <!-- 考前预测卷 -->
+  <section id="predict" class="page">
+    <h1>🔮 考前预测卷</h1>
+    <p class="predict-desc">基于高频考点 + 错题分布，AI智能生成预测卷</p>
+    <div class="predict-config">
+      <button id="genPredict" class="btn-primary">生成预测卷</button>
+    </div>
+    <div id="predictArea">
+      <div class="empty-state">🔮 点击生成预测卷</div>
+    </div>
+  </section>
+
+</main>
+
+<!-- 答题浮层 -->
+<div id="quizModal" class="modal hidden">
+  <div class="modal-content">
+    <div class="modal-header">
+      <span id="quizProgress">第 1/20 题</span>
+      <span id="quizTimer">⏱ 00:00</span>
+      <button id="closeQuiz" class="btn-close">✕</button>
+    </div>
+    <div class="modal-body" id="quizBody"></div>
+    <div class="modal-footer">
+      <button id="prevQ" class="btn-secondary">上一题</button>
+      <button id="submitQ" class="btn-primary">提交答案</button>
+      <button id="nextQ" class="btn-secondary">下一题</button>
+    </div>
+  </div>
+</div>
+
+<!-- Toast -->
+<div id="toast" class="toast hidden"></div>
+
+<script src="checklist_data.js?v=9"></script>
+<script src="parsed/questions_data.js?v=9"></script>
+<script src="script.js?v=9"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+# 源文件（不需要上传的doc试卷）
+web前端/
+
+# 课件PDF（太大，29MB）
+课件/
+
+# Claude内部文件
+.claude/
+
+# 临时文件
+*.tmp
+~$*
+temp_*.txt
+
+# 构建脚本
+build_*.js
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
