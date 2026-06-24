@@ -1,4 +1,4 @@
-// 六科完整题库 — 506题 含2024-2025/2025-2026 A/B卷全部真题+多样化题型
+// 六科完整题库 — 557题 含复习重点全部知识点
 const PREPARSED_QUESTIONS = [
   {
     "subject": "Java Web",
@@ -12230,6 +12230,1468 @@ const PREPARSED_QUESTIONS = [
     "explanation": "JS表单验证标准答案模板。核心考点：①document.formName.fieldName.value获取值 ②字符串比较用==或=== ③alert弹提示 ④return false阻止提交 ⑤document.write输出结果。此题15分必须拿满！",
     "topic": "表单验证",
     "id": "GEN0506",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "A",
+    "title": "在HTML表格中，colspan属性的作用是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "合并列"
+      },
+      {
+        "label": "B",
+        "text": "合并行"
+      },
+      {
+        "label": "C",
+        "text": "设置列宽"
+      },
+      {
+        "label": "D",
+        "text": "设置边框"
+      }
+    ],
+    "answer": "A",
+    "explanation": "colspan(column span)跨列合并单元格，rowspan跨行合并。如<td colspan=\"2\">表示该单元格横跨2列。",
+    "topic": "HTML表格",
+    "id": "GEN0507",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "A",
+    "title": "在HTML表格中，rowspan属性的作用是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "合并列"
+      },
+      {
+        "label": "B",
+        "text": "合并行"
+      },
+      {
+        "label": "C",
+        "text": "设置行高"
+      },
+      {
+        "label": "D",
+        "text": "设置边框"
+      }
+    ],
+    "answer": "B",
+    "explanation": "rowspan(row span)跨行合并单元格。常与colspan对比考查，注意区分。",
+    "topic": "HTML表格",
+    "id": "GEN0508",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "B",
+    "title": "关于iframe标签，以下说法正确的是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "iframe是内联框架，可在页面中嵌入另一个HTML页面"
+      },
+      {
+        "label": "B",
+        "text": "iframe只能放在frameset中使用"
+      },
+      {
+        "label": "C",
+        "text": "iframe无法设置宽高"
+      },
+      {
+        "label": "D",
+        "text": "iframe与frame完全相同"
+      }
+    ],
+    "answer": "A",
+    "explanation": "iframe是内联框架，比frameset更灵活，可在页面任意位置嵌入其他页面。frame只能在frameset中使用，iframe可单独使用。",
+    "topic": "HTML表格",
+    "id": "GEN0509",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "判断题",
+    "level": "B",
+    "title": "HTML表格中，<th>标签定义的单元格文字默认以粗体居中显示。（ ）",
+    "options": [],
+    "answer": "对",
+    "explanation": "<th>(table header)表头单元格默认样式为粗体+居中。必须放在<tr>标签内。",
+    "topic": "HTML表格",
+    "id": "GEN0510",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "B",
+    "title": "HTML中，<label>标签的for属性用于（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "关联表单控件，点击label自动聚焦对应控件"
+      },
+      {
+        "label": "B",
+        "text": "设置标签文字颜色"
+      },
+      {
+        "label": "C",
+        "text": "指定表单提交地址"
+      },
+      {
+        "label": "D",
+        "text": "设置标签字体大小"
+      }
+    ],
+    "answer": "A",
+    "explanation": "for属性值对应控件的id，实现点击标签文字自动聚焦/激活对应控件，提升表单可访问性。",
+    "topic": "HTML表单",
+    "id": "GEN0511",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "B",
+    "title": "HTML表单中，用于对表单控件进行分组的标签是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "<fieldset>配合<legend>"
+      },
+      {
+        "label": "B",
+        "text": "<group>配合<name>"
+      },
+      {
+        "label": "C",
+        "text": "<div>配合<span>"
+      },
+      {
+        "label": "D",
+        "text": "<form>配合<label>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "<fieldset>绘制分组边框，<legend>定义分组标题。如注册表单中\"基本信息\"和\"详细信息\"分组。",
+    "topic": "HTML表单",
+    "id": "GEN0512",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "C",
+    "title": "表单中上传文件时，form的enctype属性应设置为（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "multipart/form-data"
+      },
+      {
+        "label": "B",
+        "text": "application/x-www-form-urlencoded"
+      },
+      {
+        "label": "C",
+        "text": "text/plain"
+      },
+      {
+        "label": "D",
+        "text": "application/json"
+      }
+    ],
+    "answer": "A",
+    "explanation": "文件上传必须用multipart/form-data编码类型。默认值是application/x-www-form-urlencoded。text/plain用于纯文本。",
+    "topic": "HTML表单",
+    "id": "GEN0513",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "填空题",
+    "level": "B",
+    "title": "HTML中，多行文本输入框的标签是（ ）",
+    "options": [],
+    "answer": "textarea",
+    "explanation": "<textarea rows=\"行数\" cols=\"列数\">默认文字</textarea>。不同于<input type=\"text\">单行输入，textarea支持多行文字输入。",
+    "topic": "HTML表单",
+    "id": "GEN0514",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "A",
+    "title": "CSS中，div p { color: red; } 表示（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "div内部所有后代p元素文字变红"
+      },
+      {
+        "label": "B",
+        "text": "div的直接子元素p变红"
+      },
+      {
+        "label": "C",
+        "text": "div和p都变红"
+      },
+      {
+        "label": "D",
+        "text": "div后面的兄弟p变红"
+      }
+    ],
+    "answer": "A",
+    "explanation": "空格是后代选择器，匹配div内所有层级的p元素。div>p（子元素选择器）只匹配直接子代。注意区分！",
+    "topic": "CSS选择器",
+    "id": "GEN0515",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "B",
+    "title": "CSS中，div > p 表示（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "div的直接子元素p"
+      },
+      {
+        "label": "B",
+        "text": "div的所有后代p"
+      },
+      {
+        "label": "C",
+        "text": "div和p兄弟关系"
+      },
+      {
+        "label": "D",
+        "text": "div前面相邻的p"
+      }
+    ],
+    "answer": "A",
+    "explanation": ">(子元素选择器)只匹配直接子代。而空格(后代选择器)匹配所有后代。h1+p是相邻兄弟选择器。",
+    "topic": "CSS选择器",
+    "id": "GEN0516",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "多选题",
+    "level": "B",
+    "title": "以下属于CSS选择器的有（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "标签选择器"
+      },
+      {
+        "label": "B",
+        "text": "类选择器"
+      },
+      {
+        "label": "C",
+        "text": "ID选择器"
+      },
+      {
+        "label": "D",
+        "text": "后代选择器"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "四种都是CSS选择器类型。此外还有子元素选择器(>)、相邻兄弟(+)、属性选择器([])、伪类(:)等。",
+    "topic": "CSS选择器",
+    "id": "GEN0517",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "判断题",
+    "level": "B",
+    "title": "CSS中，子元素可以继承父元素的所有样式属性。（ ）",
+    "options": [],
+    "answer": "错",
+    "explanation": "CSS继承不是全部属性！文字相关属性(color/font-size/font-family等)可继承，盒子相关属性(width/height/margin/padding/border)不可继承。",
+    "topic": "CSS选择器",
+    "id": "GEN0518",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "C",
+    "title": "CSS中，@import和<link>引入外部样式表的区别，正确的是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "<link>在页面加载时同时加载，@import在页面加载完后加载"
+      },
+      {
+        "label": "B",
+        "text": "@import比<link>加载更快"
+      },
+      {
+        "label": "C",
+        "text": "@import没有兼容性问题"
+      },
+      {
+        "label": "D",
+        "text": "两者完全一样"
+      }
+    ],
+    "answer": "A",
+    "explanation": "<link>是HTML标签，并行加载；@import是CSS语法，等CSS文件下载后才加载，可能导致无样式闪烁(FOUC)。推荐使用<link>。",
+    "topic": "CSS引入方式",
+    "id": "GEN0519",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "B",
+    "title": "CSS中，border-style属性不可以设置为（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "solid（实线）"
+      },
+      {
+        "label": "B",
+        "text": "dashed（虚线）"
+      },
+      {
+        "label": "C",
+        "text": "double（双线）"
+      },
+      {
+        "label": "D",
+        "text": "block（块级）"
+      }
+    ],
+    "answer": "D",
+    "explanation": "border-style可取值：none/solid/dashed/dotted/double/groove/ridge/inset/outset。\"block\"是display属性值，不是border样式。",
+    "topic": "CSS盒模型",
+    "id": "GEN0520",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "判断题",
+    "level": "A",
+    "title": "标准文档流中，块级元素独占一行，行内元素在同一行内从左到右排列。（ ）",
+    "options": [],
+    "answer": "对",
+    "explanation": "这是标准文档流的基本规则。块级(div/p/h1)独占一行；行内(span/a/img)共享一行。脱离文档流：float/absolute/fixed。",
+    "topic": "CSS定位position",
+    "id": "GEN0521",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "B",
+    "title": "CSS3中，:nth-child(2n)选择器的作用是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "选择所有偶数位置的子元素"
+      },
+      {
+        "label": "B",
+        "text": "选择第2个子元素"
+      },
+      {
+        "label": "C",
+        "text": "选择所有子元素"
+      },
+      {
+        "label": "D",
+        "text": "选择前2个子元素"
+      }
+    ],
+    "answer": "A",
+    "explanation": ":nth-child(2n)选偶数位（2,4,6...），等价于:nth-child(even)。:nth-child(2n+1)选奇数位（1,3,5...），等价:nth-child(odd)。:nth-child(1)只选第1个。",
+    "topic": "CSS3",
+    "id": "GEN0522",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "B",
+    "title": "CSS3中，text-overflow:ellipsis实现文字溢出显示省略号，需要配合哪些属性？（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "overflow:hidden 和 white-space:nowrap"
+      },
+      {
+        "label": "B",
+        "text": "display:none"
+      },
+      {
+        "label": "C",
+        "text": "visibility:hidden"
+      },
+      {
+        "label": "D",
+        "text": "单独使用即可"
+      }
+    ],
+    "answer": "A",
+    "explanation": "text-overflow:ellipsis必须配合overflow:hidden（隐藏溢出）和white-space:nowrap（禁止换行）才能生效。三者缺一不可。",
+    "topic": "CSS3",
+    "id": "GEN0523",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "B",
+    "title": "CSS3中，text-shadow属性的正确语法是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "text-shadow:水平偏移 垂直偏移 模糊半径 颜色"
+      },
+      {
+        "label": "B",
+        "text": "text-shadow:颜色 大小"
+      },
+      {
+        "label": "C",
+        "text": "text-shadow:粗细 颜色"
+      },
+      {
+        "label": "D",
+        "text": "text-shadow:字体 颜色"
+      }
+    ],
+    "answer": "A",
+    "explanation": "如 text-shadow:2px 2px 4px #000 表示向右2px、向下2px、模糊4px、黑色阴影。多个阴影用逗号分隔。",
+    "topic": "CSS3",
+    "id": "GEN0524",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "A",
+    "title": "CSS3中，使用RGBA设置半透明红色背景的正确写法是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "background-color:rgba(255,0,0,0.5)"
+      },
+      {
+        "label": "B",
+        "text": "background-color:rgb(255,0,0)"
+      },
+      {
+        "label": "C",
+        "text": "background-color:red"
+      },
+      {
+        "label": "D",
+        "text": "background-color:#ff0000"
+      }
+    ],
+    "answer": "A",
+    "explanation": "RGBA在RGB基础上加Alpha(透明度)通道，值0(完全透明)~1(完全不透明)。0.5即半透明。A/B/C都是完全不透明。",
+    "topic": "CSS3",
+    "id": "GEN0525",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "B",
+    "title": "CSS3中，选择所有class属性以\"btn-\"开头的元素，正确写法是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "[class^=\"btn-\"]"
+      },
+      {
+        "label": "B",
+        "text": "[class$=\"btn-\"]"
+      },
+      {
+        "label": "C",
+        "text": "[class*=\"btn-\"]"
+      },
+      {
+        "label": "D",
+        "text": "class^=\"btn-\""
+      }
+    ],
+    "answer": "A",
+    "explanation": "[att^=val]匹配属性值以val开头；[att$=val]匹配以val结尾；[att*=val]匹配包含val。注意必须用方括号！",
+    "topic": "CSS3",
+    "id": "GEN0526",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "填空题",
+    "level": "B",
+    "title": "CSS3中，选择class属性值包含\"nav\"的所有元素，选择器写法是（ ）",
+    "options": [],
+    "answer": "[class*=\"nav\"]",
+    "explanation": "[att*=val]是CSS3属性选择器，匹配属性值中包含指定字符串的元素。^=匹配开头，$=匹配结尾。",
+    "topic": "CSS3",
+    "id": "GEN0527",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "B",
+    "title": "CSS3中，:not(p)选择器的含义是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "选择所有不是<p>的元素"
+      },
+      {
+        "label": "B",
+        "text": "选择所有<p>元素"
+      },
+      {
+        "label": "C",
+        "text": "选择p的父元素"
+      },
+      {
+        "label": "D",
+        "text": "选择p后面的元素"
+      }
+    ],
+    "answer": "A",
+    "explanation": ":not(selector)是否定伪类，排除匹配selector的元素。如:not(.active)选择所有没有active类的元素。",
+    "topic": "CSS3",
+    "id": "GEN0528",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "判断题",
+    "level": "B",
+    "title": "CSS3中，:checked伪类用于匹配被选中的单选按钮或复选框。（ ）",
+    "options": [],
+    "answer": "对",
+    "explanation": ":checked匹配radio/checkbox选中状态。:enabled匹配可用元素，:disabled匹配禁用元素，都是CSS3 UI伪类。",
+    "topic": "CSS3",
+    "id": "GEN0529",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "A",
+    "title": "JavaScript中，Math.random()返回的随机数范围是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "[0, 1) 即大于等于0小于1"
+      },
+      {
+        "label": "B",
+        "text": "[0, 1] 包括1"
+      },
+      {
+        "label": "C",
+        "text": "(0, 1) 不包括0"
+      },
+      {
+        "label": "D",
+        "text": "任意整数"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Math.random()返回[0,1)之间的浮点数。生成min~max随机整数：Math.floor(Math.random()*(max-min+1))+min。",
+    "topic": "JavaScript数据类型",
+    "id": "GEN0530",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "A",
+    "title": "JavaScript中，Math.floor(3.7)的返回值是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "3.7"
+      },
+      {
+        "label": "D",
+        "text": "3.5"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Math.floor()向下取整（往小）。Math.ceil(3.2)→4向上取整。Math.round(3.5)→4四舍五入。Math.round(3.4)→3。",
+    "topic": "JavaScript数据类型",
+    "id": "GEN0531",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "B",
+    "title": "JavaScript中，Math.ceil(3.2)的返回值是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "3.2"
+      },
+      {
+        "label": "D",
+        "text": "3.5"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Math.ceil()向上取整（往大），ceil=天花板。对比：floor(3.7)→3（向下），ceil(3.2)→4（向上），round(3.5)→4（四舍五入）。",
+    "topic": "JavaScript数据类型",
+    "id": "GEN0532",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "填空题",
+    "level": "B",
+    "title": "JavaScript中，获取数组长度的属性是（ ）",
+    "options": [],
+    "answer": "length",
+    "explanation": "arr.length返回数组元素个数。注意length是属性不是方法（没有括号）。字符串也有length属性。",
+    "topic": "JavaScript数据类型",
+    "id": "GEN0533",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "多选题",
+    "level": "A",
+    "title": "以下哪些是JavaScript中Array（数组）的方法？（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "push()向末尾添加元素"
+      },
+      {
+        "label": "B",
+        "text": "pop()删除末尾元素"
+      },
+      {
+        "label": "C",
+        "text": "sort()排序"
+      },
+      {
+        "label": "D",
+        "text": "reverse()反转"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "还有：concat()合并、join()连接为字符串、slice()截取、splice()增删改、indexOf()查找。全部都是数组常用方法。",
+    "topic": "JavaScript数据类型",
+    "id": "GEN0534",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "B",
+    "title": "JavaScript中，arr.join(\"-\")的作用是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "用-连接数组元素返回字符串"
+      },
+      {
+        "label": "B",
+        "text": "向数组添加元素-"
+      },
+      {
+        "label": "C",
+        "text": "用-替换数组元素"
+      },
+      {
+        "label": "D",
+        "text": "拆分字符串为数组"
+      }
+    ],
+    "answer": "A",
+    "explanation": "join(分隔符)将数组元素连接成字符串。如[\"a\",\"b\",\"c\"].join(\"-\")→\"a-b-c\"。split()是反向操作：字符串→数组。",
+    "topic": "JavaScript数据类型",
+    "id": "GEN0535",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "B",
+    "title": "JavaScript中，str.split(\",\")的作用是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "用逗号将字符串分割成数组"
+      },
+      {
+        "label": "B",
+        "text": "用逗号连接数组"
+      },
+      {
+        "label": "C",
+        "text": "删除字符串中的逗号"
+      },
+      {
+        "label": "D",
+        "text": "查找逗号位置"
+      }
+    ],
+    "answer": "A",
+    "explanation": "split(分隔符)将字符串按分隔符拆分为数组。join()是反向操作：数组→字符串。如\"a,b,c\".split(\",\")→[\"a\",\"b\",\"c\"]。",
+    "topic": "JavaScript数据类型",
+    "id": "GEN0536",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "B",
+    "title": "JavaScript中，str.indexOf(\"abc\")的作用是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "返回\"abc\"首次出现的位置索引，找不到返回-1"
+      },
+      {
+        "label": "B",
+        "text": "返回\"abc\"最后一次出现的位置"
+      },
+      {
+        "label": "C",
+        "text": "将\"abc\"插入字符串"
+      },
+      {
+        "label": "D",
+        "text": "删除字符串中的\"abc\""
+      }
+    ],
+    "answer": "A",
+    "explanation": "indexOf(子串)返回首次出现位置（从0开始），未找到返回-1。lastIndexOf()返回最后出现位置。注意返回值是数字索引。",
+    "topic": "JavaScript数据类型",
+    "id": "GEN0537",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "填空题",
+    "level": "B",
+    "title": "JavaScript中，将字符串全部转为小写的String方法是（ ）",
+    "options": [],
+    "answer": "toLowerCase()",
+    "explanation": "str.toLowerCase()转为全小写，str.toUpperCase()转为全大写。两者都不修改原字符串（字符串是不可变的），返回新字符串。",
+    "topic": "JavaScript数据类型",
+    "id": "GEN0538",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "B",
+    "title": "JavaScript中，new Date().getMonth()返回1月对应的值是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "-1"
+      }
+    ],
+    "answer": "A",
+    "explanation": "getMonth()返回值0~11（0=1月...11=12月）。getDay()返回星期0~6（0=周日）。getFullYear()返回四位年份。注意：getMonth从0开始！",
+    "topic": "JavaScript数据类型",
+    "id": "GEN0539",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "B",
+    "title": "JavaScript中，parseInt(\"10\", 2)的返回值是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "NaN"
+      }
+    ],
+    "answer": "A",
+    "explanation": "parseInt(string, radix)按指定进制(2~36)解析字符串。\"10\"按二进制→十进制2。parseInt(\"FF\",16)→255(十六进制)。不指定radix可能误解析。",
+    "topic": "JavaScript数据类型",
+    "id": "GEN0540",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "B",
+    "title": "JavaScript中，isNaN(\"hello\")的返回值是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "true"
+      },
+      {
+        "label": "B",
+        "text": "false"
+      },
+      {
+        "label": "C",
+        "text": "\"hello\""
+      },
+      {
+        "label": "D",
+        "text": "undefined"
+      }
+    ],
+    "answer": "A",
+    "explanation": "isNaN()判断值是否为NaN(非数字)。\"hello\"无法转换为数字→true。isNaN(\"123\")→false(可转为数字123)。注意NaN===NaN→false！",
+    "topic": "JavaScript数据类型",
+    "id": "GEN0541",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "A",
+    "title": "JavaScript中，addEventListener方法的第三个参数通常设置为（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "false（冒泡阶段处理）"
+      },
+      {
+        "label": "B",
+        "text": "true（捕获阶段处理）"
+      },
+      {
+        "label": "C",
+        "text": "元素的id"
+      },
+      {
+        "label": "D",
+        "text": "事件类型"
+      }
+    ],
+    "answer": "A",
+    "explanation": "addEventListener(event, handler, useCapture)。第三个参数false（默认）在冒泡阶段处理事件，true在捕获阶段处理。通常使用false。",
+    "topic": "JavaScript事件",
+    "id": "GEN0542",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "多选题",
+    "level": "B",
+    "title": "以下哪些是JavaScript中注册事件处理函数的方式？（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "HTML标签属性：<div onclick=\"func()\">"
+      },
+      {
+        "label": "B",
+        "text": "JS对象属性：element.onclick=function(){}"
+      },
+      {
+        "label": "C",
+        "text": "addEventListener方法"
+      },
+      {
+        "label": "D",
+        "text": "@Event注解"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "三种注册事件方式：①HTML标签onclick属性 ②JS对象属性赋值 ③addEventListener。方式③最灵活，支持绑定多个处理函数。",
+    "topic": "JavaScript事件",
+    "id": "GEN0543",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "A",
+    "title": "当用户点击页面元素时，鼠标事件的触发顺序是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "mousedown → mouseup → click"
+      },
+      {
+        "label": "B",
+        "text": "click → mousedown → mouseup"
+      },
+      {
+        "label": "C",
+        "text": "mouseup → click → mousedown"
+      },
+      {
+        "label": "D",
+        "text": "mousedown → click → mouseup"
+      }
+    ],
+    "answer": "A",
+    "explanation": "点击顺序：按下(mousedown)→松开(mouseup)→完成点击(click)。理解这个顺序有助于调试事件冲突问题。",
+    "topic": "JavaScript事件",
+    "id": "GEN0544",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "判断题",
+    "level": "B",
+    "title": "JavaScript中，onchange事件在表单元素内容改变后立即触发。（ ）",
+    "options": [],
+    "answer": "错",
+    "explanation": "onchange在内容改变且失去焦点后才触发，不是立即触发。实时监测需用oninput事件（每次输入都触发）。",
+    "topic": "JavaScript事件",
+    "id": "GEN0545",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "填空题",
+    "level": "A",
+    "title": "HTML中，页面加载完成后自动执行的JavaScript代码应写在（ ）事件中",
+    "options": [],
+    "answer": "onload",
+    "explanation": "window.onload或<body onload=\"...\">在页面全部加载完（含图片/CSS）后触发。确保DOM元素已存在再操作。",
+    "topic": "JavaScript事件",
+    "id": "GEN0546",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "A",
+    "title": "DOM中，parentNode属性的作用是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "获取当前节点的父节点"
+      },
+      {
+        "label": "B",
+        "text": "获取当前节点的第一个子节点"
+      },
+      {
+        "label": "C",
+        "text": "获取当前节点的下一个兄弟节点"
+      },
+      {
+        "label": "D",
+        "text": "获取当前节点的上一个兄弟节点"
+      }
+    ],
+    "answer": "A",
+    "explanation": "DOM关系：parentNode(父)、childNodes(所有子)、firstChild/lastChild(首/末子)、nextSibling/previousSibling(相邻兄弟)。",
+    "topic": "DOM操作",
+    "id": "GEN0547",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "B",
+    "title": "DOM中，节点类型为元素节点时，nodeType的值为（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "8"
+      }
+    ],
+    "answer": "A",
+    "explanation": "nodeType值：1=元素节点(<div>)，2=属性节点，3=文本节点，8=注释节点(<!-- -->)，9=文档节点(document)。",
+    "topic": "DOM操作",
+    "id": "GEN0548",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "B",
+    "title": "JavaScript中，document.createElement(\"div\")的作用是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "创建一个新的div元素节点（不在页面中）"
+      },
+      {
+        "label": "B",
+        "text": "在页面中创建一个div"
+      },
+      {
+        "label": "C",
+        "text": "查找所有div元素"
+      },
+      {
+        "label": "D",
+        "text": "删除所有div元素"
+      }
+    ],
+    "answer": "A",
+    "explanation": "createElement仅创建节点（在内存中），需用appendChild()或insertBefore()插入DOM树才能在页面显示。",
+    "topic": "DOM操作",
+    "id": "GEN0549",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "多选题",
+    "level": "A",
+    "title": "以下哪些是DOM中对元素节点的操作方法？（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "appendChild()添加子节点"
+      },
+      {
+        "label": "B",
+        "text": "removeChild()删除子节点"
+      },
+      {
+        "label": "C",
+        "text": "createElement()创建节点"
+      },
+      {
+        "label": "D",
+        "text": "getElementById()获取节点"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "DOM操作四件套：查找(getElementById/querySelector)、创建(createElement)、添加(appendChild/insertBefore)、删除(removeChild)。还有replaceChild替换、getAttribute/setAttribute属性操作。",
+    "topic": "DOM操作",
+    "id": "GEN0550",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "B",
+    "title": "BOM中，window.history.back()的作用是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "返回上一页"
+      },
+      {
+        "label": "B",
+        "text": "前进到下一页"
+      },
+      {
+        "label": "C",
+        "text": "刷新当前页"
+      },
+      {
+        "label": "D",
+        "text": "关闭浏览器"
+      }
+    ],
+    "answer": "A",
+    "explanation": "history.back()=浏览器后退按钮。history.forward()前进。history.go(-2)后退2页。location.reload()刷新页面。",
+    "topic": "JavaScript事件",
+    "id": "GEN0551",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "B",
+    "title": "JavaScript中，window.location.href的作用是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "获取或设置当前页面的完整URL地址"
+      },
+      {
+        "label": "B",
+        "text": "获取浏览器名称"
+      },
+      {
+        "label": "C",
+        "text": "获取屏幕宽度"
+      },
+      {
+        "label": "D",
+        "text": "获取页面标题"
+      }
+    ],
+    "answer": "A",
+    "explanation": "location.href可读取当前URL，也可赋值跳转：location.href=\"http://example.com\"。location.reload()刷新，location.replace()替换不产生历史记录。",
+    "topic": "JavaScript事件",
+    "id": "GEN0552",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "填空题",
+    "level": "B",
+    "title": "JavaScript中，设置定时器延迟执行一次代码使用window对象的（ ）方法",
+    "options": [],
+    "answer": "setTimeout()",
+    "explanation": "setTimeout(fn, ms)延迟ms毫秒后执行fn一次。setInterval(fn, ms)每隔ms毫秒重复执行。clearTimeout()/clearInterval()取消定时器。",
+    "topic": "JavaScript事件",
+    "id": "GEN0553",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "填空题",
+    "level": "B",
+    "title": "JavaScript中，定时重复执行代码使用window对象的（ ）方法",
+    "options": [],
+    "answer": "setInterval()",
+    "explanation": "setInterval(fn, 1000)每隔1秒执行一次fn。与setTimeout(fn, 1000)区别：前者重复执行，后者只执行一次。",
+    "topic": "JavaScript事件",
+    "id": "GEN0554",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "B",
+    "title": "HTML中，表示不间断空格的字符实体是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "&nbsp;"
+      },
+      {
+        "label": "B",
+        "text": "&lt;"
+      },
+      {
+        "label": "C",
+        "text": "&gt;"
+      },
+      {
+        "label": "D",
+        "text": "&copy;"
+      }
+    ],
+    "answer": "A",
+    "explanation": "常用字符实体：&nbsp;(空格)、&lt;(<)、&gt;(>)、&amp;(&)、&copy;(©)。都在HTML中以&开头;结尾。",
+    "topic": "HTML基础结构",
+    "id": "GEN0555",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "填空题",
+    "level": "B",
+    "title": "HTML中，表示版权符号©的字符实体是（ ）",
+    "options": [],
+    "answer": "&copy;",
+    "explanation": "字符实体格式：&名称;或&#编号;。copy=版权，lt=less than(<)，gt=greater than(>)，amp=ampersand(&)。",
+    "topic": "HTML基础结构",
+    "id": "GEN0556",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Web前端",
+    "type": "单选题",
+    "level": "A",
+    "title": "CSS中，display:inline-block与display:inline的区别是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "inline-block可设置宽高，inline不能"
+      },
+      {
+        "label": "B",
+        "text": "inline-block独占一行"
+      },
+      {
+        "label": "C",
+        "text": "inline可设置宽高"
+      },
+      {
+        "label": "D",
+        "text": "两者完全相同"
+      }
+    ],
+    "answer": "A",
+    "explanation": "inline-block兼有inline(同行显示)和block(可设宽高)特性。inline不能设宽高。block独占一行可设宽高。",
+    "topic": "display属性",
+    "id": "GEN0557",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
