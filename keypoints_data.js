@@ -568,5 +568,331 @@ spark.stop()`,
         ]
       }
     ]
+  },
+
+  "Linux": {
+    icon: "🐧",
+    title: "Linux 考试复习重点",
+    source: "课堂课件精炼 + 全部知识点汇总",
+    intro: "Linux 考点多但规律性强。以下十三章覆盖从基础命令到 Shell 脚本的全部核心知识点，每个章节都配有通俗讲解、命令速记和考试陷阱提示。",
+    chapters: [
+      {
+        num: "一",
+        title: "Linux 基础概述",
+        icon: "📖",
+        sections: [
+          {
+            title: "Linux 的 7 大特点",
+            type: "list",
+            badge: "⭐ 基础概念",
+            items: [
+              { label: "与 UNIX 兼容", desc: "Linux 是 UNIX 的「开源克隆」，命令和架构都高度兼容" },
+              { label: "自由软件，源码公开", desc: "免费使用、自由修改、自由分发" },
+              { label: "性能高，安全性强", desc: "服务器市场份额第一，极少中病毒" },
+              { label: "便于定制和再开发", desc: "从嵌入式到超级计算机都能跑" },
+              { label: "互操作性高", desc: "能和 Windows、macOS 等各种系统互联互通" },
+              { label: "多任务和真正的 32/64 位", desc: "真正的多用户多任务操作系统" },
+              { label: "应用广泛", desc: "服务器+嵌入式领域霸主，高性能低成本" }
+            ],
+            explain: "一句话记住：Linux = 开源 + 免费 + 稳定 + 安全。主流发行版 CentOS 7 使用最多（考试默认环境）。"
+          }
+        ]
+      },
+      {
+        num: "二",
+        title: "开关机与重启命令",
+        icon: "🔌",
+        sections: [
+          {
+            title: "必须记住的几条命令",
+            type: "list",
+            badge: "⭐ 基础",
+            items: [
+              { label: "关机", desc: "shutdown -h now（立即关机）、poweroff、halt", code: "shutdown -h +30  # 30分钟后关机" },
+              { label: "重启", desc: "reboot、shutdown -r now", code: "shutdown -r +10  # 10分钟后重启" },
+              { label: "取消关机", desc: "shutdown -c 取消之前设置的关机计划" }
+            ],
+            examTip: "考试常考：shutdown -h +30 是什么意思？→ 30分钟后关机。shutdown -c 是取消。"
+          }
+        ]
+      },
+      {
+        num: "三",
+        title: "用户管理",
+        icon: "👤",
+        sections: [
+          {
+            title: "用户管理核心命令",
+            type: "table",
+            badge: "⭐ 必考",
+            table: {
+              head: ["操作", "命令", "说明"],
+              rows: [
+                ["添加用户", "useradd 用户名", "新建一个用户账号"],
+                ["设置密码", "passwd 用户名", "给用户设密码"],
+                ["删除用户（仅账号）", "userdel 用户名", "家目录保留"],
+                ["删除用户+家目录", "userdel -r 用户名", "🔥 考试重点！-r 表示连家目录一起删"],
+                ["新建用户默认目录", "/home/用户名", "创建用户时自动生成同名文件夹"]
+              ]
+            },
+            explain: "最容易搞混的：userdel 不加 -r → 只删账号，/home 下的文件夹还在。加 -r → 账号和家目录全部删除。考试常问：'删除用户并删除其家目录的命令' → userdel -r 用户名。",
+            examTip: "加用户时用 -d 可以指定家目录位置：useradd -d /home/ttt milan。只能 root 或 sudo 执行这些命令。"
+          }
+        ]
+      },
+      {
+        num: "四",
+        title: "软链接与硬链接",
+        icon: "🔗",
+        sections: [
+          {
+            title: "两种链接的区别",
+            type: "comparison",
+            badge: "⭐ 重点",
+            left: { title: "软链接（符号链接）", items: ["类似 Windows 快捷方式", "可以跨文件系统", "可指向目录", "删除源文件 → 链接失效", "创建：ln -s 源文件 链接名"] },
+            right: { title: "硬链接", items: ["与源文件共享同一个 inode", "不能跨文件系统", "通常不能指向目录", "删除源文件 → 链接仍有效", "创建：ln 源文件 链接名"] }
+          }
+        ]
+      },
+      {
+        num: "五",
+        title: "日历与文件查看命令",
+        icon: "📅",
+        sections: [
+          {
+            title: "cal 日历命令速查",
+            type: "list",
+            items: [
+              { label: "cal", desc: "当月日历" },
+              { label: "cal 6 2026", desc: "指定 2026年6月", code: "cal 月份 年份" },
+              { label: "cal -y", desc: "全年日历", code: "cal -y 2026" },
+              { label: "cal -3", desc: "上月+本月+下月三个月" }
+            ]
+          },
+          {
+            title: "tail 查看文件末尾",
+            type: "list",
+            items: [
+              { label: "tail -n 15 文件名", desc: "查看最后 15 行", code: "tail -n 15 /var/log/messages" },
+              { label: "tail -f 文件名", desc: "实时追踪文件更新（看日志常用）" }
+            ]
+          }
+        ]
+      },
+      {
+        num: "六",
+        title: "打包压缩命令",
+        icon: "📦",
+        sections: [
+          {
+            title: "三种压缩方式速查",
+            type: "table",
+            badge: "⭐ 必考",
+            table: {
+              head: ["命令", "作用", "常用组合"],
+              rows: [
+                ["tar -zcvf", "打包并 gzip 压缩", "tar -zcvf 包名.tar.gz 要打包的目录/"],
+                ["tar -zxvf", "解压 tar.gz", "tar -zxvf 包名.tar.gz -C /目标目录"],
+                ["gzip 文件名", "压缩单个文件（生成 .gz）", "gzip file.txt → file.txt.gz"],
+                ["gunzip / gzip -d", "解压 .gz 文件", "gunzip file.txt.gz"],
+                ["zip -r", "zip 格式压缩（兼容 Windows）", "zip -r 包名.zip 目录/"],
+                ["unzip", "解压 zip 文件", "unzip 包名.zip"]
+              ]
+            },
+            explain: "tar 参数口诀：-c 创建（Create）、-x 解压（eXtract）、-z 用 gzip、-v 显示过程（Verbose）、-f 指定文件名（File）。创建用 czvf，解压用 xzvf。",
+            examTip: "常考：tar -zcvf 是压缩，tar -zxvf 是解压。tar xvzf myftp.tar.gz -C / 表示解压到根目录。"
+          }
+        ]
+      },
+      {
+        num: "七",
+        title: "vim/vi 文本编辑器（核心考点！）",
+        icon: "✏️",
+        sections: [
+          {
+            title: "三大核心模式",
+            type: "list",
+            badge: "🔥 必考",
+            items: [
+              { label: "① 命令模式（普通模式）", desc: "打开 vim 后默认进入。光标移动、复制、删除、粘贴、撤销都在这个模式下完成。不能打字！" },
+              { label: "② 输入模式（编辑模式）", desc: "按 i/a/o 进入，可以正常写文字。按 Esc 退回命令模式" },
+              { label: "③ 末行模式（底线命令模式）", desc: "按 : 进入，光标跳到屏幕底部。用于保存(:w)、退出(:q)、保存退出(:wq)、强制退出(:q!)" }
+            ]
+          },
+          {
+            title: "模式切换关系图",
+            type: "list",
+            badge: "⭐ 常考流程",
+            items: [
+              { label: "命令 → 输入", desc: "按 i（光标前插入）、a（光标后插入）、o（下一行插入）" },
+              { label: "输入 → 命令", desc: "按 Esc 键返回" },
+              { label: "命令 → 末行", desc: "按 : 冒号" },
+              { label: "末行 → 命令", desc: "执行完命令自动返回，或按 Esc" }
+            ]
+          },
+          {
+            title: "命令模式常用操作速记卡",
+            type: "table",
+            badge: "🔥 高频",
+            table: {
+              head: ["操作", "快捷键", "口诀"],
+              rows: [
+                ["光标移动", "h左 j下 k上 l右", "←↓↑→ 对应 hjkl"],
+                ["删除整行", "dd", "delete delete 删行"],
+                ["删除单个字符", "x", "叉掉一个字符"],
+                ["复制整行", "yy", "yank yank 复制"],
+                ["粘贴", "p", "paste 粘贴到下一行"],
+                ["撤销", "u", "undo 撤销"],
+                ["重复上次操作", ".", "小数点重复"]
+              ]
+            },
+            examTip: "高频简答：删除一整行的快捷键？→ dd。保存并退出？→ :wq 或 :x。不保存强制退出？→ :q!。显示行号？→ :set nu。"
+          },
+          {
+            title: "完整实操流程（必会）",
+            type: "numbered",
+            items: [
+              "vim 文件名 → 进入命令模式",
+              "按 i → 进入输入模式，编写内容",
+              "按 Esc → 回到命令模式",
+              "按 : → 进入末行模式，输入 :wq 保存退出"
+            ]
+          }
+        ]
+      },
+      {
+        num: "八",
+        title: "目录操作命令",
+        icon: "📁",
+        sections: [
+          {
+            title: "常用目录命令速查",
+            type: "list",
+            badge: "⭐ 基础",
+            items: [
+              { label: "cd ..", desc: "返回上一级目录" },
+              { label: "cd /", desc: "切换到根目录" },
+              { label: "cd ~ 或 cd", desc: "回到当前用户的家目录" },
+              { label: "pwd", desc: "显示当前所在目录的完整路径" },
+              { label: "ls", desc: "列出目录内容（-a 含隐藏文件，-l 详细信息）" },
+              { label: "mkdir", desc: "创建目录（-p 递归创建多级目录）" },
+              { label: "rmdir", desc: "删除空目录" }
+            ],
+            examTip: "注意：cd 后面必须有空格！mkdir -p 可以一次性创建多级不存在的目录。"
+          }
+        ]
+      },
+      {
+        num: "九",
+        title: "正则表达式与文本处理",
+        icon: "🔍",
+        sections: [
+          {
+            title: "两大文本处理利器",
+            type: "comparison",
+            left: { title: "grep — 搜索工具", items: ["从文本中搜索匹配的行", "只读，不修改原文件", "支持正则表达式", '用法：grep "关键词" 文件名', "如：grep \"error\" log.txt"] },
+            right: { title: "sed — 流编辑器", items: ["可直接修改文件内容", "非交互式批量处理", "支持查找替换、删除行", "用法：sed 's/旧/新/g' 文件名", "如：sed 's/hello/world/g' file.txt"] }
+          }
+        ]
+      },
+      {
+        num: "十",
+        title: "Shell 脚本基础",
+        icon: "💻",
+        sections: [
+          {
+            title: "Shell 是什么？",
+            type: "text",
+            badge: "⭐ 基础概念",
+            text: "Shell 是**用户与 Linux 内核之间的命令解释器**。你输入命令 → Shell 翻译给内核 → 内核执行 → 结果返回给你。常见的 Shell 有 bash（默认）、sh、zsh 等。Shell 也是一种脚本编程语言，可以写自动化脚本。"
+          },
+          {
+            title: "Shell 脚本基本结构",
+            type: "code",
+            badge: "⭐ 必写",
+            code: `#!/bin/bash
+# 第一行必须写这个！指定用 bash 解释器执行
+# # 开头的是注释
+
+# 变量赋值（等号两边不能有空格！）
+name="World"
+
+# 使用变量（用 $ 符号）
+echo "Hello, $name"
+
+# 条件判断
+if [ -f /etc/passwd ]; then
+    echo "文件存在"
+fi`,
+            explain: "写 Shell 脚本最重要三条规则：①第一行必须是 #!/bin/bash；②变量赋值等号两边不能有空格；③使用变量时前面加 $。考试常考这三条规则。",
+            examTip: "如何执行脚本？①chmod +x 脚本.sh 给执行权限，然后 ./脚本.sh；②不设权限直接用 sh 脚本.sh 执行。"
+          }
+        ]
+      },
+      {
+        num: "十一",
+        title: "文件权限管理（超级重点！）",
+        icon: "🔐",
+        sections: [
+          {
+            title: "权限基本概念",
+            type: "list",
+            badge: "🔥 必考",
+            items: [
+              { label: "r（读）", desc: "数字 = 4，可以查看文件内容或列出目录" },
+              { label: "w（写）", desc: "数字 = 2，可以修改文件或在目录中创建/删除文件" },
+              { label: "x（执行）", desc: "数字 = 1，可以执行文件或进入目录" }
+            ],
+            explain: "权限分三组：所有者(u)｜所属组(g)｜其他人(o)。每组三个位 rwx。比如 rwxr-xr-x → 所有者读写执行(7)，组读执行(5)，其他人读执行(5)→ 755。"
+          },
+          {
+            title: "chmod 两种用法对比",
+            type: "table",
+            badge: "🔥 必考",
+            table: {
+              head: ["方式", "格式", "示例", "含义"],
+              rows: [
+                ["数字法（最常用）", "chmod 数字 文件", "chmod 755 file", "所有者rwx 组r-x 其他人r-x"],
+                ["数字法 — 全权限", "chmod 777 文件", "chmod 777 file", "所有人都有全部权限（⚠️危险）"],
+                ["字符法 — 添加", "chmod 用户+权限 文件", "chmod u+x file", "给所有者加执行权限"],
+                ["字符法 — 移除", "chmod 用户-权限 文件", "chmod g-w file", "去掉组的写权限"],
+                ["字符法 — 全权限", "chmod a+rwx 文件", "chmod a+rwx file", "所有人加全部权限（=777）"]
+              ]
+            },
+            explain: "数字权限速算：r=4, w=2, x=1。例如 rw- = 4+2+0 = 6，r-x = 4+0+1 = 5。记住 777（全部权限）、755（标准）、644（文件默认）。",
+            examTip: "⚠️ 别把 chmod（改权限）和 chown（改所有者）搞混！考试常把这两个放在一起迷惑你。chmod 管权限，chown 管归属。"
+          }
+        ]
+      },
+      {
+        num: "十二",
+        title: "Scala 环境配置（Windows）",
+        icon: "⚙️",
+        sections: [
+          {
+            title: "Windows 下配置 Scala 三步走",
+            type: "numbered",
+            badge: "📌 了解",
+            items: [
+              "**设置环境变量** → 新建 SCALA_HOME=Scala 解压目录",
+              "**加到 PATH** → %SCALA_HOME%\\bin 追加到系统 PATH",
+              "**测试** → CMD 中输入 scala，进入交互式编程模式即成功"
+            ],
+            explain: "退出 Scala 交互模式：输入 :quit 或 :q。",
+            examTip: "第一个 Scala 程序的完整代码结构要记住：object 类名 { def main(args: Array[String]): Unit = { ... } }"
+          },
+          {
+            title: "第一个 Scala 程序模板",
+            type: "code",
+            code: `object helloscala {
+  def main(args: Array[String]): Unit = {
+    println("欢迎，这是我的第一个Scala程序")
+  }
+}`,
+            explain: "Scala 程序结构：①用 object 定义单例对象（入口）；②def main 定义主方法；③println 输出。和 Java 不同：没有 public class，用 object 代替 static。"
+          }
+        ]
+      }
+    ]
   }
 };
