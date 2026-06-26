@@ -3162,6 +3162,117 @@
   {
     "subject": "Linux",
     "type": "多选题",
+    "title": "关于vi编辑器的命令行模式，以下说法正确的有哪些？",
+    "options": [
+      {
+        "label": "A",
+        "text": "可以通过按 : 进入命令行模式。"
+      },
+      {
+        "label": "B",
+        "text": "命令行模式下可以执行保存、退出等命令。"
+      },
+      {
+        "label": "C",
+        "text": "命令行模式下可以输入搜索命令。"
+      },
+      {
+        "label": "D",
+        "text": "命令行模式下无法切换回普通模式。"
+      },
+      {
+        "label": "E",
+        "text": "命令行模式下可以直接输入文本内容。"
+      }
+    ],
+    "answer": "ABCDE",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10104",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下哪些命令可以在vi编辑器的普通模式下使用？",
+    "options": [
+      {
+        "label": "A",
+        "text": "dd"
+      },
+      {
+        "label": "B",
+        "text": "yy"
+      },
+      {
+        "label": "C",
+        "text": "i"
+      },
+      {
+        "label": "D",
+        "text": "x"
+      },
+      {
+        "label": "E",
+        "text": "wq"
+      }
+    ],
+    "answer": "ABCDE",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10105",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下哪些命令可以在vi编辑器的插入模式下使用？",
+    "options": [
+      {
+        "label": "A",
+        "text": "i"
+      },
+      {
+        "label": "B",
+        "text": "Esc"
+      },
+      {
+        "label": "C",
+        "text": "Enter"
+      },
+      {
+        "label": "D",
+        "text": "Backspace"
+      },
+      {
+        "label": "E",
+        "text": "dd"
+      }
+    ],
+    "answer": "ABCDE",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10106",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
     "title": "关于vi编辑器的三种工作模式，以下说法正确的有哪些？",
     "options": [
       {
@@ -3413,7 +3524,7 @@
         "text": "{}"
       }
     ],
-    "answer": "D",
+    "answer": "A",
     "explanation": "",
     "topic": "",
     "id": "GEN10115",
@@ -3446,7 +3557,7 @@
         "text": "$!"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "",
     "topic": "",
     "id": "GEN10116",
@@ -3516,6 +3627,191 @@
     "explanation": "",
     "topic": "",
     "id": "GEN10118",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "下列哪些是Shell脚本中用于文件测试的操作符？",
+    "options": [
+      {
+        "label": "A",
+        "text": "-f"
+      },
+      {
+        "label": "B",
+        "text": "-d"
+      },
+      {
+        "label": "C",
+        "text": "-e"
+      },
+      {
+        "label": "D",
+        "text": "-r"
+      },
+      {
+        "label": "E",
+        "text": "-w"
+      }
+    ],
+    "answer": "ABCDE",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10119",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "下列哪些是Shell脚本中常用的循环控制结构？",
+    "options": [
+      {
+        "label": "A",
+        "text": "for"
+      },
+      {
+        "label": "B",
+        "text": "while"
+      },
+      {
+        "label": "C",
+        "text": "until"
+      },
+      {
+        "label": "D",
+        "text": "do"
+      },
+      {
+        "label": "E",
+        "text": "case"
+      }
+    ],
+    "answer": "ABCDE",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10120",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Java Web",
+    "type": "多选题",
+    "title": "下列哪些命令可用于字符串比较？",
+    "options": [
+      {
+        "label": "A",
+        "text": "=="
+      },
+      {
+        "label": "B",
+        "text": "-eq"
+      },
+      {
+        "label": "C",
+        "text": "!="
+      },
+      {
+        "label": "D",
+        "text": "-ne"
+      },
+      {
+        "label": "E",
+        "text": "-lt"
+      }
+    ],
+    "answer": "ABCDE",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10121",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "下列哪些是Shell脚本中用于调试的常用方法？",
+    "options": [
+      {
+        "label": "A",
+        "text": "set -x"
+      },
+      {
+        "label": "B",
+        "text": "echo"
+      },
+      {
+        "label": "C",
+        "text": "trap"
+      },
+      {
+        "label": "D",
+        "text": "read"
+      },
+      {
+        "label": "E",
+        "text": "source"
+      }
+    ],
+    "answer": "ABCDE",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10122",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "下列哪些是Shell脚本中用于重定向的标准文件描述符？",
+    "options": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      },
+      {
+        "label": "E",
+        "text": "4"
+      }
+    ],
+    "answer": "ABCDE",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10123",
     "level": "B",
     "correctCount": 0,
     "wrongCount": 0,
@@ -3637,7 +3933,7 @@
         "text": "错"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "",
     "topic": "",
     "id": "GEN10128",
@@ -8114,6 +8410,22 @@
   {
     "subject": "Linux",
     "type": "简答题",
+    "title": "介绍一下软连接和硬链接，以及两者之间的区别",
+    "options": [],
+    "answer": "软链接（符号链接）：类似于Windows快捷方式，是一个指向源文件的特殊文件，删除源文件后软链接失效。硬链接：与源文件共享同一个inode，是文件的另一个入口，删除源文件不影响硬链接。区别：①软链接可跨文件系统，硬链接不能；②软链接可指向目录，硬链接通常不能；③删除源文件后软链接失效，硬链接仍有效。",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10282",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "简答题",
     "title": "将以下vi操作的命令书写出来（只写过程命令）（1）打开准备编辑/etc/sudoers文件。（2）移动到第 11 行，向右移动 33 个字符。（3）在当前的下一行新增一行，并进入插入模式输入内容”hello world”，输入完退出插入模式。（4）将光标移动到“hello world”这一行的行尾，然后在后面插入” too”字符，输入完退出插入模式。",
     "options": [],
     "answer": "vi /etc/sudoers         11G 33l            o hello world esc键       end键 a too esc        ：50,100 s/root/ROOT/g",
@@ -8162,6 +8474,22 @@
   {
     "subject": "Linux",
     "type": "简答题",
+    "title": "linux的目录结构和各个目录的作用",
+    "options": [],
+    "answer": "Linux目录结构：/（根目录）、/bin（基本命令）、/sbin（系统管理命令）、/etc（配置文件）、/dev（设备文件）、/home（用户主目录）、/root（root用户目录）、/tmp（临时文件）、/usr（用户程序）、/var（日志/缓存等可变数据）、/boot（启动文件）、/proc（进程信息虚拟目录）。",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10286",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "简答题",
     "title": "使用root用户进入普通用户主目录/home/test下新建一个目录temp，将当前工作目录改为temp，在temp下新建2个长度为0的文件temp1、temp2，然后把temp2移到其父目录中并改名为file2。",
     "options": [],
     "answer": "cd /root/ test                   mkdir temp                     cd temp                       touch temp1 temp2                  mv temp1 ../file2 ## 一. 简答题（共3题）",
@@ -8194,12 +8522,44 @@
   {
     "subject": "Linux",
     "type": "简答题",
+    "title": "详细说明ls -l命令长格式输出如下结果各部分的含义（前10位详细说明）。lrwxrw-r-- 2 test group 2048 2020-1-17 13:48 myfile",
+    "options": [],
+    "answer": "lrwxrw-r--各部分含义：第1位l表示链接文件（-普通文件，d目录）；第2-4位rwx表示所有者权限（可读可写可执行）；第5-7位rw-表示同组用户权限（可读可写不可执行）；第8-10位r--表示其他用户权限（只读）。2表示硬链接数。test是所有者。group是所属组。2048是文件大小(字节)。2020-1-17 13:48是最后修改时间。myfile是文件名。",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10289",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "简答题",
     "title": "需要增加一个新的用户账号zhangsa，为新用户设置初始密码（只需要回答设置密码指令即可，密码设置过程不用描述），锁定用户账号lisi，并删除用户账号wangwu。",
     "options": [],
     "answer": "useradd zhangsan        passwd  zhangsan        passwd –l lisi        userdel wangwu ## 简答题（共3题）",
     "explanation": "",
     "topic": "",
     "id": "GEN10290",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "简答题",
+    "title": "介绍一下shell是什么",
+    "options": [],
+    "answer": "Shell是用户与Linux内核之间的命令解释器，它接收用户输入的命令，翻译成内核能理解的语言并交给内核执行，最后将结果返回给用户。常见的Shell有bash、sh、csh、zsh等。Shell也是一种脚本编程语言，支持变量、循环、条件判断等编程结构。",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10291",
     "level": "B",
     "correctCount": 0,
     "wrongCount": 0,
@@ -8258,12 +8618,44 @@
   {
     "subject": "Linux",
     "type": "简答题",
+    "title": "Linux系统的特点有哪些",
+    "options": [],
+    "answer": "Linux系统特点：①开源免费；②多用户多任务；③良好的可移植性；④强大的网络功能；⑤丰富的软件支持；⑥遵循POSIX标准；⑦稳定性高、安全性强。",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10295",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "简答题",
     "title": "请使用shell编程实现菜单管理功能，shell脚本文件名为：test3.sh。要求如下：输出提示语句：“Please choose between number 1-3 ”，用户输入数字选择相应操作；如果选择数字1，可以实现“显示当前用户所处的工作目录及日期”的功能；如果选择数字2，可以实现“切换当前目录到主目录”的功能；如果选择数字3，可以实现“列出当前目录下的所有内容，并输出当前所处的目录位置”的功能；要求通过获取用户从键盘输入的信息值，利用case语句进行相应的处理。",
     "options": [],
     "answer": "#!/bin/bash                       read -p \"Please choose between number 1-3:\" response      case $response in                     1)pwd                          date;;                          2)cd $HOME;;                      3)ls -a                          echo \"the current directory is `pwd`  \";;          esac ## 简答题（共3题）",
     "explanation": "",
     "topic": "",
     "id": "GEN10296",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "简答题",
+    "title": "说明linux的目录结构和各个目录的作用",
+    "options": [],
+    "answer": "Linux主要目录及作用：/bin存放基本用户命令；/sbin存放系统管理命令；/etc存放配置文件；/dev存放设备文件；/home存放普通用户主目录；/root为root用户目录；/tmp存放临时文件；/usr存放用户应用程序；/var存放日志、缓存等可变数据；/boot存放内核及启动文件；/proc为虚拟文件系统，存放进程和系统信息。",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10297",
     "level": "B",
     "correctCount": 0,
     "wrongCount": 0,
@@ -8360,6 +8752,70 @@
     "explanation": "",
     "topic": "",
     "id": "GEN10303",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Java Web",
+    "type": "简答题",
+    "title": "简述C/S(客户端/服务器)和B/S(浏览器/服务器)两种体系结构的特点以及二者的区别？（**需要写在纸上拍照上传，标注姓名和学号**） ## 简答题（共1题）",
+    "options": [],
+    "answer": "C/S（客户端/服务器）：需要安装专用客户端软件，客户端承担部分业务逻辑，交互性强，安全性高，但升级维护成本高。B/S（浏览器/服务器）：通过浏览器访问，无需安装客户端，核心逻辑在服务器端，升级维护方便，但交互性相对较弱。区别：①C/S需安装客户端，B/S用浏览器即可；②C/S升级需更新每个客户端，B/S更新服务器即可；③C/S交互性更强，B/S更便于部署维护。",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10304",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Java Web",
+    "type": "简答题",
+    "title": "编写一个JSP程序，使用JSP Script显示网页上如下颜色的颜色条：绿色、蓝绿色、黑色、红色、黄色以及粉红色（对应的颜色为：Green、Cyan、Black、Red、Yellow、Pink）。**将代码直接写在题目中，不要提交附件。** ## 简答题（共1题）",
+    "options": [],
+    "answer": "编写一个JSP页面color.jsp，使用JSP Scriptlet和表达式输出六种颜色条：<%@ page language=\"java\" contentType=\"text/html; charset=UTF-8\"%><html><body><% String[] colors={\"Green\",\"Cyan\",\"Black\",\"Red\",\"Yellow\",\"Pink\"}; for(String c:colors){ %><div style=\"background:<%=c%>;width:200px;height:30px;margin:5px;\"><%=c%></div><% } %></body></html>",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10305",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Java Web",
+    "type": "简答题",
+    "title": "编写过滤器，该过滤器可以过滤用户的IP地址以进行访问控制。要建有success.jsp和error.jsp两个页面，当用户访问success.jsp页面时输出欢迎用户访问的信息：“欢迎访问我们的网站！”，而对于IP地址为192.168.70.88的用户则显示error.jsp页面上的拒绝访问信息：“对不起，您的IP地址禁止访问该网站！”。**（将代码和运行结果截图放入附件中进行上传,IP地址是固定的想办法在自己设置）。**",
+    "options": [],
+    "answer": "创建Filter类实现Filter接口，在doFilter中判断IP：public class IPFilter implements Filter { public void doFilter(ServletRequest req, ServletResponse resp, FilterChain chain) { HttpServletRequest request=(HttpServletRequest)req; String ip=request.getRemoteAddr(); if(\"192.168.70.88\".equals(ip)) { request.getRequestDispatcher(\"/error.jsp\").forward(req,resp); } else { chain.doFilter(req,resp); } } } 在web.xml中配置filter和filter-mapping，success.jsp输出\"欢迎访问我们的网站！\"，error.jsp输出\"对不起，您的IP地址禁止访问该网站！\"。",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10306",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Java Web",
+    "type": "简答题",
+    "title": "用servlet实现以下内容，在登录页面regUser.jsp输入用户名和密码，在servlet中进行用户名和密码验证，用户名用自己的姓名，用户名和密码正确进入登录成功页面，用户名和密码错误进入错误页面。（将代码和运行结果截图放入附件中进行上传）。",
+    "options": [],
+    "answer": "在regUser.jsp中创建表单提交用户名和密码到LoginServlet；LoginServlet中：String name=request.getParameter(\"username\"); String pwd=request.getParameter(\"password\"); if(\"张三\".equals(name)&&\"123456\".equals(pwd)){ response.sendRedirect(\"/success.jsp\"); } else { response.sendRedirect(\"/error.jsp\"); }。",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10307",
     "level": "B",
     "correctCount": 0,
     "wrongCount": 0,
@@ -9993,6 +10449,38 @@
   },
   {
     "subject": "Hadoop",
+    "type": "简答题",
+    "title": "简单列举几个Hadoop的应用场景。 ## 简答题（共4题）",
+    "options": [],
+    "answer": "Hadoop常见应用场景：①日志分析（网站访问日志、系统日志）；②数据仓库（ETL处理）；③推荐系统（协同过滤）；④搜索引擎（网页索引构建）；⑤机器学习（大规模数据训练）；⑥金融风控（交易数据分析）；⑦社交网络分析。",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10367",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "简答题",
+    "title": "启动Hadoop伪分布式集群需要按顺序执行哪些命令？ ## 单选题（共5题）",
+    "options": [],
+    "answer": "启动Hadoop伪分布式集群步骤：①start-dfs.sh（启动HDFS：NameNode+DataNode）；②start-yarn.sh（启动YARN：ResourceManager+NodeManager）；③jps 验证进程（应看到NameNode、DataNode、ResourceManager、NodeManager、SecondaryNameNode）。或直接使用 start-all.sh 一键启动。",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10368",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
     "type": "单选题",
     "title": "HDFS中，一个文件默认情况下被分割成若干个数据块(block)，每个块的大小是多少？",
     "options": [
@@ -10013,7 +10501,7 @@
         "text": "512MB"
       }
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "",
     "topic": "",
     "id": "GEN10369",
@@ -10050,6 +10538,216 @@
     "explanation": "",
     "topic": "",
     "id": "GEN10370",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "HDFS中，一个500MB的文件会被分割成多少个块？",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10371",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "HDFS的副本数由哪个参数控制？",
+    "options": [
+      {
+        "label": "A",
+        "text": "dfs.block.size"
+      },
+      {
+        "label": "B",
+        "text": "dfs.replication"
+      },
+      {
+        "label": "C",
+        "text": "dfs.namenode.replication"
+      },
+      {
+        "label": "D",
+        "text": "dfs.datanode.replication"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10372",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "HDFS的副本放置策略中，第一个副本通常放置在哪里？",
+    "options": [
+      {
+        "label": "A",
+        "text": "任意节点"
+      },
+      {
+        "label": "B",
+        "text": "与第二个副本同一机架的节点"
+      },
+      {
+        "label": "C",
+        "text": "客户端所在节点"
+      },
+      {
+        "label": "D",
+        "text": "不同机架的节点"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10373",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "多选题",
+    "title": "HDFS的主要特点有哪些？",
+    "options": [
+      {
+        "label": "A",
+        "text": "适用于小文件存储"
+      },
+      {
+        "label": "B",
+        "text": "支持并发写入"
+      },
+      {
+        "label": "C",
+        "text": "高容错性"
+      },
+      {
+        "label": "D",
+        "text": "适合一次写入多次读取"
+      },
+      {
+        "label": "E",
+        "text": "通透性，用户感觉像访问本地磁盘"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10374",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "多选题",
+    "title": "HDFS的架构中，以下哪些组件属于其核心组成部分？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Client"
+      },
+      {
+        "label": "B",
+        "text": "NameNode"
+      },
+      {
+        "label": "C",
+        "text": "DataNode"
+      },
+      {
+        "label": "D",
+        "text": "SecondaryNameNode"
+      },
+      {
+        "label": "E",
+        "text": "ZooKeeper"
+      }
+    ],
+    "answer": "ABCDE",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10375",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "多选题",
+    "title": "关于HDFS的副本策略，以下说法正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "副本数默认为3"
+      },
+      {
+        "label": "B",
+        "text": "副本可以放在同一个节点上"
+      },
+      {
+        "label": "C",
+        "text": "副本放置策略考虑了机架感知"
+      },
+      {
+        "label": "D",
+        "text": "副本数可以动态调整"
+      },
+      {
+        "label": "E",
+        "text": "副本数越多越好"
+      }
+    ],
+    "answer": "ABCDE",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10376",
     "level": "B",
     "correctCount": 0,
     "wrongCount": 0,
@@ -10120,7 +10818,7 @@
         "text": "HDFS不适合流式数据访问"
       }
     ],
-    "answer": "D",
+    "answer": "ABCDE",
     "explanation": "",
     "topic": "",
     "id": "GEN10378",
@@ -10145,7 +10843,7 @@
         "text": "错"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "",
     "topic": "",
     "id": "GEN10379",
@@ -10249,6 +10947,388 @@
     "explanation": "",
     "topic": "",
     "id": "GEN10383",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "简答题",
+    "title": "请简述HDFS的副本放置策略及其设计目的。 ## 五. 填空题（共2题）",
+    "options": [],
+    "answer": "HDFS默认副本数为3，放置策略：①第一个副本放在客户端所在节点（如果客户端在集群外则随机选择）；②第二个副本放在与第一个副本不同机架的节点上；③第三个副本放在与第二个副本同机架的不同节点上。设计目的：提高数据容错性和可用性，防止机架故障导致数据丢失。",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10384",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "填空题",
+    "title": "HDFS中，一个文件的大小为![img](https://p.ananas.chaoxing.com/star3/origin/4c0aa30d31d45f45eafa09175bfc41fc.png)MB，另一个文件的大小为![img](https://p.ananas.chaoxing.com/star3/origin/8e4124d268a9885b62cee4266a13c387.png)MB，两个文件总共会被分割为_____个数据块。 ## 单选题（共5题）",
+    "options": [],
+    "answer": "4",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10385",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "在HDFS中，用于列出目录或文件信息的命令是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "hdfs dfs -put"
+      },
+      {
+        "label": "B",
+        "text": "hadoop fs -mkdir"
+      },
+      {
+        "label": "C",
+        "text": "hdfs dfs -ls"
+      },
+      {
+        "label": "D",
+        "text": "hadoop fs -cat"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10386",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "下列哪个命令可以用于在HDFS中创建多级目录？",
+    "options": [
+      {
+        "label": "A",
+        "text": "hdfs dfs -put"
+      },
+      {
+        "label": "B",
+        "text": "hadoop fs -mkdir -p"
+      },
+      {
+        "label": "C",
+        "text": "hadoop fs -ls -R"
+      },
+      {
+        "label": "D",
+        "text": "hdfs dfs -cat"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10387",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "HDFS中，将本地文件上传到HDFS的命令是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "hadoop fs -put"
+      },
+      {
+        "label": "B",
+        "text": "hdfs dfs -cat"
+      },
+      {
+        "label": "C",
+        "text": "hadoop fs -ls"
+      },
+      {
+        "label": "D",
+        "text": "hdfs dfs -mkdir"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10388",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "HDFS中，用于查看文件内容的命令是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "hadoop fs -cat"
+      },
+      {
+        "label": "B",
+        "text": "hdfs dfs -put"
+      },
+      {
+        "label": "C",
+        "text": "hadoop fs -ls"
+      },
+      {
+        "label": "D",
+        "text": "hdfs dfs -mkdir"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10389",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "HDFS中，用于将本地文件追加到HDFS文件末尾的命令是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "hadoop fs -appendToFile"
+      },
+      {
+        "label": "B",
+        "text": "hdfs dfs -put"
+      },
+      {
+        "label": "C",
+        "text": "hadoop fs -cat"
+      },
+      {
+        "label": "D",
+        "text": "hdfs dfs -ls"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10390",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "多选题",
+    "title": "下列哪些命令可以在HDFS中进行文件操作？",
+    "options": [
+      {
+        "label": "A",
+        "text": "hadoop fs -ls"
+      },
+      {
+        "label": "B",
+        "text": "hdfs dfs -put"
+      },
+      {
+        "label": "C",
+        "text": "hadoop fs -cat"
+      },
+      {
+        "label": "D",
+        "text": "hadoop fs -mkdir"
+      },
+      {
+        "label": "E",
+        "text": "hadoop fs -appendToFile"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10391",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "多选题",
+    "title": "关于HDFS中 mkdir 命令的描述，正确的有哪些？",
+    "options": [
+      {
+        "label": "A",
+        "text": "用于创建目录"
+      },
+      {
+        "label": "B",
+        "text": "需要使用 -p 参数创建多级目录"
+      },
+      {
+        "label": "C",
+        "text": "只能创建单层目录"
+      },
+      {
+        "label": "D",
+        "text": "不支持递归创建"
+      },
+      {
+        "label": "E",
+        "text": "可以创建多个目录"
+      }
+    ],
+    "answer": "ABCDE",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10392",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "多选题",
+    "title": "下列哪些命令可以用于将本地文件上传至HDFS？",
+    "options": [
+      {
+        "label": "A",
+        "text": "hadoop fs -put"
+      },
+      {
+        "label": "B",
+        "text": "hdfs dfs -copyFromLocal"
+      },
+      {
+        "label": "C",
+        "text": "hadoop fs -appendToFile"
+      },
+      {
+        "label": "D",
+        "text": "hadoop fs -cat"
+      },
+      {
+        "label": "E",
+        "text": "hadoop fs -ls"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10393",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "多选题",
+    "title": "关于HDFS中 -ls 命令的描述，正确的有哪些？",
+    "options": [
+      {
+        "label": "A",
+        "text": "用于列出目录或文件信息"
+      },
+      {
+        "label": "B",
+        "text": "支持 -R 参数递归列出子目录"
+      },
+      {
+        "label": "C",
+        "text": "可以查看文件内容"
+      },
+      {
+        "label": "D",
+        "text": "不支持查看隐藏文件"
+      },
+      {
+        "label": "E",
+        "text": "支持 -h 参数以易读方式显示文件大小"
+      }
+    ],
+    "answer": "ABCDE",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10394",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "多选题",
+    "title": "下列关于HDFS中 moveFromLocal 命令的说法，正确的有哪些？",
+    "options": [
+      {
+        "label": "A",
+        "text": "用于将本地文件移动到HDFS"
+      },
+      {
+        "label": "B",
+        "text": "移动后本地文件会被删除"
+      },
+      {
+        "label": "C",
+        "text": "与 put 命令完全相同"
+      },
+      {
+        "label": "D",
+        "text": "不支持多文件操作"
+      },
+      {
+        "label": "E",
+        "text": "可以用于上传文件"
+      }
+    ],
+    "answer": "ABCDE",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10395",
     "level": "B",
     "correctCount": 0,
     "wrongCount": 0,
@@ -10374,6 +11454,420 @@
     "explanation": "",
     "topic": "",
     "id": "GEN10400",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "简答题",
+    "title": "请简述 HDFS 中 hdfs dfs -put 命令的作用及其常用选项。 ## 五. 填空题（共4题）",
+    "options": [],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10401",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "填空题",
+    "title": "在HDFS中，查看文件内容的命令是hdfs dfs -______，该命令会将指定路径下的文件内容输出到标准输出。 ## 单选题（共5题）",
+    "options": [],
+    "answer": "-cat",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10402",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "在HDFS中，用于列出目录或文件内容的命令是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "hdfs dfs -ls"
+      },
+      {
+        "label": "B",
+        "text": "hdfs dfs -mkdir"
+      },
+      {
+        "label": "C",
+        "text": "hdfs dfs -put"
+      },
+      {
+        "label": "D",
+        "text": "hdfs dfs -cat"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10403",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "下列哪个命令可以用于在HDFS中创建多级目录？",
+    "options": [
+      {
+        "label": "A",
+        "text": "hdfs dfs -mkdir -p"
+      },
+      {
+        "label": "B",
+        "text": "hdfs dfs -mkdir"
+      },
+      {
+        "label": "C",
+        "text": "hdfs dfs -put"
+      },
+      {
+        "label": "D",
+        "text": "hdfs dfs -cp"
+      }
+    ],
+    "answer": "D",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10404",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "将本地文件复制到HDFS中，并在复制后删除本地源文件的命令是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "hdfs dfs -moveFromLocal"
+      },
+      {
+        "label": "B",
+        "text": "hdfs dfs -put"
+      },
+      {
+        "label": "C",
+        "text": "hdfs dfs -copyFromLocal"
+      },
+      {
+        "label": "D",
+        "text": "hdfs dfs -appendToFile"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10405",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "用于查看HDFS中某个文件内容的命令是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "hdfs dfs -cat"
+      },
+      {
+        "label": "B",
+        "text": "hdfs dfs -ls"
+      },
+      {
+        "label": "C",
+        "text": "hdfs dfs -get"
+      },
+      {
+        "label": "D",
+        "text": "hdfs dfs -put"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10406",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "下列哪个命令可以将HDFS中的文件合并到本地文件系统的一个文件中？",
+    "options": [
+      {
+        "label": "A",
+        "text": "hdfs dfs -getmerge"
+      },
+      {
+        "label": "B",
+        "text": "hdfs dfs -get"
+      },
+      {
+        "label": "C",
+        "text": "hdfs dfs -copyToLocal"
+      },
+      {
+        "label": "D",
+        "text": "hdfs dfs -mv"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10407",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "多选题",
+    "title": "下列哪些命令属于HDFS中用于操作HDFS内部文件的命令？",
+    "options": [
+      {
+        "label": "A",
+        "text": "hdfs dfs -mv"
+      },
+      {
+        "label": "B",
+        "text": "hdfs dfs -cp"
+      },
+      {
+        "label": "C",
+        "text": "hdfs dfs -rm"
+      },
+      {
+        "label": "D",
+        "text": "hdfs dfs -put"
+      },
+      {
+        "label": "E",
+        "text": "hdfs dfs -get"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10408",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "多选题",
+    "title": "下列哪些命令可以用于将本地文件上传到HDFS？",
+    "options": [
+      {
+        "label": "A",
+        "text": "hdfs dfs -put"
+      },
+      {
+        "label": "B",
+        "text": "hdfs dfs -copyFromLocal"
+      },
+      {
+        "label": "C",
+        "text": "hdfs dfs -moveFromLocal"
+      },
+      {
+        "label": "D",
+        "text": "hdfs dfs -appendToFile"
+      },
+      {
+        "label": "E",
+        "text": "hdfs dfs -get"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10409",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "多选题",
+    "title": "下列哪些命令可以用于从HDFS下载文件到本地？",
+    "options": [
+      {
+        "label": "A",
+        "text": "hdfs dfs -get"
+      },
+      {
+        "label": "B",
+        "text": "hdfs dfs -copyToLocal"
+      },
+      {
+        "label": "C",
+        "text": "hdfs dfs -getmerge"
+      },
+      {
+        "label": "D",
+        "text": "hdfs dfs -put"
+      },
+      {
+        "label": "E",
+        "text": "hdfs dfs -cat"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10410",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "多选题",
+    "title": "下列哪些命令可以用于删除HDFS中的文件或目录？",
+    "options": [
+      {
+        "label": "A",
+        "text": "hdfs dfs -rm"
+      },
+      {
+        "label": "B",
+        "text": "hdfs dfs -rmdir"
+      },
+      {
+        "label": "C",
+        "text": "hdfs dfs -delete"
+      },
+      {
+        "label": "D",
+        "text": "hdfs dfs -remove"
+      },
+      {
+        "label": "E",
+        "text": "hdfs dfs -rm -r"
+      }
+    ],
+    "answer": "ABCDE",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10411",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "多选题",
+    "title": "下列哪些命令可以用于在HDFS中进行文件的复制或移动？",
+    "options": [
+      {
+        "label": "A",
+        "text": "hdfs dfs -cp"
+      },
+      {
+        "label": "B",
+        "text": "hdfs dfs -mv"
+      },
+      {
+        "label": "C",
+        "text": "hdfs dfs -put"
+      },
+      {
+        "label": "D",
+        "text": "hdfs dfs -get"
+      },
+      {
+        "label": "E",
+        "text": "hdfs dfs -copyFromLocal"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10412",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "简答题",
+    "title": "根据提示写出HDFS的shell命令(1)查看HDFS根目录下的文件(2)在HDFS/目录下创建目录20251106(3)将本地的文件aaa.txt复制到HDFS的20251106文件中(4)查看HDFS中的aaa.txt的内容(5)将本地的文件bbb.txt内容追加到HDFS的aaa.txt文件中(6)将本地的文件aaa.txt文件复制到HDFDS改名为a01.txt后，本地文件删除。(7)将HDFS的20251106中的aaa.txt文件复制到本地文件系统(8)删除HDFS的20251106文件夹 ## 四. 填空题（共5题）",
+    "options": [],
+    "answer": "（1）hdfs dfs -ls / （2）hdfs dfs -mkdir -p /20251106 （3）hdfs dfs -put localfile /20251106/ （4）hdfs dfs -get /20251106/localfile ./ （5）hdfs dfs -rm -r /20251106",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10413",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "填空题",
+    "title": "HDFS中用于删除文件的命令是 ______，其中 ______ 选项用于递归删除目录。 ## 单选题（共27题）",
+    "options": [],
+    "answer": "hdfs dfs -rm, -r",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10414",
     "level": "B",
     "correctCount": 0,
     "wrongCount": 0,
@@ -12012,7 +13506,7 @@
         "text": "错"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "HDFS默认的副本数为3，这是为了提高数据的容错性和可靠性。",
     "topic": "",
     "id": "GEN10464",
@@ -15017,7 +16511,7 @@
         "text": "错"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "",
     "topic": "",
     "id": "GEN10571",
@@ -15092,7 +16586,7 @@
         "text": "错"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "",
     "topic": "",
     "id": "GEN10574",
@@ -15117,7 +16611,7 @@
         "text": "错"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "",
     "topic": "",
     "id": "GEN10575",
@@ -15405,6 +16899,270 @@
   {
     "subject": "Hadoop",
     "type": "多选题",
+    "title": "HDFS的架构包含以下哪些组件？",
+    "options": [
+      {
+        "label": "A",
+        "text": "NameNode"
+      },
+      {
+        "label": "B",
+        "text": "DataNode"
+      },
+      {
+        "label": "C",
+        "text": "SecondaryNameNode"
+      },
+      {
+        "label": "D",
+        "text": "ResourceManager"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10586",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "多选题",
+    "title": "以下属于Hadoop核心组件的有？",
+    "options": [
+      {
+        "label": "A",
+        "text": "HDFS"
+      },
+      {
+        "label": "B",
+        "text": "YARN"
+      },
+      {
+        "label": "C",
+        "text": "MapReduce"
+      },
+      {
+        "label": "D",
+        "text": "Spark"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10587",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "多选题",
+    "title": "YARN的主要组件包括？",
+    "options": [
+      {
+        "label": "A",
+        "text": "ResourceManager"
+      },
+      {
+        "label": "B",
+        "text": "NodeManager"
+      },
+      {
+        "label": "C",
+        "text": "ApplicationMaster"
+      },
+      {
+        "label": "D",
+        "text": "DataNode"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10588",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "多选题",
+    "title": "MapReduce的Shuffle过程包括以下哪些步骤？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Map输出的排序和合并"
+      },
+      {
+        "label": "B",
+        "text": "Reduce端的数据拉取（Fetch）"
+      },
+      {
+        "label": "C",
+        "text": "Reduce端的数据合并和排序"
+      },
+      {
+        "label": "D",
+        "text": "Map端的数据分割（Split）"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10589",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "多选题",
+    "title": "Hadoop伪分布式安装需要配置以下哪些核心文件？",
+    "options": [
+      {
+        "label": "A",
+        "text": "core-site.xml"
+      },
+      {
+        "label": "B",
+        "text": "hdfs-site.xml"
+      },
+      {
+        "label": "C",
+        "text": "yarn-site.xml"
+      },
+      {
+        "label": "D",
+        "text": "mapred-site.xml"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10590",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "多选题",
+    "title": "以下关于YARN资源调度器的说法，正确的有哪些？",
+    "options": [
+      {
+        "label": "A",
+        "text": "FIFO调度器按照提交顺序分配资源，适用于批处理场景"
+      },
+      {
+        "label": "B",
+        "text": "Capacity调度器支持多队列资源隔离，适用于共享集群"
+      },
+      {
+        "label": "C",
+        "text": "Fair调度器保证所有应用获得公平的资源份额"
+      },
+      {
+        "label": "D",
+        "text": "YARN的资源调度器只能基于内存进行资源分配"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10591",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "多选题",
+    "title": "关于HDFS数据读取流程，正确的描述有哪些？",
+    "options": [
+      {
+        "label": "A",
+        "text": "客户端向NameNode请求文件的块位置信息"
+      },
+      {
+        "label": "B",
+        "text": "NameNode返回文件的所有数据块及其所在的DataNode列表"
+      },
+      {
+        "label": "C",
+        "text": "客户端直接从DataNode读取数据块，无需NameNode参与后续过程"
+      },
+      {
+        "label": "D",
+        "text": "客户端读取数据时，必须按数据块的顺序依次读取"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10592",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "多选题",
+    "title": "以下哪些场景适合使用MapReduce进行处理？",
+    "options": [
+      {
+        "label": "A",
+        "text": "大规模日志数据的统计分析"
+      },
+      {
+        "label": "B",
+        "text": "实时流数据的处理"
+      },
+      {
+        "label": "C",
+        "text": "分布式排序"
+      },
+      {
+        "label": "D",
+        "text": "简单的键值对数据汇总"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10593",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "多选题",
     "title": "关于HDFS高可用（HA）和联邦（Federation）的描述，正确的有哪些？",
     "options": [
       {
@@ -15438,6 +17196,270 @@
   {
     "subject": "Hadoop",
     "type": "单选题",
+    "title": "HDFS默认的数据副本数量是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10595",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "Hadoop的伪分布式模式是指？",
+    "options": [
+      {
+        "label": "A",
+        "text": "在单节点上模拟分布式环境，所有组件运行在同一台机器上"
+      },
+      {
+        "label": "B",
+        "text": "在多节点上部署，每个节点运行特定组件"
+      },
+      {
+        "label": "C",
+        "text": "仅在本地运行，不涉及网络通信"
+      },
+      {
+        "label": "D",
+        "text": "使用云服务部署Hadoop集群"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10596",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "YARN中默认的资源调度器是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Capacity Scheduler"
+      },
+      {
+        "label": "B",
+        "text": "Fair Scheduler"
+      },
+      {
+        "label": "C",
+        "text": "FIFO Scheduler"
+      },
+      {
+        "label": "D",
+        "text": "None of the above"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10597",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "MapReduce作业的输出结果默认存储在哪里？",
+    "options": [
+      {
+        "label": "A",
+        "text": "本地文件系统"
+      },
+      {
+        "label": "B",
+        "text": "HDFS"
+      },
+      {
+        "label": "C",
+        "text": "HBase"
+      },
+      {
+        "label": "D",
+        "text": "ZooKeeper"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10598",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "MapReduce中负责将Map输出的键值对进行分组和排序的阶段是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Map阶段"
+      },
+      {
+        "label": "B",
+        "text": "Shuffle阶段"
+      },
+      {
+        "label": "C",
+        "text": "Reduce阶段"
+      },
+      {
+        "label": "D",
+        "text": "Input阶段"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10599",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "以下哪个工具用于Hadoop集群的资源和作业管理？",
+    "options": [
+      {
+        "label": "A",
+        "text": "HBase"
+      },
+      {
+        "label": "B",
+        "text": "ZooKeeper"
+      },
+      {
+        "label": "C",
+        "text": "YARN"
+      },
+      {
+        "label": "D",
+        "text": "Hive"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10600",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "HDFS高可用架构中，用于实现NameNode故障自动切换的组件是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "SecondaryNameNode"
+      },
+      {
+        "label": "B",
+        "text": "ZooKeeper"
+      },
+      {
+        "label": "C",
+        "text": "DataNode"
+      },
+      {
+        "label": "D",
+        "text": "ResourceManager"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10601",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "以下哪一项不是Hadoop的核心组件？",
+    "options": [
+      {
+        "label": "A",
+        "text": "HDFS"
+      },
+      {
+        "label": "B",
+        "text": "YARN"
+      },
+      {
+        "label": "C",
+        "text": "MapReduce"
+      },
+      {
+        "label": "D",
+        "text": "Spark"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10602",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
     "title": "HDFS默认的数据块大小是？",
     "options": [
       {
@@ -15461,6 +17483,1523 @@
     "explanation": "",
     "topic": "",
     "id": "GEN10603",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "MapReduce中处理数据分片的任务是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Map Task"
+      },
+      {
+        "label": "B",
+        "text": "Reduce Task"
+      },
+      {
+        "label": "C",
+        "text": "Shuffle Task"
+      },
+      {
+        "label": "D",
+        "text": "Input Task"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10604",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "客户端向HDFS写入文件时，首先会向哪个组件请求？",
+    "options": [
+      {
+        "label": "A",
+        "text": "DataNode"
+      },
+      {
+        "label": "B",
+        "text": "NameNode"
+      },
+      {
+        "label": "C",
+        "text": "SecondaryNameNode"
+      },
+      {
+        "label": "D",
+        "text": "ResourceManager"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10605",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "YARN中负责管理单个应用程序执行的组件是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "ResourceManager"
+      },
+      {
+        "label": "B",
+        "text": "NodeManager"
+      },
+      {
+        "label": "C",
+        "text": "ApplicationMaster"
+      },
+      {
+        "label": "D",
+        "text": "Container"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10606",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "HDFS中负责管理文件系统命名空间和客户端访问的是哪个角色？",
+    "options": [
+      {
+        "label": "A",
+        "text": "DataNode"
+      },
+      {
+        "label": "B",
+        "text": "NameNode"
+      },
+      {
+        "label": "C",
+        "text": "SecondaryNameNode"
+      },
+      {
+        "label": "D",
+        "text": "ResourceManager"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10607",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "YARN中负责监控容器资源使用情况并向ResourceManager汇报的组件是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "NodeManager"
+      },
+      {
+        "label": "B",
+        "text": "ApplicationMaster"
+      },
+      {
+        "label": "C",
+        "text": "ResourceManager"
+      },
+      {
+        "label": "D",
+        "text": "Container"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10608",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "填空题",
+    "title": "Hadoop的三大核心组件是____1____（分布式文件系统）、____2____（分布式计算框架）和____3____（资源管理系统）。此外，Hadoop生态系统还包括用于数据仓库的____4____、用于NoSQL数据库的____5____和用于流处理的____6____等工具。 ## 四. 简答题（共1题）",
+    "options": [],
+    "answer": "HDFS, MapReduce, YARN",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10609",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "简答题",
+    "title": "请简述HDFS高可用（HA）和联邦（Federation）的主要区别及适用场景。 ## 单选题（共28题，70.0分）",
+    "options": [],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10610",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase不依赖以下哪种技术提供分布式协同管理服务？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Zookeeper"
+      },
+      {
+        "label": "B",
+        "text": "HDFS"
+      },
+      {
+        "label": "C",
+        "text": "MapReduce"
+      },
+      {
+        "label": "D",
+        "text": "以上都依赖"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10611",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Java Web",
+    "type": "单选题",
+    "title": "NoSQL数据库的特点不包括以下哪项？",
+    "options": [
+      {
+        "label": "A",
+        "text": "支持复杂的事务一致性"
+      },
+      {
+        "label": "B",
+        "text": "读写性能高"
+      },
+      {
+        "label": "C",
+        "text": "数据耦合性低"
+      },
+      {
+        "label": "D",
+        "text": "易于扩展"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10612",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "Google的GFS对应Hadoop生态中的哪项技术？",
+    "options": [
+      {
+        "label": "A",
+        "text": "HDFS"
+      },
+      {
+        "label": "B",
+        "text": "MapReduce"
+      },
+      {
+        "label": "C",
+        "text": "YARN"
+      },
+      {
+        "label": "D",
+        "text": "Zookeeper"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10613",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "关于HBase和HDFS的描述，错误的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "HDFS适用于一次写入多次读取的场景"
+      },
+      {
+        "label": "B",
+        "text": "HBase提供实时的随机读写能力"
+      },
+      {
+        "label": "C",
+        "text": "HDFS适合实时分析场景"
+      },
+      {
+        "label": "D",
+        "text": "HBase运行在HDFS之上"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10614",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase数据模型中的“稀疏”特性指的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据分布在多个节点上"
+      },
+      {
+        "label": "B",
+        "text": "同一表中的行可以有不同的列，空列不占用存储空间"
+      },
+      {
+        "label": "C",
+        "text": "数据按列存储"
+      },
+      {
+        "label": "D",
+        "text": "数据按时间戳排序"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10615",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Java Web",
+    "type": "单选题",
+    "title": "非关系型数据库的特点不包括以下哪一项？",
+    "options": [
+      {
+        "label": "A",
+        "text": "支持ACID特性"
+      },
+      {
+        "label": "B",
+        "text": "读写性能高"
+      },
+      {
+        "label": "C",
+        "text": "数据耦合性低"
+      },
+      {
+        "label": "D",
+        "text": "易于扩展"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10616",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase的全称是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "High Performance Database"
+      },
+      {
+        "label": "B",
+        "text": "Hadoop Database"
+      },
+      {
+        "label": "C",
+        "text": "Hyper Base"
+      },
+      {
+        "label": "D",
+        "text": "Hybrid Database"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10617",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase的设计参考了以下哪个系统？",
+    "options": [
+      {
+        "label": "A",
+        "text": "GFS"
+      },
+      {
+        "label": "B",
+        "text": "MapReduce"
+      },
+      {
+        "label": "C",
+        "text": "Bigtable"
+      },
+      {
+        "label": "D",
+        "text": "HDFS"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10618",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase属于以下哪种类型的数据库？",
+    "options": [
+      {
+        "label": "A",
+        "text": "关系型数据库"
+      },
+      {
+        "label": "B",
+        "text": "列式NoSQL数据库"
+      },
+      {
+        "label": "C",
+        "text": "文档型数据库"
+      },
+      {
+        "label": "D",
+        "text": "图数据库"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10619",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Java Web",
+    "type": "单选题",
+    "title": "关系型数据库在处理海量数据时的主要瓶颈不包括以下哪项？",
+    "options": [
+      {
+        "label": "A",
+        "text": "高并发读写性能"
+      },
+      {
+        "label": "B",
+        "text": "海量数据存储扩展性"
+      },
+      {
+        "label": "C",
+        "text": "SQL语言的易用性"
+      },
+      {
+        "label": "D",
+        "text": "数据结构变更时的维护成本"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10620",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Java Web",
+    "type": "单选题",
+    "title": "传统关系型数据库无法满足大规模数据处理需求的主要原因不包括以下哪一项？",
+    "options": [
+      {
+        "label": "A",
+        "text": "高并发读写性能瓶颈"
+      },
+      {
+        "label": "B",
+        "text": "数据结构变化时需停机维护"
+      },
+      {
+        "label": "C",
+        "text": "支持复杂SQL查询"
+      },
+      {
+        "label": "D",
+        "text": "扩展性差"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10621",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase数据模型的核心特征不包括以下哪一项？",
+    "options": [
+      {
+        "label": "A",
+        "text": "稀疏性"
+      },
+      {
+        "label": "B",
+        "text": "多维排序映射"
+      },
+      {
+        "label": "C",
+        "text": "关系型表结构"
+      },
+      {
+        "label": "D",
+        "text": "分布式存储"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10622",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase表的特点不包括以下哪一项？",
+    "options": [
+      {
+        "label": "A",
+        "text": "行键可排序"
+      },
+      {
+        "label": "B",
+        "text": "列数量固定"
+      },
+      {
+        "label": "C",
+        "text": "支持稀疏存储"
+      },
+      {
+        "label": "D",
+        "text": "分布式存储"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10623",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase的实现编程语言是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Python"
+      },
+      {
+        "label": "B",
+        "text": "Java"
+      },
+      {
+        "label": "C",
+        "text": "C++"
+      },
+      {
+        "label": "D",
+        "text": "Scala"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10624",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "以下关于HBase和HDFS的描述，正确的是哪一项？",
+    "options": [
+      {
+        "label": "A",
+        "text": "HDFS支持随机读写，HBase支持批量读写"
+      },
+      {
+        "label": "B",
+        "text": "HDFS适用于实时数据处理，HBase适用于离线批量处理"
+      },
+      {
+        "label": "C",
+        "text": "HDFS提供高延迟操作，HBase提供低延迟操作"
+      },
+      {
+        "label": "D",
+        "text": "HDFS以面向列的方式存储数据，HBase以面向行的方式存储数据"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10625",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "单选题",
+    "title": "Hadoop无法满足大规模数据实时处理需求的主要原因是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "HDFS不支持随机访问"
+      },
+      {
+        "label": "B",
+        "text": "MapReduce的高延迟处理机制"
+      },
+      {
+        "label": "C",
+        "text": "数据存储容量不足"
+      },
+      {
+        "label": "D",
+        "text": "缺乏分布式协同服务"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10626",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Java Web",
+    "type": "单选题",
+    "title": "以下哪种NoSQL数据库属于面向高性能并发读写的key-value数据库？",
+    "options": [
+      {
+        "label": "A",
+        "text": "MongoDB"
+      },
+      {
+        "label": "B",
+        "text": "Redis"
+      },
+      {
+        "label": "C",
+        "text": "CouchDB"
+      },
+      {
+        "label": "D",
+        "text": "HBase"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10627",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "以下哪项不是引入HBase的原因？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Hadoop MapReduce的高延迟处理机制"
+      },
+      {
+        "label": "B",
+        "text": "HDFS不支持随机访问"
+      },
+      {
+        "label": "C",
+        "text": "关系型数据库的扩展性问题"
+      },
+      {
+        "label": "D",
+        "text": "Hadoop生态系统缺乏文件存储系统"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10628",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase的全称是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "High-performance Database"
+      },
+      {
+        "label": "B",
+        "text": "Hadoop Database"
+      },
+      {
+        "label": "C",
+        "text": "Hyper-scale Database"
+      },
+      {
+        "label": "D",
+        "text": "Hybrid Database"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10629",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase相对于HDFS的优势在于？",
+    "options": [
+      {
+        "label": "A",
+        "text": "批处理性能"
+      },
+      {
+        "label": "B",
+        "text": "实时随机读写能力"
+      },
+      {
+        "label": "C",
+        "text": "存储大文件的能力"
+      },
+      {
+        "label": "D",
+        "text": "依赖MapReduce处理数据"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10630",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase数据模型的核心特征不包括以下哪项？",
+    "options": [
+      {
+        "label": "A",
+        "text": "稀疏"
+      },
+      {
+        "label": "B",
+        "text": "分布式"
+      },
+      {
+        "label": "C",
+        "text": "多维"
+      },
+      {
+        "label": "D",
+        "text": "强事务一致性"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10631",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase的实现编程语言是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Python"
+      },
+      {
+        "label": "B",
+        "text": "Java"
+      },
+      {
+        "label": "C",
+        "text": "C++"
+      },
+      {
+        "label": "D",
+        "text": "Scala"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10632",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase适用于以下哪种数据访问模式？",
+    "options": [
+      {
+        "label": "A",
+        "text": "一次写入多次读取"
+      },
+      {
+        "label": "B",
+        "text": "随机读写"
+      },
+      {
+        "label": "C",
+        "text": "批量写入批量读取"
+      },
+      {
+        "label": "D",
+        "text": "顺序写入顺序读取"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10633",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase属于以下哪类非关系型数据库？",
+    "options": [
+      {
+        "label": "A",
+        "text": "面向高性能并发读写的key-value数据库"
+      },
+      {
+        "label": "B",
+        "text": "面向海量数据访问的文档数据库"
+      },
+      {
+        "label": "C",
+        "text": "面向可扩展性的分布式数据库"
+      },
+      {
+        "label": "D",
+        "text": "图形数据库"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10634",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "Google的Bigtable论文是HBase的设计灵感来源，Bigtable属于Google“三驾马车”中的哪一项技术？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Google File System"
+      },
+      {
+        "label": "B",
+        "text": "MapReduce"
+      },
+      {
+        "label": "C",
+        "text": "Bigtable"
+      },
+      {
+        "label": "D",
+        "text": "Chubby"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10635",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Java Web",
+    "type": "单选题",
+    "title": "以下哪项不是Google“三驾马车”的组成部分？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Google File System（GFS）"
+      },
+      {
+        "label": "B",
+        "text": "MapReduce"
+      },
+      {
+        "label": "C",
+        "text": "Bigtable"
+      },
+      {
+        "label": "D",
+        "text": "HDFS"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10636",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase依赖以下哪个组件进行分布式协同管理服务？",
+    "options": [
+      {
+        "label": "A",
+        "text": "HDFS"
+      },
+      {
+        "label": "B",
+        "text": "Zookeeper"
+      },
+      {
+        "label": "C",
+        "text": "MapReduce"
+      },
+      {
+        "label": "D",
+        "text": "Hive"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10637",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "Apache HBase是以以下哪种技术为数据存储基础的分布式NoSQL数据库？",
+    "options": [
+      {
+        "label": "A",
+        "text": "HDFS"
+      },
+      {
+        "label": "B",
+        "text": "MapReduce"
+      },
+      {
+        "label": "C",
+        "text": "Zookeeper"
+      },
+      {
+        "label": "D",
+        "text": "YARN"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10638",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "引入HBase的主要原因包括？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Hadoop MapReduce处理延迟高"
+      },
+      {
+        "label": "B",
+        "text": "HDFS不支持随机访问"
+      },
+      {
+        "label": "C",
+        "text": "关系型数据库扩展性不足"
+      },
+      {
+        "label": "D",
+        "text": "需要存储稀疏的非结构化数据"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10639",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "HBase与HDFS的区别包括以下哪些？",
+    "options": [
+      {
+        "label": "A",
+        "text": "HDFS适用于批量处理，HBase适用于实时处理"
+      },
+      {
+        "label": "B",
+        "text": "HDFS支持随机读写，HBase支持一次写入多次读取"
+      },
+      {
+        "label": "C",
+        "text": "HDFS提供高延迟操作，HBase提供低延迟操作"
+      },
+      {
+        "label": "D",
+        "text": "HDFS以面向列存储，HBase以面向行存储"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10640",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Java Web",
+    "type": "多选题",
+    "title": "Google“三驾马车”包括以下哪些技术？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Google File System"
+      },
+      {
+        "label": "B",
+        "text": "MapReduce"
+      },
+      {
+        "label": "C",
+        "text": "Bigtable"
+      },
+      {
+        "label": "D",
+        "text": "Chubby"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10641",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "HBase数据模型的关键特征包括以下哪些？",
+    "options": [
+      {
+        "label": "A",
+        "text": "稀疏性"
+      },
+      {
+        "label": "B",
+        "text": "分布式"
+      },
+      {
+        "label": "C",
+        "text": "多维排序映射"
+      },
+      {
+        "label": "D",
+        "text": "固定表结构"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10642",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Java Web",
+    "type": "多选题",
+    "title": "以下属于非关系型数据库的有哪些？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Redis"
+      },
+      {
+        "label": "B",
+        "text": "MongoDB"
+      },
+      {
+        "label": "C",
+        "text": "HBase"
+      },
+      {
+        "label": "D",
+        "text": "MySQL"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10643",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "HBase的核心特性包括以下哪些？",
+    "options": [
+      {
+        "label": "A",
+        "text": "高可靠性"
+      },
+      {
+        "label": "B",
+        "text": "高性能"
+      },
+      {
+        "label": "C",
+        "text": "面向列存储"
+      },
+      {
+        "label": "D",
+        "text": "关系型数据库"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10644",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Hadoop",
+    "type": "多选题",
+    "title": "以下关于Google三驾马车与Hadoop生态组件的对应关系，正确的有？",
+    "options": [
+      {
+        "label": "A",
+        "text": "GFS对应HDFS"
+      },
+      {
+        "label": "B",
+        "text": "MapReduce对应Hadoop MapReduce"
+      },
+      {
+        "label": "C",
+        "text": "Bigtable对应HBase"
+      },
+      {
+        "label": "D",
+        "text": "GFS对应HBase"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10645",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "引入HBase的主要原因包括以下哪些？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Hadoop无法满足实时数据处理需求"
+      },
+      {
+        "label": "B",
+        "text": "HDFS不支持随机访问"
+      },
+      {
+        "label": "C",
+        "text": "传统关系型数据库扩展性差"
+      },
+      {
+        "label": "D",
+        "text": "非关系型数据库比关系型数据库更安全"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10646",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Java Web",
+    "type": "多选题",
+    "title": "关系型数据库在处理大规模数据时的瓶颈主要有？",
+    "options": [
+      {
+        "label": "A",
+        "text": "高并发读写性能不足"
+      },
+      {
+        "label": "B",
+        "text": "海量数据存储扩展性差"
+      },
+      {
+        "label": "C",
+        "text": "数据结构变更需停机维护"
+      },
+      {
+        "label": "D",
+        "text": "SQL语言过于复杂"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10647",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Java Web",
+    "type": "多选题",
+    "title": "以下属于NoSQL数据库分类的有？",
+    "options": [
+      {
+        "label": "A",
+        "text": "key-value数据库"
+      },
+      {
+        "label": "B",
+        "text": "文档数据库"
+      },
+      {
+        "label": "C",
+        "text": "列族数据库"
+      },
+      {
+        "label": "D",
+        "text": "图数据库"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10648",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "HBase与HDFS的主要区别在于？",
+    "options": [
+      {
+        "label": "A",
+        "text": "HDFS适用于批处理，HBase适用于实时处理"
+      },
+      {
+        "label": "B",
+        "text": "HDFS是一次写入多次读取，HBase支持随机读写"
+      },
+      {
+        "label": "C",
+        "text": "HDFS存储大文件，HBase存储稀疏数据"
+      },
+      {
+        "label": "D",
+        "text": "HDFS依赖MapReduce，HBase可通过REST API访问"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10649",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "HBase的关键特性包括以下哪些？",
+    "options": [
+      {
+        "label": "A",
+        "text": "高可靠性"
+      },
+      {
+        "label": "B",
+        "text": "高性能"
+      },
+      {
+        "label": "C",
+        "text": "面向列"
+      },
+      {
+        "label": "D",
+        "text": "强事务一致性"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10650",
     "level": "B",
     "correctCount": 0,
     "wrongCount": 0,
@@ -16459,6 +19998,468 @@
     "reviewStage": 0
   },
   {
+    "subject": "Java Web",
+    "type": "单选题",
+    "title": "关于删除命名空间(namespace)，以下说法正确的是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "可以删除任何状态的命名空间"
+      },
+      {
+        "label": "B",
+        "text": "只能删除非空的命名空间"
+      },
+      {
+        "label": "C",
+        "text": "只能删除空的命名空间"
+      },
+      {
+        "label": "D",
+        "text": "必须先删除所有表，但不能删除命名空间本身"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10681",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "访问HBase最常规和高效的访问方式是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "HBase Shell"
+      },
+      {
+        "label": "B",
+        "text": "Thrift Gateway"
+      },
+      {
+        "label": "C",
+        "text": "REST Gateway"
+      },
+      {
+        "label": "D",
+        "text": "Native Java API"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10682",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase命令行工具中，退出HBase shell可以使用的命令是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "close"
+      },
+      {
+        "label": "B",
+        "text": "quit"
+      },
+      {
+        "label": "C",
+        "text": "stop"
+      },
+      {
+        "label": "D",
+        "text": "shutdown"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10683",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase中，能够删除一整行数据的命令是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "delete"
+      },
+      {
+        "label": "B",
+        "text": "drop"
+      },
+      {
+        "label": "C",
+        "text": "remove"
+      },
+      {
+        "label": "D",
+        "text": "deleteall"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10684",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase中用于向表中插入数据的命令是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "insert"
+      },
+      {
+        "label": "B",
+        "text": "put"
+      },
+      {
+        "label": "C",
+        "text": "update"
+      },
+      {
+        "label": "D",
+        "text": "append"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10685",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "如果想以列表的方式展示HBase中所有的用户表，应使用哪个命令?",
+    "options": [
+      {
+        "label": "A",
+        "text": "show"
+      },
+      {
+        "label": "B",
+        "text": "list"
+      },
+      {
+        "label": "C",
+        "text": "describe"
+      },
+      {
+        "label": "D",
+        "text": "get_table"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10686",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase中清空表数据(truncate)的内部实际执行顺序是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "disable -> drop -> recreate"
+      },
+      {
+        "label": "B",
+        "text": "drop -> disable -> recreate"
+      },
+      {
+        "label": "C",
+        "text": "deleteall -> drop -> create"
+      },
+      {
+        "label": "D",
+        "text": "disable -> clear -> enable"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10687",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase中删除表之前，必须先执行的操作状态命令是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "exists"
+      },
+      {
+        "label": "B",
+        "text": "truncate"
+      },
+      {
+        "label": "C",
+        "text": "disable"
+      },
+      {
+        "label": "D",
+        "text": "enable"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10688",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "以下哪种接口支持REST风格的Http API访问HBase，并且解除了语言限制?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Thrift Gateway"
+      },
+      {
+        "label": "B",
+        "text": "REST Gateway"
+      },
+      {
+        "label": "C",
+        "text": "Pig"
+      },
+      {
+        "label": "D",
+        "text": "Hive"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10689",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase shell中用于查看集群状态、版本等基础操作属于哪个命令组?",
+    "options": [
+      {
+        "label": "A",
+        "text": "general"
+      },
+      {
+        "label": "B",
+        "text": "namespace"
+      },
+      {
+        "label": "C",
+        "text": "ddl"
+      },
+      {
+        "label": "D",
+        "text": "dml"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10690",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "HBase中DML(数据操作语言)命令组主要包含以下哪些命令?",
+    "options": [
+      {
+        "label": "A",
+        "text": "put"
+      },
+      {
+        "label": "B",
+        "text": "get"
+      },
+      {
+        "label": "C",
+        "text": "scan"
+      },
+      {
+        "label": "D",
+        "text": "count"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10691",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "以下属于HBase支持的访问接口的有?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Native Java API"
+      },
+      {
+        "label": "B",
+        "text": "HBase Shell"
+      },
+      {
+        "label": "C",
+        "text": "Thrift Gateway"
+      },
+      {
+        "label": "D",
+        "text": "REST Gateway"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10692",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Java Web",
+    "type": "多选题",
+    "title": "针对表结构管理的DDL命令组中，包含以下哪些命令?",
+    "options": [
+      {
+        "label": "A",
+        "text": "create"
+      },
+      {
+        "label": "B",
+        "text": "drop"
+      },
+      {
+        "label": "C",
+        "text": "alter"
+      },
+      {
+        "label": "D",
+        "text": "describe"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10693",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Java Web",
+    "type": "多选题",
+    "title": "使用scan扫描表时，可以实现以下哪些查询操作?",
+    "options": [
+      {
+        "label": "A",
+        "text": "全表扫描"
+      },
+      {
+        "label": "B",
+        "text": "查询表中某一列的所有数据"
+      },
+      {
+        "label": "C",
+        "text": "清空全表数据"
+      },
+      {
+        "label": "D",
+        "text": "删除某一列数据"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10694",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
     "subject": "HBase / ZooKeeper",
     "type": "多选题",
     "title": "在HBase Shell中获取帮助信息的方法有哪些?",
@@ -16480,10 +20481,191 @@
         "text": "按下F1键获取在线帮助"
       }
     ],
-    "answer": "A",
+    "answer": "ABCD",
     "explanation": "",
     "topic": "",
     "id": "GEN10695",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Java Web",
+    "type": "多选题",
+    "title": "使用get命令查询特定数据时，通常可以指定以下哪些条件参数?",
+    "options": [
+      {
+        "label": "A",
+        "text": "表名 (tbname)"
+      },
+      {
+        "label": "B",
+        "text": "行键 (rowkey)"
+      },
+      {
+        "label": "C",
+        "text": "列族或列限定符"
+      },
+      {
+        "label": "D",
+        "text": "VERSIONS (查看的版本数)"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10696",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "在使用HBase Shell进行交互时，需要注意的规则有?",
+    "options": [
+      {
+        "label": "A",
+        "text": "写错命令时用键盘上的“Delete”进行删除"
+      },
+      {
+        "label": "B",
+        "text": "写错命令时“Backspace”不起作用"
+      },
+      {
+        "label": "C",
+        "text": "shell中参数要求使用双引号(\"\")引起来"
+      },
+      {
+        "label": "D",
+        "text": "shell中参数要求使用单引号('')引起来"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10697",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "关于HBase中的数据修改和删除操作，说法正确的是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "HBase没有提供专门的修改命令，使用put命令来实现修改操作"
+      },
+      {
+        "label": "B",
+        "text": "delete命令用于删除指定的某一个特定版本的某行的某列的数据"
+      },
+      {
+        "label": "C",
+        "text": "delete默认删除是删除最新版本的数据"
+      },
+      {
+        "label": "D",
+        "text": "deleteall用于删除一整行的数据"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10698",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Java Web",
+    "type": "多选题",
+    "title": "以下属于namespace命令组的常用命令有?",
+    "options": [
+      {
+        "label": "A",
+        "text": "create_namespace"
+      },
+      {
+        "label": "B",
+        "text": "drop_namespace"
+      },
+      {
+        "label": "C",
+        "text": "list_namespace"
+      },
+      {
+        "label": "D",
+        "text": "describe_namespace"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10699",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Java Web",
+    "type": "多选题",
+    "title": "关于表状态的管理命令，以下哪些是正确的?",
+    "options": [
+      {
+        "label": "A",
+        "text": "exists"
+      },
+      {
+        "label": "B",
+        "text": "disable"
+      },
+      {
+        "label": "C",
+        "text": "is_enabled"
+      },
+      {
+        "label": "D",
+        "text": "is_disabled"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10700",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Java Web",
+    "type": "填空题",
+    "title": "删除命名空间(namespace)时，只能删除______的命名空间，非空的命名空间不允许删除。 ## 单选题（共 10 题，40.0 分）",
+    "options": [],
+    "answer": "空",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10701",
     "level": "B",
     "correctCount": 0,
     "wrongCount": 0,
@@ -17313,6 +21495,534 @@
   },
   {
     "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase中RowKey在存储时的排序方式是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "按插入顺序排序"
+      },
+      {
+        "label": "B",
+        "text": "按字典序（字节序）排序"
+      },
+      {
+        "label": "C",
+        "text": "按行键长度排序"
+      },
+      {
+        "label": "D",
+        "text": "随机排序"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10732",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "关于HBase列族的描述，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "表创建后可动态添加列族"
+      },
+      {
+        "label": "B",
+        "text": "一个表中建议创建超过5个列族以提升性能"
+      },
+      {
+        "label": "C",
+        "text": "列族在表创建时必须指定"
+      },
+      {
+        "label": "D",
+        "text": "不同列族的数据存储在同一个Store中"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10733",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase中HLog（WAL）的主要作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "缓存读取的数据以提升查询效率"
+      },
+      {
+        "label": "B",
+        "text": "记录写操作日志以防止数据丢失"
+      },
+      {
+        "label": "C",
+        "text": "存储表的元数据信息"
+      },
+      {
+        "label": "D",
+        "text": "管理Region的分裂与合并"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10734",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase集群中，Zookeeper不负责以下哪项功能？",
+    "options": [
+      {
+        "label": "A",
+        "text": "监控集群节点运行状态"
+      },
+      {
+        "label": "B",
+        "text": "存储HBase的所有数据文件"
+      },
+      {
+        "label": "C",
+        "text": "协助HMaster处理客户端读写请求"
+      },
+      {
+        "label": "D",
+        "text": "记录meta表的存储位置"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10735",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "以下哪项是HMaster的核心功能？",
+    "options": [
+      {
+        "label": "A",
+        "text": "处理客户端的具体读写请求"
+      },
+      {
+        "label": "B",
+        "text": "管理Region的分配与负载均衡"
+      },
+      {
+        "label": "C",
+        "text": "存储HBase的实际数据"
+      },
+      {
+        "label": "D",
+        "text": "提供分布式协调服务"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10736",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase中默认的用户表命名空间是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "hbase"
+      },
+      {
+        "label": "B",
+        "text": "default"
+      },
+      {
+        "label": "C",
+        "text": "user"
+      },
+      {
+        "label": "D",
+        "text": "system"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10737",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase中meta表的主要作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "存储所有用户表的实际数据"
+      },
+      {
+        "label": "B",
+        "text": "记录所有Region的位置信息"
+      },
+      {
+        "label": "C",
+        "text": "协调集群节点的状态"
+      },
+      {
+        "label": "D",
+        "text": "管理HBase的命名空间"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10738",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "关于HBase Region的描述，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "一个Region只能包含一个表的部分数据"
+      },
+      {
+        "label": "B",
+        "text": "一个Region Server只能管理一个Region"
+      },
+      {
+        "label": "C",
+        "text": "Region在HDFS上以单个文件形式存储"
+      },
+      {
+        "label": "D",
+        "text": "Region的划分依据是行键的随机范围"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10739",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "关于HBase列限定符（Column Qualifier）的描述，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "表创建时必须指定列限定符"
+      },
+      {
+        "label": "B",
+        "text": "列限定符必须属于某个列族"
+      },
+      {
+        "label": "C",
+        "text": "同一表中所有行的列限定符必须一致"
+      },
+      {
+        "label": "D",
+        "text": "列限定符不可动态添加"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10740",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase中Cell的数据类型是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "字符串类型"
+      },
+      {
+        "label": "B",
+        "text": "字节码形式（无类型）"
+      },
+      {
+        "label": "C",
+        "text": "整数类型"
+      },
+      {
+        "label": "D",
+        "text": "浮点类型"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10741",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase中Cell的不同版本数据默认排序方式是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "按时间戳升序排列"
+      },
+      {
+        "label": "B",
+        "text": "按时间戳降序排列"
+      },
+      {
+        "label": "C",
+        "text": "按数据大小排序"
+      },
+      {
+        "label": "D",
+        "text": "按插入顺序排序"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10742",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase中BlockCache的主要作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "缓存写操作日志以防止数据丢失"
+      },
+      {
+        "label": "B",
+        "text": "缓存读取的数据块以提升查询效率"
+      },
+      {
+        "label": "C",
+        "text": "存储表的元数据信息"
+      },
+      {
+        "label": "D",
+        "text": "管理Region的分裂与合并"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10743",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase中每个Store对应的是表中的哪个逻辑概念？",
+    "options": [
+      {
+        "label": "A",
+        "text": "行"
+      },
+      {
+        "label": "B",
+        "text": "列族"
+      },
+      {
+        "label": "C",
+        "text": "单元格"
+      },
+      {
+        "label": "D",
+        "text": "时间戳"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10744",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase中可通过以下哪种方式回收Cell的旧版本数据？",
+    "options": [
+      {
+        "label": "A",
+        "text": "仅保存最后n个版本"
+      },
+      {
+        "label": "B",
+        "text": "仅保存最近一段时间内的版本"
+      },
+      {
+        "label": "C",
+        "text": "保存最后n个版本或最近一段时间内的版本"
+      },
+      {
+        "label": "D",
+        "text": "无法自动回收旧版本数据"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10745",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "以下关于HBase Region Server组件的描述，正确的有哪些？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Region Server负责管理多个Region，每个Region对应表的一个数据分区"
+      },
+      {
+        "label": "B",
+        "text": "Store对应表中的列族，每个Store包含一个或多个StoreFile"
+      },
+      {
+        "label": "C",
+        "text": "HLog（WAL）用于在数据写入MemStore前记录操作日志，防止数据丢失"
+      },
+      {
+        "label": "D",
+        "text": "MemStore中的数据按随机顺序存储，刷写到StoreFile时再排序"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10746",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "HBase Region Server包含的核心组件有？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Region"
+      },
+      {
+        "label": "B",
+        "text": "Store"
+      },
+      {
+        "label": "C",
+        "text": "HLog/WALs"
+      },
+      {
+        "label": "D",
+        "text": "BlockCache"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10747",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
     "type": "多选题",
     "title": "关于HBase存储机制的描述，正确的是？",
     "options": [
@@ -17366,7 +22076,7 @@
         "text": "HBase表的Schema由表名和列族名组成"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": "",
     "topic": "",
     "id": "GEN10749",
@@ -17399,10 +22109,191 @@
         "text": "Cell中的数据版本按时间戳升序排列，最新版本在最后"
       }
     ],
-    "answer": "A",
+    "answer": "C",
     "explanation": "",
     "topic": "",
     "id": "GEN10750",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "HBase的核心架构组件包括以下哪些？",
+    "options": [
+      {
+        "label": "A",
+        "text": "HMaster Server"
+      },
+      {
+        "label": "B",
+        "text": "HBase Region Server"
+      },
+      {
+        "label": "C",
+        "text": "Zookeeper"
+      },
+      {
+        "label": "D",
+        "text": "HDFS"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10751",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "HBase集群的三大核心组件包括____1____、____2____和____3____。其中，负责监控集群节点状态并协调集群操作的组件是____4____；管理集群中所有RegionServer的主节点是____5____；实际处理数据读写请求的工作节点是____6____。 ## 单选题（共14题，60.0分）",
+    "options": [],
+    "answer": "HMaster, RegionServer, ZooKeeper, HMaster",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10752",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中,用于设置列族最大版本数的方法是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "setVersions()"
+      },
+      {
+        "label": "B",
+        "text": "setMaxVersions()"
+      },
+      {
+        "label": "C",
+        "text": "setMinVersions()"
+      },
+      {
+        "label": "D",
+        "text": "setVersion()"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10753",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中,创建表的正确顺序是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "创建表描述器→创建列族描述器→关联列族→创建表"
+      },
+      {
+        "label": "B",
+        "text": "创建列族描述器→创建表描述器→关联列族→创建表"
+      },
+      {
+        "label": "C",
+        "text": "创建表描述器→关联列族→创建列族描述器→创建表"
+      },
+      {
+        "label": "D",
+        "text": "创建列族描述器→关联列族→创建表描述器→创建表"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10754",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中,创建连接时可能抛出的异常是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "SQLException"
+      },
+      {
+        "label": "B",
+        "text": "IOException"
+      },
+      {
+        "label": "C",
+        "text": "ClassNotFoundException"
+      },
+      {
+        "label": "D",
+        "text": "NullPointerException"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10755",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中,用于创建表描述器的类是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "TableDescriptor"
+      },
+      {
+        "label": "B",
+        "text": "TableDescriptorBuilder"
+      },
+      {
+        "label": "C",
+        "text": "ColumnFamilyDescriptor"
+      },
+      {
+        "label": "D",
+        "text": "ColumnFamilyDescriptorBuilder"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10756",
     "level": "B",
     "correctCount": 0,
     "wrongCount": 0,
@@ -17445,6 +22336,402 @@
   },
   {
     "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中,用于判断表是否存在的方法是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "admin.tableExists(tableName)"
+      },
+      {
+        "label": "B",
+        "text": "admin.exists(tableName)"
+      },
+      {
+        "label": "C",
+        "text": "table.exists(tableName)"
+      },
+      {
+        "label": "D",
+        "text": "connection.tableExists(tableName)"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10758",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中,用于创建连接的类是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "HBaseConfiguration"
+      },
+      {
+        "label": "B",
+        "text": "ConnectionFactory"
+      },
+      {
+        "label": "C",
+        "text": "HBaseAdmin"
+      },
+      {
+        "label": "D",
+        "text": "Table"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10759",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中,用于查看所有表名称的方法是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "admin.listTables()"
+      },
+      {
+        "label": "B",
+        "text": "admin.listTableNames()"
+      },
+      {
+        "label": "C",
+        "text": "table.listTables()"
+      },
+      {
+        "label": "D",
+        "text": "connection.listTableNames()"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10760",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中,静态代码块的作用是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "初始化配置和连接"
+      },
+      {
+        "label": "B",
+        "text": "创建表"
+      },
+      {
+        "label": "C",
+        "text": "插入数据"
+      },
+      {
+        "label": "D",
+        "text": "查询数据"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10761",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在Windows环境搭建HBase开发环境时,以下哪个文件需要放到C:\\Windows\\System32目录?",
+    "options": [
+      {
+        "label": "A",
+        "text": "winutils.exe"
+      },
+      {
+        "label": "B",
+        "text": "hadoop.dll"
+      },
+      {
+        "label": "C",
+        "text": "hbase-site.xml"
+      },
+      {
+        "label": "D",
+        "text": "core-site.xml"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10762",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中,用于查看表详细描述的方法是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "admin.getTableDescriptor()"
+      },
+      {
+        "label": "B",
+        "text": "admin.listTables()"
+      },
+      {
+        "label": "C",
+        "text": "table.getTableDescriptor()"
+      },
+      {
+        "label": "D",
+        "text": "connection.getTableDescriptor()"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10763",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "以下关于HBase Java API的描述,错误的是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "HBase Java API效率高,因为HBase本身由Java编写"
+      },
+      {
+        "label": "B",
+        "text": "HBase 1.x和2.x版本的Java API完全相同"
+      },
+      {
+        "label": "C",
+        "text": "Java API比shell命令更灵活"
+      },
+      {
+        "label": "D",
+        "text": "可以通过Java API操作HBase表数据"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10764",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "创建HBase maven项目时,以下哪个依赖是必须的?",
+    "options": [
+      {
+        "label": "A",
+        "text": "hbase-server"
+      },
+      {
+        "label": "B",
+        "text": "hbase-client"
+      },
+      {
+        "label": "C",
+        "text": "hadoop-common"
+      },
+      {
+        "label": "D",
+        "text": "zookeeper"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10765",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中,用于创建列族描述器的类是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "TableDescriptor"
+      },
+      {
+        "label": "B",
+        "text": "TableDescriptorBuilder"
+      },
+      {
+        "label": "C",
+        "text": "ColumnFamilyDescriptor"
+      },
+      {
+        "label": "D",
+        "text": "ColumnFamilyDescriptorBuilder"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10766",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "在Windows环境搭建HBase开发环境时,需要以下哪些步骤?",
+    "options": [
+      {
+        "label": "A",
+        "text": "配置HADOOP_HOME环境变量"
+      },
+      {
+        "label": "B",
+        "text": "将winutils.exe放到Hadoop解压目录的bin目录"
+      },
+      {
+        "label": "C",
+        "text": "将hadoop.dll放到C:\\Windows\\System32目录"
+      },
+      {
+        "label": "D",
+        "text": "配置HBASE_HOME环境变量"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10767",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "以下关于HBase Java API的描述,正确的是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "HBase Java API效率高,因为HBase本身由Java编写"
+      },
+      {
+        "label": "B",
+        "text": "HBase 1.x和2.x版本的Java API完全相同"
+      },
+      {
+        "label": "C",
+        "text": "Java API比shell命令更灵活"
+      },
+      {
+        "label": "D",
+        "text": "可以通过Java API操作HBase表数据"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10768",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "搭建HBase开发环境时，以下哪些步骤是正确的？（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "在Windows本地放置与Linux版本一致的Hadoop安装包"
+      },
+      {
+        "label": "B",
+        "text": "将winutils.exe文件放到Hadoop解压目录的bin目录下"
+      },
+      {
+        "label": "C",
+        "text": "将hadoop.dll文件放到C:\\Windows\\System32目录下"
+      },
+      {
+        "label": "D",
+        "text": "无需配置Hadoop环境变量"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10769",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
     "type": "多选题",
     "title": "在HBase Java API中，配置ZooKeeper地址时，以下哪些是正确的配置方式？（）",
     "options": [
@@ -17465,10 +22752,92 @@
         "text": "conf.set(\"zookeeper.session.timeout\", \"60000\")"
       }
     ],
-    "answer": "AB",
+    "answer": "ABCD",
     "explanation": "",
     "topic": "",
     "id": "GEN10770",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "以下属于HBaseAdmin类提供的表管理方法的是？（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "tableExists(TableName tableName)"
+      },
+      {
+        "label": "B",
+        "text": "listTableNames()"
+      },
+      {
+        "label": "C",
+        "text": "createTable(TableDescriptor desc)"
+      },
+      {
+        "label": "D",
+        "text": "getTable(TableName tableName)"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10771",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "创建HBase maven项目时，以下关于pom.xml配置的说法正确的是？（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "需要添加hbase-client依赖"
+      },
+      {
+        "label": "B",
+        "text": "Eclipse环境下需要额外声明java依赖"
+      },
+      {
+        "label": "C",
+        "text": "Idea环境下无需声明java依赖"
+      },
+      {
+        "label": "D",
+        "text": "依赖版本可以随意选择"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10772",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "在Java代码中，判断表是否存在可使用HBaseAdmin对象的________方法，创建表时需调用其________方法。 ## 单选题（共14题，60.0分）",
+    "options": [],
+    "answer": "tableExists, createTable",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10773",
     "level": "B",
     "correctCount": 0,
     "wrongCount": 0,
@@ -17498,10 +22867,109 @@
         "text": "Delete"
       }
     ],
-    "answer": "B",
+    "answer": "C",
     "explanation": "",
     "topic": "",
     "id": "GEN10774",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中，插入多行数据时，需要将多个Put对象放入哪个集合中？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Set"
+      },
+      {
+        "label": "B",
+        "text": "List"
+      },
+      {
+        "label": "C",
+        "text": "Map"
+      },
+      {
+        "label": "D",
+        "text": "Queue"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10775",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中，字符串转换为字节数组的方法是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "String.toBytes()"
+      },
+      {
+        "label": "B",
+        "text": "Bytes.toBytes(String)"
+      },
+      {
+        "label": "C",
+        "text": "String.getBytes()"
+      },
+      {
+        "label": "D",
+        "text": "Byte.parseByte(String)"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10776",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中，获取Get查询结果的方法是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Table.get(Get)"
+      },
+      {
+        "label": "B",
+        "text": "Table.scan(Scan)"
+      },
+      {
+        "label": "C",
+        "text": "Connection.getTable(TableName)"
+      },
+      {
+        "label": "D",
+        "text": "Put.addColumn()"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10777",
     "level": "B",
     "correctCount": 0,
     "wrongCount": 0,
@@ -17531,10 +22999,76 @@
         "text": "Put.getTable(\"表名\")"
       }
     ],
-    "answer": "TableDescriptorBuilder",
+    "answer": "A",
     "explanation": "",
     "topic": "",
     "id": "GEN10778",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中，根据rowkey查询单行数据的类是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Put"
+      },
+      {
+        "label": "B",
+        "text": "Get"
+      },
+      {
+        "label": "C",
+        "text": "Scan"
+      },
+      {
+        "label": "D",
+        "text": "Delete"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10779",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中，用于创建HBase配置对象的工具类是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "ConfigurationFactory"
+      },
+      {
+        "label": "B",
+        "text": "HBaseConfiguration"
+      },
+      {
+        "label": "C",
+        "text": "ConnectionFactory"
+      },
+      {
+        "label": "D",
+        "text": "TableFactory"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10780",
     "level": "B",
     "correctCount": 0,
     "wrongCount": 0,
@@ -17564,10 +23098,109 @@
         "text": "Delete"
       }
     ],
-    "answer": "A",
+    "answer": "C",
     "explanation": "",
     "topic": "",
     "id": "GEN10781",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中，创建与HBase集群连接的类是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "HBaseConfiguration"
+      },
+      {
+        "label": "B",
+        "text": "ConnectionFactory"
+      },
+      {
+        "label": "C",
+        "text": "Table"
+      },
+      {
+        "label": "D",
+        "text": "Put"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10782",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中，获取Scan扫描结果的方法是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Table.get(Get)"
+      },
+      {
+        "label": "B",
+        "text": "Table.getScanner(Scan)"
+      },
+      {
+        "label": "C",
+        "text": "Connection.getTable(TableName)"
+      },
+      {
+        "label": "D",
+        "text": "Put.addColumn()"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10783",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中，用于解析Result对象中单元格数据的工具类是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "CellUtil"
+      },
+      {
+        "label": "B",
+        "text": "Bytes"
+      },
+      {
+        "label": "C",
+        "text": "ResultUtil"
+      },
+      {
+        "label": "D",
+        "text": "TableUtil"
+      }
+    ],
+    "answer": "D",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10784",
     "level": "B",
     "correctCount": 0,
     "wrongCount": 0,
@@ -17611,6 +23244,39 @@
   {
     "subject": "HBase / ZooKeeper",
     "type": "单选题",
+    "title": "在HBase Java API中，向Put对象添加列数据时，需要指定的参数不包括？",
+    "options": [
+      {
+        "label": "A",
+        "text": "列族名称"
+      },
+      {
+        "label": "B",
+        "text": "列名称"
+      },
+      {
+        "label": "C",
+        "text": "时间戳"
+      },
+      {
+        "label": "D",
+        "text": "列值"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10786",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
     "title": "在HBase Java API中，关闭Table对象的方法是？",
     "options": [
       {
@@ -17630,7 +23296,7 @@
         "text": "ResultScanner.close()"
       }
     ],
-    "answer": "A",
+    "answer": "D",
     "explanation": "",
     "topic": "",
     "id": "GEN10787",
@@ -17663,7 +23329,7 @@
         "text": "hbase.table.name"
       }
     ],
-    "answer": "AB",
+    "answer": "ABCD",
     "explanation": "",
     "topic": "",
     "id": "GEN10788",
@@ -17696,10 +23362,76 @@
         "text": "table.put(put)方法只能插入单行数据，不能插入多行"
       }
     ],
-    "answer": "A",
+    "answer": "ABCD",
     "explanation": "",
     "topic": "",
     "id": "GEN10789",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "在HBase Java API中，使用Put对象插入数据时，以下说法正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Put对象通过rowkey唯一标识一行数据"
+      },
+      {
+        "label": "B",
+        "text": "一个Put对象只能插入一列数据"
+      },
+      {
+        "label": "C",
+        "text": "Put对象可以添加多个列族的列数据"
+      },
+      {
+        "label": "D",
+        "text": "插入数据时必须指定时间戳"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10790",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "以下关于HBase Get和Scan查询的区别，正确的有哪些？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Get只能根据rowkey查询单行数据，Scan可以查询多行"
+      },
+      {
+        "label": "B",
+        "text": "Scan可以设置起始和结束rowkey，实现范围查询"
+      },
+      {
+        "label": "C",
+        "text": "Get查询的性能通常比Scan更高，因为是精确查询"
+      },
+      {
+        "label": "D",
+        "text": "Scan返回的ResultScanner需要手动关闭，否则会造成资源泄漏"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN10791",
     "level": "B",
     "correctCount": 0,
     "wrongCount": 0,
@@ -17729,7 +23461,7 @@
         "text": "如果连接失败，静态代码块会抛出RuntimeException终止程序"
       }
     ],
-    "answer": "AB",
+    "answer": "ABCD",
     "explanation": "",
     "topic": "",
     "id": "GEN10792",
@@ -17762,7 +23494,7 @@
         "text": "修改数据的性能与插入数据的性能相同，因为底层都是写操作"
       }
     ],
-    "answer": "A",
+    "answer": "ABCD",
     "explanation": "",
     "topic": "",
     "id": "GEN10793",
@@ -17778,7 +23510,7 @@
     "type": "填空题",
     "title": "在HBase Java API中，获取配置信息需要调用<code>HBaseConfiguration.create()</code>方法，该方法返回的对象类型是______。建立连接时，需要通过______类的静态方法创建Connection对象。插入数据时，用于指定行键的对象是______，添加列族、列和值的方法是______。",
     "options": [],
-    "answer": "create",
+    "answer": "A",
     "explanation": "",
     "topic": "",
     "id": "GEN10794",
