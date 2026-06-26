@@ -351,5 +351,222 @@ spark.stop()`,
         ]
       }
     ]
+  },
+
+  "Java Web": {
+    icon: "☕",
+    title: "Java Web 考试复习重点",
+    source: "课堂课件精炼 + 老师标注重点",
+    intro: "Java Web 是整个期末考试的半壁江山。以下六大部分覆盖了从 JSP 基础到 MVC 架构的全部核心考点，每个知识点都配有通俗讲解和考试提示。",
+    chapters: [
+      {
+        num: "一",
+        title: "JSP 基础 — 页面组成与运行原理",
+        icon: "📄",
+        sections: [
+          {
+            title: "JSP 页面的 7 类内容（必背！）",
+            type: "list",
+            badge: "⭐ 基础概念",
+            items: [
+              { label: "① 静态内容", desc: "普通 HTML、CSS、JS，浏览器直接能看懂的部分" },
+              { label: "② 指令", desc: '以 <%@ 开头 %> 结尾，给服务器的"指示"。如：<%@ page import="java.util.*" %>' },
+              { label: "③ 表达式", desc: '<%= 变量或表达式 %>，直接输出到页面上。如：<%= user.getName() %>' },
+              { label: "④ Scriptlet", desc: "<% Java代码 %>，可以写任意 Java 逻辑，嵌入 HTML 中" },
+              { label: "⑤ 声明", desc: "<%! 方法或变量 %>，定义成员变量或方法，编译后成为 Servlet 的成员" },
+              { label: "⑥ 动作", desc: '以 <jsp:动作名> 开头，如 <jsp:include page="a.jsp"/>' },
+              { label: "⑦ 注释", desc: "<%-- 这是注释 --%>，客户端看不到，最安全" }
+            ],
+            explain: "记法口诀：「静指表脚声动作」。JSP = HTML + Java 代码片段 + JSP 标签。本质是一个被翻译成 Servlet 的文本文件。"
+          },
+          {
+            title: "Tomcat 目录结构",
+            type: "table",
+            badge: "📌 了解",
+            table: {
+              head: ["目录", "作用", "考试要点"],
+              rows: [
+                ["/bin", "启动/停止脚本", "startup.bat / shutdown.bat"],
+                ["/conf", "配置文件", "server.xml 最重要（改端口在这）"],
+                ["/work", "JSP编译后的Servlet类文件", "JSP→java→class 就放这"],
+                ["/webapps", "Web应用发布目录", "项目放这里才能访问"],
+                ["/lib", "jar包", "全局可用的依赖库"]
+              ]
+            },
+            examTip: "常考：修改 Tomcat 端口在 /conf/server.xml 里改 Connector 的 port 属性，默认 8080。"
+          },
+          {
+            title: "JSP 执行过程（四步流程图）",
+            type: "numbered",
+            badge: "⭐ 必考",
+            items: [
+              "**客户端发请求** → 浏览器访问 .jsp 页面",
+              "**转译** → JSP 容器把 .jsp 翻译成 .java（Servlet 源码）",
+              "**编译** → 把 .java 编译成 .class 字节码",
+              "**执行响应** → 运行 .class，把 HTML 结果返回给浏览器"
+            ],
+            explain: "第一次访问 JSP 时会经历全部四步，所以比较慢。之后再访问同一个 JSP 就直接执行 .class 了，不需要重新编译。类比：第一次去餐厅 → 看菜单（转译）→ 厨师做菜（编译）→ 上菜（响应）。以后再去直接上菜就行。"
+          },
+          {
+            title: "两个时期：转译时期 vs 请求时期",
+            type: "comparison",
+            badge: "⭐ 重点",
+            left: { title: "转译时期（只做一次）", items: ["JSP → Servlet源码(.java)", "Servlet源码 → 字节码(.class)", "发生在第一次请求时", "如果有错页面就无法访问"] },
+            right: { title: "请求时期（每次请求都做）", items: ["执行 .class 文件", "生成 HTML 响应", "每次请求都执行一次", "速度快，不重新编译"] }
+          },
+          {
+            title: "JSP 脚本元素三兄弟",
+            type: "list",
+            badge: "⭐ 必考",
+            items: [
+              { label: "表达式 <%= %>", desc: "输出变量的值到页面。不能以分号结尾！", code: '<%= user.getName() %>  注意没有分号！' },
+              { label: "Scriptlet <% %>", desc: "写任意 Java 代码，可以有分号", code: "<% for(int i=0;i<10;i++){ out.print(i); } %>" },
+              { label: "声明 <%! %>", desc: "定义成员变量和方法，编译后成为 Servlet 的成员", code: "<%! int count = 0; public String sayHi(){ return \"hi\"; } %>" }
+            ],
+            explain: "最容易搞混的：<%! %> 声明的变量是成员变量（整个 Servlet 共享），<% %> 里声明的变量是局部变量（每次请求重新创建）。多用户同时访问时，成员变量会出现线程安全问题！"
+          },
+          {
+            title: "JSP 三大指令",
+            type: "list",
+            badge: "⭐ 必考",
+            items: [
+              { label: "page 指令", desc: "设置页面属性：导包、编码、错误页等", code: '<%@ page import="java.util.*" pageEncoding="UTF-8" errorPage="error.jsp" %>' },
+              { label: "include 指令", desc: "编译时包含（静态包含），把另一个文件的内容合进来一起编译", code: '<%@ include file="header.jsp" %>' },
+              { label: "taglib 指令", desc: "引入 JSTL 等标签库", code: '<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>' }
+            ]
+          },
+          {
+            title: "JSP 9大隐式对象（超级重点！）",
+            type: "table",
+            badge: "🔥 必背",
+            table: {
+              head: ["对象", "类型", "作用域", "一句话解释"],
+              rows: [
+                ["request", "HttpServletRequest", "request", "一次请求的\"快递包裹\"，存本次请求的数据"],
+                ["response", "HttpServletResponse", "page", "给客户端的\"回信\""],
+                ["session", "HttpSession", "session", "一个用户的\"私人储物柜\"，登录信息放这里"],
+                ["application", "ServletContext", "application", "整个应用的\"公告栏\"，所有用户共享"],
+                ["out", "JspWriter", "page", "输出流，往页面上写字"],
+                ["pageContext", "PageContext", "page", "本页的\"管家\"，能拿到其他8个对象"],
+                ["config", "ServletConfig", "page", "当前 Servlet 的配置信息"],
+                ["page", "Object", "page", "当前 JSP 页面本身（this）"],
+                ["exception", "Throwable", "page", "异常对象，只有错误页能用（isErrorPage=true）"]
+              ]
+            },
+            explain: "四大作用域从小到大：page（本页有效）< request（一次请求）< session（一次会话）< application（整个应用）。考题常问：购物车该用哪个？→ session。网站访问量该用哪个？→ application。",
+            examTip: "简答题常考：简述JSP的9大隐式对象。记住口诀：req-resp-session-app，out-config-pageCon，page-exception 就齐了。"
+          },
+          {
+            title: "静态 include vs 动态 include（高频考点！）",
+            type: "comparison",
+            badge: "🔥 必考",
+            left: { title: '静态 include <%@ include file="x.jsp" %>', items: ["编译时就把 x.jsp 内容合进来", "只生成一个 .class 文件", "不能传参数", "共享同一个 request 对象", "被包含页改了需要重新编译主页面"] },
+            right: { title: '动态 include <jsp:include page="x.jsp"/>', items: ["运行时才包含 x.jsp 的输出结果", "生成多个 .class 文件（各自编译）", "可以传参数（用 jsp:param）", "各有各的 request 对象", "被包含页改了立刻生效"] }
+          }
+        ]
+      },
+      {
+        num: "二",
+        title: "EL 表达式 — 让 JSP 更简洁",
+        icon: "💡",
+        sections: [
+          {
+            title: "EL 四大作用",
+            type: "numbered",
+            badge: "⭐ 重点",
+            items: [
+              "**获取数据** → ${user.name} 代替 <%= user.getName() %>，从四大作用域中自动查找",
+              "**执行运算** → ${3+5}、${user==null}、${empty list}，可以做算术/关系/逻辑运算",
+              "**获取常用对象** → EL 有11个隐式对象（如 param、cookie、sessionScope 等）",
+              "**调用 Java 方法** → 可以自定义 EL 函数，在页面上调用 Java 方法"
+            ],
+            explain: "EL 最大的好处是把又丑又长的 Java 代码变成了简洁的 ${} 表达式。比如原来要写 <% User u=(User)session.getAttribute(\"user\"); out.print(u.getName()); %>，现在只需 ${user.name}。",
+            examTip: "${empty xxx} 是高频考点——判断是否为 null 或空字符串/空集合。${empty \"\"} 结果是 true。"
+          }
+        ]
+      },
+      {
+        num: "三",
+        title: "JDBC 操作数据库",
+        icon: "🗄️",
+        sections: [
+          {
+            title: "JDBC 四步走（编程题模板）",
+            type: "numbered",
+            badge: "⭐ 重点",
+            items: [
+              "**加载驱动** → `Class.forName(\"驱动类名\")`，告诉 Java 你要连哪种数据库",
+              "**建立连接** → `DriverManager.getConnection(url, user, password)`，相当于拨号",
+              "**执行 SQL** → 创建 Statement / PreparedStatement，执行查询或更新",
+              "**释放资源** → 关闭 ResultSet → Statement → Connection，不关会导致连接泄漏"
+            ],
+            explain: "类比打电话：①装SIM卡（加载驱动）→②拨号（建立连接）→③说话（执行SQL）→④挂电话（释放资源）。注意关资源的顺序要倒过来：先关 ResultSet，再关 Statement，最后关 Connection。",
+            examTip: "executeUpdate() 用于增删改，返回影响行数。executeQuery() 用于查询，返回 ResultSet 结果集。PreparedStatement 可以防 SQL 注入，比 Statement 更安全。"
+          }
+        ]
+      },
+      {
+        num: "四",
+        title: "Cookie 与 Session — 必须分清",
+        icon: "🍪",
+        sections: [
+          {
+            title: "四大区别对比",
+            type: "table",
+            badge: "🔥 必考",
+            table: {
+              head: ["比较点", "Cookie", "Session"],
+              rows: [
+                ["存放位置", "客户端浏览器", "服务器端内存"],
+                ["安全性", "弱（可被篡改/窃取）", "强（用户看不到）"],
+                ["网络传输", "每次请求都带着，占带宽", "只在服务器，不传输"],
+                ["生命周期", "累计计时（可设 MaxAge）", "间隔计时（一段时间不用就过期）"],
+                ["容量限制", "≤4KB", "无限制"],
+                ["典型用途", "记住密码、浏览偏好", "登录状态、购物车"]
+              ]
+            },
+            explain: "一句话总结：重要信息用 Session（登录状态），不重要但需要记住的用 Cookie（偏好设置）。Cookie 像把钥匙交给用户保管，Session 像把钥匙留在前台。"
+          }
+        ]
+      },
+      {
+        num: "五",
+        title: "Filter 过滤器 — 请求的安检站",
+        icon: "🔒",
+        sections: [
+          {
+            title: "Filter 生命周期三阶段",
+            type: "numbered",
+            badge: "⭐ 必考",
+            items: [
+              "**初始化 init()** — 服务器启动时调用一次，加载配置（FilterConfig）",
+              "**过滤 doFilter()** — 每次请求被拦截时调用，是核心方法。必须调用 `chain.doFilter(req, resp)` 才能放行！",
+              "**销毁 destroy()** — 服务器关闭时调用一次，释放资源"
+            ],
+            explain: "Filter 就像一个安检门：进商场前先过一下（doFilter），检查你有没有带违禁品（比如非法IP），通过了才放行（chain.doFilter）。init 是装安检门，destroy 是拆安检门。",
+            examTip: "如果 doFilter 里忘了写 chain.doFilter()，请求就被卡住了，页面永远是白的！多个 Filter 按 web.xml 中注册顺序执行。"
+          }
+        ]
+      },
+      {
+        num: "六",
+        title: "MVC 三层架构 — 最经典的开发模式",
+        icon: "🏗️",
+        sections: [
+          {
+            title: "MVC 三层各司其职",
+            type: "cards",
+            badge: "🔥 必考",
+            cards: [
+              { name: "M — Model（模型）", scene: "数据+业务逻辑。JavaBean、DAO、Service。只管数据，不管展示", icon: "📦" },
+              { name: "V — View（视图）", scene: "页面展示。JSP/HTML。只负责把数据漂亮地显示出来，不处理逻辑", icon: "🖼️" },
+              { name: "C — Controller（控制器）", scene: "调度中心。Servlet。接收请求→调Model处理→跳转View展示", icon: "🎮" }
+            ],
+            explain: "MVC 的本质是「各司其职」。好比餐厅：服务员（Controller）接单→厨师（Model）做菜→摆盘（View）上桌。客人不和厨师直接说话，厨师也不管盘子怎么摆。这样做的好处：改界面不影响业务逻辑，改逻辑不影响界面。",
+            examTip: "MVC 登录流程是考试编程题模板：login.jsp（View）→ LoginServlet（Controller）获取参数调 LoginDao（Model）验证 → 成功则 sendRedirect 到 welcome.jsp，失败则 forward 回 login.jsp 并带上错误信息。"
+          }
+        ]
+      }
+    ]
   }
 };
