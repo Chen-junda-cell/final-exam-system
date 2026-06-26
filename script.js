@@ -1516,7 +1516,7 @@ class ExamApp {
       if (fresh.length > 0) qs = fresh;
       else { this.toast('🎉 该条件下题目全部刷完！取消勾选"只刷未做题"可重刷'); return; }
     }
-    const limit = Math.min(qs.length, 100);
+    const limit = Math.min(qs.length, 500);
     qs = this._shuffle(qs).slice(0, limit);
     this.openQuiz(qs, 'practice');
   }
