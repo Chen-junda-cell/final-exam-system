@@ -1296,6 +1296,7 @@ class ExamApp {
         if (target === 'wrong') this.renderWrong();
         if (target === 'review') this.renderReview();
         if (target === 'tutorials') this.renderTutorialNav();
+        if (target === 'keypoints') this.renderKeypoints();
       });
     });
   }
@@ -1936,6 +1937,119 @@ class ExamApp {
     else this.checkedItems.add(id);
     localStorage.setItem('exam_checklist', JSON.stringify([...this.checkedItems]));
     this.renderChecklist();
+  }
+
+  // ===== 老师重点 =====
+  renderKeypoints() {
+    const tabsEl = document.getElementById('kpTabs');
+    const contentEl = document.getElementById('kpContent');
+    if (!tabsEl || !contentEl) return;
+
+    // 如果数据为空，显示提示
+    if (typeof TEACHER_KEYPOINTS === 'undefined' || Object.keys(TEACHER_KEYPOINTS).length === 0) {
+      contentEl.innerHTML = '<div class="empty-state">📭 暂无老师重点数据，敬请期待</div>';
+      return;
+    }
+
+    const subjects = Object.entries(TEACHER_KEYPOINTS);
+    const activeSubject = this._kpSubject || subjects[0][0];
+    this._kpSubject = activeSubject;
+
+    // 渲染标签页
+    tabsEl.innerHTML = subjects.map(([key, data]) =>
+      `<button class="kp-tab ${key === activeSubject ? 'active' : ''}" onclick="app.switchKpSubject('${key}')">${data.icon} ${key}</button>`
+    ).join('');
+
+    const kp = TEACHER_KEYPOINTS[activeSubject];
+    if (!kp) { contentEl.innerHTML = '<div class="empty-state">📭 该科目暂无重点数据</div>'; return; }
+
+    let html = `<div class="kp-header">
+      <h2>${kp.icon} ${kp.title}</h2>
+      <p class="kp-source">📋 ${kp.source}</p>
+      <p class="kp-intro">💡 ${kp.intro}</p>
+    </div>`;
+
+    // 渲染各章
+    for (const ch of kp.chapters) {
+      html += `<div class="kp-chapter">
+        <div class="kp-chapter-title" onclick="this.parentElement.classList.toggle('collapsed')">
+          <span class="kp-chapter-num">${ch.num}</span>
+          <span>${ch.icon} ${ch.title}</span>
+          <span class="kp-chapter-arrow">▼</span>
+        </div>
+        <div class="kp-chapter-body">`;
+
+      for (const sec of ch.sections) {
+        const badgeHtml = sec.badge ? `<span class="kp-badge">${sec.badge}</span>` : '';
+
+        html += `<div class="kp-section">
+          <h4>${badgeHtml} ${sec.title}</h4>`;
+
+        // 根据类型渲染
+        switch (sec.type) {
+          case 'table':
+            html += `<div class="kp-table-wrap"><table class="kp-table">
+              <thead><tr>${sec.table.head.map(h => `<th>${h}</th>`).join('')}</tr></thead>
+              <tbody>${sec.table.rows.map(r => `<tr>${r.map(c => `<td>${c.replace(/\n/g,'<br>')}</td>`).join('')}</tr>`).join('')}</tbody>
+            </table></div>`;
+            break;
+          case 'cards':
+            html += `<div class="kp-cards">${sec.cards.map(c =>
+              `<div class="kp-card"><span class="kp-card-icon">${c.icon}</span><strong>${c.name}</strong><p>${c.scene}</p></div>`
+            ).join('')}</div>`;
+            break;
+          case 'list':
+            html += `<ul class="kp-list">${sec.items.map(it =>
+              `<li>${it.label ? `<code>${it.label}</code> — ` : ''}${it.desc || ''}${it.code ? `<pre class="kp-inline-code">${this._esc(it.code)}</pre>` : ''}</li>`
+            ).join('')}</ul>`;
+            break;
+          case 'code':
+            html += `<pre class="kp-code">${this._esc(sec.code)}</pre>`;
+            break;
+          case 'numbered':
+            html += `<ol class="kp-numbered">${sec.items.map(it =>
+              `<li>${it}</li>`
+            ).join('')}</ol>`;
+            break;
+          case 'text':
+            html += `<div class="kp-text">${sec.text}</div>`;
+            break;
+          case 'comparison':
+            html += `<div class="kp-compare">
+              <div class="kp-compare-left"><h5>${sec.left.title}</h5><ul>${sec.left.items.map(i => `<li>${i}</li>`).join('')}</ul></div>
+              <div class="kp-compare-vs">VS</div>
+              <div class="kp-compare-right"><h5>${sec.right.title}</h5><ul>${sec.right.items.map(i => `<li>${i}</li>`).join('')}</ul></div>
+            </div>`;
+            break;
+          case 'priority':
+            html += `<div class="kp-priority">${sec.items.map(it =>
+              `<div class="kp-priority-item"><span class="kp-priority-rank">${it.rank}</span><span class="kp-priority-label">${it.label}</span><span>${it.content}</span></div>`
+            ).join('')}</div>`;
+            break;
+        }
+
+        // 通俗解释
+        if (sec.explain) {
+          html += `<div class="kp-explain"><span class="kp-explain-icon">💡</span><span>${sec.explain}</span></div>`;
+        }
+        // 考试提示
+        if (sec.examTip) {
+          html += `<div class="kp-examtip"><span class="kp-examtip-icon">📌 考试提示：</span>${sec.examTip}</div>`;
+        }
+
+        html += '</div>';
+      }
+
+      html += '</div></div>';
+    }
+
+    contentEl.innerHTML = html;
+  }
+
+  switchKpSubject(key) {
+    this._kpSubject = key;
+    this.renderKeypoints();
+    document.getElementById('keypoints').scrollIntoView({ behavior: 'smooth' });
   }
 
   // ===== 工具方法 =====

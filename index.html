@@ -46,6 +46,9 @@
     <a href="#predict" class="menu-item" data-nav="predict">
       <span class="menu-icon">🔮</span> 考前预测卷
     </a>
+    <a href="#keypoints" class="menu-item" data-nav="keypoints">
+      <span class="menu-icon">🎯</span> 老师重点
+    </a>
   </div>
 
   <div class="sidebar-footer">
@@ -187,6 +190,16 @@
     </div>
   </section>
 
+  <!-- 老师重点 -->
+  <section id="keypoints" class="page">
+    <h1>🎯 老师重点</h1>
+    <p style="color:var(--text-secondary);margin-bottom:16px;">课堂录音 + 课件提炼的考试重点，通俗讲解，直击考点</p>
+    <div class="keypoints-tabs" id="kpTabs"></div>
+    <div class="keypoints-content" id="kpContent">
+      <div class="empty-state">👈 选择科目查看老师划的重点</div>
+    </div>
+  </section>
+
 </main>
 
 <!-- 答题浮层 -->
@@ -211,6 +224,7 @@
 
 <script src="checklist_data.js?v=10"></script>
 <script src="parsed/questions_data.js?v=13"></script>
-<script src="script.js?v=12"></script>
+<script src="keypoints_data.js?v=1"></script>
+<script src="script.js?v=13"></script>
 </body>
 </html>
