@@ -515,12 +515,12 @@ class DataManager {
           } catch(e) {}
         }
       }
-      if (dataVersion !== 'v4') {
+      if (dataVersion !== 'v5') {
         localStorage.removeItem('exam_questions');
         localStorage.removeItem('exam_wrongbook');
         localStorage.removeItem('exam_progress');
         localStorage.removeItem('exam_reviews');
-        localStorage.setItem('exam_data_version', 'v4');
+        localStorage.setItem('exam_data_version', 'v5');
       }
       // 加载预解析数据（如果localStorage没有则自动导入）
       if (typeof PREPARSED_QUESTIONS !== 'undefined' && PREPARSED_QUESTIONS.length > 0) {
