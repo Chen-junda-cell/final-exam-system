@@ -339,7 +339,7 @@ class QuestionParser {
         }
         if (score > bestScore) { bestScore = score; bestMatch = t; }
       }
-      if (bestMatch && bestScore >= 1) {
+      if (bestMatch && bestScore >= 1 && q.topic !== '重点') {
         q.topic = bestMatch.name;
         q.level = bestMatch.level;
       }
@@ -515,12 +515,12 @@ class DataManager {
           } catch(e) {}
         }
       }
-      if (dataVersion !== 'v3') {
+      if (dataVersion !== 'v4') {
         localStorage.removeItem('exam_questions');
         localStorage.removeItem('exam_wrongbook');
         localStorage.removeItem('exam_progress');
         localStorage.removeItem('exam_reviews');
-        localStorage.setItem('exam_data_version', 'v3');
+        localStorage.setItem('exam_data_version', 'v4');
       }
       // 加载预解析数据（如果localStorage没有则自动导入）
       if (typeof PREPARSED_QUESTIONS !== 'undefined' && PREPARSED_QUESTIONS.length > 0) {
@@ -548,7 +548,7 @@ class DataManager {
               for (const kw of t.keywords) { if (qq.title.includes(kw) || (qq.answer||'').includes(kw)) score++; }
               if (score > bestScore) { bestScore = score; best = t; }
             }
-            if (best && bestScore >= 1) { qq.topic = best.name; qq.level = best.level; }
+            if (best && bestScore >= 1 && qq.topic !== '重点') { qq.topic = best.name; qq.level = best.level; }
           }
           this.save();
           const restored = Object.keys(oldProgress).length;
@@ -602,7 +602,7 @@ class DataManager {
         for (const kw of t.keywords) { if (q.title.includes(kw) || q.answer.includes(kw)) score++; }
         if (score > bestScore) { bestScore = score; best = t; }
       }
-      if (best && bestScore >= 1) { q.topic = best.name; q.level = best.level; }
+      if (best && bestScore >= 1 && q.topic !== '重点') { q.topic = best.name; q.level = best.level; }
     }
     this.save();
     console.log('📦 题库加载：' + withMeta.length + ' 题，保留 ' + keptCount + ' 题进度');
@@ -1584,7 +1584,7 @@ class ExamApp {
     }
 
     let html = `<div class="quiz-question">
-      <div class="q-title"><span class="badge badge-${q.level}">${q.level}</span> [${q.subject}] ${q.type} — ${this._esc(q.title)}</div>`;
+      <div class="q-title${q.topic === '重点' ? ' key-question' : ''}">${q.topic === '重点' ? '<span class="badge-key">⭐ 重点</span> ' : ''}<span class="badge badge-${q.level}">${q.level}</span> [${q.subject}] ${q.type} — ${this._esc(q.title)}</div>`;
 
     if (q.options && q.options.length > 0) {
       // 有选项的题目

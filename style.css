@@ -228,6 +228,9 @@ h1 { font-size: 24px; margin-bottom: 24px; color: var(--text); }
 .badge-A { background: #ffeaa7; color: #d63031; }
 .badge-B { background: #dfe6e9; color: #2d3436; }
 .badge-C { background: #81ecec; color: #00695c; }
+.badge-key { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 12px; font-weight: 700; background: linear-gradient(135deg, #ff4757, #ff6b81); color: #fff; animation: keyPulse 1.5s ease-in-out infinite; }
+@keyframes keyPulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(255,71,87,0.4); } 50% { box-shadow: 0 0 0 8px rgba(255,71,87,0); } }
+.q-title.key-question { color: #d63031 !important; font-size: 17px !important; }
 
 /* ===== Practice Area ===== */
 .practice-header { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px; margin-bottom: 20px; }

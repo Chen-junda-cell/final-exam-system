@@ -1,4 +1,4 @@
-// 六科完整题库 — 557题 含复习重点全部知识点
+// 六科完整题库 — 782题 含复习重点全部知识点
 const PREPARSED_QUESTIONS = [
   {
     "subject": "Java Web",
@@ -4570,7 +4570,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "val定义不可变引用(类似Java final)。var定义可变变量，def定义方法。Scala没有const关键字。",
     "id": "GEN0153",
     "level": "A",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -4702,7 +4702,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "RDD记录了自己是如何从父RDD转换而来的(血缘关系Lineage)。当分区数据丢失时，可通过血缘关系从原始数据重新计算恢复。",
     "id": "GEN0157",
     "level": "A",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -4735,7 +4735,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "SparkContext(sc)是Spark应用与集群的连接入口，用于创建RDD、累加器、广播变量等。",
     "id": "GEN0158",
     "level": "A",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -4768,7 +4768,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "reduce是行动操作(Action)，返回计算结果。map/filter/flatMap都是转换操作(Transformation)，返回新RDD。",
     "id": "GEN0159",
     "level": "A",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -4801,7 +4801,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "textFile读取文本文件返回RDD[String]，每行为一个元素。读取结构化数据可用spark.read返回DataFrame。",
     "id": "GEN0160",
     "level": "A",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -4871,7 +4871,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "collect/count/reduce/take都是行动操作，会触发计算。map是转换操作，惰性求值。",
     "id": "GEN0162",
     "level": "A",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -4904,7 +4904,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "D错误：Spark虽然内存计算为主，但在内存不足时仍会溢写到磁盘，且初始数据仍需从磁盘/HDFS读取。",
     "id": "GEN0163",
     "level": "A",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -4920,7 +4920,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "ArrayBuffer在scala.collection.mutable包中，支持+=追加、-=删除等操作。",
     "id": "GEN0164",
     "level": "A",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -4936,7 +4936,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "元组下标从1开始，._1是第一个元素，._2是第二个元素。",
     "id": "GEN0165",
     "level": "A",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -4952,7 +4952,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "转换如map/filter不会立即执行，只记录操作序列，遇到行动操作才触发计算。",
     "id": "GEN0166",
     "level": "A",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -4968,7 +4968,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "Scala默认导入scala.collection.immutable.List，方法如:+返回新List而不修改原List。",
     "id": "GEN0167",
     "level": "A",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -4984,7 +4984,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "cache()等价于persist(MEMORY_ONLY)，将RDD缓存到内存，后续操作直接读缓存避免重复计算。",
     "id": "GEN0168",
     "level": "A",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -5808,7 +5808,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "D错误：Spark虽然内存计算为主，但在内存不足时仍会溢写到磁盘，且初始数据仍需从磁盘/HDFS读取。",
     "id": "GEN0195",
     "level": "A",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -5984,7 +5984,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "ArrayBuffer在scala.collection.mutable包中，支持+=追加、-=删除等操作。",
     "id": "GEN0206",
     "level": "A",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -6000,7 +6000,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "Scala默认导入scala.collection.immutable.List，方法如:+返回新List而不修改原List。",
     "id": "GEN0207",
     "level": "A",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -6224,7 +6224,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "ArrayBuffer在scala.collection.mutable包中，支持+=追加、-=删除等操作。",
     "id": "GEN0221",
     "level": "A",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -6240,7 +6240,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "Scala默认导入scala.collection.immutable.List，方法如:+返回新List而不修改原List。",
     "id": "GEN0222",
     "level": "A",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -6320,7 +6320,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "ArrayBuffer在scala.collection.mutable包中，支持+=追加、-=删除等操作。",
     "id": "GEN0227",
     "level": "A",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -6559,7 +6559,7 @@ const PREPARSED_QUESTIONS = [
     "answer": "val, def",
     "explanation": "val=不可变(类似final)，var=可变，def=方法。",
     "level": "A",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -6687,7 +6687,7 @@ const PREPARSED_QUESTIONS = [
     "answer": "(1)可分区的(Partition)：数据划分为多个分区分布在集群节点；(2)可并行计算(Compute)：每个分区独立并行处理；(3)容错(Lineage/Dependencies)：通过血缘关系记录依赖，数据丢失可从父RDD重新计算；(4)不可变(Immutable)：创建后不能修改，只能生成新RDD；(5)可持久化(Persistence)：可缓存到内存/磁盘加速重复计算。",
     "explanation": "需写出5个特性及其含义。",
     "level": "A",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -10414,7 +10414,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "var=变量（可改），val=常量（不可改引用），但val引用的对象内部状态可修改（如Array元素）。",
     "level": "A",
     "id": "GEN0417",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -10511,9 +10511,9 @@ const PREPARSED_QUESTIONS = [
     ],
     "answer": "ABD",
     "explanation": "map/filter/flatMap属于转换操作（惰性）。reduce是行动操作（Action，触发实际计算）。",
-    "level": "B",
+    "level": "A",
     "id": "GEN0420",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -10546,7 +10546,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "Scala元组特性：22元素上限，从1索引，异构存储，不可变。注意不能用t(0)访问！",
     "level": "A",
     "id": "GEN0421",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -10578,7 +10578,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "ArrayBuffer是变长数组（可动态增删），Array是定长数组（长度不可变）。",
     "level": "A",
     "id": "GEN0423",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -10594,7 +10594,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "Scala元组索引从1开始（不是0！）。t._1访问第一个元素，t._2第二个，以此类推。",
     "level": "A",
     "id": "GEN0424",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -10610,7 +10610,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "转换操作是惰性求值（lazy），只记录操作逻辑不立即执行。行动操作（Action）如count/collect才触发实际计算。",
     "level": "A",
     "id": "GEN0425",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -10626,7 +10626,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "RDD通过血缘关系记录如何从其他RDD转换而来。当分区丢失时，可根据血缘重新计算恢复。",
     "level": "A",
     "id": "GEN0426",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -10656,9 +10656,9 @@ const PREPARSED_QUESTIONS = [
     "options": [],
     "answer": "对",
     "explanation": "Scala默认集合都是不可变的（immutable）。需要可变集合时需导入scala.collection.mutable包。",
-    "level": "B",
+    "level": "A",
     "id": "GEN0428",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -10672,9 +10672,9 @@ const PREPARSED_QUESTIONS = [
     "options": [],
     "answer": "对",
     "explanation": "Spark支持多种集群管理器：Standalone（自带）、YARN、Mesos、Kubernetes。",
-    "level": "B",
+    "level": "A",
     "id": "GEN0429",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -10688,9 +10688,9 @@ const PREPARSED_QUESTIONS = [
     "options": [],
     "answer": "对",
     "explanation": "Scala模式匹配可以匹配类型、提取器、守卫条件等，远比switch灵活强大。",
-    "level": "B",
+    "level": "A",
     "id": "GEN0430",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -10722,7 +10722,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "val = value，不可变引用。var = variable，可变引用。",
     "level": "A",
     "id": "GEN0432",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -10738,7 +10738,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "ArrayBuffer属于scala.collection.mutable包，支持动态增删元素。",
     "level": "A",
     "id": "GEN0433",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -10770,7 +10770,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "Scala元组索引从1开始，._1 ._2 ._3... 不能写成t(1)。",
     "level": "A",
     "id": "GEN0435",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -10784,9 +10784,9 @@ const PREPARSED_QUESTIONS = [
     "options": [],
     "answer": "cache",
     "explanation": "cache()或persist()将RDD缓存到内存，避免每次Action都重新计算，提高迭代效率。",
-    "level": "B",
+    "level": "A",
     "id": "GEN0436",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -10800,9 +10800,9 @@ const PREPARSED_QUESTIONS = [
     "options": [],
     "answer": "Standalone",
     "explanation": "Standalone是Spark内置的集群管理器，无需额外安装Hadoop/YARN即可运行Spark集群。",
-    "level": "B",
+    "level": "A",
     "id": "GEN0437",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -10818,7 +10818,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "def funcName(params): ReturnType = { ... } 定义函数。匿名函数用=>。",
     "level": "A",
     "id": "GEN0438",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -10832,9 +10832,9 @@ const PREPARSED_QUESTIONS = [
     "options": [],
     "answer": "parallelize",
     "explanation": "sc.parallelize(Seq(1,2,3))从本地集合创建RDD。makeRDD用法类似。",
-    "level": "B",
+    "level": "A",
     "id": "GEN0439",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -10864,9 +10864,9 @@ const PREPARSED_QUESTIONS = [
     "options": [],
     "answer": "DataFrame",
     "explanation": "DataFrame是以列组织的分布式数据集，类似关系数据库的表。Dataset是类型安全的DataFrame。",
-    "level": "B",
+    "level": "A",
     "id": "GEN0441",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -10882,7 +10882,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "var vs val是Scala入门最基础也是最重要的概念。",
     "level": "A",
     "id": "GEN0442",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -10898,7 +10898,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "RDD是Spark最核心的概念，理解其特性有助于优化Spark程序。",
     "level": "A",
     "id": "GEN0443",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -10914,7 +10914,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "理解惰性求值对优化Spark程序至关重要。",
     "level": "A",
     "id": "GEN0444",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -10930,7 +10930,7 @@ const PREPARSED_QUESTIONS = [
     "explanation": "选择数组类型取决于是否需要动态改变长度。",
     "level": "A",
     "id": "GEN0445",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -10944,9 +10944,9 @@ const PREPARSED_QUESTIONS = [
     "options": [],
     "answer": "1.内存计算：Spark将中间结果缓存到内存，MR频繁读写HDFS磁盘。2.DAG执行引擎：Spark构建DAG优化执行计划，MR是固定的Map-Reduce两阶段。3.线程级别：Spark任务以线程运行（轻量），MR以JVM进程运行（重量）。4.避免重复计算：cache/persist机制避免重复读取HDFS。",
     "explanation": "Spark不是替代Hadoop而是互补，Spark做计算HDFS做存储是经典组合。",
-    "level": "B",
+    "level": "A",
     "id": "GEN0446",
-    "topic": "",
+    "topic": "重点",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
@@ -13692,6 +13692,6552 @@ const PREPARSED_QUESTIONS = [
     "explanation": "inline-block兼有inline(同行显示)和block(可设宽高)特性。inline不能设宽高。block独占一行可设宽高。",
     "topic": "display属性",
     "id": "GEN0557",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "若要使用进程名来结束进程，应使用（ ）命令",
+    "options": [
+      {
+        "label": "A",
+        "text": "ps"
+      },
+      {
+        "label": "B",
+        "text": "kill"
+      },
+      {
+        "label": "C",
+        "text": "pss"
+      },
+      {
+        "label": "D",
+        "text": "pstree"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0558",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "删除文件命令为( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "mkdir"
+      },
+      {
+        "label": "B",
+        "text": "mv"
+      },
+      {
+        "label": "C",
+        "text": "move"
+      },
+      {
+        "label": "D",
+        "text": "rm"
+      }
+    ],
+    "answer": "D",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0559",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "用户编写了一个文本文件 a.txt，想将该文件名称改为 txt.a，下列命令( )可以实现。",
+    "options": [
+      {
+        "label": "A",
+        "text": "rm a.txt txt.a"
+      },
+      {
+        "label": "B",
+        "text": "mv a.txt txt.a"
+      },
+      {
+        "label": "C",
+        "text": "cd a.txt txt.a"
+      },
+      {
+        "label": "D",
+        "text": "echo a.txt > txt.a"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0560",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "用于文件系统直接修改文件权限管理命令为:( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "chmod"
+      },
+      {
+        "label": "B",
+        "text": "umask"
+      },
+      {
+        "label": "C",
+        "text": "chgrp"
+      },
+      {
+        "label": "D",
+        "text": "chown"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0561",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "如果要列出一个目录下的隐藏文件需要使用命令",
+    "options": [
+      {
+        "label": "A",
+        "text": "ls –a"
+      },
+      {
+        "label": "B",
+        "text": "ls"
+      },
+      {
+        "label": "C",
+        "text": "ls –D"
+      },
+      {
+        "label": "D",
+        "text": "ls –l"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0562",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "如果执行命令chmod 764 file，那么文件file的权限是",
+    "options": [
+      {
+        "label": "A",
+        "text": "r-xrw-r-x"
+      },
+      {
+        "label": "B",
+        "text": "rwxrw-r--"
+      },
+      {
+        "label": "C",
+        "text": "rw-rw-r--"
+      },
+      {
+        "label": "D",
+        "text": "rw-r--r--"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0563",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "FTP 传输中使用哪两个端口（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "23 和24"
+      },
+      {
+        "label": "B",
+        "text": "21 和22"
+      },
+      {
+        "label": "C",
+        "text": "20 和21"
+      },
+      {
+        "label": "D",
+        "text": "22 和23"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0564",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "存放Linux 基本命令的目录是什么（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "/tmp"
+      },
+      {
+        "label": "B",
+        "text": "/bin"
+      },
+      {
+        "label": "C",
+        "text": "/lib"
+      },
+      {
+        "label": "D",
+        "text": "/root"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0565",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "下列不是 Linux 系统进程类型的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "守护进程"
+      },
+      {
+        "label": "B",
+        "text": "就绪进程"
+      },
+      {
+        "label": "C",
+        "text": "批处理进程"
+      },
+      {
+        "label": "D",
+        "text": "交互进程"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0566",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "当登录Linux 时，一个具有唯一进程ID 号的shell将被调用，这个ID是什么",
+    "options": [
+      {
+        "label": "A",
+        "text": "PID"
+      },
+      {
+        "label": "B",
+        "text": "NID"
+      },
+      {
+        "label": "C",
+        "text": "CID"
+      },
+      {
+        "label": "D",
+        "text": "UID"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0567",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "用户编写文件userinfo后，想要将该文件名修改为stuinfo，以下（  ）可以实现",
+    "options": [
+      {
+        "label": "A",
+        "text": "cat userinfo stuinfo"
+      },
+      {
+        "label": "B",
+        "text": "cp stuinfo userinfo"
+      },
+      {
+        "label": "C",
+        "text": "mv userinfo stuinfo"
+      },
+      {
+        "label": "D",
+        "text": "echo userinfo > stuinfo"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0568",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "哪个命令可以将普通用户转换成超级用户",
+    "options": [
+      {
+        "label": "A",
+        "text": "super"
+      },
+      {
+        "label": "B",
+        "text": "passwd"
+      },
+      {
+        "label": "C",
+        "text": "su"
+      },
+      {
+        "label": "D",
+        "text": "tar"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0569",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "usermod 命令无法实现的操作是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "账户重命名"
+      },
+      {
+        "label": "B",
+        "text": "加锁与解锁用户账户"
+      },
+      {
+        "label": "C",
+        "text": "删除指定的账户和对应的主目录"
+      },
+      {
+        "label": "D",
+        "text": "对用户密码进行加锁或解锁"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0570",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "显示一个文件最后几行的命令是",
+    "options": [
+      {
+        "label": "A",
+        "text": "tail"
+      },
+      {
+        "label": "B",
+        "text": "tac"
+      },
+      {
+        "label": "C",
+        "text": "rear"
+      },
+      {
+        "label": "D",
+        "text": "last"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0571",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "欲把当前目录下的 file1.txt 复制为 file2.txt，正确的命令是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "cat file2.txt file1.txt"
+      },
+      {
+        "label": "B",
+        "text": "copy file1.txt file2.txt"
+      },
+      {
+        "label": "C",
+        "text": "cat file1.txt > file2.txt"
+      },
+      {
+        "label": "D",
+        "text": "cp file1.txt | file2.txt"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0572",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "在 vi 编辑器中的命令模式下，键入( )可在光标当前所在行下添加一新行。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A"
+      },
+      {
+        "label": "B",
+        "text": "o"
+      },
+      {
+        "label": "C",
+        "text": "a"
+      },
+      {
+        "label": "D",
+        "text": "i"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0573",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "在 shell 编程时，可以完成声明变量并赋值的格式是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "$变量名=值"
+      },
+      {
+        "label": "B",
+        "text": "变量名=$值"
+      },
+      {
+        "label": "C",
+        "text": "变量名=值"
+      },
+      {
+        "label": "D",
+        "text": "$变量名=$值"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0574",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "若要将当前目录中的myfile.txt 文件压缩成myfile.txt.tar.gz,则实现的命令为（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "tar –zcvf myfile.txt.tar.gz myfile.txt"
+      },
+      {
+        "label": "B",
+        "text": "tar –zcvf myfile.txt myfile.txt.tar.gz"
+      },
+      {
+        "label": "C",
+        "text": "tar –cvf myfile.txt.tar.gz myfile.txt"
+      },
+      {
+        "label": "D",
+        "text": "tar –cvf myfile.txt myfile.txt.tar.gz"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0575",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "如果要列出一个目录下的所有文件需要使用命令行( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "ls–a"
+      },
+      {
+        "label": "B",
+        "text": "ls–l"
+      },
+      {
+        "label": "C",
+        "text": "ls"
+      },
+      {
+        "label": "D",
+        "text": "ls–d"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0576",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "能够查看当前工作区的完整绝对路径的命令是(  )",
+    "options": [
+      {
+        "label": "A",
+        "text": "path"
+      },
+      {
+        "label": "B",
+        "text": "pwd"
+      },
+      {
+        "label": "C",
+        "text": "cd"
+      },
+      {
+        "label": "D",
+        "text": "ls"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0577",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "下列命令中可以起到对文件进行重命名作用的命令是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "rm"
+      },
+      {
+        "label": "B",
+        "text": "ls"
+      },
+      {
+        "label": "C",
+        "text": "mv"
+      },
+      {
+        "label": "D",
+        "text": "cp"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0578",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "某文件的组外成员的权限为只读；所有者有全部权限；组内的权限为读与写，则该文件的权限为。",
+    "options": [
+      {
+        "label": "A",
+        "text": "764"
+      },
+      {
+        "label": "B",
+        "text": "467"
+      },
+      {
+        "label": "C",
+        "text": "674"
+      },
+      {
+        "label": "D",
+        "text": "476"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0579",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "建立一个新文件可以使用的命令为（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "chmod"
+      },
+      {
+        "label": "B",
+        "text": "cp"
+      },
+      {
+        "label": "C",
+        "text": "touch"
+      },
+      {
+        "label": "D",
+        "text": "more"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0580",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "下面关于i节点描述错误的是（） 。",
+    "options": [
+      {
+        "label": "A",
+        "text": "i节点和文件是一一对应的"
+      },
+      {
+        "label": "B",
+        "text": "通过i节点实现文件的逻辑结构和物理结构的转换"
+      },
+      {
+        "label": "C",
+        "text": "i节点能描述文件占用的块数"
+      },
+      {
+        "label": "D",
+        "text": "i节点描述了文件大小和指向数据块的指针"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0581",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "显示文件\"longfile\"的最后10行，下面那个命令是正确的",
+    "options": [
+      {
+        "label": "A",
+        "text": "tail logfile"
+      },
+      {
+        "label": "B",
+        "text": "taiL －d 10 longfile"
+      },
+      {
+        "label": "C",
+        "text": "head longfile"
+      },
+      {
+        "label": "D",
+        "text": "head －10 longfile"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0582",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "当字符串用单引号（’’）括起来时，SHELL将",
+    "options": [
+      {
+        "label": "A",
+        "text": "执行引号中的命令"
+      },
+      {
+        "label": "B",
+        "text": "结束进程"
+      },
+      {
+        "label": "C",
+        "text": "解释引号内的特殊字符"
+      },
+      {
+        "label": "D",
+        "text": "不解释引号内的特殊字符"
+      }
+    ],
+    "answer": "D",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0583",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "为了将当前目录下的压缩归档文件 name.zip 解压缩，我们可以使用( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "unzip name.zip"
+      },
+      {
+        "label": "B",
+        "text": "unzip -q name.zip"
+      },
+      {
+        "label": "C",
+        "text": "zip xvzf name.zip"
+      },
+      {
+        "label": "D",
+        "text": "unzip -n name.zip"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0584",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "若当前目录为 /home，命令 ls–l 将显示 home 目录下的( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "文件的具体信息"
+      },
+      {
+        "label": "B",
+        "text": "所有隐含文件"
+      },
+      {
+        "label": "C",
+        "text": "所有文件"
+      },
+      {
+        "label": "D",
+        "text": "所有非隐含文件"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0585",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "linux中root用户的代表符号为(   )",
+    "options": [
+      {
+        "label": "A",
+        "text": "//"
+      },
+      {
+        "label": "B",
+        "text": "$"
+      },
+      {
+        "label": "C",
+        "text": "/**/"
+      },
+      {
+        "label": "D",
+        "text": "\\#"
+      }
+    ],
+    "answer": "D",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0586",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "确定myfile的文件类型的命令是",
+    "options": [
+      {
+        "label": "A",
+        "text": "whatis myfile"
+      },
+      {
+        "label": "B",
+        "text": "file myfile"
+      },
+      {
+        "label": "C",
+        "text": "type -q myfile"
+      },
+      {
+        "label": "D",
+        "text": "type myfile"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0587",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "下面关于Shell的说法，不正确的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "用户与Linux内核之间的接口程序"
+      },
+      {
+        "label": "B",
+        "text": "编译型的程序设计语言"
+      },
+      {
+        "label": "C",
+        "text": "操作系统的外壳"
+      },
+      {
+        "label": "D",
+        "text": "一个命令语言解释器"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0588",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "在shell中，export命令的作用是",
+    "options": [
+      {
+        "label": "A",
+        "text": "在子shell中运行一条命令"
+      },
+      {
+        "label": "B",
+        "text": "使在子shell中可以使用命令历史记录"
+      },
+      {
+        "label": "C",
+        "text": "提供nfs分区给网络中的其它系统使用"
+      },
+      {
+        "label": "D",
+        "text": "为其它应用程序设置环境变量"
+      }
+    ],
+    "answer": "D",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0589",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "在使用mkdir命令创建新的目录时，在其父目录不存在时先创建父目录的选项是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "-f"
+      },
+      {
+        "label": "B",
+        "text": "-m"
+      },
+      {
+        "label": "C",
+        "text": "-p"
+      },
+      {
+        "label": "D",
+        "text": "-d"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0590",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "下列哪个命令在建立一个 tar归档文件的时候列出详细列表（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "tar -t"
+      },
+      {
+        "label": "B",
+        "text": "tar -cv"
+      },
+      {
+        "label": "C",
+        "text": "tar –r"
+      },
+      {
+        "label": "D",
+        "text": "tar -cvf"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0591",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "自由软件的含义是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "软件发行商不能向用户收费"
+      },
+      {
+        "label": "B",
+        "text": "用户不需要付费"
+      },
+      {
+        "label": "C",
+        "text": "只有软件作者才能向用户收费"
+      },
+      {
+        "label": "D",
+        "text": "软件可以自由修改和发布"
+      }
+    ],
+    "answer": "D",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0592",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "一个bash shell脚本的第一行是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "#!/bin/bash"
+      },
+      {
+        "label": "B",
+        "text": "#/bin/bash"
+      },
+      {
+        "label": "C",
+        "text": "#/bin/csh"
+      },
+      {
+        "label": "D",
+        "text": "/bin/bash"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0593",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "按下( )键能终止当前运行的命令。",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ctrl-F"
+      },
+      {
+        "label": "B",
+        "text": "Ctrl-C"
+      },
+      {
+        "label": "C",
+        "text": "Ctrl-B"
+      },
+      {
+        "label": "D",
+        "text": "Ctrl-D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0594",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "看当前位置下，所有以“a”开头,且只有两个字符的文件，可以实现的命令是",
+    "options": [
+      {
+        "label": "A",
+        "text": "ls -a#"
+      },
+      {
+        "label": "B",
+        "text": "ls -a*"
+      },
+      {
+        "label": "C",
+        "text": "ls -a?"
+      },
+      {
+        "label": "D",
+        "text": "ls -a%"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0595",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "在LINUX中，要查看文件内容，可使用（ ）命令",
+    "options": [
+      {
+        "label": "A",
+        "text": "login"
+      },
+      {
+        "label": "B",
+        "text": "cd"
+      },
+      {
+        "label": "C",
+        "text": "more"
+      },
+      {
+        "label": "D",
+        "text": "logout"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0596",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "怎样更改一个文件的权限设置？",
+    "options": [
+      {
+        "label": "A",
+        "text": "change"
+      },
+      {
+        "label": "B",
+        "text": "attrib"
+      },
+      {
+        "label": "C",
+        "text": "file"
+      },
+      {
+        "label": "D",
+        "text": "chmod"
+      }
+    ],
+    "answer": "D",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0597",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "cd 命令可以改变用户的当前目录，当用户键入命令“cd”并按Enter键后，（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "当前目录改为上一级目录"
+      },
+      {
+        "label": "B",
+        "text": "当前目录改为用户主目录"
+      },
+      {
+        "label": "C",
+        "text": "当前目录不变，屏幕显示当前目录"
+      },
+      {
+        "label": "D",
+        "text": "当前目录改为根目录"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0598",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "以下不属于linux操作系统的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "xp"
+      },
+      {
+        "label": "B",
+        "text": "suse"
+      },
+      {
+        "label": "C",
+        "text": "centos7"
+      },
+      {
+        "label": "D",
+        "text": "redhat"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0599",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "你使用命令“vi  /etc/inittab”查看该文件的内容，你不小心改动了一些内容，为了防止系统出问题，你不想保存所修改内容，你应该如何操作(  ) 。",
+    "options": [
+      {
+        "label": "A",
+        "text": "在编辑模式下，键入“ESC”键直接退出vi"
+      },
+      {
+        "label": "B",
+        "text": "在末行模式下，键入:x!"
+      },
+      {
+        "label": "C",
+        "text": "在末行模式下，键入:wq"
+      },
+      {
+        "label": "D",
+        "text": "在末行模式下，键入:q!"
+      }
+    ],
+    "answer": "D",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0600",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "如下 shell 脚本程序: #!/bin/bash declare -i Number Number=1+2+3 echo \"$Number\" 执行脚本时输出的值为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "“1+2+3”"
+      },
+      {
+        "label": "C",
+        "text": "123"
+      },
+      {
+        "label": "D",
+        "text": "1+2+3"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0601",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "LINUX 用于启动系统所需加载的内核程序位于( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "/"
+      },
+      {
+        "label": "B",
+        "text": "/proc"
+      },
+      {
+        "label": "C",
+        "text": "/boot"
+      },
+      {
+        "label": "D",
+        "text": "/lib/modules/2.4.20_8/kernel"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0602",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "如何快速切换到用户John 的主目录下？",
+    "options": [
+      {
+        "label": "A",
+        "text": "cd @John"
+      },
+      {
+        "label": "B",
+        "text": "cd &John"
+      },
+      {
+        "label": "C",
+        "text": "cd ~John"
+      },
+      {
+        "label": "D",
+        "text": "cd #John"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0603",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "改变文件所有者的命令为（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "touch"
+      },
+      {
+        "label": "B",
+        "text": "chmod"
+      },
+      {
+        "label": "C",
+        "text": "chown"
+      },
+      {
+        "label": "D",
+        "text": "cat"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0604",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "以下命令中，可以将用户身份临时改变为root的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "logout"
+      },
+      {
+        "label": "B",
+        "text": "su"
+      },
+      {
+        "label": "C",
+        "text": "SU"
+      },
+      {
+        "label": "D",
+        "text": "login"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0605",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "通常在哪个目录存放配置文件信息",
+    "options": [
+      {
+        "label": "A",
+        "text": "/var"
+      },
+      {
+        "label": "B",
+        "text": "/etc"
+      },
+      {
+        "label": "C",
+        "text": "/home"
+      },
+      {
+        "label": "D",
+        "text": "/boot"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0606",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "shell程序中声明数组类变量的方式是",
+    "options": [
+      {
+        "label": "A",
+        "text": "declare -a"
+      },
+      {
+        "label": "B",
+        "text": "declare -e"
+      },
+      {
+        "label": "C",
+        "text": "declare –v"
+      },
+      {
+        "label": "D",
+        "text": "declare -i"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0607",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "如果执行命令#chmod 746 file.txt，那么该文件的权限是",
+    "options": [
+      {
+        "label": "A",
+        "text": "--xr—rwx"
+      },
+      {
+        "label": "B",
+        "text": "rwxr--rw-"
+      },
+      {
+        "label": "C",
+        "text": "rwxr--r—"
+      },
+      {
+        "label": "D",
+        "text": "rw-r--r--"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0608",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "在使用 vi 编辑器时，如果需要取消行号需要在末行模式下输入的指令是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "get no"
+      },
+      {
+        "label": "B",
+        "text": "set no"
+      },
+      {
+        "label": "C",
+        "text": "get nonu"
+      },
+      {
+        "label": "D",
+        "text": "set nonu"
+      }
+    ],
+    "answer": "D",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0609",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "Linux系统配置文件一般存放于以下（ ）路径下",
+    "options": [
+      {
+        "label": "A",
+        "text": "root"
+      },
+      {
+        "label": "B",
+        "text": "home"
+      },
+      {
+        "label": "C",
+        "text": "etc"
+      },
+      {
+        "label": "D",
+        "text": "bin"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0610",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "usermod 命令无法实现的操作是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "账户重命名"
+      },
+      {
+        "label": "B",
+        "text": "对用户密码进行加锁或解锁"
+      },
+      {
+        "label": "C",
+        "text": "加锁与解锁用户账户"
+      },
+      {
+        "label": "D",
+        "text": "删除指定的账户和对应的主目录"
+      }
+    ],
+    "answer": "D",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0611",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "对top命令描述正确的是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "查看进程名称"
+      },
+      {
+        "label": "B",
+        "text": "查看线程详情情况"
+      },
+      {
+        "label": "C",
+        "text": "用于实时动态显示 Linux进程 的动态信息"
+      },
+      {
+        "label": "D",
+        "text": "显示内存情况"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0612",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "以长格式列目录时，若文件test的权限描述为：drwxrw-r–，则文件test的类型及文件主的权限是",
+    "options": [
+      {
+        "label": "A",
+        "text": "普通文件、读写"
+      },
+      {
+        "label": "B",
+        "text": "目录文件、读写执行"
+      },
+      {
+        "label": "C",
+        "text": "目录文件、读写"
+      },
+      {
+        "label": "D",
+        "text": "普通文件、读"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0613",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "将n1行到n2行之间的内容拷贝到第n3行下的末行模式关键字是",
+    "options": [
+      {
+        "label": "A",
+        "text": "m"
+      },
+      {
+        "label": "B",
+        "text": "co"
+      },
+      {
+        "label": "C",
+        "text": "d"
+      },
+      {
+        "label": "D",
+        "text": "c"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0614",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "Linux 系统的联机帮助命令是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "man"
+      },
+      {
+        "label": "B",
+        "text": "mkdir"
+      },
+      {
+        "label": "C",
+        "text": "cd"
+      },
+      {
+        "label": "D",
+        "text": "tar"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0615",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "默认情况下管理员创建了一个用户，就会在(   )目录下创建一个用户主目录",
+    "options": [
+      {
+        "label": "A",
+        "text": "/usr"
+      },
+      {
+        "label": "B",
+        "text": "/etc"
+      },
+      {
+        "label": "C",
+        "text": "/home"
+      },
+      {
+        "label": "D",
+        "text": "/root"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0616",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "Shell 程序的注释符为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "@"
+      },
+      {
+        "label": "B",
+        "text": "%"
+      },
+      {
+        "label": "C",
+        "text": "#"
+      },
+      {
+        "label": "D",
+        "text": "!"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0617",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "在给定文件中查找与设定条件相符字符串的命令为（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "find"
+      },
+      {
+        "label": "B",
+        "text": "sort"
+      },
+      {
+        "label": "C",
+        "text": "grep"
+      },
+      {
+        "label": "D",
+        "text": "gzip"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0618",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "假设文件fileA的符号链接为fileB，那么删除fileA后，下面的描述正确的是（ ） 。",
+    "options": [
+      {
+        "label": "A",
+        "text": "因为fileB未被删除，所以fileA会被系统自动重新建立"
+      },
+      {
+        "label": "B",
+        "text": "fileB会随fileA的删除而被系统自动删除"
+      },
+      {
+        "label": "C",
+        "text": "fileB也随之被删除"
+      },
+      {
+        "label": "D",
+        "text": "fileB仍存在，但是属于无效文件"
+      }
+    ],
+    "answer": "D",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0619",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "关于 Linux 安装方式说法错误的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "如果 Linux 的安装程序无法启动图形安装程序，即使用户选择图形安装，也会自动的转入字符安装方式"
+      },
+      {
+        "label": "B",
+        "text": "图形安装模式耗费的系统资源比较少，字符方式耗费的系统资源较多"
+      },
+      {
+        "label": "C",
+        "text": "字符方式速度也比图形方式略快"
+      },
+      {
+        "label": "D",
+        "text": "图形安装方式易于使用"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0620",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "在 centos Linux 系统中，默认的 shell 是(同时也是使用最广泛的)( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "csh"
+      },
+      {
+        "label": "B",
+        "text": "bash"
+      },
+      {
+        "label": "C",
+        "text": "gnush"
+      },
+      {
+        "label": "D",
+        "text": "ash"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0621",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "以下哪个命令可以终止一个用户的所有进程( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "killall"
+      },
+      {
+        "label": "B",
+        "text": "kill"
+      },
+      {
+        "label": "C",
+        "text": "skillall"
+      },
+      {
+        "label": "D",
+        "text": "skill"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0622",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "关闭linux 系统（不重新启动）可使用（ ）命令",
+    "options": [
+      {
+        "label": "A",
+        "text": "halt"
+      },
+      {
+        "label": "B",
+        "text": "reboot"
+      },
+      {
+        "label": "C",
+        "text": "shutdown -r"
+      },
+      {
+        "label": "D",
+        "text": "ctrl+alt+del"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0623",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "使用标准的输出重定向符号(>)，重定向至‘file01'文件，能使文件 file01 的数据( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "被复制"
+      },
+      {
+        "label": "B",
+        "text": "被移动"
+      },
+      {
+        "label": "C",
+        "text": "被覆盖"
+      },
+      {
+        "label": "D",
+        "text": "被追加新内容"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0624",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "以下命令可以把当前目录下（/home/test）的压缩文件myftp.tar.gz解压缩到/目录下的命令是",
+    "options": [
+      {
+        "label": "A",
+        "text": "tar xvzf myftp.tar.gz /"
+      },
+      {
+        "label": "B",
+        "text": "tar xvzf myftp.tar.gz -C /"
+      },
+      {
+        "label": "C",
+        "text": "tar cvzf myftp.tar.gz /"
+      },
+      {
+        "label": "D",
+        "text": "tar cvzf myftp.tar.gz -C /"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0625",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "下列shell中检查数值的表达式的写法描述正确的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "x -gt y 检查x是否大于y"
+      },
+      {
+        "label": "B",
+        "text": "x -gt y 检查x是否小于y"
+      },
+      {
+        "label": "C",
+        "text": "x -ne y 检查x和y是否相等"
+      },
+      {
+        "label": "D",
+        "text": "x -eq y 为检查x和y是否不相等"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0626",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "有关vi的命令模式的dd命令描述正确的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "删除光标所在的行并进入插入模式"
+      },
+      {
+        "label": "B",
+        "text": "删除文件开头的行"
+      },
+      {
+        "label": "C",
+        "text": "删除文件末尾的行"
+      },
+      {
+        "label": "D",
+        "text": "删除光标所在的行"
+      }
+    ],
+    "answer": "D",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0627",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "在vi 编辑器中的命令模式下，重复上一次对编辑的文本进行的操作，可使用（）命令。",
+    "options": [
+      {
+        "label": "A",
+        "text": "下箭头"
+      },
+      {
+        "label": "B",
+        "text": "“.”"
+      },
+      {
+        "label": "C",
+        "text": "“*”"
+      },
+      {
+        "label": "D",
+        "text": "上箭头"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0628",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "/etc/passwd文件中存放(  )",
+    "options": [
+      {
+        "label": "A",
+        "text": "用户账号基本信息"
+      },
+      {
+        "label": "B",
+        "text": "用户组信息"
+      },
+      {
+        "label": "C",
+        "text": "管理员口令的加密信息"
+      },
+      {
+        "label": "D",
+        "text": "文件系统信息"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0629",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "在 bash 中, 在一条命令后加入 \"2>&1\" 意味着",
+    "options": [
+      {
+        "label": "A",
+        "text": "标准错误输出重定向到标准输出"
+      },
+      {
+        "label": "B",
+        "text": "标准错误输出重定向到标准输入"
+      },
+      {
+        "label": "C",
+        "text": "标准输入重定向到标准错误输出"
+      },
+      {
+        "label": "D",
+        "text": "标准输出重定向到标准输入"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0630",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "vi 中哪条命令是不保存强制退出( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": ":wq"
+      },
+      {
+        "label": "B",
+        "text": ":q!"
+      },
+      {
+        "label": "C",
+        "text": ":quit"
+      },
+      {
+        "label": "D",
+        "text": ":wq!"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0631",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "存放 Linux 基本命令的目录是什么( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "/tmp"
+      },
+      {
+        "label": "B",
+        "text": "/root"
+      },
+      {
+        "label": "C",
+        "text": "/bin"
+      },
+      {
+        "label": "D",
+        "text": "/lib"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0632",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "Linux 有三个查看文件的命令，若希望在查看文件内容过程中可以用光标上下移动来查看文件内容，应使用命令( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "more"
+      },
+      {
+        "label": "B",
+        "text": "less"
+      },
+      {
+        "label": "C",
+        "text": "menu"
+      },
+      {
+        "label": "D",
+        "text": "cat"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0633",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "以下可以正确执行对文件进行压缩的指令和选项是",
+    "options": [
+      {
+        "label": "A",
+        "text": "tar -fxvz"
+      },
+      {
+        "label": "B",
+        "text": "tar -fxzv"
+      },
+      {
+        "label": "C",
+        "text": "tar -zcvf"
+      },
+      {
+        "label": "D",
+        "text": "tar -xzf"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0634",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "什么命令解压缩tar文件",
+    "options": [
+      {
+        "label": "A",
+        "text": "tar -czvf filename.tgz"
+      },
+      {
+        "label": "B",
+        "text": "tar -dzvf filename.tgz"
+      },
+      {
+        "label": "C",
+        "text": "tar -tzvf filename.tgz"
+      },
+      {
+        "label": "D",
+        "text": "tar -xzvf filename.tgz"
+      }
+    ],
+    "answer": "D",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0635",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "某文件的权限为：l-rw-_r--_r-x，用数值形式表示为___ __，该文件类型是_______。",
+    "options": [],
+    "answer": "645 链接文件",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0636",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "将 /home/test 目录下的 myftp.tar.gz 文件解压缩到根目录的命令是 ____。",
+    "options": [],
+    "answer": "tar xvzf myftp.tar.gz -C /",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0637",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "在Shell脚本中，将命令的返回值赋给变量的两种方式是 ____和 ____。",
+    "options": [],
+    "answer": "A=date A=$(date)",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0638",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "在Shell脚本中，将命令执行结果赋给变量的两种方式是:反引号和 ____",
+    "options": [],
+    "answer": "$()",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0639",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "在vim编辑器中，从普通模式进入插入模式的光标位置命令包括:i(当前位置)、I()、a()、A(行尾)。",
+    "options": [],
+    "answer": "行首 下一个字符",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0640",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "普通用户的shell提示符是_____，管理员用户的shell提示符是_____",
+    "options": [],
+    "answer": "$ #",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0641",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "创建用户 milan 并指定其家目录为 /home/ttt 的命令是 ____。",
+    "options": [],
+    "answer": "useradd -d /home/ttt milan",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0642",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "在Linux系统中，常用来测试本机与远程主机的通信路径是否畅通的命令是_____。",
+    "options": [],
+    "answer": "ping",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0643",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "在文件系统中查找名为\"test.txt\"文件的命令是 ____。",
+    "options": [],
+    "answer": "find / -name test.txt",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0644",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "设置文件权限为所有者可读写执行(rwx)，同组用户可读执行(r-x)，其他用户可读执行(r-x)的命令是 ____。",
+    "options": [],
+    "answer": "chmod 755",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0645",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "mv 命令可以移动文件和目录，还可以为文件和目录____________。",
+    "options": [],
+    "answer": "重命名",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0646",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "默认情况下管理员创建了一个用户，就会在________ 目录下创建一个用户主目录。",
+    "options": [],
+    "answer": "/home",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0647",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "shell脚本的_________位置参数可以表示传递参数的个数。",
+    "options": [],
+    "answer": "$#",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0648",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "使用shutdown命令设置系统在30分钟后关机的命令是 ____。",
+    "options": [],
+    "answer": "shutdown -h +30",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0649",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "某文件tmp当前权限是rwxrwxrwx，如果要改为rw-rw-rw-,可以使用________命令来实现。",
+    "options": [],
+    "answer": "chmod a-x",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0650",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "在超级用户下，显示 Linux 系统中正在运行的全部进程，应使用的命令及参数是: ________",
+    "options": [],
+    "answer": "ps–aux",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0651",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "Linux虚拟机网络连接的三种基本模式是:桥接模式、____模式和____模式。",
+    "options": [],
+    "answer": "NAT Host-Only",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0652",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "设置系统在12:30关机的命令是 ____，取消该关机计划的命令是 ____。",
+    "options": [],
+    "answer": "shutdown -h 12:30 shutdown -c",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0653",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "[root@localhost home]#行首提示的几个组成部分分别代表____，____，____和____。",
+    "options": [],
+    "answer": "当前激活用户 主机名 当前工作区 用户提示符",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0654",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "在 Linux 系统中，压缩文件后生成后缀为.gz 文件的命令是: ________。",
+    "options": [],
+    "answer": "gzip",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0655",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "创建用户时指定家目录的参数是 ____，删除用户时同时删除家目录的参数是 ____。",
+    "options": [],
+    "answer": "-d -r",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0656",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "把文件file1和file2合并成file3的命令是____________。",
+    "options": [],
+    "answer": "cat  file1  file2  > file3",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0657",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "查看当前工作目录内容的命令是 ____，查看当前所在目录的命令是 ____。",
+    "options": [],
+    "answer": "ls pwd",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0658",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "为文件 filename 指定所有用户均具有读、写、执行权限的命令及参数是：________ 。",
+    "options": [],
+    "answer": "chmod 777 filename",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0659",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "终止进程号为896的进程的命令是 ____。",
+    "options": [],
+    "answer": "kill 896",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0660",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "显示计算机基本信息的命令是 ____，显示计算机名称的命令是 ____。",
+    "options": [],
+    "answer": "uname hostname",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0661",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "将目录打包并压缩为demo.tar.gz文件的命令是 ____。",
+    "options": [],
+    "answer": "tar -zcf demo.tar.gz demo/",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0662",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "查看当前系统进程详细信息的命令是 ____。",
+    "options": [],
+    "answer": "ps -aux",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0663",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "________就是将前一个命令的标准输出作为后一个命令的_______。",
+    "options": [],
+    "answer": "管道符 (标准)输入",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0664",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "将文件 aaa 改名为 bbb 的命令是 ____。",
+    "options": [],
+    "answer": "mv aaa bbb",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0665",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "设置文件权限为所有者可读写(rw-)，同组用户可读(r--)，其他用户可读(r--)的命令是 ____。",
+    "options": [],
+    "answer": "chmod 644",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0666",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "在 test.txt 文件中查找包含\"teacher\"字符串的行的命令是 ____。",
+    "options": [],
+    "answer": "grep \"teacher\" test.txt",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0667",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下属于 sed 编辑器常用命令的有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "l(列表)"
+      },
+      {
+        "label": "B",
+        "text": "p(打印)"
+      },
+      {
+        "label": "C",
+        "text": "d(删除)"
+      },
+      {
+        "label": "D",
+        "text": "s(替换)"
+      }
+    ],
+    "answer": "BCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0668",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下属于 Linux 系统变量的有",
+    "options": [
+      {
+        "label": "A",
+        "text": "$PATH"
+      },
+      {
+        "label": "B",
+        "text": "$HOME"
+      },
+      {
+        "label": "C",
+        "text": "$USER"
+      },
+      {
+        "label": "D",
+        "text": "$PWD"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0669",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下关于 vim 编辑器模式切换的描述正确的有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "从普通模式按 “i” 进入插入模式"
+      },
+      {
+        "label": "B",
+        "text": "从插入模式按 “Esc” 回到普通模式"
+      },
+      {
+        "label": "C",
+        "text": "从普通模式输入 “:” 进入末行模式"
+      },
+      {
+        "label": "D",
+        "text": "末行模式可直接按 “i” 进入插入模式"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0670",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下属于用户管理相关的命令有",
+    "options": [
+      {
+        "label": "A",
+        "text": "userdel"
+      },
+      {
+        "label": "B",
+        "text": "usermod"
+      },
+      {
+        "label": "C",
+        "text": "useradd"
+      },
+      {
+        "label": "D",
+        "text": "groupadd"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0671",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下关于正则表达式字符匹配的描述正确的有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "“.” 匹配任意单个字符"
+      },
+      {
+        "label": "B",
+        "text": "“[^]” 匹配指定范围外的任意单个字符"
+      },
+      {
+        "label": "C",
+        "text": "“*” 匹配前面的字符仅一次"
+      },
+      {
+        "label": "D",
+        "text": "“[]” 匹配指定范围内的任意单个字符"
+      }
+    ],
+    "answer": "ABD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0672",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下能实现文件压缩功能的命令有",
+    "options": [
+      {
+        "label": "A",
+        "text": "gunzip"
+      },
+      {
+        "label": "B",
+        "text": "tar -zcf"
+      },
+      {
+        "label": "C",
+        "text": "zip -r"
+      },
+      {
+        "label": "D",
+        "text": "gzip"
+      }
+    ],
+    "answer": "BCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0673",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下关于 Linux 文件描述符的描述正确的有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 对应标准输出(stdout)"
+      },
+      {
+        "label": "B",
+        "text": "0 对应标准输入(stdin)"
+      },
+      {
+        "label": "C",
+        "text": "2 对应标准错误输出(stderr)"
+      },
+      {
+        "label": "D",
+        "text": "“2>&1” 表示将标准输出重定向到标准错误"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0674",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下对 rmdir 命令的描述正确的有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "删除单个空目录时无需添加选项"
+      },
+      {
+        "label": "B",
+        "text": "-p 选项可递归删除多级空目录"
+      },
+      {
+        "label": "C",
+        "text": "仅能删除空目录"
+      },
+      {
+        "label": "D",
+        "text": "可直接删除包含文件的目录"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0675",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下属于用户组管理相关的命令有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "groupdel:删除用户组"
+      },
+      {
+        "label": "B",
+        "text": "usermod -g:将用户添加到指定组"
+      },
+      {
+        "label": "C",
+        "text": "groupadd:创建用户组"
+      },
+      {
+        "label": "D",
+        "text": "groupmod:修改用户组属性"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0676",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下关于 sed 编辑器的描述正确的有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "sed 是无破坏性编辑器，默认不修改原文件"
+      },
+      {
+        "label": "B",
+        "text": "“s/old/new/g” 表示全局替换文本中的 old 为 newC. “d” 命令用于删除匹配的行D. “p” 命令单独使用时仅打印匹配行，不输出其他行"
+      }
+    ],
+    "answer": "AB",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0677",
+    "level": "C",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "下列哪个命令可以起到Linux操作系统关机的效果( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "shutdown -r"
+      },
+      {
+        "label": "B",
+        "text": "shutdown -h"
+      },
+      {
+        "label": "C",
+        "text": "poweroff"
+      },
+      {
+        "label": "D",
+        "text": "halt"
+      }
+    ],
+    "answer": "BCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0678",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下关于 touch 命令的选项及功能描述正确的有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "-c:若文件不存在则不创建新文件"
+      },
+      {
+        "label": "B",
+        "text": "-r:参考其他文件的时间戳更新目标文件"
+      },
+      {
+        "label": "C",
+        "text": "-a:仅修改文件的修改时间"
+      },
+      {
+        "label": "D",
+        "text": "-t:按指定格式设置文件时间戳"
+      }
+    ],
+    "answer": "ABD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0679",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下关于管道符 “|” 的描述正确的有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "可用于连接任意两个命令"
+      },
+      {
+        "label": "B",
+        "text": "可将前一个命令的标准输出作为后一个命令的标准输入"
+      },
+      {
+        "label": "C",
+        "text": "不能处理前一个命令的标准错误"
+      },
+      {
+        "label": "D",
+        "text": "右侧命令必须能接收标准输入"
+      }
+    ],
+    "answer": "BCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0680",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下对 Linux 文件权限的理解正确的有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "目录的 “w” 权限允许在目录内创建、删除文件"
+      },
+      {
+        "label": "B",
+        "text": "仅修改文件所有者需使用 chmod 命令"
+      },
+      {
+        "label": "C",
+        "text": "权限 “755” 表示所有者可读可写可执行，同组和其他用户只读可执行"
+      },
+      {
+        "label": "D",
+        "text": "文件的 “x” 权限仅对可执行程序有效"
+      }
+    ],
+    "answer": "ACD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0681",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下正则表达式元字符及匹配规则描述正确的有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "“^” 表示行首锚定"
+      },
+      {
+        "label": "B",
+        "text": "“.*” 表示匹配任意长度的任意字符"
+      },
+      {
+        "label": "C",
+        "text": "“$” 表示行尾锚定"
+      },
+      {
+        "label": "D",
+        "text": "“[]” 表示匹配指定范围外的任意单个字符"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0682",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "在Shell中变量的赋值方法有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "直接赋值"
+      },
+      {
+        "label": "B",
+        "text": "使用read命令"
+      },
+      {
+        "label": "C",
+        "text": "不可以赋值"
+      },
+      {
+        "label": "D",
+        "text": "使用命令行参数"
+      }
+    ],
+    "answer": "BC",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0683",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下关于 tar 命令的选项描述正确的有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "-v 表示显示操作过程"
+      },
+      {
+        "label": "B",
+        "text": "-z 表示支持 gzip 压缩"
+      },
+      {
+        "label": "C",
+        "text": "-c 表示创建压缩文件"
+      },
+      {
+        "label": "D",
+        "text": "-x 表示提取文件"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0684",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "vi/vim 编辑器中，能实现 “保存并退出” 功能的操作有",
+    "options": [
+      {
+        "label": "A",
+        "text": ":x"
+      },
+      {
+        "label": "B",
+        "text": "Shift+ZZ"
+      },
+      {
+        "label": "C",
+        "text": ":q!"
+      },
+      {
+        "label": "D",
+        "text": ":wq"
+      }
+    ],
+    "answer": "ABD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0685",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下能终止进程的命令有",
+    "options": [
+      {
+        "label": "A",
+        "text": "kill"
+      },
+      {
+        "label": "B",
+        "text": "ps"
+      },
+      {
+        "label": "C",
+        "text": "killall"
+      },
+      {
+        "label": "D",
+        "text": "pkill"
+      }
+    ],
+    "answer": "ACD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0686",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下属于 Linux 关机命令的有",
+    "options": [
+      {
+        "label": "A",
+        "text": "reboot"
+      },
+      {
+        "label": "B",
+        "text": "shutdown -h"
+      },
+      {
+        "label": "C",
+        "text": "poweroff"
+      },
+      {
+        "label": "D",
+        "text": "halt"
+      }
+    ],
+    "answer": "BCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0687",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "下列Shell结构化语句中能够起到循环作用的有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "for"
+      },
+      {
+        "label": "B",
+        "text": "if"
+      },
+      {
+        "label": "C",
+        "text": "until"
+      },
+      {
+        "label": "D",
+        "text": "while"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0688",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下能修改文件权限的命令及方式有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "chown 用户名 文件名"
+      },
+      {
+        "label": "B",
+        "text": "chmod u=rwx 文件名"
+      },
+      {
+        "label": "C",
+        "text": "chmod 755 文件名"
+      },
+      {
+        "label": "D",
+        "text": "chmod g+w 文件名"
+      }
+    ],
+    "answer": "BCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0689",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "下列属于Linux操作系统特点的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "便于定制和再开发"
+      },
+      {
+        "label": "B",
+        "text": "源码公开"
+      },
+      {
+        "label": "C",
+        "text": "性能高安全性强"
+      },
+      {
+        "label": "D",
+        "text": "与unix兼容"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0690",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "下面哪些是Linux中常用的环境变量( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "PWD"
+      },
+      {
+        "label": "B",
+        "text": "PATH"
+      },
+      {
+        "label": "C",
+        "text": "CD"
+      },
+      {
+        "label": "D",
+        "text": "RANDOM"
+      }
+    ],
+    "answer": "ABD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0691",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下属于 awk 内置变量的有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "FS:输出字段分隔符"
+      },
+      {
+        "label": "B",
+        "text": "NF:当前行的字段数"
+      },
+      {
+        "label": "C",
+        "text": "NR:已读取的记录数(行号)"
+      },
+      {
+        "label": "D",
+        "text": "FILENAME:当前处理的文件名"
+      }
+    ],
+    "answer": "BCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0692",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下属于 Shell 变量定义规则的有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "变量名必须全大写"
+      },
+      {
+        "label": "B",
+        "text": "等号两侧不能有空格"
+      },
+      {
+        "label": "C",
+        "text": "变量名可由字母、数字和下划线组成"
+      },
+      {
+        "label": "D",
+        "text": "变量名不能以数字开头"
+      }
+    ],
+    "answer": "BCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0693",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "查看 Linux 系统进程信息的命令及选项有",
+    "options": [
+      {
+        "label": "A",
+        "text": "top"
+      },
+      {
+        "label": "B",
+        "text": "ps -aux"
+      },
+      {
+        "label": "C",
+        "text": "ps -ef"
+      },
+      {
+        "label": "D",
+        "text": "kill -9"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0694",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "在终端上查一个很小的数据文件data的内容，我们可以通过( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "vi data"
+      },
+      {
+        "label": "B",
+        "text": "less data"
+      },
+      {
+        "label": "C",
+        "text": "cat data"
+      },
+      {
+        "label": "D",
+        "text": "man data"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0695",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下属于 Shell 编程流程控制结构的有",
+    "options": [
+      {
+        "label": "A",
+        "text": "if...elif...fi"
+      },
+      {
+        "label": "B",
+        "text": "for 循环"
+      },
+      {
+        "label": "C",
+        "text": "while 循环"
+      },
+      {
+        "label": "D",
+        "text": "case...in...esac"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0696",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下对管道符 “|” 的使用规则描述正确的有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "仅能传递前一个命令的标准输出"
+      },
+      {
+        "label": "B",
+        "text": "右侧命令必须支持接收标准输入"
+      },
+      {
+        "label": "C",
+        "text": "可连接任意两个 Linux 命令直接传递数据"
+      },
+      {
+        "label": "D",
+        "text": "无法传递前一个命令的标准错误"
+      }
+    ],
+    "answer": "ABD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0697",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "下列命令可以独立使用达到查看文件的效果的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "vi"
+      },
+      {
+        "label": "B",
+        "text": "more"
+      },
+      {
+        "label": "C",
+        "text": "cat"
+      },
+      {
+        "label": "D",
+        "text": "echo"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0698",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下能查看文件内容的命令有",
+    "options": [
+      {
+        "label": "A",
+        "text": "more"
+      },
+      {
+        "label": "B",
+        "text": "cat"
+      },
+      {
+        "label": "C",
+        "text": "head"
+      },
+      {
+        "label": "D",
+        "text": "less"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0699",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下关于文件重定向的描述正确的有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "“>>” 表示追加重定向"
+      },
+      {
+        "label": "B",
+        "text": "“>” 表示覆盖重定向"
+      },
+      {
+        "label": "C",
+        "text": "“<” 表示标准输出重定向"
+      },
+      {
+        "label": "D",
+        "text": "“2>” 表示标准错误输出重定向"
+      }
+    ],
+    "answer": "ABD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0700",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "命令模式进入插入模式的命令有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "b"
+      },
+      {
+        "label": "B",
+        "text": "a"
+      },
+      {
+        "label": "C",
+        "text": "o"
+      },
+      {
+        "label": "D",
+        "text": "d"
+      }
+    ],
+    "answer": "BC",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0701",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "对权限rwxrw-r—描述正确的是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "可以使用chmod的数字设定法754设定"
+      },
+      {
+        "label": "B",
+        "text": "可以使用chmod的文字设定法g+rw设定中间三位"
+      },
+      {
+        "label": "C",
+        "text": "可以使用chmod的文字设定法u=rwx设定前三位"
+      },
+      {
+        "label": "D",
+        "text": "可以使用chmod的文字设定法o=r设定最后三位"
+      }
+    ],
+    "answer": "CD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0702",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下对 declare 命令参数功能描述正确的有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "-x 用于将变量设为环境变量"
+      },
+      {
+        "label": "B",
+        "text": "-i 用于定义整数变量"
+      },
+      {
+        "label": "C",
+        "text": "-r 用于取消变量的只读属性"
+      },
+      {
+        "label": "D",
+        "text": "-a 用于定义数组变量"
+      }
+    ],
+    "answer": "ABD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0703",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下对 Shell 脚本执行方式描述正确的有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "无需赋予执行权限，使用 sh 命令执行"
+      },
+      {
+        "label": "B",
+        "text": "直接双击脚本文件执行"
+      },
+      {
+        "label": "C",
+        "text": "赋予执行权限后，通过相对路径执行"
+      },
+      {
+        "label": "D",
+        "text": "赋予执行权限后，通过绝对路径执行"
+      }
+    ],
+    "answer": "ACD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0704",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下属于 Linux 目录操作命令的有",
+    "options": [
+      {
+        "label": "A",
+        "text": "rmdir"
+      },
+      {
+        "label": "B",
+        "text": "cd"
+      },
+      {
+        "label": "C",
+        "text": "mkdir"
+      },
+      {
+        "label": "D",
+        "text": "pwd"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0705",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下对 cp 命令选项功能描述正确的有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "-a 选项适用于复制目录，保留链接、文件属性及目录下所有内容"
+      },
+      {
+        "label": "B",
+        "text": "-i 覆盖目标文件前会提示用户确认"
+      },
+      {
+        "label": "C",
+        "text": "-d 复制时保留源文件的链接属性(类似 Windows 快捷方式)"
+      },
+      {
+        "label": "D",
+        "text": "-p 仅复制文件内容，不保留原文件的修改时间和访问权限"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0706",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下对 Linux 文件权限数字表示法描述正确的有",
+    "options": [
+      {
+        "label": "A",
+        "text": "755 表示所有者可读可写可执行，同组和其他用户只读"
+      },
+      {
+        "label": "B",
+        "text": "x 对应权限值 1"
+      },
+      {
+        "label": "C",
+        "text": "r 对应权限值 4"
+      },
+      {
+        "label": "D",
+        "text": "w 对应权限值 2"
+      }
+    ],
+    "answer": "BCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0707",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "以下关于 basename 和 dirname 命令的功能描述正确的有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "dirname /home/test/file.txt 输出 “/home/test”"
+      },
+      {
+        "label": "B",
+        "text": "basename /home/test/file.txt .txt 输出 “file”"
+      },
+      {
+        "label": "C",
+        "text": "dirname /home/test/ 输出 “/home/test”"
+      },
+      {
+        "label": "D",
+        "text": "basename /home/test/file.txt 输出 “file.txt”"
+      }
+    ],
+    "answer": "ABD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0708",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "简答题",
+    "title": "写出以下shell程序运行结果mystr=\"Hi there\"echo $mystrecho \"$mystr\"echo '$mystr'echo \\$mystrecho Enter x+y+zread mystr  #此时用户在键盘输入5+6+7echo '$mystr'  now  equals  $mystr",
+    "options": [],
+    "answer": "Hi there Hi there $mystr $mystr Enter x+y+z 5+6+7（输入） $mystr  now equals 5+6+7",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0709",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "简答题",
+    "title": "按下列要求写出每一步骤的命令（1）新建一个用户user1，并指定其所属组为group1。（2）在用户user1个人目录下新建目录test。（3）复制/tmp/myfile目录下的所有以h开头目录或文件到test目录中。 ### 1. (简答题)介绍一下软连接和硬链接，以及两者之间的区别",
+    "options": [],
+    "answer": "（1）adduser –g group1 user1  或 useradd –g group1 user1（2）mkdir /home/user1/test （3）cp /tmp/myfile/h*  /home/user1/test",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0710",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "获取元组val t=(1, \"Rose\",true)中的\" Rose \"的选项是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "t._1"
+      },
+      {
+        "label": "B",
+        "text": "t._2"
+      },
+      {
+        "label": "C",
+        "text": "t(0)"
+      },
+      {
+        "label": "D",
+        "text": "t(1)"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Scala元组通过._N访问元素，从1开始编号。t._1=1, t._2=\"Rose\", t._3=true。",
+    "topic": "重点",
+    "level": "A",
+    "id": "GEN0711",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "Apache Spark提供了哪些编程语言的接口( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "Java"
+      },
+      {
+        "label": "B",
+        "text": "Scala"
+      },
+      {
+        "label": "C",
+        "text": "Python"
+      },
+      {
+        "label": "D",
+        "text": "以上选项都是"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Spark原生支持Scala、Java、Python和R四种语言接口。",
+    "topic": "Spark概述",
+    "level": "A",
+    "id": "GEN0712",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "以下选项中定义List列表错误的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "val list=2::3::List(4,5)"
+      },
+      {
+        "label": "B",
+        "text": "val list=List(1,2,3,4)"
+      },
+      {
+        "label": "C",
+        "text": "val list=2::3::4"
+      },
+      {
+        "label": "D",
+        "text": "val list=1::2::3::Nil"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Scala中::是List的方法，右侧必须是List类型。2::3::4 中4是Int不是List，会报错。正确写法应为2::3::4::Nil或2::3::List(4)。",
+    "topic": "Scala集合",
+    "level": "B",
+    "id": "GEN0713",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "以下RDD算子中具有懒加载特性的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "foreach( )"
+      },
+      {
+        "label": "B",
+        "text": "collect( )"
+      },
+      {
+        "label": "C",
+        "text": "reduce( )"
+      },
+      {
+        "label": "D",
+        "text": "flatMap( )"
+      }
+    ],
+    "answer": "D",
+    "explanation": "flatMap是转换(Transformation)算子，具有懒加载特性。foreach、collect、reduce都是行动(Action)算子，会触发实际计算。",
+    "topic": "重点",
+    "level": "A",
+    "id": "GEN0714",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "阅读以下代码:val rdd1 = sc.parallelize(Array((\"Hadoop\",12), (\"Java\",32), (\"Spark\",22))); val rdd2 = rdd1.map(x=>(x._2,x._1)).sortByKey(false)。关于rdd2描述错误的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "sortByKey算子只能作用在key-value对的RDD上"
+      },
+      {
+        "label": "B",
+        "text": "rdd2的类型为RDD[(Int,String)]"
+      },
+      {
+        "label": "C",
+        "text": "rdd2中的元素是[(32, \"Java\"),(22, \"Spark\"),(12, \"Hadoop\")]"
+      },
+      {
+        "label": "D",
+        "text": "sortByKey是一个行动算子"
+      }
+    ],
+    "answer": "D",
+    "explanation": "sortByKey是转换(Transformation)算子，不是行动(Action)算子。sortByKey(false)表示降序排列，结果为(32,Java),(22,Spark),(12,Hadoop)。",
+    "topic": "重点",
+    "level": "A",
+    "id": "GEN0715",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "Spark中触发真正计算的方法是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "map( )"
+      },
+      {
+        "label": "B",
+        "text": "collect( )"
+      },
+      {
+        "label": "C",
+        "text": "sortBy( )"
+      },
+      {
+        "label": "D",
+        "text": "groupByKey( )"
+      }
+    ],
+    "answer": "B",
+    "explanation": "collect()是行动(Action)算子，会触发真正的计算并将结果返回到Driver。map、sortBy、groupByKey都是转换算子，具有懒加载特性。",
+    "topic": "Spark RDD",
+    "level": "A",
+    "id": "GEN0716",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "多选题",
+    "title": "以下属于Spark特点的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "快速"
+      },
+      {
+        "label": "B",
+        "text": "易用性"
+      },
+      {
+        "label": "C",
+        "text": "通用性"
+      },
+      {
+        "label": "D",
+        "text": "随处运行"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "Spark的四大特点：快速(Fast)、易用(Easy to Use)、通用(General)、随处运行(Runs Everywhere)。",
+    "topic": "重点",
+    "level": "A",
+    "id": "GEN0717",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "多选题",
+    "title": "以下属于Spark模块的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "Spark Core"
+      },
+      {
+        "label": "B",
+        "text": "Spark SQL"
+      },
+      {
+        "label": "C",
+        "text": "Spark Streaming"
+      },
+      {
+        "label": "D",
+        "text": "Flink"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "Spark模块包括Spark Core、Spark SQL、Spark Streaming、MLlib、GraphX。Flink是另一个独立的流处理框架。",
+    "topic": "重点",
+    "level": "A",
+    "id": "GEN0718",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "多选题",
+    "title": "Spark可以使用的资源管理器有哪些( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "Mesos"
+      },
+      {
+        "label": "B",
+        "text": "Standalone"
+      },
+      {
+        "label": "C",
+        "text": "YARN"
+      },
+      {
+        "label": "D",
+        "text": "Cloud"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "Spark支持Standalone（自带）、YARN、Mesos和Kubernetes四种集群管理器。Cloud不是资源管理器。",
+    "topic": "重点",
+    "level": "A",
+    "id": "GEN0719",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "多选题",
+    "title": "以下关于Spark的描述中正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "快速"
+      },
+      {
+        "label": "B",
+        "text": "可扩展"
+      },
+      {
+        "label": "C",
+        "text": "具有容错能力"
+      },
+      {
+        "label": "D",
+        "text": "可以替代Hadoop"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "Spark快速、可扩展、具有容错能力，但它不能完全替代Hadoop生态圈（如HDFS、YARN等组件仍需要Hadoop）。",
+    "topic": "Spark概述",
+    "level": "B",
+    "id": "GEN0720",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "多选题",
+    "title": "属于RDD行动算子的方法是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "reduce( )"
+      },
+      {
+        "label": "B",
+        "text": "foreach( )"
+      },
+      {
+        "label": "C",
+        "text": "collect( )"
+      },
+      {
+        "label": "D",
+        "text": "union( )"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "reduce、foreach、collect都是行动(Action)算子。union是转换(Transformation)算子，用于合并两个RDD。",
+    "topic": "Spark RDD",
+    "level": "A",
+    "id": "GEN0721",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "判断题",
+    "title": "Spark是一个快速的、分布式的集群资源管理框架。( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Spark是分布式计算引擎，不是资源管理框架。YARN和Mesos才是集群资源管理框架。",
+    "topic": "重点",
+    "level": "A",
+    "id": "GEN0722",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "判断题",
+    "title": "Spark是Hadoop的替代方案。( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Spark替代的是Hadoop的MapReduce计算模型，但不是整个Hadoop生态的替代方案。Spark通常与HDFS、YARN等Hadoop组件配合使用。",
+    "topic": "Spark概述",
+    "level": "A",
+    "id": "GEN0723",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "判断题",
+    "title": "Scala支持的元组最大长度是22。( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Scala中Tuple2到Tuple22共21种元组类型，最大支持22个元素。",
+    "topic": "重点",
+    "level": "A",
+    "id": "GEN0724",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "判断题",
+    "title": "Scala类有主构造和辅助构造，其中主构造会执行类中所有代码块。( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Scala类的主构造器会执行类定义体中除方法和辅助构造器外的所有代码。",
+    "topic": "Scala基础",
+    "level": "B",
+    "id": "GEN0725",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "判断题",
+    "title": "Spark作业中，窄依赖是划分Stage的依据。( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "B",
+    "explanation": "宽依赖(Shuffle Dependency)才是划分Stage的依据。遇到宽依赖时Spark会划分新的Stage，窄依赖不会导致Stage划分。",
+    "topic": "重点",
+    "level": "A",
+    "id": "GEN0726",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "Spark SQL 中用于处理结构化数据的编程入口是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "SparkContext"
+      },
+      {
+        "label": "B",
+        "text": "SparkSession"
+      },
+      {
+        "label": "C",
+        "text": "StreamingContext"
+      },
+      {
+        "label": "D",
+        "text": "SQLContext"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Spark 2.0+中SparkSession是统一的编程入口，整合了SparkContext、SQLContext和HiveContext。",
+    "topic": "重点",
+    "level": "A",
+    "id": "GEN0727",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "下列关于 DataFrame 描述错误的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "是列命名的分布式数据集"
+      },
+      {
+        "label": "B",
+        "text": "等价于 DataSet[Row]"
+      },
+      {
+        "label": "C",
+        "text": "不支持 SQL 查询"
+      },
+      {
+        "label": "D",
+        "text": "可从 RDD、文件、Hive 表创建"
+      }
+    ],
+    "answer": "C",
+    "explanation": "DataFrame支持SQL查询，可通过createOrReplaceTempView注册临时视图后使用spark.sql()执行SQL。",
+    "topic": "重点",
+    "level": "A",
+    "id": "GEN0728",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "Spark SQL 默认读取的文件格式是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "CSV"
+      },
+      {
+        "label": "B",
+        "text": "JSON"
+      },
+      {
+        "label": "C",
+        "text": "Parquet"
+      },
+      {
+        "label": "D",
+        "text": "Text"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Spark SQL默认使用Parquet列式存储格式，具有高压缩比和高效的列裁剪特性。",
+    "topic": "重点",
+    "level": "A",
+    "id": "GEN0729",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "下列哪个方法用于将 DataFrame 注册为临时视图( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "createTable"
+      },
+      {
+        "label": "B",
+        "text": "createOrReplaceTempView"
+      },
+      {
+        "label": "C",
+        "text": "registerTable"
+      },
+      {
+        "label": "D",
+        "text": "createGlobalView"
+      }
+    ],
+    "answer": "B",
+    "explanation": "createOrReplaceTempView()将DataFrame注册为临时视图，仅在当前SparkSession生命周期内有效。createGlobalTempView()创建全局临时视图。",
+    "topic": "重点",
+    "level": "A",
+    "id": "GEN0730",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "想要将 DataFrame 保存为覆盖已有数据的模式，应选择( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "SaveMode.ErrorIfExists"
+      },
+      {
+        "label": "B",
+        "text": "SaveMode.Append"
+      },
+      {
+        "label": "C",
+        "text": "SaveMode.Overwrite"
+      },
+      {
+        "label": "D",
+        "text": "SaveMode.Ignore"
+      }
+    ],
+    "answer": "C",
+    "explanation": "SaveMode.Overwrite覆盖已存在的数据；ErrorIfExists(默认)数据存在则报错；Append追加；Ignore存在则忽略。",
+    "topic": "重点",
+    "level": "A",
+    "id": "GEN0731",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "多选题",
+    "title": "Spark SQL 的核心特点包括( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "与 Spark 应用无缝集成"
+      },
+      {
+        "label": "B",
+        "text": "统一访问多种数据源"
+      },
+      {
+        "label": "C",
+        "text": "兼容 Hive"
+      },
+      {
+        "label": "D",
+        "text": "提供标准 JDBC/ODBC 连接"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "Spark SQL四大特点：无缝集成Spark应用、统一数据访问、Hive兼容、标准化JDBC/ODBC连接。",
+    "topic": "重点",
+    "level": "A",
+    "id": "GEN0732",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "多选题",
+    "title": "下列属于 Spark SQL 支持的数据源有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "Hive"
+      },
+      {
+        "label": "B",
+        "text": "Parquet"
+      },
+      {
+        "label": "C",
+        "text": "JSON"
+      },
+      {
+        "label": "D",
+        "text": "JDBC"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "Spark SQL支持多种数据源，包括Hive、Parquet、JSON、JDBC、CSV、ORC等。",
+    "topic": "重点",
+    "level": "A",
+    "id": "GEN0733",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "多选题",
+    "title": "DataFrame 常用的查看数据方法有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "show( )"
+      },
+      {
+        "label": "B",
+        "text": "printSchema( )"
+      },
+      {
+        "label": "C",
+        "text": "take( )"
+      },
+      {
+        "label": "D",
+        "text": "first( )"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "show()显示前20行、printSchema()打印结构、take(n)返回前n行数组、first()返回第一行。",
+    "topic": "重点",
+    "level": "A",
+    "id": "GEN0734",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "多选题",
+    "title": "下列属于 DataFrame 保存模式 SaveMode 的有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "ErrorIfExists"
+      },
+      {
+        "label": "B",
+        "text": "Append"
+      },
+      {
+        "label": "C",
+        "text": "Overwrite"
+      },
+      {
+        "label": "D",
+        "text": "Ignore"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "SaveMode四种模式：ErrorIfExists(默认，存在则报错)、Append(追加)、Overwrite(覆盖)、Ignore(存在则忽略)。",
+    "topic": "重点",
+    "level": "A",
+    "id": "GEN0735",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "多选题",
+    "title": "关于 DataSet 说法正确的有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "强类型数据集"
+      },
+      {
+        "label": "B",
+        "text": "支持 RDD 算子"
+      },
+      {
+        "label": "C",
+        "text": "可与 DataFrame 相互转换"
+      },
+      {
+        "label": "D",
+        "text": "Scala/Java 可用"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "DataSet是强类型的，支持函数式算子，可通过toDF()转DataFrame，DataFrame通过as[T]转DataSet。Python不支持DataSet。",
+    "topic": "重点",
+    "level": "A",
+    "id": "GEN0736",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "判断题",
+    "title": "Spark SQL 的 Catalyst 是查询优化框架。( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Catalyst是Spark SQL的核心查询优化器，负责SQL/DataFrame的逻辑优化和物理执行计划生成。",
+    "topic": "重点",
+    "level": "A",
+    "id": "GEN0737",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "判断题",
+    "title": "DataFrame 本质上是 Dataset [Row]。( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "explanation": "DataFrame是Dataset[Row]的类型别名，Row是弱类型的。",
+    "topic": "重点",
+    "level": "A",
+    "id": "GEN0738",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "判断题",
+    "title": "spark-sql 命令可直接在 Linux 终端执行 SQL。( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "explanation": "spark-sql是Spark提供的命令行工具，可在终端直接执行SQL查询。类似于Hive的CLI。",
+    "topic": "Spark SQL",
+    "level": "B",
+    "id": "GEN0739",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "判断题",
+    "title": "使用 DataSet 必须导入 spark.implicits._。( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "explanation": "使用DataSet的toDS()、toDF()等隐式转换需要导入spark.implicits._。",
+    "topic": "重点",
+    "level": "A",
+    "id": "GEN0740",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "判断题",
+    "title": "spark-shell 中默认已提供 spark 对象即 SparkSession。( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Spark 2.0+的spark-shell启动时会自动创建名为spark的SparkSession对象和名为sc的SparkContext对象。",
+    "topic": "重点",
+    "level": "A",
+    "id": "GEN0741",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "以下关于MapReduce缺点的描述，错误的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "每次Job结果写入磁盘，大量IO开销"
+      },
+      {
+        "label": "B",
+        "text": "编程模型只有Map和Reduce，表达能力有限"
+      },
+      {
+        "label": "C",
+        "text": "不适合迭代式计算和交互式查询"
+      },
+      {
+        "label": "D",
+        "text": "MapReduce比Spark速度更快"
+      }
+    ],
+    "answer": "D",
+    "explanation": "MapReduce的缺点包括磁盘IO大、编程模型单一、不适合迭代计算。Spark比MapReduce快10-100倍。",
+    "topic": "Spark vs MapReduce",
+    "id": "GEN0742",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "多选题",
+    "title": "Spark 相比 MapReduce 的优势包括( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "内存迭代计算，速度快10-100倍"
+      },
+      {
+        "label": "B",
+        "text": "提供丰富的转换和行动算子"
+      },
+      {
+        "label": "C",
+        "text": "支持迭代计算和交互式查询"
+      },
+      {
+        "label": "D",
+        "text": "API更简洁易用"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "Spark核心优势：内存计算(快)、丰富算子、支持迭代/交互、简洁API。",
+    "topic": "Spark vs MapReduce",
+    "id": "GEN0743",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "简答题",
+    "title": "简述MapReduce的两大缺点，并说明Spark是如何解决这些问题的。",
+    "options": [],
+    "answer": "1) 磁盘IO大：MR每次Job结果写磁盘；Spark基于内存迭代计算。2) 编程模型单一：MR只有Map和Reduce；Spark提供flatMap/map/reduceByKey等丰富算子。",
+    "explanation": "Spark vs MapReduce",
+    "topic": "重点",
+    "id": "GEN0744",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "某企业需要对用户行为日志进行实时分析并及时告警，应使用Spark的哪个组件？( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "Spark SQL"
+      },
+      {
+        "label": "B",
+        "text": "Spark Streaming"
+      },
+      {
+        "label": "C",
+        "text": "MLlib"
+      },
+      {
+        "label": "D",
+        "text": "GraphX"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Spark Streaming用于流式计算和实时处理，适合实时日志分析场景。Spark SQL用于结构化数据，MLlib用于机器学习，GraphX用于图计算。",
+    "topic": "Spark组件选型",
+    "id": "GEN0745",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "某电商平台需要分析用户购买行为，构建商品推荐模型，应使用Spark的哪个组件？( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "Spark Streaming"
+      },
+      {
+        "label": "B",
+        "text": "Spark SQL"
+      },
+      {
+        "label": "C",
+        "text": "MLlib"
+      },
+      {
+        "label": "D",
+        "text": "GraphX"
+      }
+    ],
+    "answer": "C",
+    "explanation": "MLlib是Spark的机器学习库，适用于推荐系统、分类、聚类等场景。",
+    "topic": "Spark组件选型",
+    "id": "GEN0746",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "分析社交网络中用户之间的关系(如好友推荐、影响力分析)，最适合使用Spark的哪个组件？( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "MLlib"
+      },
+      {
+        "label": "B",
+        "text": "Spark SQL"
+      },
+      {
+        "label": "C",
+        "text": "GraphX"
+      },
+      {
+        "label": "D",
+        "text": "Spark Streaming"
+      }
+    ],
+    "answer": "C",
+    "explanation": "GraphX是Spark的图计算组件，适用于社交网络分析、PageRank等图算法场景。",
+    "topic": "Spark组件选型",
+    "id": "GEN0747",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "对Hive中的结构化数据执行SQL查询分析，应使用( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "Spark Core"
+      },
+      {
+        "label": "B",
+        "text": "Spark SQL"
+      },
+      {
+        "label": "C",
+        "text": "Spark Streaming"
+      },
+      {
+        "label": "D",
+        "text": "MLlib"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Spark SQL用于结构化数据处理和SQL查询，兼容Hive。",
+    "topic": "Spark组件选型",
+    "id": "GEN0748",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "Scala中，以下for循环语法正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "for (i = 0; i < 10; i++)"
+      },
+      {
+        "label": "B",
+        "text": "for (i <- 1 to 10)"
+      },
+      {
+        "label": "C",
+        "text": "for (i in 1..10)"
+      },
+      {
+        "label": "D",
+        "text": "for (int i : list)"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Scala的for循环使用生成器语法：for (变量 <- 集合/范围)。1 to 10 表示1到10的Range。",
+    "topic": "Scala for循环",
+    "id": "GEN0749",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "判断题",
+    "title": "Scala中，for (i <- 1 to 10) 表示i从1遍历到10（包含10）。( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "explanation": "1 to 10 包含10；1 until 10 不包含10。",
+    "topic": "Scala for循环",
+    "id": "GEN0750",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "Scala中，for (i <- 1 until 5) 循环执行的次数是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1 until 5 表示[1,5)，即1,2,3,4共4次。to是闭区间[1,5]。",
+    "topic": "Scala for循环",
+    "id": "GEN0751",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "Scala中，以下创建不可变Set的语法正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "val s = Set(1, 2, 3)"
+      },
+      {
+        "label": "B",
+        "text": "val s = new Set(1, 2, 3)"
+      },
+      {
+        "label": "C",
+        "text": "val s = [1, 2, 3]"
+      },
+      {
+        "label": "D",
+        "text": "val s = {1, 2, 3}"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Scala默认导入不可变Set，使用Set(元素...)创建。Set特性：元素不重复。",
+    "topic": "Scala集合",
+    "id": "GEN0752",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "Scala中，以下创建包含键值对的Map语法正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "val m = Map{\"a\"->1, \"b\"->2}"
+      },
+      {
+        "label": "B",
+        "text": "val m = Map(\"a\"->1, \"b\"->2)"
+      },
+      {
+        "label": "C",
+        "text": "val m = [\"a\":1, \"b\":2]"
+      },
+      {
+        "label": "D",
+        "text": "val m = {\"a\":1, \"b\":2}"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Scala使用Map(键->值, ...)创建映射。-> 是Scala中创建键值对的方法。",
+    "topic": "Scala集合",
+    "id": "GEN0753",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "判断题",
+    "title": "Scala中Set与List的主要区别是Set元素不重复且无序。( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Set是无序不重复集合；List是有序可重复集合。",
+    "topic": "Scala集合",
+    "id": "GEN0754",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "Scala中，class和object的主要区别是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "class可以有方法，object不能"
+      },
+      {
+        "label": "B",
+        "text": "class是多例的，object是单例的"
+      },
+      {
+        "label": "C",
+        "text": "class能继承，object不能"
+      },
+      {
+        "label": "D",
+        "text": "class运行快，object运行慢"
+      }
+    ],
+    "answer": "B",
+    "explanation": "class用于创建多个实例(多例)；object是单例对象，类似Java的静态工具类。",
+    "topic": "Scala类与对象",
+    "id": "GEN0755",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "判断题",
+    "title": "Scala中，用object关键字定义的伴生对象是单例的，所有静态成员应放在object中。( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Scala没有static关键字，静态成员放在object（单例对象）中。同名class和object互为伴生关系。",
+    "topic": "Scala类与对象",
+    "id": "GEN0756",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "Scala中，用于实现类继承的关键字是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "implements"
+      },
+      {
+        "label": "B",
+        "text": "extends"
+      },
+      {
+        "label": "C",
+        "text": "inherit"
+      },
+      {
+        "label": "D",
+        "text": "derive"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Scala使用extends实现继承，与Java一致。",
+    "topic": "Scala面向对象",
+    "id": "GEN0757",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "Scala中，与Java的interface类似、可被多重继承的特性是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "class"
+      },
+      {
+        "label": "B",
+        "text": "object"
+      },
+      {
+        "label": "C",
+        "text": "trait"
+      },
+      {
+        "label": "D",
+        "text": "abstract"
+      }
+    ],
+    "answer": "C",
+    "explanation": "trait（特质）类似Java 8的接口，可包含抽象和具体方法，支持多重混入(with)。",
+    "topic": "Scala面向对象",
+    "id": "GEN0758",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "判断题",
+    "title": "Scala中，子类重写父类方法时必须使用override关键字。( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Scala要求重写方法时必须显式使用override，避免意外覆盖。",
+    "topic": "Scala面向对象",
+    "id": "GEN0759",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "Spark Standalone模式下，负责资源管理和任务调度的主节点是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "Worker"
+      },
+      {
+        "label": "B",
+        "text": "Executor"
+      },
+      {
+        "label": "C",
+        "text": "Master"
+      },
+      {
+        "label": "D",
+        "text": "Driver"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Master是Standalone模式的主节点，负责资源管理。Worker是从节点，Executor是执行器，Driver是驱动程序。",
+    "topic": "Spark架构",
+    "id": "GEN0760",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "Spark中，负责运行具体Task、并将结果返回给Driver的组件是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "Master"
+      },
+      {
+        "label": "B",
+        "text": "Worker"
+      },
+      {
+        "label": "C",
+        "text": "Executor"
+      },
+      {
+        "label": "D",
+        "text": "NameNode"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Executor是运行在Worker节点上的JVM进程，负责执行具体Task和存储数据。",
+    "topic": "Spark架构",
+    "id": "GEN0761",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "多选题",
+    "title": "以下属于Spark基本架构组件的包括( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "Driver（驱动程序）"
+      },
+      {
+        "label": "B",
+        "text": "Executor（执行器）"
+      },
+      {
+        "label": "C",
+        "text": "Master（主节点）"
+      },
+      {
+        "label": "D",
+        "text": "Worker（从节点）"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "Spark架构包含Driver(运行main)、Master(资源管理)、Worker(工作节点)、Executor(任务执行)。",
+    "topic": "Spark架构",
+    "id": "GEN0762",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "判断题",
+    "title": "Spark中，Driver程序运行在Master节点上。( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Driver可以在任意节点上运行（通常在提交作业的客户端），不一定在Master上。",
+    "topic": "Spark架构",
+    "id": "GEN0763",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "填空题",
+    "title": "Spark中，创建SparkConf并设置应用名称的代码是：val conf = new SparkConf().____(\"MyApp\")。",
+    "options": [],
+    "answer": "setAppName",
+    "explanation": "SparkConf.setAppName()设置应用名称，setMaster()设置运行模式。",
+    "topic": "SparkConf/SparkContext",
+    "id": "GEN0764",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "填空题",
+    "title": "Spark中，设置本地运行模式的代码是：conf.setMaster(\"____\")。",
+    "options": [],
+    "answer": "local[*]",
+    "explanation": "local[*]表示使用本地所有CPU核心运行Spark。local[2]指定2个核心。",
+    "topic": "SparkConf/SparkContext",
+    "id": "GEN0765",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "以下创建SparkContext的正确代码是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "val sc = SparkContext(conf)"
+      },
+      {
+        "label": "B",
+        "text": "val sc = new SparkContext(conf)"
+      },
+      {
+        "label": "C",
+        "text": "val sc = SparkSession(conf)"
+      },
+      {
+        "label": "D",
+        "text": "val sc = SparkContext.create(conf)"
+      }
+    ],
+    "answer": "B",
+    "explanation": "使用new SparkContext(conf)创建。Spark 2.0+也可通过SparkSession.sparkContext获取。",
+    "topic": "SparkConf/SparkContext",
+    "id": "GEN0766",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "多选题",
+    "title": "RDD的五大属性包括( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "分区列表（Partitions）"
+      },
+      {
+        "label": "B",
+        "text": "依赖关系（Dependencies）"
+      },
+      {
+        "label": "C",
+        "text": "计算函数（Compute）"
+      },
+      {
+        "label": "D",
+        "text": "分区器（Partitioner，可选）"
+      },
+      {
+        "label": "E",
+        "text": "优先位置列表（Preferred Locations）"
+      }
+    ],
+    "answer": "ABCDE",
+    "explanation": "RDD五大属性：分区列表、每个分区的计算函数、依赖关系、分区器(可选)、优先位置列表。",
+    "topic": "RDD五大属性",
+    "id": "GEN0767",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "填空题",
+    "title": "RDD全称是弹性分布式数据集，英文是____ Distributed Dataset。",
+    "options": [],
+    "answer": "Resilient",
+    "explanation": "RDD = Resilient Distributed Dataset，Spark的核心数据抽象。",
+    "topic": "RDD概念",
+    "id": "GEN0768",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "简答题",
+    "title": "简述使用Spark RDD进行编程的五大步骤。",
+    "options": [],
+    "answer": "1) 创建SparkConf设置参数（AppName、Master）；2) 创建SparkContext(sc)；3) 读取数据源创建RDD并执行转换操作；4) 通过行动操作触发计算并存储结果；5) 调用sc.stop()停止SparkContext。",
+    "explanation": "RDD编程步骤",
+    "topic": "重点",
+    "id": "GEN0769",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "程序题",
+    "title": "使用Spark RDD编写WordCount程序（统计文本中每个单词出现次数），请写出完整代码。",
+    "options": [],
+    "answer": "val conf = new SparkConf().setAppName(\"WordCount\").setMaster(\"local[*]\"); val sc = new SparkContext(conf); val rdd = sc.textFile(\"input.txt\"); val result = rdd.flatMap(_.split(\" \")).map((_, 1)).reduceByKey(_ + _); result.saveAsTextFile(\"output\"); sc.stop()",
+    "explanation": "RDD编程模板",
+    "topic": "重点",
+    "id": "GEN0770",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "Spark中，自定义分区需要继承的类是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "Partitioner"
+      },
+      {
+        "label": "B",
+        "text": "Partition"
+      },
+      {
+        "label": "C",
+        "text": "RDD"
+      },
+      {
+        "label": "D",
+        "text": "SparkConf"
+      }
+    ],
+    "answer": "A",
+    "explanation": "自定义分区器需继承Partitioner类，重写numPartitions和getPartition方法。",
+    "topic": "RDD分区",
+    "id": "GEN0771",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "判断题",
+    "title": "RDD的partitioner属性仅对Key-Value类型的RDD有效，对非Key-Value类型为None。( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "explanation": "分区器仅适用于key-value RDD。HashPartitioner是默认分区器。",
+    "topic": "RDD分区",
+    "id": "GEN0772",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "Spark中，下列哪个算子会产生宽依赖(Shuffle)？( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "map()"
+      },
+      {
+        "label": "B",
+        "text": "filter()"
+      },
+      {
+        "label": "C",
+        "text": "reduceByKey()"
+      },
+      {
+        "label": "D",
+        "text": "flatMap()"
+      }
+    ],
+    "answer": "C",
+    "explanation": "reduceByKey、groupByKey、sortByKey等需要跨分区重组数据的算子会产生宽依赖(Shuffle)。map/filter/flatMap是窄依赖。",
+    "topic": "宽窄依赖",
+    "id": "GEN0773",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "多选题",
+    "title": "以下关于Spark RDD依赖关系的描述，正确的有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "窄依赖：子RDD的每个分区仅依赖父RDD的少数几个分区"
+      },
+      {
+        "label": "B",
+        "text": "宽依赖：子RDD的一个分区依赖父RDD的所有分区"
+      },
+      {
+        "label": "C",
+        "text": "遇到宽依赖时会划分新的Stage"
+      },
+      {
+        "label": "D",
+        "text": "Stage内的算子都是窄依赖关系"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "窄依赖一对一或少数对少数；宽依赖(Shuffle)一对多。宽依赖触发Stage划分。Stage内全是窄依赖的流水线操作。",
+    "topic": "宽窄依赖",
+    "id": "GEN0774",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "判断题",
+    "title": "Spark中，Stage划分的依据是遇到宽依赖(Shuffle Dependency)。( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "explanation": "每个Stage由一组可流水线执行的窄依赖算子组成，宽依赖触发新Stage。",
+    "topic": "宽窄依赖",
+    "id": "GEN0775",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "Spark SQL中，以下哪种方式是先注册临时视图再用SQL查询？( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "df.select(\"name\").show()"
+      },
+      {
+        "label": "B",
+        "text": "df.createOrReplaceTempView(\"t\"); spark.sql(\"SELECT * FROM t\")"
+      },
+      {
+        "label": "C",
+        "text": "df.filter($\"age\">20).show()"
+      },
+      {
+        "label": "D",
+        "text": "df.groupBy(\"dept\").count().show()"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Spark SQL支持两种分析方式：1) DataFrame API（select/filter/groupBy）；2) 视图+SQL（createOrReplaceTempView + spark.sql）。",
+    "topic": "Spark SQL分析方式",
+    "id": "GEN0776",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "简答题",
+    "title": "简述Spark SQL中DataFrame的两种数据分析方式，并举例说明各自适用场景。",
+    "options": [],
+    "answer": "方式1：DataFrame API直接操作（df.select/filter/groupBy），适合编程式链式调用；方式2：注册视图后使用SQL查询（df.createOrReplaceTempView + spark.sql），适合复杂SQL和熟悉SQL的人员。",
+    "explanation": "Spark SQL分析方式",
+    "topic": "重点",
+    "id": "GEN0777",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "多选题",
+    "title": "以下关于RDD、DataFrame、DataSet三者的描述，正确的有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "RDD是最底层的API，无Schema信息"
+      },
+      {
+        "label": "B",
+        "text": "DataFrame = Dataset[Row]，有Schema信息"
+      },
+      {
+        "label": "C",
+        "text": "DataSet是强类型的，编译时类型安全"
+      },
+      {
+        "label": "D",
+        "text": "DataFrame通过Catalyst优化器进行查询优化"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "Spark 2.0统一了API：RDD(无schema)→DataFrame(有schema,弱类型)→DataSet(强类型)。DataFrame走Catalyst优化。",
+    "topic": "Spark SQL概念",
+    "id": "GEN0778",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "单选题",
+    "title": "Scala中，以下定义方法(method)正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "val add = (a:Int,b:Int) => a+b"
+      },
+      {
+        "label": "B",
+        "text": "def add(a:Int,b:Int):Int = {a+b}"
+      },
+      {
+        "label": "C",
+        "text": "function add(a,b){return a+b}"
+      },
+      {
+        "label": "D",
+        "text": "method add(a:Int,b:Int) = a+b"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Scala方法用def定义：def 方法名(参数):返回类型 = {方法体}。val+箭头是函数(Function)。",
+    "topic": "Scala方法与函数",
+    "id": "GEN0779",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "判断题",
+    "title": "Scala中，方法是类的成员用def定义，函数是对象可以赋值给变量用val定义。( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "explanation": "方法(method)用def定义属于类；函数(function)是FunctionN的实例，可作为值传递。",
+    "topic": "Scala方法与函数",
+    "id": "GEN0780",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "程序题",
+    "title": "使用Spark RDD统计文本文件中每个省份出现的次数，写出核心代码（假设文件每行是一个省份名）。",
+    "options": [],
+    "answer": "val conf = new SparkConf().setAppName(\"ProvinceCount\").setMaster(\"local[*]\"); val sc = new SparkContext(conf); val rdd = sc.textFile(\"provinces.txt\"); val result = rdd.map((_, 1)).reduceByKey(_ + _); result.foreach(println); sc.stop()",
+    "explanation": "RDD编程案例",
+    "topic": "重点",
+    "id": "GEN0781",
+    "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Scala & Spark",
+    "type": "简答题",
+    "title": "使用Spark SQL统计CSV文件中各部门(dept)的人数，写出核心代码。",
+    "options": [],
+    "answer": "val spark = SparkSession.builder().appName(\"DeptCount\").master(\"local[*]\").getOrCreate(); val df = spark.read.format(\"csv\").option(\"header\",\"true\").load(\"employees.csv\"); df.createOrReplaceTempView(\"emp\"); spark.sql(\"SELECT dept, COUNT(*) FROM emp GROUP BY dept\").show(); spark.stop()",
+    "explanation": "Spark SQL编程案例",
+    "topic": "重点",
+    "id": "GEN0782",
+    "level": "A",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
