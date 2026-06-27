@@ -1,4 +1,4 @@
-// 六科完整题库 — 1082题 含复习重点全部知识点
+// 六科完整题库 — 1224题
 const PREPARSED_QUESTIONS = [
   {
     "subject": "Java Web",
@@ -31002,6 +31002,3978 @@ const PREPARSED_QUESTIONS = [
     "topic": "重点",
     "id": "GEN0782",
     "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "哪条命令可回到主目录( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "cd"
+      },
+      {
+        "label": "B",
+        "text": "cd ~"
+      },
+      {
+        "label": "C",
+        "text": "cd -"
+      },
+      {
+        "label": "D",
+        "text": "cd $HOME"
+      }
+    ],
+    "answer": "ABD",
+    "explanation": "cd和cd ~回到当前用户主目录。cd $HOME同理。cd -回到上次目录。",
+    "topic": "",
+    "id": "GEN0783",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "HBase Region Server包含的核心组件有？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Store"
+      },
+      {
+        "label": "B",
+        "text": "Region"
+      },
+      {
+        "label": "C",
+        "text": "BlockCache"
+      },
+      {
+        "label": "D",
+        "text": "HLog/WALs"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "RegionServer包含Region/Store/BlockCache/HLog四大核心组件。",
+    "topic": "",
+    "id": "GEN0784",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "关于HBase数据模型的特性，下列说法正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "RowKey以字节数组存储按字典序排序"
+      },
+      {
+        "label": "B",
+        "text": "列族创建表时必须指定列可动态添加"
+      },
+      {
+        "label": "C",
+        "text": "Cell数据版本按时间戳升序最新版本在最后"
+      },
+      {
+        "label": "D",
+        "text": "Timestamp默认由HBase自动赋值精确到毫秒"
+      }
+    ],
+    "answer": "ABD",
+    "explanation": "Cell版本默认按时间戳降序(最新在前)，不是升序。",
+    "topic": "",
+    "id": "GEN0785",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "在Windows环境搭建HBase开发环境时,需要以下哪些步骤?",
+    "options": [
+      {
+        "label": "A",
+        "text": "hadoop.dll放C:\\Windows\\System32"
+      },
+      {
+        "label": "B",
+        "text": "winutils.exe放Hadoop解压目录bin下"
+      },
+      {
+        "label": "C",
+        "text": "配置HBASE_HOME环境变量"
+      },
+      {
+        "label": "D",
+        "text": "配置HADOOP_HOME环境变量"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "四个步骤都需要。",
+    "topic": "",
+    "id": "GEN0786",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "Linux 系统中的时间戳涉及( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "mtime"
+      },
+      {
+        "label": "B",
+        "text": "wtime"
+      },
+      {
+        "label": "C",
+        "text": "atime"
+      },
+      {
+        "label": "D",
+        "text": "ctime"
+      }
+    ],
+    "answer": "ACD",
+    "explanation": "Linux三个时间戳：mtime(修改)、atime(访问)、ctime(状态改变)。wtime不存在。",
+    "topic": "",
+    "id": "GEN0787",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "HBase 中修改表结构的操作需要使用( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "put"
+      },
+      {
+        "label": "B",
+        "text": "chmod"
+      },
+      {
+        "label": "C",
+        "text": "alter"
+      },
+      {
+        "label": "D",
+        "text": "disable"
+      }
+    ],
+    "answer": "CD",
+    "explanation": "修改表结构用alter，需先disable。put是数据操作，chmod是Linux命令。",
+    "topic": "",
+    "id": "GEN0788",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "Zookeeper 的节点类型不包括( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "临时节点"
+      },
+      {
+        "label": "B",
+        "text": "计算节点"
+      },
+      {
+        "label": "C",
+        "text": "存储节点"
+      },
+      {
+        "label": "D",
+        "text": "持久节点"
+      }
+    ],
+    "answer": "BC",
+    "explanation": "ZK节点：持久/临时/持久顺序/临时顺序。计算和存储节点不是ZK类型。",
+    "topic": "",
+    "id": "GEN0789",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "以下关于HBase Region Server组件的描述，正确的有哪些？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Store对应列族每个Store包含一个或多个StoreFile"
+      },
+      {
+        "label": "B",
+        "text": "MemStore数据按随机顺序存储刷写时再排序"
+      },
+      {
+        "label": "C",
+        "text": "HLog用于在数据写入MemStore前记录操作日志防数据丢失"
+      },
+      {
+        "label": "D",
+        "text": "Region Server负责管理多个Region每个Region对应表一个数据分区"
+      }
+    ],
+    "answer": "ACD",
+    "explanation": "MemStore数据按RowKey有序存储，不是随机。",
+    "topic": "",
+    "id": "GEN0790",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "以下( )项目创始人是同一人。",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nutch"
+      },
+      {
+        "label": "B",
+        "text": "Hadoop"
+      },
+      {
+        "label": "C",
+        "text": "Avro"
+      },
+      {
+        "label": "D",
+        "text": "Lucene"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "Nutch/Hadoop/Avro/Lucene都由Doug Cutting创建。",
+    "topic": "",
+    "id": "GEN0791",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "下列关于HBase架构与数据模型的描述，正确的有哪些？",
+    "options": [
+      {
+        "label": "A",
+        "text": ".META表是HBase目录表记录所有Region位置信息"
+      },
+      {
+        "label": "B",
+        "text": "每个Region Server只能管理一个Region"
+      },
+      {
+        "label": "C",
+        "text": "HBase表的Schema由表名和列族名组成"
+      },
+      {
+        "label": "D",
+        "text": "命名空间可用于多租户场景下的数据隔离"
+      }
+    ],
+    "answer": "ACD",
+    "explanation": "一个RegionServer管理多个Region。其他都正确。",
+    "topic": "",
+    "id": "GEN0792",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "创建HBase maven项目时，以下关于pom.xml配置的说法正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eclipse环境下需额外声明java依赖"
+      },
+      {
+        "label": "B",
+        "text": "依赖版本可以随意选择"
+      },
+      {
+        "label": "C",
+        "text": "需添加hbase-client依赖"
+      },
+      {
+        "label": "D",
+        "text": "Idea环境下无需声明java依赖"
+      }
+    ],
+    "answer": "AC",
+    "explanation": "需添加hbase-client。Eclipse需额外声明java依赖。版本不能随意选。",
+    "topic": "",
+    "id": "GEN0793",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "以下关于HBase Java API的描述,正确的是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "可通过Java API操作HBase表数据"
+      },
+      {
+        "label": "B",
+        "text": "HBase Java API效率高"
+      },
+      {
+        "label": "C",
+        "text": "HBase 1.x和2.x的Java API完全相同"
+      },
+      {
+        "label": "D",
+        "text": "Java API比shell命令更灵活"
+      }
+    ],
+    "answer": "ABD",
+    "explanation": "1.x和2.x API有差异(2.x用Builder模式)。其他都正确。",
+    "topic": "",
+    "id": "GEN0794",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "使用 Python 操作 HBase 数据库，我们安装了( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "eclipse"
+      },
+      {
+        "label": "B",
+        "text": "happyhbase"
+      },
+      {
+        "label": "C",
+        "text": "happybase"
+      },
+      {
+        "label": "D",
+        "text": "thrift"
+      }
+    ],
+    "answer": "CD",
+    "explanation": "需要happybase库和thrift服务。happyhbase不存在。eclipse是IDE。",
+    "topic": "",
+    "id": "GEN0795",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "HBase 数据存放在带标签的表中，Tables 由( )组成。",
+    "options": [
+      {
+        "label": "A",
+        "text": "单元格"
+      },
+      {
+        "label": "B",
+        "text": "行"
+      },
+      {
+        "label": "C",
+        "text": "列族"
+      },
+      {
+        "label": "D",
+        "text": "列"
+      }
+    ],
+    "answer": "BC",
+    "explanation": "HBase表由行(Rows)和列族(Column Families)组成。",
+    "topic": "",
+    "id": "GEN0796",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "HBase 安装模式有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "内嵌模式"
+      },
+      {
+        "label": "B",
+        "text": "单机模式"
+      },
+      {
+        "label": "C",
+        "text": "分布式模式"
+      },
+      {
+        "label": "D",
+        "text": "独立模式"
+      }
+    ],
+    "answer": "BC",
+    "explanation": "HBase安装模式：单机模式(Standalone)和分布式模式(伪+完全)。",
+    "topic": "",
+    "id": "GEN0797",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "HBase的核心架构组件包括以下哪些？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Zookeeper"
+      },
+      {
+        "label": "B",
+        "text": "HMaster Server"
+      },
+      {
+        "label": "C",
+        "text": "HDFS"
+      },
+      {
+        "label": "D",
+        "text": "HBase Region Server"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "HBase核心组件：HMaster+RegionServer+ZooKeeper+HDFS。",
+    "topic": "",
+    "id": "GEN0798",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "搭建HBase开发环境时，以下哪些步骤是正确的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "hadoop.dll放C:\\Windows\\System32"
+      },
+      {
+        "label": "B",
+        "text": "无需配置Hadoop环境变量"
+      },
+      {
+        "label": "C",
+        "text": "Windows本地放与Linux版本一致的Hadoop包"
+      },
+      {
+        "label": "D",
+        "text": "winutils.exe放Hadoop解压目录bin下"
+      }
+    ],
+    "answer": "ACD",
+    "explanation": "需配置HADOOP_HOME。其他都正确。",
+    "topic": "",
+    "id": "GEN0799",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "关于HBase存储机制的描述，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据物理上按列族存储不同列族存不同Store"
+      },
+      {
+        "label": "B",
+        "text": "BlockCache缓存读取数据提高查询效率"
+      },
+      {
+        "label": "C",
+        "text": "MemStore达阈值异步刷写到StoreFile"
+      },
+      {
+        "label": "D",
+        "text": "StoreFile基于HDFS存储"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "全部正确。MemStore达阈值flus到HDFS上的StoreFile。",
+    "topic": "",
+    "id": "GEN0800",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "多选题",
+    "title": "用于查询当前已登录系统的用户的命令是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "w"
+      },
+      {
+        "label": "B",
+        "text": "users"
+      },
+      {
+        "label": "C",
+        "text": "u"
+      },
+      {
+        "label": "D",
+        "text": "who"
+      }
+    ],
+    "answer": "ABD",
+    "explanation": "w/who/users都可以查看当前登录用户。u不是。",
+    "topic": "",
+    "id": "GEN0801",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "多选题",
+    "title": "以下哪些选项是 HBase 表行键的有效表示形式( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "浮点数"
+      },
+      {
+        "label": "B",
+        "text": "二进制串"
+      },
+      {
+        "label": "C",
+        "text": "字符串"
+      },
+      {
+        "label": "D",
+        "text": "串行化的结构"
+      }
+    ],
+    "answer": "BCD",
+    "explanation": "RowKey是二进制字节数组：字符串/二进制串/序列化结构都可以。",
+    "topic": "",
+    "id": "GEN0802",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "在HBase Java API中，通过HBaseConfiguration工具获取配置信息的方法是HBaseConfiguration.______()；建立连接时使用的工厂类是______，对应的创建连接方法是______()。",
+    "options": [],
+    "answer": "create ConnectionFactory createConnection",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0803",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "Apache Thrift 是 Facebook 实现的一种高效的、支持多种编程语言的____调用的框架。",
+    "options": [],
+    "answer": "RPC",
+    "explanation": "Thrift是跨语言RPC(远程过程调用)框架。",
+    "topic": "",
+    "id": "GEN0804",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "Timestamp 是一个整数，长度是____。",
+    "options": [],
+    "answer": "64位",
+    "explanation": "HBase时间戳是64位长整型(long)，精确到毫秒。",
+    "topic": "",
+    "id": "GEN0805",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "HBase集群的三大核心组件包括____、____和____。其中负责监控集群节点状态并协调集群操作的组件是____；管理集群中所有RegionServer的主节点是____；实际处理数据读写请求的工作节点是____。",
+    "options": [],
+    "answer": "HMaster RegionServer ZooKeeper ZooKeeper HMaster RegionServer",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0806",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "HBase 中主节点运行起来后的进程名称是____。",
+    "options": [],
+    "answer": "HMaster",
+    "explanation": "HMaster是HBase主节点进程。",
+    "topic": "",
+    "id": "GEN0807",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "HBase 中查看表是否存在____。",
+    "options": [],
+    "answer": "exists",
+    "explanation": "HBase Shell中exists命令判断表是否存在。",
+    "topic": "",
+    "id": "GEN0808",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "在Java代码中，判断表是否存在可使用HBaseAdmin对象的________方法，创建表时需调用其________方法。",
+    "options": [],
+    "answer": "tableExists createTable",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0809",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "HBase Table cell value 有版本，是 HBase 插入单元格时候的____。",
+    "options": [],
+    "answer": "时间戳",
+    "explanation": "HBase通过时间戳(Timestamp)区分Cell不同版本。",
+    "topic": "",
+    "id": "GEN0810",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "Hbase 完全分布式安装时若使用外部安装的 ZooKeeper，则需要将配置文件中的____值修改为____。",
+    "options": [],
+    "answer": "HBASE_MANAGES_ZK false",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0811",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "HBase 的高性能得益于特有的____数据结构，通过 rowkey 查询速度非常快。",
+    "options": [],
+    "answer": "LSM",
+    "explanation": "HBase使用LSM树实现高性能随机读写。",
+    "topic": "",
+    "id": "GEN0812",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "HBase 中有两张特殊的 Table 即____和____。",
+    "options": [],
+    "answer": "-ROOT- .META.",
+    "explanation": "早期HBase有-ROOT-和.META.两张系统表。",
+    "topic": "",
+    "id": "GEN0813",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "RowKey 是二进制值 byte [        ]，按____排序。",
+    "options": [],
+    "answer": "字典序",
+    "explanation": "RowKey按字典序(字节序)排序存储。",
+    "topic": "",
+    "id": "GEN0814",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "在HBase中，通过rowkey查询单行数据使用______对象，查询多行数据使用______对象。执行scan查询后获取结果对象类型是______，遍历结果时通过______方法获取单元格数据。",
+    "options": [],
+    "answer": "Get Scan ResultScanner rawCells",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0815",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "适合HBase管理使用的最简单的命令行交互接口被称为______。",
+    "options": [],
+    "answer": "HBase Shell",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0816",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "在终端中，输入exit或者______可以退出HBase shell。",
+    "options": [],
+    "answer": "quit",
+    "explanation": "exit或quit都可以退出HBase Shell。",
+    "topic": "",
+    "id": "GEN0817",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "HBase shell中命令的参数要求使用单引号或者______引起来。",
+    "options": [],
+    "answer": "双引号",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0818",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "HBase 利用____作为其文件存储系统。",
+    "options": [],
+    "answer": "HDFS",
+    "explanation": "HBase底层存储依赖HDFS。",
+    "topic": "",
+    "id": "GEN0819",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "HBase 中查看记录使用命令____。",
+    "options": [],
+    "answer": "get",
+    "explanation": "get命令根据rowkey查询单行记录。",
+    "topic": "",
+    "id": "GEN0820",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "填空题",
+    "title": "查询显示当前系统 PATH 的命令是____。",
+    "options": [],
+    "answer": "echo $PATH",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0821",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "在HBase中，使用______命令可以以列表的方式展示HBase中所有的用户表。",
+    "options": [],
+    "answer": "list",
+    "explanation": "list命令列出所有用户表。",
+    "topic": "",
+    "id": "GEN0822",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "删除命名空间(namespace)时，只能删除______的命名空间，非空的命名空间不允许删除。",
+    "options": [],
+    "answer": "空",
+    "explanation": "只能删除空的命名空间。",
+    "topic": "",
+    "id": "GEN0823",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "HBase中唯一标识一个Cell的四个要素是____、____、____和____。Cell中的数据以____形式存储，不包含任何数据类型信息。",
+    "options": [],
+    "answer": "RowKey ColumnFamily ColumnQualifier Timestamp 字节数组",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0824",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "HBase 表中，所有的列族成员都具有相同的____。",
+    "options": [],
+    "answer": "前缀",
+    "explanation": "同一列族所有列共享相同前缀。",
+    "topic": "",
+    "id": "GEN0825",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "创建HBase表时，首先需要通过TableName.valueOf()确定表名；然后创建表描述器的构建器对应的类是______；创建列族描述器的构建器类是______；设置列族最大版本数的方法是______()；最后完成表创建的方法是admin.______()。",
+    "options": [],
+    "answer": "TableDescriptorBuilder ColumnFamilyDescriptorBuilder setMaxVersions createTable",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0826",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "HBase 全称是____。",
+    "options": [],
+    "answer": "Hadoop Database",
+    "explanation": "HBase = Hadoop Database。",
+    "topic": "",
+    "id": "GEN0827",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "列组成\"列族\"，所有的____有相同的前缀。",
+    "options": [],
+    "answer": "列",
+    "explanation": "同一列族的所有列共享列族名前缀。",
+    "topic": "",
+    "id": "GEN0828",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "在HBase Java API中，获取配置信息需调用HBaseConfiguration.create()方法返回的对象类型是______。建立连接时需通过______类的静态方法创建Connection对象。插入数据时用于指定行键的对象是______，添加列族、列和值的方法是______。",
+    "options": [],
+    "answer": "Configuration ConnectionFactory Put addColumn",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0829",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "HBase 对____的写操作始终是\"原子\"的。",
+    "options": [],
+    "answer": "行",
+    "explanation": "HBase对同一行的写操作是原子的。",
+    "topic": "",
+    "id": "GEN0830",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "HBase 利用____作为分布式协调工具。",
+    "options": [],
+    "answer": "ZooKeeper",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0831",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "填空题",
+    "title": "HBase 利用____来处理存储的海量数据。",
+    "options": [],
+    "answer": "HDFS",
+    "explanation": "HBase将数据文件存储在HDFS上。",
+    "topic": "",
+    "id": "GEN0832",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "简答题",
+    "title": "HBase 支持哪几种安装模式，分别简述各自的核心特点。",
+    "options": [],
+    "answer": "三种模式：①单机模式(Standalone)：所有组件运行在一个JVM，使用本地文件系统，适合开发测试；②伪分布式模式：所有组件运行在同一台机器不同JVM，使用HDFS，模拟分布式环境；③完全分布式模式：组件分布在不同机器上，运行在HDFS上，用于生产环境。",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0833",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "简答题",
+    "title": "HBase优化目前主要是Rowkey优化，请解释原因并说明Rowkey。",
+    "options": [],
+    "answer": "RowKey按字典序存储，Rowkey优化最重要因为：①数据按RowKey排序，RowKey设计直接影响数据分布(避免热点)；②查询主要通过RowKey进行(Get/Scan)；③RowKey长度影响存储和IO效率。优化原则：避免单调递增、加盐打散、控制长度。",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0834",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "简答题",
+    "title": "请简述 HBase 的定义及五大核心特点。",
+    "options": [],
+    "answer": "HBase是分布式列式NoSQL数据库。五大特点：①列式存储(按列族存储)；②稀疏性(空列不占空间)；③易扩展(加节点即可)；④海量存储(PB级)；⑤高并发随机实时读写。全称Hadoop Database，基于HDFS，参考Google Bigtable。",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0835",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "简答题",
+    "title": "请简述 HBase 的写数据执行流程。",
+    "options": [],
+    "answer": "①Client先访问ZooKeeper获取meta表所在RegionServer；②读取meta表找到目标Region的RS；③Client向目标RS发送写请求；④先写WAL(HLog)预写日志防丢失；⑤再写入MemStore内存；⑥MemStore达到阈值后Flush到StoreFile(HFile)持久化到HDFS。",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0836",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "简答题",
+    "title": "使用HBase的API完成数据的读写操作",
+    "options": [],
+    "answer": "创建Connection：Configuration config=HBaseConfiguration.create();config.set(\"hbase.zookeeper.quorum\",\"192.172.100.100\");Connection conn=ConnectionFactory.createConnection(config);创建表：admin.createTable(TableDescriptorBuilder.newBuilder(TableName.valueOf(\"student\")).setColumnFamily(ColumnFamilyDescriptorBuilder.of(\"info\")).build());插入：Put p=new Put(Bytes.toBytes(\"s001\"));p.addColumn(Bytes.toBytes(\"info\"),Bytes.toBytes(\"name\"),Bytes.toBytes(\"Jerry\"));t.put(p);",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0837",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "简答题",
+    "title": "说一下HBase 的数据模型。",
+    "options": [],
+    "answer": "由以下要素组成：①Table(表)，由行和列族组成；②RowKey(行键)，唯一标识一行，按字典序存储；③Column Family(列族)，创建表时定义，物理上存储在一起；④Column Qualifier(列限定符)，可动态添加；⑤Timestamp(时间戳)，标识数据版本，默认降序；⑥Cell(单元格)，RowKey+CF+Qualifier+TS唯一确定，数据以字节数组存储。",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0838",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "简答题",
+    "title": "简述 HBase 核心架构的五大组成部分及各自的主要职责。",
+    "options": [],
+    "answer": "①HMaster：管理Region分配/负载均衡/状态监控/DDL操作；②RegionServer：处理客户端读写请求/管理Region/数据Flush和Compaction；③ZooKeeper：HMaster选举/存储meta表位置/集群协调；④HDFS：底层分布式文件系统，存储HFile/WAL等数据文件；⑤Client：通过API与HBase交互，先访问ZK获取meta位置，再直接与RS通信。",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0839",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "简答题",
+    "title": "用Java语言编写HBase客户端程序",
+    "options": [],
+    "answer": "核心步骤：①Configuration config=HBaseConfiguration.create();config.set(\"hbase.zookeeper.quorum\",\"192.168.171.120:2181\");②Connection conn=ConnectionFactory.createConnection(config);③Admin admin=conn.getAdmin();创建sgs1:student表含base_info(3版本)和score_info列族；④Put插入行键2024001数据；⑤Get查询rowkey=2024001，遍历Result.rawCells()输出rowkey/列族/列名/列值/时间戳。",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0840",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "简答题",
+    "title": "详细说明客户端通过 HBase API 查找到目标数据值的流程。",
+    "options": [],
+    "answer": "①Client请求ZK获取meta表所在RS地址；②向该RS读meta表根据RowKey定位目标Region所在RS；③Client缓存meta信息；④向目标RS发送Get/Scan请求；⑤RS先查BlockCache→MemStore→StoreFile(HFile)；⑥找到数据返回Client。",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0841",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "简答题",
+    "title": "解释说明 HBase 集群中 Client 查询访问到用户数据的详细步骤。",
+    "options": [],
+    "answer": "①Client连接ZK获取meta表位置；②从meta表根据RowKey定位目标Region的RS；③Client向RS发起读请求；④RS在BlockCache→MemStore→StoreFile中查找；⑤数据返回Client；⑥Client获取Result对象遍历Cell。",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0842",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "简答题",
+    "title": "相比于传统关系型数据库，哪些原因促使我们引入 HBase 数据库。",
+    "options": [],
+    "answer": "①海量数据存储(PB级)：RDBMS单机有限，HBase基于HDFS可水平扩展；②高并发随机读写：HBase面向行键实时查询；③稀疏数据：HBase空列不占存储；④Schema灵活：列可动态添加，无需ALTER TABLE；⑤分布式容错：数据自动多副本备份。",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0843",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "简答题",
+    "title": "Zookeeper 集群配置文件中，分别说明以下语句中各字段的作用是什么。server.1=zs1:2888:3888",
+    "options": [],
+    "answer": "server.N=主机名:A:B：N是服务器编号(对应myid文件中的数字)；主机名是服务器地址；A端口(2888)用于Leader选举时服务器间通信；B端口(3888)用于Follower与Leader之间数据同步。",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN0844",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "如果想以列表的方式展示HBase中所有的用户表，应使用哪个命令?",
+    "options": [
+      {
+        "label": "A",
+        "text": "show"
+      },
+      {
+        "label": "B",
+        "text": "get_table"
+      },
+      {
+        "label": "C",
+        "text": "list"
+      },
+      {
+        "label": "D",
+        "text": "describe"
+      }
+    ],
+    "answer": "C",
+    "explanation": "list命令列出所有用户表。",
+    "topic": "",
+    "id": "GEN0845",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中，获取指定表对象的方法是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Connection.getTable(TableName.valueOf(\"表名\"))"
+      },
+      {
+        "label": "B",
+        "text": "TableFactory.createTable(\"表名\")"
+      },
+      {
+        "label": "C",
+        "text": "Put.getTable(\"表名\")"
+      },
+      {
+        "label": "D",
+        "text": "HBaseConfiguration.getTable(\"表名\")"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Connection.getTable获取Table对象。",
+    "topic": "",
+    "id": "GEN0846",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "Zookeeper服务自身组成一个集群，若有2n+1个服务，允许失效的服务节点数是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "n+1个"
+      },
+      {
+        "label": "B",
+        "text": "0个"
+      },
+      {
+        "label": "C",
+        "text": "n个"
+      },
+      {
+        "label": "D",
+        "text": "2n个"
+      }
+    ],
+    "answer": "C",
+    "explanation": "ZK集群2n+1台允许n台失效(过半机制)。",
+    "topic": "",
+    "id": "GEN0847",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase中BlockCache的主要作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "缓存写操作日志"
+      },
+      {
+        "label": "B",
+        "text": "管理Region的分裂与合并"
+      },
+      {
+        "label": "C",
+        "text": "存储表的元数据信息"
+      },
+      {
+        "label": "D",
+        "text": "缓存读取的数据块以提升查询效率"
+      }
+    ],
+    "answer": "D",
+    "explanation": "BlockCache是读缓存，缓存从HFile读取的数据块。",
+    "topic": "",
+    "id": "GEN0848",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "通过ll命令查看文件属性，某文件权限标识为lrw-rw-r--，该文件的类型以及文件所属用户拥有的操作权限为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "链接文件、读写执行"
+      },
+      {
+        "label": "B",
+        "text": "目录文件、读写执行"
+      },
+      {
+        "label": "C",
+        "text": "链接文件、读写"
+      },
+      {
+        "label": "D",
+        "text": "普通文件、读"
+      }
+    ],
+    "answer": "C",
+    "explanation": "l开头=链接文件；所有者rw-(读写)无x。",
+    "topic": "",
+    "id": "GEN0849",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase中meta表的主要作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "记录所有Region的位置信息"
+      },
+      {
+        "label": "B",
+        "text": "管理HBase的命名空间"
+      },
+      {
+        "label": "C",
+        "text": "协调集群节点的状态"
+      },
+      {
+        "label": "D",
+        "text": "存储所有用户表的实际数据"
+      }
+    ],
+    "answer": "A",
+    "explanation": "meta表记录所有Region位置信息。",
+    "topic": "",
+    "id": "GEN0850",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在Zookeeper的客户端命令中，用来查看指定节点下级的节点信息(不能递归查看)的命令是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "help"
+      },
+      {
+        "label": "B",
+        "text": "get"
+      },
+      {
+        "label": "C",
+        "text": "ls"
+      },
+      {
+        "label": "D",
+        "text": "set"
+      }
+    ],
+    "answer": "C",
+    "explanation": "ls查看子节点列表(不递归)。get获取数据。",
+    "topic": "",
+    "id": "GEN0851",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中，插入多行数据时，需要将多个Put对象放入哪个集合中？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Queue"
+      },
+      {
+        "label": "B",
+        "text": "Set"
+      },
+      {
+        "label": "C",
+        "text": "List"
+      },
+      {
+        "label": "D",
+        "text": "Map"
+      }
+    ],
+    "answer": "C",
+    "explanation": "table.put(List<Put>)接收List集合。",
+    "topic": "",
+    "id": "GEN0852",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中,用于判断表是否存在的方法是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "table.exists(tableName)"
+      },
+      {
+        "label": "B",
+        "text": "admin.exists(tableName)"
+      },
+      {
+        "label": "C",
+        "text": "admin.tableExists(tableName)"
+      },
+      {
+        "label": "D",
+        "text": "connection.tableExists(tableName)"
+      }
+    ],
+    "answer": "C",
+    "explanation": "HBaseAdmin.tableExists判断表存在。",
+    "topic": "",
+    "id": "GEN0853",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase中Cell的数据类型是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "字节码形式（无类型）"
+      },
+      {
+        "label": "B",
+        "text": "字符串类型"
+      },
+      {
+        "label": "C",
+        "text": "浮点类型"
+      },
+      {
+        "label": "D",
+        "text": "整数类型"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Cell数据以字节数组存储，无数据类型。",
+    "topic": "",
+    "id": "GEN0854",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "创建HBase maven项目时,以下哪个依赖是必须的?",
+    "options": [
+      {
+        "label": "A",
+        "text": "zookeeper"
+      },
+      {
+        "label": "B",
+        "text": "hbase-client"
+      },
+      {
+        "label": "C",
+        "text": "hadoop-common"
+      },
+      {
+        "label": "D",
+        "text": "hbase-server"
+      }
+    ],
+    "answer": "B",
+    "explanation": "hbase-client是开发必须依赖。",
+    "topic": "",
+    "id": "GEN0855",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase默认的安装运行模式是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "单机模式"
+      },
+      {
+        "label": "B",
+        "text": "云模式"
+      },
+      {
+        "label": "C",
+        "text": "完全分布式模式"
+      },
+      {
+        "label": "D",
+        "text": "伪分布式模式"
+      }
+    ],
+    "answer": "A",
+    "explanation": "默认单机模式(Standalone)。",
+    "topic": "",
+    "id": "GEN0856",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中,用于查看表详细描述的方法是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "connection.getTableDescriptor()"
+      },
+      {
+        "label": "B",
+        "text": "admin.listTables()"
+      },
+      {
+        "label": "C",
+        "text": "table.getTableDescriptor()"
+      },
+      {
+        "label": "D",
+        "text": "admin.getTableDescriptor()"
+      }
+    ],
+    "answer": "D",
+    "explanation": "admin.getTableDescriptor()获取表描述器。",
+    "topic": "",
+    "id": "GEN0857",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "普通用户登录Linux服务器后，需要完整切换为root管理员身份并加载全部系统环境变量，正确的切换命令是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "su -"
+      },
+      {
+        "label": "B",
+        "text": "sudo"
+      },
+      {
+        "label": "C",
+        "text": "su ~"
+      },
+      {
+        "label": "D",
+        "text": "sudo ="
+      }
+    ],
+    "answer": "A",
+    "explanation": "su - 完整切换root并加载环境变量。",
+    "topic": "",
+    "id": "GEN0858",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase中RowKey在存储时的排序方式是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "按行键长度排序"
+      },
+      {
+        "label": "B",
+        "text": "随机排序"
+      },
+      {
+        "label": "C",
+        "text": "按字典序（字节序）排序"
+      },
+      {
+        "label": "D",
+        "text": "按插入顺序排序"
+      }
+    ],
+    "answer": "C",
+    "explanation": "RowKey按字典序(字节序)排序。",
+    "topic": "",
+    "id": "GEN0859",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中,用于创建表描述器的类是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "TableDescriptorBuilder"
+      },
+      {
+        "label": "B",
+        "text": "ColumnFamilyDescriptor"
+      },
+      {
+        "label": "C",
+        "text": "TableDescriptor"
+      },
+      {
+        "label": "D",
+        "text": "ColumnFamilyDescriptorBuilder"
+      }
+    ],
+    "answer": "A",
+    "explanation": "TableDescriptorBuilder构建表描述器。",
+    "topic": "",
+    "id": "GEN0860",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中,用于设置ZooKeeper地址的配置项是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "zookeeper.address"
+      },
+      {
+        "label": "B",
+        "text": "hbase.zookeeper.quorum"
+      },
+      {
+        "label": "C",
+        "text": "hbase.zookeeper.address"
+      },
+      {
+        "label": "D",
+        "text": "zookeeper.quorum"
+      }
+    ],
+    "answer": "B",
+    "explanation": "hbase.zookeeper.quorum配置ZK地址。",
+    "topic": "",
+    "id": "GEN0861",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase中Cell的不同版本数据默认排序方式是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "按时间戳升序排列"
+      },
+      {
+        "label": "B",
+        "text": "按时间戳降序排列"
+      },
+      {
+        "label": "C",
+        "text": "按数据大小排序"
+      },
+      {
+        "label": "D",
+        "text": "按插入顺序排序"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Cell版本默认按时间戳降序(最新在前)。",
+    "topic": "",
+    "id": "GEN0862",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "CentOS7系统编译Python相关拓展程序时，提示缺失Python.h头文件，安装哪个依赖包可解决该报错( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "gdb"
+      },
+      {
+        "label": "B",
+        "text": "python3"
+      },
+      {
+        "label": "C",
+        "text": "python3-devel"
+      },
+      {
+        "label": "D",
+        "text": "gcc"
+      }
+    ],
+    "answer": "C",
+    "explanation": "python3-devel包含开发头文件(.h)。",
+    "topic": "",
+    "id": "GEN0863",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase集群中，若需修改数据表列族结构或彻底删除数据表，执行操作前必须完成的前置操作是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "disable"
+      },
+      {
+        "label": "B",
+        "text": "enable"
+      },
+      {
+        "label": "C",
+        "text": "drop"
+      },
+      {
+        "label": "D",
+        "text": "build"
+      }
+    ],
+    "answer": "A",
+    "explanation": "修改或删除表前必须先disable。",
+    "topic": "",
+    "id": "GEN0864",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "ZooKeeper集群采用主从架构模式，集群架构设计中，唯一允许存在的节点角色是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "server"
+      },
+      {
+        "label": "B",
+        "text": "follower"
+      },
+      {
+        "label": "C",
+        "text": "node"
+      },
+      {
+        "label": "D",
+        "text": "Leader"
+      }
+    ],
+    "answer": "D",
+    "explanation": "ZK中Leader是唯一主节点。",
+    "topic": "",
+    "id": "GEN0865",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中，用于插入单行数据的类是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Get"
+      },
+      {
+        "label": "B",
+        "text": "Delete"
+      },
+      {
+        "label": "C",
+        "text": "Put"
+      },
+      {
+        "label": "D",
+        "text": "Scan"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Put类插入/更新单行数据。",
+    "topic": "",
+    "id": "GEN0866",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "Zookeeper每一个ZNode默认能够存储的数据大小是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1GB"
+      },
+      {
+        "label": "B",
+        "text": "1KB"
+      },
+      {
+        "label": "C",
+        "text": "1MB"
+      },
+      {
+        "label": "D",
+        "text": "10MB"
+      }
+    ],
+    "answer": "C",
+    "explanation": "每个ZNode默认最大1MB。",
+    "topic": "",
+    "id": "GEN0867",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase完全分布式配置中，要告诉HBase使用外部的Zookeeper，需要在hbase-env.sh中将HBASE_MANAGES_ZK设置为?",
+    "options": [
+      {
+        "label": "A",
+        "text": "true"
+      },
+      {
+        "label": "B",
+        "text": "yes"
+      },
+      {
+        "label": "C",
+        "text": "false"
+      },
+      {
+        "label": "D",
+        "text": "no"
+      }
+    ],
+    "answer": "C",
+    "explanation": "false使用外部ZK。",
+    "topic": "",
+    "id": "GEN0868",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "以下哪项是HMaster的核心功能？",
+    "options": [
+      {
+        "label": "A",
+        "text": "处理客户端的具体读写请求"
+      },
+      {
+        "label": "B",
+        "text": "提供分布式协调服务"
+      },
+      {
+        "label": "C",
+        "text": "管理Region的分配与负载均衡"
+      },
+      {
+        "label": "D",
+        "text": "存储HBase的实际数据"
+      }
+    ],
+    "answer": "C",
+    "explanation": "HMaster核心：Region分配/负载均衡。",
+    "topic": "",
+    "id": "GEN0869",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在Zookeeper集群配置zoo.cfg中，server.N=YYY:A:B中的A代表什么含义?",
+    "options": [
+      {
+        "label": "A",
+        "text": "选举新leader时服务器间相互通信的端口"
+      },
+      {
+        "label": "B",
+        "text": "该服务器与集群中的leader交换信息的通信端口"
+      },
+      {
+        "label": "C",
+        "text": "客户端连接端口"
+      },
+      {
+        "label": "D",
+        "text": "服务器的IP地址"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A是Leader选举通信端口(2888)。",
+    "topic": "",
+    "id": "GEN0870",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase中用于向表中插入数据的命令是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "append"
+      },
+      {
+        "label": "B",
+        "text": "insert"
+      },
+      {
+        "label": "C",
+        "text": "put"
+      },
+      {
+        "label": "D",
+        "text": "update"
+      }
+    ],
+    "answer": "C",
+    "explanation": "put命令插入/更新数据。",
+    "topic": "",
+    "id": "GEN0871",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "关于删除命名空间(namespace)，以下说法正确的是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "可以删除任何状态的命名空间"
+      },
+      {
+        "label": "B",
+        "text": "必须先删除所有表但不能删除命名空间"
+      },
+      {
+        "label": "C",
+        "text": "只能删除空的命名空间"
+      },
+      {
+        "label": "D",
+        "text": "只能删除非空的命名空间"
+      }
+    ],
+    "answer": "C",
+    "explanation": "只能删除空的命名空间。",
+    "topic": "",
+    "id": "GEN0872",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "以下哪种接口支持REST风格的Http API访问HBase，并且解除了语言限制?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Pig"
+      },
+      {
+        "label": "B",
+        "text": "REST Gateway"
+      },
+      {
+        "label": "C",
+        "text": "Hive"
+      },
+      {
+        "label": "D",
+        "text": "Thrift Gateway"
+      }
+    ],
+    "answer": "B",
+    "explanation": "REST Gateway提供HTTP API。",
+    "topic": "",
+    "id": "GEN0873",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "当Linux服务器出现僵尸进程、卡死进程，需要强制终止进程运行，对应的专属操作命令是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "end"
+      },
+      {
+        "label": "B",
+        "text": "tail"
+      },
+      {
+        "label": "C",
+        "text": "ps"
+      },
+      {
+        "label": "D",
+        "text": "kill"
+      }
+    ],
+    "answer": "D",
+    "explanation": "kill命令终止进程(kill -9强制)。",
+    "topic": "",
+    "id": "GEN0874",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "配置Linux服务器SSH免密登录功能时，用于存储客户端公钥、授权免密访问的标准文件名称是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "authorized-keys"
+      },
+      {
+        "label": "B",
+        "text": "authorized_key"
+      },
+      {
+        "label": "C",
+        "text": "authorized-key"
+      },
+      {
+        "label": "D",
+        "text": "authorized_keys"
+      }
+    ],
+    "answer": "D",
+    "explanation": "SSH公钥存在~/.ssh/authorized_keys。",
+    "topic": "",
+    "id": "GEN0875",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "Vim编辑器拥有多种常规操作模式，下列选项中，不属于其标准内置工作模式的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "插入模式"
+      },
+      {
+        "label": "B",
+        "text": "末行模式"
+      },
+      {
+        "label": "C",
+        "text": "命令模式"
+      },
+      {
+        "label": "D",
+        "text": "修订模式"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Vim三大模式：命令/插入/末行。修订模式不存在。",
+    "topic": "",
+    "id": "GEN0876",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "Linux系统中tar zxvf解压指令适配特定压缩格式，该指令可解压的文件类型是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "tar.bz2"
+      },
+      {
+        "label": "B",
+        "text": "zip"
+      },
+      {
+        "label": "C",
+        "text": "tar.gz"
+      },
+      {
+        "label": "D",
+        "text": "tar.xz"
+      }
+    ],
+    "answer": "C",
+    "explanation": "tar zxvf中z用gzip对应.tar.gz。",
+    "topic": "",
+    "id": "GEN0877",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中，字符串转换为字节数组的方法是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "String.toBytes()"
+      },
+      {
+        "label": "B",
+        "text": "String.getBytes()"
+      },
+      {
+        "label": "C",
+        "text": "Bytes.toBytes(String)"
+      },
+      {
+        "label": "D",
+        "text": "Byte.parseByte(String)"
+      }
+    ],
+    "answer": "C",
+    "explanation": "HBase用Bytes.toBytes转字节数组。",
+    "topic": "",
+    "id": "GEN0878",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中，向Put对象添加列数据时，需要指定的参数不包括？",
+    "options": [
+      {
+        "label": "A",
+        "text": "列值"
+      },
+      {
+        "label": "B",
+        "text": "列族名称"
+      },
+      {
+        "label": "C",
+        "text": "列名称"
+      },
+      {
+        "label": "D",
+        "text": "时间戳"
+      }
+    ],
+    "answer": "D",
+    "explanation": "addColumn(列族,列,值)三个必须。时间戳可选。",
+    "topic": "",
+    "id": "GEN0879",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase中可通过以下哪种方式回收Cell的旧版本数据？",
+    "options": [
+      {
+        "label": "A",
+        "text": "仅保存最近一段时间内的版本"
+      },
+      {
+        "label": "B",
+        "text": "无法自动回收旧版本数据"
+      },
+      {
+        "label": "C",
+        "text": "保存最后n个版本或最近一段时间内的版本"
+      },
+      {
+        "label": "D",
+        "text": "仅保存最后n个版本"
+      }
+    ],
+    "answer": "C",
+    "explanation": "可通过VERSIONS或TTL回收旧版本。",
+    "topic": "",
+    "id": "GEN0880",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "若需永久关闭防火墙开机自启功能，禁止虚拟机开机自动启动防火墙服务，对应的正确命令是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "systemctl enable firewalld"
+      },
+      {
+        "label": "B",
+        "text": "systemctl disable firewalld"
+      },
+      {
+        "label": "C",
+        "text": "systemctl stop firewalld"
+      },
+      {
+        "label": "D",
+        "text": "systemctl restart firewalld"
+      }
+    ],
+    "answer": "B",
+    "explanation": "systemctl disable禁止开机自启。",
+    "topic": "",
+    "id": "GEN0881",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "关于HBase列限定符（Column Qualifier）的描述，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "同一表中所有行的列限定符必须一致"
+      },
+      {
+        "label": "B",
+        "text": "列限定符不可动态添加"
+      },
+      {
+        "label": "C",
+        "text": "列限定符必须属于某个列族"
+      },
+      {
+        "label": "D",
+        "text": "表创建时必须指定列限定符"
+      }
+    ],
+    "answer": "C",
+    "explanation": "列限定符必须属于某个列族，可动态添加。",
+    "topic": "",
+    "id": "GEN0882",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中，扫描全表数据的类是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Scan"
+      },
+      {
+        "label": "B",
+        "text": "Get"
+      },
+      {
+        "label": "C",
+        "text": "Delete"
+      },
+      {
+        "label": "D",
+        "text": "Put"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Scan类扫描全表或多行。",
+    "topic": "",
+    "id": "GEN0883",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中，根据rowkey查询单行数据的类是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Delete"
+      },
+      {
+        "label": "B",
+        "text": "Get"
+      },
+      {
+        "label": "C",
+        "text": "Put"
+      },
+      {
+        "label": "D",
+        "text": "Scan"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Get类根据rowkey查询单行。",
+    "topic": "",
+    "id": "GEN0884",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中,用于查看所有表名称的方法是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "admin.listTables()"
+      },
+      {
+        "label": "B",
+        "text": "admin.listTableNames()"
+      },
+      {
+        "label": "C",
+        "text": "connection.listTableNames()"
+      },
+      {
+        "label": "D",
+        "text": "table.listTables()"
+      }
+    ],
+    "answer": "B",
+    "explanation": "admin.listTableNames()返回表名数组。",
+    "topic": "",
+    "id": "GEN0885",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "访问HBase最常规和高效的访问方式是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "REST Gateway"
+      },
+      {
+        "label": "B",
+        "text": "HBase Shell"
+      },
+      {
+        "label": "C",
+        "text": "Native Java API"
+      },
+      {
+        "label": "D",
+        "text": "Thrift Gateway"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Native Java API最直接高效。",
+    "topic": "",
+    "id": "GEN0886",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中，创建与HBase集群连接的类是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "ConnectionFactory"
+      },
+      {
+        "label": "B",
+        "text": "Table"
+      },
+      {
+        "label": "C",
+        "text": "HBaseConfiguration"
+      },
+      {
+        "label": "D",
+        "text": "Put"
+      }
+    ],
+    "answer": "A",
+    "explanation": "ConnectionFactory.createConnection创建连接。",
+    "topic": "",
+    "id": "GEN0887",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中，用于创建HBase配置对象的工具类是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "HBaseConfiguration"
+      },
+      {
+        "label": "B",
+        "text": "TableFactory"
+      },
+      {
+        "label": "C",
+        "text": "ConfigurationFactory"
+      },
+      {
+        "label": "D",
+        "text": "ConnectionFactory"
+      }
+    ],
+    "answer": "A",
+    "explanation": "HBaseConfiguration.create()创建配置。",
+    "topic": "",
+    "id": "GEN0888",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "大数据环境中，一键批量启动所有HBase集群服务节点的官方标准脚本是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "start-hbase.sh"
+      },
+      {
+        "label": "B",
+        "text": "start hbase"
+      },
+      {
+        "label": "C",
+        "text": "start-hbase"
+      },
+      {
+        "label": "D",
+        "text": "hbase start"
+      }
+    ],
+    "answer": "A",
+    "explanation": "start-hbase.sh官方启动脚本。",
+    "topic": "",
+    "id": "GEN0889",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "运维人员日常远程操控云Linux服务器，实现远程连接登录的标准专用指令是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ssh"
+      },
+      {
+        "label": "B",
+        "text": "login"
+      },
+      {
+        "label": "C",
+        "text": "SSH"
+      },
+      {
+        "label": "D",
+        "text": "ssm"
+      }
+    ],
+    "answer": "C",
+    "explanation": "SSH(Secure Shell)远程登录协议。",
+    "topic": "",
+    "id": "GEN0890",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "关于HBase列族的描述，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "列族在表创建时必须指定"
+      },
+      {
+        "label": "B",
+        "text": "表创建后可动态添加列族"
+      },
+      {
+        "label": "C",
+        "text": "不同列族的数据存储在同一个Store中"
+      },
+      {
+        "label": "D",
+        "text": "一个表中建议创建超过5个列族"
+      }
+    ],
+    "answer": "A",
+    "explanation": "列族在创建表时必须指定。建议不超过3个。",
+    "topic": "",
+    "id": "GEN0891",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Shell交互命令行中，执行status指令的主要作用是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "返回Linux集群的状态信息"
+      },
+      {
+        "label": "B",
+        "text": "返回HBase集群的状态信息"
+      },
+      {
+        "label": "C",
+        "text": "返回ZooKeeper集群的状态信息"
+      },
+      {
+        "label": "D",
+        "text": "返回Hadoop集群的状态信息"
+      }
+    ],
+    "answer": "B",
+    "explanation": "status返回HBase集群状态。",
+    "topic": "",
+    "id": "GEN0892",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中，获取Scan扫描结果的方法是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Table.getScanner(Scan)"
+      },
+      {
+        "label": "B",
+        "text": "Connection.getTable(TableName)"
+      },
+      {
+        "label": "C",
+        "text": "Table.get(Get)"
+      },
+      {
+        "label": "D",
+        "text": "Put.addColumn()"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Table.getScanner返回ResultScanner。",
+    "topic": "",
+    "id": "GEN0893",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "需要进入ZooKeeper交互式客户端命令行界面，可执行的正确脚本命令是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "zkServer.sh"
+      },
+      {
+        "label": "B",
+        "text": "zkCli.sh"
+      },
+      {
+        "label": "C",
+        "text": "zkServer.sh start"
+      },
+      {
+        "label": "D",
+        "text": "zkCli.sh start"
+      }
+    ],
+    "answer": "B",
+    "explanation": "zkCli.sh启动ZK客户端。",
+    "topic": "",
+    "id": "GEN0894",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中,创建表的正确顺序是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "创建表描述器→创建列族描述器→关联列族→创建表"
+      },
+      {
+        "label": "B",
+        "text": "创建列族描述器→创建表描述器→关联列族→创建表"
+      },
+      {
+        "label": "C",
+        "text": "创建表描述器→关联列族→创建列族描述器→创建表"
+      },
+      {
+        "label": "D",
+        "text": "创建列族描述器→关联列族→创建表描述器→创建表"
+      }
+    ],
+    "answer": "A",
+    "explanation": "顺序：表描述器→列族描述器→关联列族→admin.createTable。",
+    "topic": "",
+    "id": "GEN0895",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "Zookeeper节点类型中，客户端与ZooKeeper断开连接后，该节点依旧存在，只是ZooKeeper给该节点名称进行顺序编号的节点是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "临时节点"
+      },
+      {
+        "label": "B",
+        "text": "持久节点"
+      },
+      {
+        "label": "C",
+        "text": "持久顺序节点"
+      },
+      {
+        "label": "D",
+        "text": "临时顺序节点"
+      }
+    ],
+    "answer": "C",
+    "explanation": "持久顺序节点断开后仍存并自动编号。",
+    "topic": "",
+    "id": "GEN0896",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "关于HBase Region的描述，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Region的划分依据是行键的随机范围"
+      },
+      {
+        "label": "B",
+        "text": "一个Region Server只能管理一个Region"
+      },
+      {
+        "label": "C",
+        "text": "一个Region只能包含一个表的部分数据"
+      },
+      {
+        "label": "D",
+        "text": "Region在HDFS上以单个文件形式存储"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Region是表水平分区存部分数据。",
+    "topic": "",
+    "id": "GEN0897",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Linux",
+    "type": "单选题",
+    "title": "Linux系统拥有规范的层级目录结构，系统内置的基础可执行命令文件，默认统一存放于哪个目录中( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "/dev"
+      },
+      {
+        "label": "B",
+        "text": "/bin"
+      },
+      {
+        "label": "C",
+        "text": "/root"
+      },
+      {
+        "label": "D",
+        "text": "/home"
+      }
+    ],
+    "answer": "B",
+    "explanation": "/bin存放系统基本命令。",
+    "topic": "",
+    "id": "GEN0898",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "市面上主流数据库类型分为关系型与非关系型，下列数据库中，不属于NoSQL非关系型数据库的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "HBase"
+      },
+      {
+        "label": "B",
+        "text": "Oracle"
+      },
+      {
+        "label": "C",
+        "text": "MongoDB"
+      },
+      {
+        "label": "D",
+        "text": "Redis"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Oracle是关系型数据库。",
+    "topic": "",
+    "id": "GEN0899",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase集群中，Zookeeper不负责以下哪项功能？",
+    "options": [
+      {
+        "label": "A",
+        "text": "记录meta表的存储位置"
+      },
+      {
+        "label": "B",
+        "text": "协助HMaster处理客户端读写请求"
+      },
+      {
+        "label": "C",
+        "text": "监控集群节点运行状态"
+      },
+      {
+        "label": "D",
+        "text": "存储HBase的所有数据文件"
+      }
+    ],
+    "answer": "D",
+    "explanation": "ZK不存储数据文件(数据在HDFS)。",
+    "topic": "",
+    "id": "GEN0900",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中,静态代码块的作用是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "插入数据"
+      },
+      {
+        "label": "B",
+        "text": "创建表"
+      },
+      {
+        "label": "C",
+        "text": "初始化配置和连接"
+      },
+      {
+        "label": "D",
+        "text": "查询数据"
+      }
+    ],
+    "answer": "C",
+    "explanation": "static代码块初始化配置和连接。",
+    "topic": "",
+    "id": "GEN0901",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "配置HBase环境变量时，一般在以下哪个文件中设置root用户的环境变量?",
+    "options": [
+      {
+        "label": "A",
+        "text": "zoo.cfg"
+      },
+      {
+        "label": "B",
+        "text": "/etc/hostname"
+      },
+      {
+        "label": "C",
+        "text": "/etc/profile"
+      },
+      {
+        "label": "D",
+        "text": "/etc/hosts"
+      }
+    ],
+    "answer": "C",
+    "explanation": "/etc/profile系统级环境变量。",
+    "topic": "",
+    "id": "GEN0902",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中，获取Get查询结果的方法是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Connection.getTable(TableName)"
+      },
+      {
+        "label": "B",
+        "text": "Table.scan(Scan)"
+      },
+      {
+        "label": "C",
+        "text": "Table.get(Get)"
+      },
+      {
+        "label": "D",
+        "text": "Put.addColumn()"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Table.get(Get)返回Result。",
+    "topic": "",
+    "id": "GEN0903",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase中每个Store对应的是表中的哪个逻辑概念？",
+    "options": [
+      {
+        "label": "A",
+        "text": "时间戳"
+      },
+      {
+        "label": "B",
+        "text": "行"
+      },
+      {
+        "label": "C",
+        "text": "单元格"
+      },
+      {
+        "label": "D",
+        "text": "列族"
+      }
+    ],
+    "answer": "D",
+    "explanation": "每个Store对应一个列族。",
+    "topic": "",
+    "id": "GEN0904",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase中清空表数据(truncate)的内部实际执行顺序是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "disable -> drop -> recreate"
+      },
+      {
+        "label": "B",
+        "text": "disable -> clear -> enable"
+      },
+      {
+        "label": "C",
+        "text": "deleteall -> drop -> create"
+      },
+      {
+        "label": "D",
+        "text": "drop -> disable -> recreate"
+      }
+    ],
+    "answer": "A",
+    "explanation": "truncate=disable→drop→recreate。",
+    "topic": "",
+    "id": "GEN0905",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase shell中用于查看集群状态、版本等基础操作属于哪个命令组?",
+    "options": [
+      {
+        "label": "A",
+        "text": "namespace"
+      },
+      {
+        "label": "B",
+        "text": "dml"
+      },
+      {
+        "label": "C",
+        "text": "ddl"
+      },
+      {
+        "label": "D",
+        "text": "general"
+      }
+    ],
+    "answer": "D",
+    "explanation": "general命令组(status/version/whoami)。",
+    "topic": "",
+    "id": "GEN0906",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Shell交互终端中，用于创建新的数据表的专属操作指令是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "new"
+      },
+      {
+        "label": "B",
+        "text": "make"
+      },
+      {
+        "label": "C",
+        "text": "Create"
+      },
+      {
+        "label": "D",
+        "text": "create"
+      }
+    ],
+    "answer": "D",
+    "explanation": "create命令创建表(小写)。",
+    "topic": "",
+    "id": "GEN0907",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Shell环境中，可实现单元格数据新增与数据修改更新的统一操作指令是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "sent"
+      },
+      {
+        "label": "B",
+        "text": "set"
+      },
+      {
+        "label": "C",
+        "text": "update"
+      },
+      {
+        "label": "D",
+        "text": "put"
+      }
+    ],
+    "answer": "D",
+    "explanation": "put同时实现新增和修改(有则覆盖)。",
+    "topic": "",
+    "id": "GEN0908",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中,用于设置列族最大版本数的方法是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "setMaxVersions()"
+      },
+      {
+        "label": "B",
+        "text": "setVersion()"
+      },
+      {
+        "label": "C",
+        "text": "setMinVersions()"
+      },
+      {
+        "label": "D",
+        "text": "setVersions()"
+      }
+    ],
+    "answer": "A",
+    "explanation": "setMaxVersions()设置最大版本数。",
+    "topic": "",
+    "id": "GEN0909",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中,用于创建连接的类是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "HBaseAdmin"
+      },
+      {
+        "label": "B",
+        "text": "HBaseConfiguration"
+      },
+      {
+        "label": "C",
+        "text": "ConnectionFactory"
+      },
+      {
+        "label": "D",
+        "text": "Table"
+      }
+    ],
+    "answer": "C",
+    "explanation": "ConnectionFactory创建连接。",
+    "topic": "",
+    "id": "GEN0910",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase从1.0版本之后，默认的Web UI访问端口号从60010改为了多少?",
+    "options": [
+      {
+        "label": "A",
+        "text": "16030"
+      },
+      {
+        "label": "B",
+        "text": "0.98"
+      },
+      {
+        "label": "C",
+        "text": "16020"
+      },
+      {
+        "label": "D",
+        "text": "16010"
+      }
+    ],
+    "answer": "D",
+    "explanation": "HBase 1.0+ Master UI默认16010。",
+    "topic": "",
+    "id": "GEN0911",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中,用于创建列族描述器的类是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "TableDescriptorBuilder"
+      },
+      {
+        "label": "B",
+        "text": "ColumnFamilyDescriptorBuilder"
+      },
+      {
+        "label": "C",
+        "text": "TableDescriptor"
+      },
+      {
+        "label": "D",
+        "text": "ColumnFamilyDescriptor"
+      }
+    ],
+    "answer": "B",
+    "explanation": "ColumnFamilyDescriptorBuilder构建列族描述器。",
+    "topic": "",
+    "id": "GEN0912",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "采用解压方式部署HBase服务后，项目所有核心配置文件默认的存放目录为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "hbase/etc/"
+      },
+      {
+        "label": "B",
+        "text": "hbase/conf/"
+      },
+      {
+        "label": "C",
+        "text": "/etc/hbase/"
+      },
+      {
+        "label": "D",
+        "text": "/conf/hbase/"
+      }
+    ],
+    "answer": "B",
+    "explanation": "配置文件在hbase/conf/目录。",
+    "topic": "",
+    "id": "GEN0913",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中,创建连接时可能抛出的异常是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "ClassNotFoundException"
+      },
+      {
+        "label": "B",
+        "text": "IOException"
+      },
+      {
+        "label": "C",
+        "text": "NullPointerException"
+      },
+      {
+        "label": "D",
+        "text": "SQLException"
+      }
+    ],
+    "answer": "B",
+    "explanation": "createConnection可能抛IOException。",
+    "topic": "",
+    "id": "GEN0914",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase中，能够删除一整行数据的命令是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "remove"
+      },
+      {
+        "label": "B",
+        "text": "delete"
+      },
+      {
+        "label": "C",
+        "text": "drop"
+      },
+      {
+        "label": "D",
+        "text": "deleteall"
+      }
+    ],
+    "answer": "D",
+    "explanation": "deleteall删除整行。delete删指定列。",
+    "topic": "",
+    "id": "GEN0915",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase分布式模式细分为伪分布式与完全分布式，其中完全分布式模式只能运行在( )上?",
+    "options": [
+      {
+        "label": "A",
+        "text": "NTFS"
+      },
+      {
+        "label": "B",
+        "text": "本地文件系统"
+      },
+      {
+        "label": "C",
+        "text": "Ext4"
+      },
+      {
+        "label": "D",
+        "text": "HDFS"
+      }
+    ],
+    "answer": "D",
+    "explanation": "完全分布式必须运行在HDFS上。",
+    "topic": "",
+    "id": "GEN0916",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase Java API中，修改数据的操作与以下哪种操作的实现方式相同？",
+    "options": [
+      {
+        "label": "A",
+        "text": "插入数据"
+      },
+      {
+        "label": "B",
+        "text": "删除数据"
+      },
+      {
+        "label": "C",
+        "text": "查询数据"
+      },
+      {
+        "label": "D",
+        "text": "扫描数据"
+      }
+    ],
+    "answer": "A",
+    "explanation": "HBase修改=插入新版本(Put)。",
+    "topic": "",
+    "id": "GEN0917",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在Windows环境搭建HBase开发环境时,以下哪个文件需要放到C:\\Windows\\System32目录?",
+    "options": [
+      {
+        "label": "A",
+        "text": "core-site.xml"
+      },
+      {
+        "label": "B",
+        "text": "winutils.exe"
+      },
+      {
+        "label": "C",
+        "text": "hbase-site.xml"
+      },
+      {
+        "label": "D",
+        "text": "hadoop.dll"
+      }
+    ],
+    "answer": "D",
+    "explanation": "hadoop.dll放System32。",
+    "topic": "",
+    "id": "GEN0918",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase中HLog（WAL）的主要作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "存储表的元数据信息"
+      },
+      {
+        "label": "B",
+        "text": "管理Region的分裂与合并"
+      },
+      {
+        "label": "C",
+        "text": "记录写操作日志以防止数据丢失"
+      },
+      {
+        "label": "D",
+        "text": "缓存读取的数据以提升查询效率"
+      }
+    ],
+    "answer": "C",
+    "explanation": "HLog(WAL)先写日志防数据丢失。",
+    "topic": "",
+    "id": "GEN0919",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase中删除表之前，必须先执行的操作状态命令是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "enable"
+      },
+      {
+        "label": "B",
+        "text": "disable"
+      },
+      {
+        "label": "C",
+        "text": "exists"
+      },
+      {
+        "label": "D",
+        "text": "truncate"
+      }
+    ],
+    "answer": "B",
+    "explanation": "删表前必须先disable。",
+    "topic": "",
+    "id": "GEN0920",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "以下关于HBase Java API的描述,错误的是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "HBase Java API效率高因为HBase本身由Java编写"
+      },
+      {
+        "label": "B",
+        "text": "HBase 1.x和2.x版本的Java API完全相同"
+      },
+      {
+        "label": "C",
+        "text": "可以通过Java API操作HBase表数据"
+      },
+      {
+        "label": "D",
+        "text": "Java API比shell命令更灵活"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1.x和2.x API有差异(2.x用Builder模式)。",
+    "topic": "",
+    "id": "GEN0921",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase中默认的用户表命名空间是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "system"
+      },
+      {
+        "label": "B",
+        "text": "default"
+      },
+      {
+        "label": "C",
+        "text": "hbase"
+      },
+      {
+        "label": "D",
+        "text": "user"
+      }
+    ],
+    "answer": "B",
+    "explanation": "默认命名空间default。",
+    "topic": "",
+    "id": "GEN0922",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "HBase客户端发起数据读写请求时，需先访问哪个组件获取数据表元数据与节点位置信息( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "master"
+      },
+      {
+        "label": "B",
+        "text": "Region"
+      },
+      {
+        "label": "C",
+        "text": "Zookeeper"
+      },
+      {
+        "label": "D",
+        "text": "RegionServer"
+      }
+    ],
+    "answer": "C",
+    "explanation": "客户端先访问ZK获取meta表位置。",
+    "topic": "",
+    "id": "GEN0923",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "HBase / ZooKeeper",
+    "type": "单选题",
+    "title": "在HBase命令行工具中，退出HBase shell可以使用的命令是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "quit"
+      },
+      {
+        "label": "B",
+        "text": "stop"
+      },
+      {
+        "label": "C",
+        "text": "shutdown"
+      },
+      {
+        "label": "D",
+        "text": "close"
+      }
+    ],
+    "answer": "A",
+    "explanation": "quit或exit退出HBase Shell。",
+    "topic": "",
+    "id": "GEN0924",
+    "level": "B",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
