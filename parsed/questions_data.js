@@ -3784,7 +3784,7 @@ const PREPARSED_QUESTIONS = [
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "多选题",
     "title": "下列哪些是Shell脚本中用于重定向的标准文件描述符？",
     "options": [
@@ -6124,7 +6124,7 @@ const PREPARSED_QUESTIONS = [
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "使用标准的输出重定向符号(>)，重定向至‘file01'文件，能使文件 file01 的数据( )。",
     "options": [
@@ -8080,7 +8080,7 @@ const PREPARSED_QUESTIONS = [
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "多选题",
     "title": "以下关于文件重定向的描述正确的有( )",
     "options": [
