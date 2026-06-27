@@ -406,7 +406,11 @@ h1 { font-size: 24px; margin-bottom: 24px; color: var(--text); }
 .wa-kp-name:hover { color: #d63031; }
 .wa-kp-count { font-size: 12px; color: #d63031; font-weight: 700; }
 .wa-kp-desc { font-size: 12px; color: var(--text-secondary); width: 100%; margin-top: 2px; line-height: 1.5; }
-.wa-kp-link { color: var(--primary); cursor: pointer; text-decoration: underline; font-size: 12px; }
+.wa-kp-toggle { font-size: 10px; color: var(--text-secondary); margin-left: 4px; transition: transform 0.2s; display: inline-block; }
+.wa-kp-expanded .wa-kp-toggle { transform: rotate(90deg); }
+.wa-kp-full { display: none; width: 100%; margin-top: 6px; padding: 10px 12px; background: rgba(108,92,231,0.04); border-radius: 8px; font-size: 13px; line-height: 1.7; color: var(--text); border-left: 3px solid var(--primary); }
+.wa-kp-item.wa-kp-expanded .wa-kp-full { display: block; }
+.wa-kp-item.wa-kp-expanded .wa-kp-toggle { transform: rotate(90deg); }
 
 /* ===== Review ===== */
 .review-info {

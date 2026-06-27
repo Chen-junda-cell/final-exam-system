@@ -1846,10 +1846,11 @@ class ExamApp {
       for (const [kpName, kpData] of topKps) {
         const kp = kpData.kp;
         const kpLevel = kp.level === 'A' ? '⭐' : kp.level === 'B' ? '📌' : '📖';
-        analysisHtml += `<div class="wa-kp-item">
+        const divId = 'wakp-' + subj.replace(/\s/g,'') + '-' + kp.id;
+        analysisHtml += `<div class="wa-kp-item" id="${divId}">
           <span class="wa-kp-badge badge-${kp.level}">${kpLevel} ${kp.level}级</span>
-          <span class="wa-kp-name" onclick="app.jumpToKnowledge('${subj}','${kp.id}')" title="点击跳转到知识点学习">${kp.name} <span class="wa-kp-count">（错${kpData.count}题）</span></span>
-          ${kp.content ? `<span class="wa-kp-desc">${kp.content.substring(0, 120)}${kp.content.length > 120 ? '...' : ''}</span>` : ''}
+          <span class="wa-kp-name" onclick="document.getElementById('${divId}').classList.toggle('wa-kp-expanded')">${kp.name} <span class="wa-kp-count">（错${kpData.count}题）</span> <span class="wa-kp-toggle">▶</span></span>
+          <div class="wa-kp-full">${kp.content}</div>
         </div>`;
       }
 
@@ -1880,7 +1881,7 @@ class ExamApp {
           <span class="wi-meta">❌ ${w.retryCount || 1}次 | ${new Date(w.wrongTime).toLocaleDateString()}</span>
         </div>
         <div class="wi-question">${this._esc(w.title.substring(0, 150))}...</div>
-        <div class="wi-topic">🏷 <span class="wa-kp-link" onclick="event.stopPropagation();app.jumpToKnowledge('${w.subject}','${kp.id}')">${kp.name}</span></div>
+        <div class="wi-topic">🏷 ${kp.name}</div>
       </div>`;
     }).join('');
 
