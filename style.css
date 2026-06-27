@@ -399,6 +399,14 @@ h1 { font-size: 24px; margin-bottom: 24px; color: var(--text); }
 .wa-topic-tag { display: inline-block; padding: 2px 8px; border-radius: 10px; background: rgba(255,71,87,0.1); color: #d63031; font-size: 12px; font-weight: 600; cursor: default; }
 .wa-type-tag { display: inline-block; padding: 1px 6px; border-radius: 8px; background: rgba(108,92,231,0.1); color: var(--primary); font-size: 11px; }
 .wa-advice { margin-top: 8px; padding: 8px 12px; background: rgba(255,234,167,0.2); border-left: 3px solid #fdcb6e; border-radius: 0 6px 6px 0; font-size: 13px; line-height: 1.5; }
+.wa-kp-list { display: flex; flex-direction: column; gap: 6px; margin: 8px 0; }
+.wa-kp-item { display: flex; align-items: flex-start; gap: 8px; flex-wrap: wrap; padding: 8px 10px; background: var(--bg); border-radius: 8px; border: 1px solid var(--border); }
+.wa-kp-badge { flex-shrink: 0; }
+.wa-kp-name { font-size: 14px; font-weight: 600; color: var(--primary); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.wa-kp-name:hover { color: #d63031; }
+.wa-kp-count { font-size: 12px; color: #d63031; font-weight: 700; }
+.wa-kp-desc { font-size: 12px; color: var(--text-secondary); width: 100%; margin-top: 2px; line-height: 1.5; }
+.wa-kp-link { color: var(--primary); cursor: pointer; text-decoration: underline; font-size: 12px; }
 
 /* ===== Review ===== */
 .review-info {

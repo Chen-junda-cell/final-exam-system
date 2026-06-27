@@ -1512,7 +1512,7 @@ class ExamApp {
     topics.sort((a, b) => b.freq - a.freq);
 
     container.innerHTML = topics.map(t => `
-      <div class="knowledge-card level-${t.level}" onclick="this.classList.toggle('expanded')">
+      <div class="knowledge-card level-${t.level}" id="kp-${t.id}" onclick="this.classList.toggle('expanded')">
         <div class="kc-header">
           <span class="kc-title">${this._esc(t.name)} <span class="badge badge-${t.level}">${t.level}级</span></span>
           <span class="kc-meta">🔁 ${t.freq}次 | 📝 ${t.qCount}题 | ${t.subject.split(' ')[0]}</span>
@@ -1795,59 +1795,75 @@ class ExamApp {
       return;
     }
 
-    // ===== 薄弱知识点分析 =====
-    // 按科目+题型统计错题
+    // ===== 薄弱知识点分析（用KNOWLEDGE_BASE匹配） =====
+    // 为每道错题匹配知识点
+    const matchKp = (q) => {
+      const kpList = KNOWLEDGE_BASE[q.subject]?.topics || [];
+      let best = null, bestScore = 0;
+      for (const kp of kpList) {
+        let score = 0;
+        for (const kw of kp.keywords) {
+          if (q.title.toLowerCase().includes(kw.toLowerCase())) score += 2;
+          if ((q.answer || '').toLowerCase().includes(kw.toLowerCase())) score++;
+        }
+        if (score > bestScore) { bestScore = score; best = kp; }
+      }
+      return (best && bestScore >= 1) ? best : { name: '未分类', level: 'C', content: '', id: '' };
+    };
+
     const analysis = {};
     for (const w of wrongs) {
-      const key = w.subject;
-      if (!analysis[key]) analysis[key] = { count: 0, types: {}, topics: {} };
-      analysis[key].count++;
-      analysis[key].types[w.type] = (analysis[key].types[w.type] || 0) + 1;
-      const topic = w.topic || '其他';
-      analysis[key].topics[topic] = (analysis[key].topics[topic] || 0) + 1;
+      const subj = w.subject;
+      if (!analysis[subj]) analysis[subj] = { count: 0, types: {}, kps: {}, questions: [] };
+      analysis[subj].count++;
+      analysis[subj].types[w.type] = (analysis[subj].types[w.type] || 0) + 1;
+      const kp = matchKp(w);
+      const kpKey = kp.name;
+      if (!analysis[subj].kps[kpKey]) analysis[subj].kps[kpKey] = { kp, count: 0 };
+      analysis[subj].kps[kpKey].count++;
+      analysis[subj].questions.push({ title: w.title.substring(0, 60), kp: kp.name, kpId: kp.id });
     }
 
-    // 生成分析HTML
-    const sortedSubj = Object.entries(analysis).sort((a,b) => b[1].count - a[1].count);
+    const sortedSubj = Object.entries(analysis).sort((a, b) => b[1].count - a[1].count);
     let analysisHtml = '<div class="weak-analysis"><h3>📊 薄弱知识点分析</h3>';
+    analysisHtml += '<p style="color:var(--text-secondary);font-size:13px;margin-bottom:16px;">以下是根据你的错题自动匹配的知识点，点击知识点可跳转到「知识点学习」页面复习。</p>';
 
     for (const [subj, data] of sortedSubj) {
       const totalInBank = this.dm.questions.filter(q => q.subject === subj).length;
       const weaknessPct = totalInBank > 0 ? Math.round(data.count / totalInBank * 100) : 0;
       const level = weaknessPct > 20 ? '🔴' : weaknessPct > 10 ? '🟡' : '🟢';
-
-      // Top weak topics
-      const topTopics = Object.entries(data.topics).sort((a,b) => b[1] - a[1]).slice(0, 5);
-      const topTypes = Object.entries(data.types).sort((a,b) => b[1] - a[1]).slice(0, 3);
+      const topKps = Object.entries(data.kps).sort((a, b) => b[1].count - a[1].count).slice(0, 6);
+      const topTypes = Object.entries(data.types).sort((a, b) => b[1] - a[1]).slice(0, 3);
 
       analysisHtml += `<div class="wa-subject">
         <div class="wa-header">
           <span class="wa-icon">${level}</span>
           <strong>${subj}</strong>
-          <span class="wa-count">${data.count}道错题 / 共${totalInBank}题 (${weaknessPct}%)</span>
-        </div>`;
+          <span class="wa-count">${data.count}道错题 / ${totalInBank}题 (${weaknessPct}%)</span>
+        </div>
+        <div class="wa-kp-list">`;
 
-      if (topTopics.length > 0) {
-        analysisHtml += `<div class="wa-topics">
-          <span class="wa-label">📌 薄弱知识点：</span>`;
-        analysisHtml += topTopics.map(([t, n]) =>
-          `<span class="wa-topic-tag" title="错${n}题">${t || '其他'}(${n})</span>`
-        ).join(' ');
-        analysisHtml += '</div>';
+      for (const [kpName, kpData] of topKps) {
+        const kp = kpData.kp;
+        const kpLevel = kp.level === 'A' ? '⭐' : kp.level === 'B' ? '📌' : '📖';
+        analysisHtml += `<div class="wa-kp-item">
+          <span class="wa-kp-badge badge-${kp.level}">${kpLevel} ${kp.level}级</span>
+          <span class="wa-kp-name" onclick="app.jumpToKnowledge('${subj}','${kp.id}')" title="点击跳转到知识点学习">${kp.name} <span class="wa-kp-count">（错${kpData.count}题）</span></span>
+          ${kp.content ? `<span class="wa-kp-desc">${kp.content.substring(0, 120)}${kp.content.length > 120 ? '...' : ''}</span>` : ''}
+        </div>`;
       }
+
+      analysisHtml += '</div>';
 
       analysisHtml += `<div class="wa-types">
         <span class="wa-label">📝 易错题型：</span>`;
-      analysisHtml += topTypes.map(([t, n]) =>
-        `<span class="wa-type-tag">${t}(${n})</span>`
-      ).join(' ');
+      analysisHtml += topTypes.map(([t, n]) => `<span class="wa-type-tag">${t}(${n})</span>`).join(' ');
       analysisHtml += '</div>';
 
-      // 建议
       if (weaknessPct > 20) {
-        analysisHtml += `<div class="wa-advice">⚠️ <strong>${subj}</strong> 是重灾区！建议优先复习该科目的「老师重点」和「知识点学习」中对应内容，然后集中刷该科的题。</div>`;
+        analysisHtml += `<div class="wa-advice">⚠️ <strong>${subj}</strong> 错题率 ${weaknessPct}%，是重灾区！建议：①打开「🎯 老师重点」精读${subj}章节 ②点击上方知识点直接跳转复习 ③集中重做该科错题。</div>`;
       } else if (weaknessPct > 10) {
-        analysisHtml += `<div class="wa-advice">📖 <strong>${subj}</strong> 有一定薄弱，建议回头看看「知识点学习」中标注的A级内容。</div>`;
+        analysisHtml += `<div class="wa-advice">📖 <strong>${subj}</strong> 错题率 ${weaknessPct}%，有一定薄弱。点击上方知识点名称可直达对应内容复习。</div>`;
       }
 
       analysisHtml += '</div>';
@@ -1855,19 +1871,39 @@ class ExamApp {
     analysisHtml += '</div>';
 
     // 错题列表
-    let listHtml = '<h3 style="margin-top:24px;">📝 错题列表</h3>';
-    listHtml += wrongs.map(w => `
-      <div class="wrong-item" onclick="app.reviewWrongQuestion('${w.id}')">
+    let listHtml = '<h3 style="margin-top:24px;">📝 错题列表（点击可逐题重做）</h3>';
+    listHtml += wrongs.map(w => {
+      const kp = matchKp(w);
+      return `<div class="wrong-item" onclick="app.reviewWrongQuestion('${w.id}')">
         <div class="wi-header">
           <strong>${w.subject} · ${w.type}</strong>
           <span class="wi-meta">❌ ${w.retryCount || 1}次 | ${new Date(w.wrongTime).toLocaleDateString()}</span>
         </div>
         <div class="wi-question">${this._esc(w.title.substring(0, 150))}...</div>
-        ${w.topic ? `<div class="wi-topic">🏷 ${w.topic}</div>` : ''}
-      </div>
-    `).join('');
+        <div class="wi-topic">🏷 <span class="wa-kp-link" onclick="event.stopPropagation();app.jumpToKnowledge('${w.subject}','${kp.id}')">${kp.name}</span></div>
+      </div>`;
+    }).join('');
 
     container.innerHTML = analysisHtml + listHtml;
+  }
+
+  jumpToKnowledge(subject, kpId) {
+    // 跳转到知识点学习页面，筛选到指定科目
+    document.querySelectorAll('.menu-item').forEach(m => m.classList.remove('active'));
+    const navItem = document.querySelector('[data-nav="knowledge"]');
+    if (navItem) navItem.classList.add('active');
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    const page = document.getElementById('knowledge');
+    if (page) page.classList.add('active');
+    // 设置科目筛选
+    const kSubject = document.getElementById('kSubject');
+    if (kSubject) { kSubject.value = subject; kSubject.dispatchEvent(new Event('change')); }
+    this.renderKnowledge();
+    // 滚动到知识点
+    setTimeout(() => {
+      const el = document.getElementById('kp-' + kpId);
+      if (el) { el.scrollIntoView({ behavior: 'smooth', block: 'center' }); el.style.background = 'rgba(255,71,87,0.1)'; setTimeout(() => el.style.background = '', 2000); }
+    }, 300);
   }
 
   retryWrong() {
