@@ -1802,13 +1802,29 @@ class ExamApp {
       let best = null, bestScore = 0;
       for (const kp of kpList) {
         let score = 0;
+        const titleLower = q.title.toLowerCase();
+        const answerLower = (q.answer || '').toLowerCase();
         for (const kw of kp.keywords) {
-          if (q.title.toLowerCase().includes(kw.toLowerCase())) score += 2;
-          if ((q.answer || '').toLowerCase().includes(kw.toLowerCase())) score++;
+          const kwLower = kw.toLowerCase();
+          if (titleLower.includes(kwLower)) score += 3;
+          if (answerLower.includes(kwLower)) score += 1;
+          // 选项中也匹配
+          if ((q.options || []).some(o => (o.text || '').toLowerCase().includes(kwLower))) score += 1;
         }
         if (score > bestScore) { bestScore = score; best = kp; }
       }
-      return (best && bestScore >= 1) ? best : { name: '未分类', level: 'C', content: '', id: '' };
+      if (best && bestScore >= 1) return best;
+      // 兜底：返回带科目名称的默认知识点
+      const subjTips = {
+        'Java Web': '本题属于Java Web范畴。建议重点复习：JSP/Servlet生命周期、9大隐式对象、Filter过滤器、MVC架构、Session/Cookie、JDBC操作、EL表达式与JSTL标签等核心考点。打开「知识点学习」筛选Java Web即可查看全部知识点。',
+        'Linux': '本题属于Linux范畴。建议重点复习：文件目录命令(ls/cd/mkdir/rm/cp/mv)、权限管理chmod、vi/vim编辑器三大模式、Shell脚本编程、用户管理、管道重定向、打包压缩命令等。',
+        'Hadoop': '本题属于Hadoop范畴。建议重点复习：HDFS架构(NameNode/DataNode)、YARN资源管理、MapReduce流程、Block与副本策略、HDFS常用Shell命令、配置文件等核心考点。',
+        'Scala & Spark': '本题属于Scala & Spark范畴。建议重点复习：var/val变量、Tuple元组、RDD五大属性、Transformation/Action算子分类、宽窄依赖与Stage划分、Spark SQL编程等。',
+        'HBase / ZooKeeper': '本题属于HBase/ZooKeeper范畴。建议重点复习：HBase架构(HMaster/RegionServer)、ZooKeeper选举机制、HBase数据模型(RowKey/列族/时间戳)、Shell命令、Java API等。',
+        'Web前端': '本题属于Web前端范畴。建议重点复习：HTML标签与表单、CSS选择器与盒模型、CSS定位与布局、JavaScript变量与数据类型、DOM操作与事件处理等。'
+      };
+      const tip = subjTips[q.subject] || '请结合教材和课件复习本题涉及的知识点。';
+      return { name: '其他知识点', level: 'C', content: tip, id: 'fallback' };
     };
 
     const analysis = {};
