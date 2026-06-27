@@ -462,7 +462,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Linux",
+    "subject": "Java Web",
     "type": "单选题",
     "title": "使用重定向定位请求信息的方式，下面代码正确的是(    )",
     "options": [
@@ -627,7 +627,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Linux",
+    "subject": "Java Web",
     "type": "单选题",
     "title": "在以下的状态码中，哪一个表示请求重定向(    )",
     "options": [
@@ -3709,7 +3709,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "多选题",
     "title": "下列哪些命令可用于字符串比较？",
     "options": [
@@ -3783,7 +3783,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Linux",
+    "subject": "Java Web",
     "type": "多选题",
     "title": "下列哪些是Shell脚本中用于重定向的标准文件描述符？",
     "options": [
@@ -3978,7 +3978,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "删除文件命令为( )",
     "options": [
@@ -4011,7 +4011,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "用户编写了一个文本文件 a.txt，想将该文件名称改为 txt.a，下列命令( )可以实现。",
     "options": [
@@ -4077,7 +4077,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "如果要列出一个目录下的隐藏文件需要使用命令",
     "options": [
@@ -4275,7 +4275,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "用户编写文件userinfo后，想要将该文件名修改为stuinfo，以下（  ）可以实现",
     "options": [
@@ -4308,7 +4308,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "哪个命令可以将普通用户转换成超级用户",
     "options": [
@@ -4341,7 +4341,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "usermod 命令无法实现的操作是（ ）",
     "options": [
@@ -4374,7 +4374,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "显示一个文件最后几行的命令是",
     "options": [
@@ -4407,7 +4407,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "欲把当前目录下的 file1.txt 复制为 file2.txt，正确的命令是（ ）",
     "options": [
@@ -4506,7 +4506,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "若要将当前目录中的myfile.txt 文件压缩成myfile.txt.tar.gz,则实现的命令为（ ）。",
     "options": [
@@ -4539,7 +4539,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "如果要列出一个目录下的所有文件需要使用命令行( )。",
     "options": [
@@ -4572,7 +4572,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "能够查看当前工作区的完整绝对路径的命令是(  )",
     "options": [
@@ -4605,7 +4605,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "下列命令中可以起到对文件进行重命名作用的命令是( )。",
     "options": [
@@ -4671,7 +4671,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "建立一个新文件可以使用的命令为（ ）",
     "options": [
@@ -4704,7 +4704,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "下面关于i节点描述错误的是（） 。",
     "options": [
@@ -4737,7 +4737,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "显示文件\"longfile\"的最后10行，下面那个命令是正确的",
     "options": [
@@ -4803,7 +4803,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "为了将当前目录下的压缩归档文件 name.zip 解压缩，我们可以使用( )。",
     "options": [
@@ -4902,7 +4902,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "确定myfile的文件类型的命令是",
     "options": [
@@ -5034,7 +5034,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "下列哪个命令在建立一个 tar归档文件的时候列出详细列表（ ）。",
     "options": [
@@ -5067,7 +5067,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "自由软件的含义是( )。",
     "options": [
@@ -5133,7 +5133,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "按下( )键能终止当前运行的命令。",
     "options": [
@@ -5166,7 +5166,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "看当前位置下，所有以“a”开头,且只有两个字符的文件，可以实现的命令是",
     "options": [
@@ -5265,7 +5265,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "cd 命令可以改变用户的当前目录，当用户键入命令“cd”并按Enter键后，（ ）",
     "options": [
@@ -5430,7 +5430,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "如何快速切换到用户John 的主目录下？",
     "options": [
@@ -5463,7 +5463,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "改变文件所有者的命令为（ ）",
     "options": [
@@ -5529,7 +5529,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "通常在哪个目录存放配置文件信息",
     "options": [
@@ -5694,7 +5694,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "usermod 命令无法实现的操作是( )。",
     "options": [
@@ -5727,7 +5727,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "对top命令描述正确的是（ ）",
     "options": [
@@ -5793,7 +5793,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "将n1行到n2行之间的内容拷贝到第n3行下的末行模式关键字是",
     "options": [
@@ -5859,7 +5859,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "默认情况下管理员创建了一个用户，就会在(   )目录下创建一个用户主目录",
     "options": [
@@ -5925,7 +5925,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "在给定文件中查找与设定条件相符字符串的命令为（ ）",
     "options": [
@@ -5958,7 +5958,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "假设文件fileA的符号链接为fileB，那么删除fileA后，下面的描述正确的是（ ） 。",
     "options": [
@@ -6123,7 +6123,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Linux",
+    "subject": "Java Web",
     "type": "单选题",
     "title": "使用标准的输出重定向符号(>)，重定向至‘file01'文件，能使文件 file01 的数据( )。",
     "options": [
@@ -6222,7 +6222,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "有关vi的命令模式的dd命令描述正确的是",
     "options": [
@@ -6453,7 +6453,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "以下可以正确执行对文件进行压缩的指令和选项是",
     "options": [
@@ -6486,7 +6486,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "什么命令解压缩tar文件",
     "options": [
@@ -6679,7 +6679,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "填空题",
     "title": "mv 命令可以移动文件和目录，还可以为文件和目录____________。",
     "options": [],
@@ -6727,7 +6727,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "填空题",
     "title": "使用shutdown命令设置系统在30分钟后关机的命令是 ____。",
     "options": [],
@@ -6791,7 +6791,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "填空题",
     "title": "设置系统在12:30关机的命令是 ____，取消该关机计划的命令是 ____。",
     "options": [],
@@ -6807,7 +6807,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "填空题",
     "title": "[root@localhost home]#行首提示的几个组成部分分别代表____，____，____和____。",
     "options": [],
@@ -6839,7 +6839,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "填空题",
     "title": "创建用户时指定家目录的参数是 ____，删除用户时同时删除家目录的参数是 ____。",
     "options": [],
@@ -6855,7 +6855,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "填空题",
     "title": "把文件file1和file2合并成file3的命令是____________。",
     "options": [],
@@ -6871,7 +6871,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "填空题",
     "title": "查看当前工作目录内容的命令是 ____，查看当前所在目录的命令是 ____。",
     "options": [],
@@ -6919,7 +6919,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "填空题",
     "title": "显示计算机基本信息的命令是 ____，显示计算机名称的命令是 ____。",
     "options": [],
@@ -6983,7 +6983,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "填空题",
     "title": "将文件 aaa 改名为 bbb 的命令是 ____。",
     "options": [],
@@ -7031,7 +7031,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "多选题",
     "title": "以下属于 sed 编辑器常用命令的有( )",
     "options": [
@@ -7130,7 +7130,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "多选题",
     "title": "以下属于用户管理相关的命令有",
     "options": [
@@ -7163,7 +7163,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "多选题",
     "title": "以下关于正则表达式字符匹配的描述正确的有( )",
     "options": [
@@ -7196,7 +7196,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "多选题",
     "title": "以下能实现文件压缩功能的命令有",
     "options": [
@@ -7262,7 +7262,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "多选题",
     "title": "以下对 rmdir 命令的描述正确的有( )",
     "options": [
@@ -7295,7 +7295,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "多选题",
     "title": "以下属于用户组管理相关的命令有( )",
     "options": [
@@ -7328,7 +7328,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "多选题",
     "title": "以下关于 sed 编辑器的描述正确的有( )",
     "options": [
@@ -7386,7 +7386,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "多选题",
     "title": "以下关于 touch 命令的选项及功能描述正确的有( )",
     "options": [
@@ -7485,7 +7485,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "多选题",
     "title": "以下正则表达式元字符及匹配规则描述正确的有( )",
     "options": [
@@ -7815,7 +7815,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "多选题",
     "title": "以下属于 awk 内置变量的有( )",
     "options": [
@@ -7914,7 +7914,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "多选题",
     "title": "在终端上查一个很小的数据文件data的内容，我们可以通过( )。",
     "options": [
@@ -8013,7 +8013,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "多选题",
     "title": "下列命令可以独立使用达到查看文件的效果的是( )。",
     "options": [
@@ -8046,7 +8046,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "多选题",
     "title": "以下能查看文件内容的命令有",
     "options": [
@@ -8079,7 +8079,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Linux",
+    "subject": "Java Web",
     "type": "多选题",
     "title": "以下关于文件重定向的描述正确的有( )",
     "options": [
@@ -8112,7 +8112,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "多选题",
     "title": "命令模式进入插入模式的命令有( )。",
     "options": [
@@ -8178,7 +8178,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "多选题",
     "title": "以下对 declare 命令参数功能描述正确的有( )",
     "options": [
@@ -8277,7 +8277,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "多选题",
     "title": "以下对 cp 命令选项功能描述正确的有( )",
     "options": [
@@ -8343,7 +8343,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "多选题",
     "title": "以下关于 basename 和 dirname 命令的功能描述正确的有( )",
     "options": [
@@ -8744,7 +8744,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "简答题",
     "title": "某系统管理员在日常工作中遇到以下命令查看文件，请结合 cat、more、less、head、tail 的特性，分析每个命令的特点。",
     "options": [],
@@ -8920,7 +8920,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Linux",
+    "subject": "Java Web",
     "type": "简答题",
     "title": "使用MVC开发模式实现登录功能模块。（提示：假设用户名和密码分别为“zhangsan”和“111222”则认为登录成功，否则登录失败，登录成功后跳转到welcome.jsp页面（此页面省略不开发），登录失败后跳回登录页面（login.jsp），并在该页面错误显示信息提示）。要求如下：**（1）开发login.jsp页面：**<%@page language=\"java\" import=\"java.util. *\" pageEncoding=\"UTF-8\"%>**<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">**<html>* *<head>*  *<title>在此处插入标题</title>* *</head>* *<body>**<!—此处补充代码(要求包含用户名、密码和登录按钮)-->*  *</body>**</html>****（2）开发loginDao类：****public class LoginDao{**/*根据用户名和密码验证用户，当用户名和密码分别为xiaohong和123456时，方法返回true，否则返回false*/public boolean login(String username,String password){  //在此处编写代码(不用连接数据库，模拟内容相同即可通过登录验证)   }}**（3）开发LoginServlet类：**com.inspur.Contorller 包；import javax.servlet.ServletException;import javax.servlet.http.HttpServlet;import javax.servlet.http.HttpServletRequest;import javax.servlet.http.HttpServletResponse;public class LoginServlet extends HttpServlet{@Overrideprotected void doPost(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException {  //在此处编写的代码（完成获取提交用户的用户名和密码数据，并调用loginDao进行登录验证，如果登录错误，则请求转发到login.jsp，并在登录页面上显示错误信息，如果登录信息正确，则重定向到welcome.jsp页面）   }}**（4）配置web.xml文件，配置LoginServlet：**<?xml version=\"1.0\" encoding=\"UTF-8\"?><web-app version=\"2.5\"  xmlns=\"http://java.sun.com/xml/ns/javaee\"  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"  xsi:schemaLocation=\"http://java.sun.com/xml/ns/javaee  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd\"> <display-name></display-name>  <欢迎文件列表>  <welcome-file>index.jsp</welcome-file> </welcome-file-list><!-- 在此处配置LoginServlet-->",
     "options": [],
@@ -8984,7 +8984,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Linux",
+    "subject": "Java Web",
     "type": "简答题",
     "title": "请求转发和请求重定向的定义及它们的区别",
     "options": [],
@@ -9032,7 +9032,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Linux",
+    "subject": "Java Web",
     "type": "程序题",
     "title": "请阅读以下代码，根据要求进行补充，完成用户登录功能。**（一）login.jsp核心代码：**<form action=\"/login\" method=\"post\">     用户名：<input type=\"text\" name=\"user_name\"><br>     密码：<input type=\"password\" name=\"user_password\"><br>     <input type=\"提交\" value=\"登录\">  </form>**（二）LoginServlet.java核心代码：**package com.ks.servlet;public class LoginServlet extends HttpServlet {    protected void doPost(HttpServletRequest request,HttpServletResponse 响应) 抛出异常 {    **//(1)补充代码：获取用户名和密码两个请求参数**                                                                       如果(\"ksUser\".equals(name)&&\"ks1234\".equals(\"password\")) {      **//(2)补充代码：将用户名保存在Session中**                                               **//(3)补充代码：将用户名保存在cookie中,cookie首次期设置****72小时，在请求头添加cookie**                                                **//(4)补充代码：转发至/WEB-INF/pages/main.jsp**                                               }别的 {      **//(5)补充代码：重定向到登录页面/ks/login.jsp**                                           }  }}**（三）main.jsp核心代码：**<body>**<!(6)补充代码-通过EL表达式获取session中的用户名-->**这是主页，欢迎您，！       </body> **（四）Web.xml核心代码：**<web-app xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance     xmlns=\"http://java.sun.com/xml/ns/javaee\"xsi:schemaLocation=\"http://java.sun.com/xml/ns/javaeehttp://java.sun.com/xml/ns/javaee/web-app_2_5.xsd\" version=\"2.5\"> <display-name>ks</display-name> <欢迎文件列表>  <welcome-file>login.jsp</welcome-file> </welcome-file-list> **<!(7)补充代码-请完成LoginServlet的配置-->**                                                  </web-app>",
     "options": [],
@@ -9096,7 +9096,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Linux",
+    "subject": "Java Web",
     "type": "程序题",
     "title": "使用MVC开发模式实现登录功能模块。（提示：假设用户名和密码分别为“zhangsan”和“111222”则认为登录成功，否则登录失败，登录成功后跳转到welcome.jsp页面（此页面省略不开发），登录失败后跳回登录页面（login.jsp），并在该页面错误显示信息提示）。要求如下：**1.开发login.jsp页面**<%@page language=\"java\" import=\"java.util. *\" pageEncoding=\"UTF-8\"%>**<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">**<html>* *<head>*  *<title>在此处插入标题</title>* *</head>* *<body>**<!—此处补充代码(要求包含用户名、密码和登录按钮)-->*  *</body>**</html>****2.开发loginDao类：****public class LoginDao{**/*根据用户名和密码验证用户，当用户名和密码分别为xiaohong和123456时，方法返回true，否则返回false*/public boolean login(String username,String password){  //在此处编写代码(不用连接数据库，模拟内容相同即可通过登录验证)   }}**3.开发LoginServlet类：**com.inspur.Contorller 包；import javax.servlet.ServletException;import javax.servlet.http.HttpServlet;import javax.servlet.http.HttpServletRequest;import javax.servlet.http.HttpServletResponse;public class LoginServlet extends HttpServlet{@Overrideprotected void doPost(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException {  //在此处编写的代码（完成获取提交用户的用户名和密码数据，并调用loginDao进行登录验证，如果登录错误，则请求转发到login.jsp，并在登录页面上显示错误信息，如果登录信息正确，则重定向到welcome.jsp页面）   }}**4.配置web.xml文件，配置LoginServlet：**<?xml version=\"1.0\" encoding=\"UTF-8\"?><web-app version=\"2.5\"  xmlns=\"http://java.sun.com/xml/ns/javaee\"  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"  xsi:schemaLocation=\"http://java.sun.com/xml/ns/javaee  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd\"> <display-name></display-name>  <欢迎文件列表>  <welcome-file>index.jsp</welcome-file> </welcome-file-list><!-- 在此处配置LoginServlet-->   </web-app>",
     "options": [],
@@ -9194,7 +9194,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Hadoop",
     "type": "单选题",
     "title": "计算每天的营业情况适合采用哪种数据处理方式？",
     "options": [
@@ -9293,7 +9293,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Hadoop",
     "type": "单选题",
     "title": "安装CentOS7时，若选择默认硬盘分区格式化，下一步应点击哪个选项完成配置？",
     "options": [
@@ -9425,7 +9425,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Hadoop",
     "type": "单选题",
     "title": "以下不属于大数据5V特点的是？",
     "options": [
@@ -9491,7 +9491,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "单选题",
     "title": "修改CentOS7的IP地址为静态IP后，需执行哪个命令重启网络服务？",
     "options": [
@@ -9920,7 +9920,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Hadoop",
     "type": "单选题",
     "title": "关于分布式与集群的描述，正确的是？",
     "options": [
@@ -10250,7 +10250,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Hadoop",
     "type": "多选题",
     "title": "安装CentOS7时，以下哪些步骤是正确的？",
     "options": [
@@ -10283,7 +10283,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Hadoop",
     "type": "多选题",
     "title": "修改网络配置文件设置静态IP时，需要修改哪些参数？",
     "options": [
@@ -13625,7 +13625,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Hadoop",
     "type": "填空题",
     "title": "自定义序列化实现的接口是____，自定义排序实现的接口是 ____。",
     "options": [],
@@ -15513,7 +15513,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Hadoop",
     "type": "单选题",
     "title": "以下不属于大数据特点的是( )。",
     "options": [
@@ -15810,7 +15810,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Hadoop",
     "type": "单选题",
     "title": "以下业务场景适合使用实时处理的是()",
     "options": [
@@ -16008,7 +16008,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Hadoop",
     "type": "单选题",
     "title": "以下选项对离线批处理描述不正确的选项是()",
     "options": [
@@ -16074,7 +16074,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Hadoop",
     "type": "单选题",
     "title": "关于HA描述错误的是( )。",
     "options": [
@@ -16573,7 +16573,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Hadoop",
     "type": "判断题",
     "title": "通过job.setPartitionerClass设置分区组件时，还需要通过job.setNumReduceTasks方法设置reduce任务的数量与分区数量相同( )。",
     "options": [
@@ -17721,7 +17721,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "HBase / ZooKeeper",
     "type": "单选题",
     "title": "NoSQL数据库的特点不包括以下哪项？",
     "options": [
@@ -17853,7 +17853,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "HBase / ZooKeeper",
     "type": "单选题",
     "title": "非关系型数据库的特点不包括以下哪一项？",
     "options": [
@@ -17985,7 +17985,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "HBase / ZooKeeper",
     "type": "单选题",
     "title": "关系型数据库在处理海量数据时的主要瓶颈不包括以下哪项？",
     "options": [
@@ -18018,7 +18018,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "HBase / ZooKeeper",
     "type": "单选题",
     "title": "传统关系型数据库无法满足大规模数据处理需求的主要原因不包括以下哪一项？",
     "options": [
@@ -18216,7 +18216,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "HBase / ZooKeeper",
     "type": "单选题",
     "title": "以下哪种NoSQL数据库属于面向高性能并发读写的key-value数据库？",
     "options": [
@@ -18513,7 +18513,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "HBase / ZooKeeper",
     "type": "单选题",
     "title": "以下哪项不是Google“三驾马车”的组成部分？",
     "options": [
@@ -18678,7 +18678,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "HBase / ZooKeeper",
     "type": "多选题",
     "title": "Google“三驾马车”包括以下哪些技术？",
     "options": [
@@ -18744,7 +18744,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "HBase / ZooKeeper",
     "type": "多选题",
     "title": "以下属于非关系型数据库的有哪些？",
     "options": [
@@ -18876,7 +18876,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "HBase / ZooKeeper",
     "type": "多选题",
     "title": "关系型数据库在处理大规模数据时的瓶颈主要有？",
     "options": [
@@ -18909,7 +18909,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "HBase / ZooKeeper",
     "type": "多选题",
     "title": "以下属于NoSQL数据库分类的有？",
     "options": [
@@ -19998,7 +19998,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "HBase / ZooKeeper",
     "type": "单选题",
     "title": "关于删除命名空间(namespace)，以下说法正确的是?",
     "options": [
@@ -20394,7 +20394,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "HBase / ZooKeeper",
     "type": "多选题",
     "title": "针对表结构管理的DDL命令组中，包含以下哪些命令?",
     "options": [
@@ -20427,7 +20427,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "HBase / ZooKeeper",
     "type": "多选题",
     "title": "使用scan扫描表时，可以实现以下哪些查询操作?",
     "options": [
@@ -20592,7 +20592,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "HBase / ZooKeeper",
     "type": "多选题",
     "title": "以下属于namespace命令组的常用命令有?",
     "options": [
@@ -20625,7 +20625,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "Linux",
     "type": "多选题",
     "title": "关于表状态的管理命令，以下哪些是正确的?",
     "options": [
@@ -20658,7 +20658,7 @@
     "reviewStage": 0
   },
   {
-    "subject": "Java Web",
+    "subject": "HBase / ZooKeeper",
     "type": "填空题",
     "title": "删除命名空间(namespace)时，只能删除______的命名空间，非空的命名空间不允许删除。 ## 单选题（共 10 题，40.0 分）",
     "options": [],
