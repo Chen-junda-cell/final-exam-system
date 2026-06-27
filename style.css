@@ -385,6 +385,20 @@ h1 { font-size: 24px; margin-bottom: 24px; color: var(--text); }
 .wrong-item .wi-header { display: flex; justify-content: space-between; margin-bottom: 8px; }
 .wrong-item .wi-question { font-size: 14px; color: var(--text-secondary); }
 .wrong-item .wi-meta { font-size: 12px; color: var(--text-secondary); }
+.wrong-item .wi-topic { font-size: 11px; color: var(--primary); margin-top: 4px; }
+
+/* ===== 薄弱知识点分析 ===== */
+.weak-analysis { margin-bottom: 16px; }
+.weak-analysis h3 { font-size: 18px; margin-bottom: 16px; }
+.wa-subject { background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 10px; }
+.wa-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+.wa-icon { font-size: 18px; }
+.wa-count { font-size: 13px; color: var(--text-secondary); margin-left: auto; }
+.wa-topics, .wa-types { margin: 6px 0; font-size: 13px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.wa-label { color: var(--text-secondary); white-space: nowrap; }
+.wa-topic-tag { display: inline-block; padding: 2px 8px; border-radius: 10px; background: rgba(255,71,87,0.1); color: #d63031; font-size: 12px; font-weight: 600; cursor: default; }
+.wa-type-tag { display: inline-block; padding: 1px 6px; border-radius: 8px; background: rgba(108,92,231,0.1); color: var(--primary); font-size: 11px; }
+.wa-advice { margin-top: 8px; padding: 8px 12px; background: rgba(255,234,167,0.2); border-left: 3px solid #fdcb6e; border-radius: 0 6px 6px 0; font-size: 13px; line-height: 1.5; }
 
 /* ===== Review ===== */
 .review-info {

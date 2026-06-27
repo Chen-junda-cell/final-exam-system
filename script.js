@@ -530,6 +530,9 @@ class DataManager {
           } catch(e) {}
         }
       }
+      // 保存旧错题本ID，版本升级后恢复
+      let savedWrongBook = null;
+      try { savedWrongBook = JSON.parse(localStorage.getItem('exam_wrongbook') || 'null'); } catch(e) {}
       if (dataVersion !== 'v6') {
         localStorage.removeItem('exam_questions');
         localStorage.removeItem('exam_wrongbook');
@@ -572,8 +575,21 @@ class DataManager {
       }
       const q = localStorage.getItem('exam_questions');
       this.questions = q ? JSON.parse(q) : [];
-      const w = localStorage.getItem('exam_wrongbook');
+      let w = localStorage.getItem('exam_wrongbook');
       this.wrongBook = w ? JSON.parse(w) : [];
+      // 恢复旧错题本(跨版本保留)：用title匹配找到新题目替代旧记录
+      if (savedWrongBook && savedWrongBook.length > 0 && this.wrongBook.length === 0) {
+        const restored = [];
+        for (const old of savedWrongBook) {
+          const match = this.questions.find(nq => nq.title.substring(0, 60) === (old.title||'').substring(0, 60));
+          if (match) restored.push({...match, wrongTime: old.wrongTime || Date.now(), retryCount: old.retryCount || 1});
+        }
+        if (restored.length > 0) {
+          this.wrongBook = restored;
+          this.save();
+          console.log('📝 恢复错题本: ' + restored.length + ' 题');
+        }
+      }
       const p = localStorage.getItem('exam_progress');
       this.progress = p ? JSON.parse(p) : {};
       const r = localStorage.getItem('exam_reviews');
@@ -1778,15 +1794,80 @@ class ExamApp {
       container.innerHTML = '<div class="empty-state">🎉 暂无错题，继续保持！</div>';
       return;
     }
-    container.innerHTML = wrongs.map(w => `
+
+    // ===== 薄弱知识点分析 =====
+    // 按科目+题型统计错题
+    const analysis = {};
+    for (const w of wrongs) {
+      const key = w.subject;
+      if (!analysis[key]) analysis[key] = { count: 0, types: {}, topics: {} };
+      analysis[key].count++;
+      analysis[key].types[w.type] = (analysis[key].types[w.type] || 0) + 1;
+      const topic = w.topic || '其他';
+      analysis[key].topics[topic] = (analysis[key].topics[topic] || 0) + 1;
+    }
+
+    // 生成分析HTML
+    const sortedSubj = Object.entries(analysis).sort((a,b) => b[1].count - a[1].count);
+    let analysisHtml = '<div class="weak-analysis"><h3>📊 薄弱知识点分析</h3>';
+
+    for (const [subj, data] of sortedSubj) {
+      const totalInBank = this.dm.questions.filter(q => q.subject === subj).length;
+      const weaknessPct = totalInBank > 0 ? Math.round(data.count / totalInBank * 100) : 0;
+      const level = weaknessPct > 20 ? '🔴' : weaknessPct > 10 ? '🟡' : '🟢';
+
+      // Top weak topics
+      const topTopics = Object.entries(data.topics).sort((a,b) => b[1] - a[1]).slice(0, 5);
+      const topTypes = Object.entries(data.types).sort((a,b) => b[1] - a[1]).slice(0, 3);
+
+      analysisHtml += `<div class="wa-subject">
+        <div class="wa-header">
+          <span class="wa-icon">${level}</span>
+          <strong>${subj}</strong>
+          <span class="wa-count">${data.count}道错题 / 共${totalInBank}题 (${weaknessPct}%)</span>
+        </div>`;
+
+      if (topTopics.length > 0) {
+        analysisHtml += `<div class="wa-topics">
+          <span class="wa-label">📌 薄弱知识点：</span>`;
+        analysisHtml += topTopics.map(([t, n]) =>
+          `<span class="wa-topic-tag" title="错${n}题">${t || '其他'}(${n})</span>`
+        ).join(' ');
+        analysisHtml += '</div>';
+      }
+
+      analysisHtml += `<div class="wa-types">
+        <span class="wa-label">📝 易错题型：</span>`;
+      analysisHtml += topTypes.map(([t, n]) =>
+        `<span class="wa-type-tag">${t}(${n})</span>`
+      ).join(' ');
+      analysisHtml += '</div>';
+
+      // 建议
+      if (weaknessPct > 20) {
+        analysisHtml += `<div class="wa-advice">⚠️ <strong>${subj}</strong> 是重灾区！建议优先复习该科目的「老师重点」和「知识点学习」中对应内容，然后集中刷该科的题。</div>`;
+      } else if (weaknessPct > 10) {
+        analysisHtml += `<div class="wa-advice">📖 <strong>${subj}</strong> 有一定薄弱，建议回头看看「知识点学习」中标注的A级内容。</div>`;
+      }
+
+      analysisHtml += '</div>';
+    }
+    analysisHtml += '</div>';
+
+    // 错题列表
+    let listHtml = '<h3 style="margin-top:24px;">📝 错题列表</h3>';
+    listHtml += wrongs.map(w => `
       <div class="wrong-item" onclick="app.reviewWrongQuestion('${w.id}')">
         <div class="wi-header">
           <strong>${w.subject} · ${w.type}</strong>
           <span class="wi-meta">❌ ${w.retryCount || 1}次 | ${new Date(w.wrongTime).toLocaleDateString()}</span>
         </div>
         <div class="wi-question">${this._esc(w.title.substring(0, 150))}...</div>
+        ${w.topic ? `<div class="wi-topic">🏷 ${w.topic}</div>` : ''}
       </div>
     `).join('');
+
+    container.innerHTML = analysisHtml + listHtml;
   }
 
   retryWrong() {
