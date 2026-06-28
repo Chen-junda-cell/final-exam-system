@@ -1928,9 +1928,9 @@ class ExamApp {
     let wrongs = this.dm.wrongBook;
     if (subject !== 'all') wrongs = wrongs.filter(w => w.subject === subject);
     if (wrongs.length === 0) { this.toast('🎉 没有错题可做！'); return; }
-    // 从题库中找到对应的完整题目
-    const qs = this.dm.getQuestions({ids: wrongs.map(w => w.id)});
-    this.openQuiz(this._shuffle(qs), 'practice');
+    // 直接使用错题本数据（保留完整题目信息），不依赖题库ID匹配
+    if (wrongs.length === 0) { this.toast('🎉 没有错题可做！'); return; }
+    this.openQuiz(this._shuffle([...wrongs]), 'practice');
   }
 
   reviewWrongQuestion(qid) {
