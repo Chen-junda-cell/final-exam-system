@@ -7339,11 +7339,19 @@ const PREPARSED_QUESTIONS = [
       },
       {
         "label": "B",
-        "text": "“s/old/new/g” 表示全局替换文本中的 old 为 newC. “d” 命令用于删除匹配的行D. “p” 命令单独使用时仅打印匹配行，不输出其他行"
+        "text": "\"s/old/new/g\" 表示全局替换文本中的 old 为 new"
+      },
+      {
+        "label": "C",
+        "text": "\"d\" 命令用于删除匹配的行"
+      },
+      {
+        "label": "D",
+        "text": "\"p\" 命令单独使用时仅打印匹配行，不输出其他行"
       }
     ],
-    "answer": "AB",
-    "explanation": "正确答案是A. sed 是无破坏性编辑器，默认不修改原文件；B. “s/old/new/g” 表示全局替换文本中的 old 为 newC. “d” 命令用于删除匹配的行D. “p” 命令单独使用时仅打印匹配行，不输出其他行。多选题需选出所有正确选项，少选或多选均不得分。",
+    "answer": "ABD",
+    "explanation": "sed默认不修改原文件(无-i选项时)，s/old/new/g全局替换，d命令删除匹配行，p命令打印匹配行。注意：sed默认会输出所有行，-n配合p才只输出匹配行。",
     "topic": "",
     "id": "GEN10248",
     "level": "B",
