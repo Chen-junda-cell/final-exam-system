@@ -10671,7 +10671,7 @@ const PREPARSED_QUESTIONS = [
         "text": "通透性，用户感觉像访问本地磁盘"
       }
     ],
-    "answer": "B",
+    "answer": "CDE",
     "explanation": "正确答案是B. 支持并发写入。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10374",
@@ -10782,7 +10782,7 @@ const PREPARSED_QUESTIONS = [
         "text": "NameNode根据心跳判断DataNode是否宕机"
       }
     ],
-    "answer": "C",
+    "answer": "ABCE",
     "explanation": "NameNode存储文件系统的元数据(目录结构、文件与Block的映射关系等)，不存储实际数据。实际数据由DataNode存储。C. 心跳包含DataNode存储的块信息",
     "topic": "",
     "id": "GEN10377",
@@ -10944,7 +10944,7 @@ const PREPARSED_QUESTIONS = [
         "text": "错"
       }
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "NameNode存储文件系统的元数据(目录结构、文件与Block的映射关系等)，不存储实际数据。实际数据由DataNode存储。C",
     "topic": "",
     "id": "GEN10383",
@@ -11178,7 +11178,7 @@ const PREPARSED_QUESTIONS = [
         "text": "hadoop fs -appendToFile"
       }
     ],
-    "answer": "C",
+    "answer": "ABCDE",
     "explanation": "正确答案是C. hadoop fs -cat。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10391",
@@ -11252,7 +11252,7 @@ const PREPARSED_QUESTIONS = [
         "text": "hadoop fs -ls"
       }
     ],
-    "answer": "A",
+    "answer": "ABDE",
     "explanation": "正确答案是A. hadoop fs -put。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10393",
@@ -11685,7 +11685,7 @@ const PREPARSED_QUESTIONS = [
         "text": "hdfs dfs -get"
       }
     ],
-    "answer": "C",
+    "answer": "ABCDE",
     "explanation": "正确答案是C. hdfs dfs -rm。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10408",
@@ -11722,7 +11722,7 @@ const PREPARSED_QUESTIONS = [
         "text": "hdfs dfs -get"
       }
     ],
-    "answer": "C",
+    "answer": "ABDE",
     "explanation": "正确答案是C. hdfs dfs -moveFromLocal。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10409",
@@ -11759,7 +11759,7 @@ const PREPARSED_QUESTIONS = [
         "text": "hdfs dfs -cat"
       }
     ],
-    "answer": "A",
+    "answer": "ABC",
     "explanation": "正确答案是A. hdfs dfs -get。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10410",
@@ -11833,7 +11833,7 @@ const PREPARSED_QUESTIONS = [
         "text": "hdfs dfs -copyFromLocal"
       }
     ],
-    "answer": "C",
+    "answer": "ABC",
     "explanation": "正确答案是C. hdfs dfs -put。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10412",
@@ -13432,7 +13432,7 @@ const PREPARSED_QUESTIONS = [
         "text": "错"
       }
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "NameNode负责管理元数据，而实际的数据块是由DataNode存储的。",
     "topic": "",
     "id": "GEN10461",
@@ -17183,7 +17183,7 @@ const PREPARSED_QUESTIONS = [
         "text": "HDFS联邦可以提高集群的存储容量，但无法提升并发访问能力"
       }
     ],
-    "answer": "C",
+    "answer": "ABCD",
     "explanation": "NameNode存储文件系统的元数据(目录结构、文件与Block的映射关系等)，不存储实际数据。实际数据由DataNode存储。C. HDFS HA中，Standby NameNode通过实时同步EditLog保证数据一致性",
     "topic": "",
     "id": "GEN10594",
@@ -18667,7 +18667,7 @@ const PREPARSED_QUESTIONS = [
         "text": "HDFS以面向列存储，HBase以面向行存储"
       }
     ],
-    "answer": "B",
+    "answer": "ABCD",
     "explanation": "HBase是面向列族(Column Family)存储的分布式数据库，同一列族的数据存储在一起。B. HDFS支持随机读写，HBase支持一次写入多次读取",
     "topic": "",
     "id": "GEN10640",
@@ -18799,7 +18799,7 @@ const PREPARSED_QUESTIONS = [
         "text": "关系型数据库"
       }
     ],
-    "answer": "B",
+    "answer": "ABCD",
     "explanation": "HBase是面向列族(Column Family)存储的分布式数据库，同一列族的数据存储在一起。B. 高性能",
     "topic": "",
     "id": "GEN10644",
@@ -18964,7 +18964,7 @@ const PREPARSED_QUESTIONS = [
         "text": "HDFS依赖MapReduce，HBase可通过REST API访问"
       }
     ],
-    "answer": "B",
+    "answer": "ABCD",
     "explanation": "正确答案是B. HDFS是一次写入多次读取，HBase支持随机读写。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10649",
@@ -21978,7 +21978,7 @@ const PREPARSED_QUESTIONS = [
         "text": "MemStore中的数据按随机顺序存储，刷写到StoreFile时再排序"
       }
     ],
-    "answer": "A",
+    "answer": "ACD",
     "explanation": "正确答案是A. Region Server负责管理多个Region，每个Region对应表的一个数据分区。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10746",
@@ -22011,7 +22011,7 @@ const PREPARSED_QUESTIONS = [
         "text": "BlockCache"
       }
     ],
-    "answer": "B",
+    "answer": "ABCD",
     "explanation": "正确答案是B. Store。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10747",
@@ -22044,7 +22044,7 @@ const PREPARSED_QUESTIONS = [
         "text": "HBase表的数据物理上按列族存储，不同列族的数据存放在不同Store中"
       }
     ],
-    "answer": "A",
+    "answer": "ABCD",
     "explanation": "正确答案是A. StoreFile是HBase的物理存储文件，基于HDFS存储。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10748",
@@ -22077,7 +22077,7 @@ const PREPARSED_QUESTIONS = [
         "text": "HBase表的Schema由表名和列族名组成"
       }
     ],
-    "answer": "B",
+    "answer": "ACD",
     "explanation": "正确答案是B. 每个Region Server只能管理一个Region。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10749",
@@ -22110,7 +22110,7 @@ const PREPARSED_QUESTIONS = [
         "text": "Cell中的数据版本按时间戳升序排列，最新版本在最后"
       }
     ],
-    "answer": "C",
+    "answer": "ABD",
     "explanation": "正确答案是C. Timestamp默认由HBase自动赋值，精确到毫秒。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10750",
@@ -22819,7 +22819,7 @@ const PREPARSED_QUESTIONS = [
         "text": "依赖版本可以随意选择"
       }
     ],
-    "answer": "A",
+    "answer": "AC",
     "explanation": "正确答案是A. 需要添加hbase-client依赖。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10772",
