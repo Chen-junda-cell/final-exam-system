@@ -23853,7 +23853,7 @@ const PREPARSED_QUESTIONS = [
         "text": "take"
       }
     ],
-    "answer": "A;B;D;E",
+    "answer": "ABDE",
     "explanation": "collect/count/reduce/take都是行动操作，会触发计算。map是转换操作，惰性求值。",
     "id": "GEN0162",
     "level": "A",
@@ -23886,7 +23886,7 @@ const PREPARSED_QUESTIONS = [
         "text": "完全不需要磁盘存储"
       }
     ],
-    "answer": "A;B;C",
+    "answer": "ABC",
     "explanation": "D错误：Spark虽然内存计算为主，但在内存不足时仍会溢写到磁盘，且初始数据仍需从磁盘/HDFS读取。",
     "id": "GEN0163",
     "level": "A",
@@ -24003,7 +24003,7 @@ const PREPARSED_QUESTIONS = [
         "text": "完全不需要磁盘存储（不适用）"
       }
     ],
-    "answer": "A;B;C",
+    "answer": "ABC",
     "explanation": "D错误：Spark虽然内存计算为主，但在内存不足时仍会溢写到磁盘，且初始数据仍需从磁盘/HDFS读取。",
     "id": "GEN0195",
     "level": "A",
