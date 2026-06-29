@@ -3735,7 +3735,7 @@ const PREPARSED_QUESTIONS = [
         "text": "-lt"
       }
     ],
-    "answer": "ABC",
+    "answer": "AC",
     "explanation": "正确答案是A. ==；B. -eq；C. !=；D. -ne；E. -lt。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10121",
@@ -7548,7 +7548,7 @@ const PREPARSED_QUESTIONS = [
         "text": "使用命令行参数"
       }
     ],
-    "answer": "BC",
+    "answer": "ABD",
     "explanation": "正确答案是B. 使用read命令；C. 不可以赋值。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10254",
@@ -7713,7 +7713,7 @@ const PREPARSED_QUESTIONS = [
         "text": "while"
       }
     ],
-    "answer": "ABC",
+    "answer": "ACD",
     "explanation": "正确答案是A. for；B. if；C. until。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10259",
@@ -8175,7 +8175,7 @@ const PREPARSED_QUESTIONS = [
         "text": "可以使用chmod的文字设定法o=r设定最后三位"
       }
     ],
-    "answer": "CD",
+    "answer": "BCD",
     "explanation": "正确答案是C. 可以使用chmod的文字设定法u=rwx设定前三位；D. 可以使用chmod的文字设定法o=r设定最后三位。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10273",
