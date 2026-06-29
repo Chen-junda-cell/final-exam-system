@@ -3186,7 +3186,7 @@ const PREPARSED_QUESTIONS = [
         "text": "命令行模式下可以直接输入文本内容。"
       }
     ],
-    "answer": "ABCD",
+    "answer": "ABC",
     "explanation": "正确答案是A. 可以通过按 : 进入命令行模式。；B. 命令行模式下可以执行保存、退出等命令。；C. 命令行模式下可以输入搜索命令。；D. 命令行模式下无法切换回普通模式。；E. 命令行模式下可以直接输入文本内容。。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10104",
@@ -3260,7 +3260,7 @@ const PREPARSED_QUESTIONS = [
         "text": "dd"
       }
     ],
-    "answer": "AB",
+    "answer": "ABCD",
     "explanation": "正确答案是A. i；B. Esc；C. Enter；D. Backspace；E. dd。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10106",
@@ -3297,7 +3297,7 @@ const PREPARSED_QUESTIONS = [
         "text": "插入模式下可以直接按Esc键返回普通模式。"
       }
     ],
-    "answer": "ABC",
+    "answer": "ABCE",
     "explanation": "在vi普通模式下按 i 键进入插入模式（光标前插入）。a在光标后插入，o在下一行插入。Esc返回命令模式。B. 插入模式下可以输入文本。",
     "topic": "",
     "id": "GEN10107",
@@ -3661,7 +3661,7 @@ const PREPARSED_QUESTIONS = [
         "text": "-w"
       }
     ],
-    "answer": "ABCD",
+    "answer": "ABCDE",
     "explanation": "正确答案是A. -f；B. -d；C. -e；D. -r；E. -w。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10119",
@@ -3698,7 +3698,7 @@ const PREPARSED_QUESTIONS = [
         "text": "case"
       }
     ],
-    "answer": "ABCD",
+    "answer": "ABC",
     "explanation": "正确答案是A. for；B. while；C. until；D. do；E. case。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10120",
@@ -3772,7 +3772,7 @@ const PREPARSED_QUESTIONS = [
         "text": "source"
       }
     ],
-    "answer": "ABCD",
+    "answer": "ABC",
     "explanation": "正确答案是A. set -x；B. echo；C. trap；D. read；E. source。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10122",
