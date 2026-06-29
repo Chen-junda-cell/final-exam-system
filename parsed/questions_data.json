@@ -3185,7 +3185,7 @@
         "text": "命令行模式下可以直接输入文本内容。"
       }
     ],
-    "answer": "ABCDE",
+    "answer": "ABCD",
     "explanation": "正确答案是A. 可以通过按 : 进入命令行模式。；B. 命令行模式下可以执行保存、退出等命令。；C. 命令行模式下可以输入搜索命令。；D. 命令行模式下无法切换回普通模式。；E. 命令行模式下可以直接输入文本内容。。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10104",
@@ -3222,7 +3222,7 @@
         "text": "wq"
       }
     ],
-    "answer": "ABCDE",
+    "answer": "ABCD",
     "explanation": "正确答案是A. dd；B. yy；C. i；D. x；E. wq。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10105",
@@ -3259,7 +3259,7 @@
         "text": "dd"
       }
     ],
-    "answer": "ABCDE",
+    "answer": "AB",
     "explanation": "正确答案是A. i；B. Esc；C. Enter；D. Backspace；E. dd。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10106",
@@ -3660,7 +3660,7 @@
         "text": "-w"
       }
     ],
-    "answer": "ABCDE",
+    "answer": "ABCD",
     "explanation": "正确答案是A. -f；B. -d；C. -e；D. -r；E. -w。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10119",
@@ -3697,7 +3697,7 @@
         "text": "case"
       }
     ],
-    "answer": "ABCDE",
+    "answer": "ABCD",
     "explanation": "正确答案是A. for；B. while；C. until；D. do；E. case。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10120",
@@ -3734,7 +3734,7 @@
         "text": "-lt"
       }
     ],
-    "answer": "ABCDE",
+    "answer": "ABC",
     "explanation": "正确答案是A. ==；B. -eq；C. !=；D. -ne；E. -lt。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10121",
@@ -3771,7 +3771,7 @@
         "text": "source"
       }
     ],
-    "answer": "ABCDE",
+    "answer": "ABCD",
     "explanation": "正确答案是A. set -x；B. echo；C. trap；D. read；E. source。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10122",
@@ -3808,7 +3808,7 @@
         "text": "4"
       }
     ],
-    "answer": "ABCDE",
+    "answer": "ABC",
     "explanation": "正确答案是A. 0；B. 1；C. 2；D. 3；E. 4。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10123",
