@@ -9030,7 +9030,7 @@ const PREPARSED_QUESTIONS = [
     "title": "在程序的时候需要与数据库进行开发连接，请简述一下 JDBC 开发步骤",
     "options": [],
     "answer": "①加载数据库驱动：Class.forName(\"驱动类名\")；②建立数据库连接：Connection conn = DriverManager.getConnection(url, username, password)；③创建Statement对象执行SQL：Statement stmt = conn.createStatement()，执行查询用executeQuery()返回ResultSet，增删改用executeUpdate()返回影响行数；④释放资源：按顺序关闭ResultSet→Statement→Connection。",
-    "explanation": "本题为简答题，请参照标准答案对比自己的回答，注意关键得分点。",
+    "explanation": "JDBC开发步骤：①Class.forName(\"驱动类\")加载驱动；②DriverManager.getConnection(url,user,password)建立连接；③创建Statement/PreparedStatement执行SQL(executeUpdate增删改/executeQuery查询)；④处理ResultSet结果集；⑤按顺序关闭ResultSet→Statement→Connection释放资源。PreparedStatement可防SQL注入。",
     "topic": "",
     "id": "GEN10320",
     "level": "B",
