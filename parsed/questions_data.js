@@ -15576,7 +15576,7 @@ const PREPARSED_QUESTIONS = [
         "text": "当MapReduce程序结束时调用一次map方法"
       }
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "正确答案是C. 当MapReduce程序启动时调用一次map方法。本题考察Hadoop大数据技术相关知识点。",
     "topic": "",
     "id": "GEN10537",
@@ -17224,7 +17224,7 @@ const PREPARSED_QUESTIONS = [
         "text": "4"
       }
     ],
-    "answer": "A",
+    "answer": "C",
     "explanation": "正确答案是A. 1。本题考察Hadoop大数据技术相关知识点。",
     "topic": "",
     "id": "GEN10595",
@@ -17323,7 +17323,7 @@ const PREPARSED_QUESTIONS = [
         "text": "ZooKeeper"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": "正确答案是A. 本地文件系统。本题考察Hadoop大数据技术相关知识点。",
     "topic": "",
     "id": "GEN10598",
@@ -17356,7 +17356,7 @@ const PREPARSED_QUESTIONS = [
         "text": "Input阶段"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": "正确答案是A. Map阶段。本题考察Hadoop大数据技术相关知识点。",
     "topic": "",
     "id": "GEN10599",
@@ -17389,7 +17389,7 @@ const PREPARSED_QUESTIONS = [
         "text": "Hive"
       }
     ],
-    "answer": "A",
+    "answer": "C",
     "explanation": "正确答案是A. HBase。本题考察Hadoop大数据技术相关知识点。",
     "topic": "",
     "id": "GEN10600",
@@ -17422,7 +17422,7 @@ const PREPARSED_QUESTIONS = [
         "text": "ResourceManager"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": "正确答案是A. SecondaryNameNode。本题考察Hadoop大数据技术相关知识点。",
     "topic": "",
     "id": "GEN10601",
@@ -17455,7 +17455,7 @@ const PREPARSED_QUESTIONS = [
         "text": "Spark"
       }
     ],
-    "answer": "A",
+    "answer": "D",
     "explanation": "正确答案是A. HDFS。本题考察Hadoop大数据技术相关知识点。",
     "topic": "",
     "id": "GEN10602",
@@ -17488,7 +17488,7 @@ const PREPARSED_QUESTIONS = [
         "text": "512MB"
       }
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "HDFS Block默认128MB(Hadoop 2.x+)。500MB文件→4个Block(128+128+128+116MB)。最后一个Block不满128MB按实际大小存储。",
     "topic": "",
     "id": "GEN10603",
@@ -17554,7 +17554,7 @@ const PREPARSED_QUESTIONS = [
         "text": "ResourceManager"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": "正确答案是A. DataNode。本题考察Hadoop大数据技术相关知识点。",
     "topic": "",
     "id": "GEN10605",
@@ -17587,7 +17587,7 @@ const PREPARSED_QUESTIONS = [
         "text": "Container"
       }
     ],
-    "answer": "A",
+    "answer": "C",
     "explanation": "正确答案是A. ResourceManager。本题考察Hadoop大数据技术相关知识点。",
     "topic": "",
     "id": "GEN10606",
@@ -17620,7 +17620,7 @@ const PREPARSED_QUESTIONS = [
         "text": "ResourceManager"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": "正确答案是A. DataNode。本题考察Hadoop大数据技术相关知识点。",
     "topic": "",
     "id": "GEN10607",
