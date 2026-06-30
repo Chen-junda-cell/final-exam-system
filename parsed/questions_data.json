@@ -10851,7 +10851,7 @@
         "text": "错"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": "HDFS默认副本数为3(dfs.replication=3)，一个Block存3份分布在不同节点上提高容错。A. 对",
     "topic": "",
     "id": "GEN10379",
@@ -10926,7 +10926,7 @@
         "text": "错"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": "本题的说法是正确的。该知识点表述准确，符合标准定义。",
     "topic": "",
     "id": "GEN10382",
@@ -13389,7 +13389,7 @@
         "text": "错"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": "HDFS不支持并发写入，它更适合一次写入、多次读取的场景。",
     "topic": "",
     "id": "GEN10459",
@@ -13414,7 +13414,7 @@
         "text": "错"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "hadoop fs -put 命令不会删除本地文件，而只是将文件上传到 HDFS。",
     "topic": "",
     "id": "GEN10460",
@@ -15461,7 +15461,7 @@
     "type": "填空题",
     "title": "将HDFS中的文件合并到本地文件的命令是 ______，其中 ______ 选项用于在每个文件末尾添加换行符。",
     "options": [],
-    "answer": "(1) hdfs dfs -getmerge (2) -nl",
+    "answer": "B",
     "explanation": "hdfs dfs -getmerge 用于合并文件，-nl 用于添加换行符。",
     "topic": "",
     "id": "GEN10532",
@@ -16494,7 +16494,7 @@
     "type": "填空题",
     "title": "将HDFS中的文件内容输出到标准输出的命令是 ______，该命令可以使用 ______ 选项忽略CRC校验。 ## 三. 判断题（共6题）",
     "options": [],
-    "answer": "(1) hdfs dfs -cat (2) -ignoreCrc",
+    "answer": "A",
     "explanation": "hdfs dfs -cat 用于查看文件内容，-ignoreCrc 用于忽略 CRC 校验。",
     "topic": "",
     "id": "GEN10570",
