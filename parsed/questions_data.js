@@ -10510,7 +10510,7 @@ const PREPARSED_QUESTIONS = [
         "text": "512MB"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": "HDFS Block默认128MB(Hadoop 2.x+)。500MB文件→4个Block(128+128+128+116MB)。最后一个Block不满128MB按实际大小存储。",
     "topic": "",
     "id": "GEN10369",
@@ -10576,7 +10576,7 @@ const PREPARSED_QUESTIONS = [
         "text": "6"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": "正确答案是A. 3。本题考察Hadoop大数据技术相关知识点。",
     "topic": "",
     "id": "GEN10371",
@@ -10609,7 +10609,7 @@ const PREPARSED_QUESTIONS = [
         "text": "dfs.datanode.replication"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": "正确答案是A. dfs.block.size。本题考察Hadoop大数据技术相关知识点。",
     "topic": "",
     "id": "GEN10372",
@@ -10642,7 +10642,7 @@ const PREPARSED_QUESTIONS = [
         "text": "不同机架的节点"
       }
     ],
-    "answer": "A",
+    "answer": "C",
     "explanation": "正确答案是A. 任意节点。本题考察Hadoop大数据技术相关知识点。",
     "topic": "",
     "id": "GEN10373",
@@ -11017,7 +11017,7 @@ const PREPARSED_QUESTIONS = [
         "text": "hadoop fs -cat"
       }
     ],
-    "answer": "B",
+    "answer": "C",
     "explanation": "正确答案是B. hadoop fs -mkdir。本题考察Hadoop大数据技术相关知识点。",
     "topic": "",
     "id": "GEN10386",
@@ -11050,7 +11050,7 @@ const PREPARSED_QUESTIONS = [
         "text": "hdfs dfs -cat"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": "hdfs dfs -mkdir -p /one/two创建多级目录(-p递归创建父目录)。hdfs dfs -ls /three列出目录内容。",
     "topic": "",
     "id": "GEN10387",
@@ -11116,7 +11116,7 @@ const PREPARSED_QUESTIONS = [
         "text": "hdfs dfs -mkdir"
       }
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "hdfs dfs -cat 文件路径 查看HDFS文件内容并输出到控制台。类似Linux cat命令。hdfs dfs -text也可查看压缩文件。",
     "topic": "",
     "id": "GEN10389",
@@ -11149,7 +11149,7 @@ const PREPARSED_QUESTIONS = [
         "text": "hdfs dfs -ls"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "正确答案是B. hdfs dfs -put。本题考察Hadoop大数据技术相关知识点。",
     "topic": "",
     "id": "GEN10390",
@@ -11557,7 +11557,7 @@ const PREPARSED_QUESTIONS = [
         "text": "hdfs dfs -cp"
       }
     ],
-    "answer": "D",
+    "answer": "A",
     "explanation": "hdfs dfs -mkdir -p /one/two创建多级目录(-p递归创建父目录)。hdfs dfs -ls /three列出目录内容。",
     "topic": "",
     "id": "GEN10404",
@@ -11590,7 +11590,7 @@ const PREPARSED_QUESTIONS = [
         "text": "hdfs dfs -appendToFile"
       }
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "正确答案是C. hdfs dfs -copyFromLocal。本题考察Hadoop大数据技术相关知识点。",
     "topic": "",
     "id": "GEN10405",
