@@ -10852,7 +10852,7 @@ const PREPARSED_QUESTIONS = [
         "text": "错"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "HDFS默认副本数为3(dfs.replication=3)，一个Block存3份分布在不同节点上提高容错。A. 对",
     "topic": "",
     "id": "GEN10379",
@@ -10902,7 +10902,7 @@ const PREPARSED_QUESTIONS = [
         "text": "错"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "本题的说法是错误的。该说法存在错误，请对照正确答案理解。",
     "topic": "",
     "id": "GEN10381",
@@ -11359,7 +11359,7 @@ const PREPARSED_QUESTIONS = [
         "text": "错"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": "本题的说法是正确的。该知识点表述准确，符合标准定义。",
     "topic": "",
     "id": "GEN10396",
@@ -11459,7 +11459,7 @@ const PREPARSED_QUESTIONS = [
         "text": "错"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": "本题的说法是正确的。该知识点表述准确，符合标准定义。",
     "topic": "",
     "id": "GEN10400",
@@ -13415,7 +13415,7 @@ const PREPARSED_QUESTIONS = [
         "text": "错"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": "hadoop fs -put 命令不会删除本地文件，而只是将文件上传到 HDFS。",
     "topic": "",
     "id": "GEN10460",
@@ -13490,7 +13490,7 @@ const PREPARSED_QUESTIONS = [
         "text": "错"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": "HDFS中操作文件时必须使用绝对路径，因为其文件系统结构只有一个根目录 /。",
     "topic": "",
     "id": "GEN10463",
@@ -13565,7 +13565,7 @@ const PREPARSED_QUESTIONS = [
         "text": "错"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "HDFS的副本放置策略会优先将副本放在不同机架上，以提高容错性和数据可用性。",
     "topic": "",
     "id": "GEN10466",
@@ -15334,7 +15334,7 @@ const PREPARSED_QUESTIONS = [
         "text": "错"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "HDFS 操作要求使用绝对路径，这是其设计特性之一。",
     "topic": "",
     "id": "GEN10524",
@@ -16545,7 +16545,7 @@ const PREPARSED_QUESTIONS = [
         "text": "错"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "HDFS 操作要求使用绝对路径，这是其设计特性之一。",
     "topic": "",
     "id": "GEN10572",
@@ -16620,7 +16620,7 @@ const PREPARSED_QUESTIONS = [
         "text": "错"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": "本题的说法是正确的。该知识点表述准确，符合标准定义。",
     "topic": "",
     "id": "GEN10575",
