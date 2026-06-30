@@ -10543,7 +10543,7 @@ const PREPARSED_QUESTIONS = [
         "text": "负责数据块的备份和恢复"
       }
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "NameNode存储文件系统的元数据(目录结构、文件与Block的映射关系等)，不存储实际数据。实际数据由DataNode存储。C. 执行数据块的读写操作",
     "topic": "",
     "id": "GEN10370",
@@ -10716,7 +10716,7 @@ const PREPARSED_QUESTIONS = [
         "text": "ZooKeeper"
       }
     ],
-    "answer": "ABCDE",
+    "answer": "ACDE",
     "explanation": "正确答案是A. Client；B. NameNode；C. DataNode；D. SecondaryNameNode；E. ZooKeeper。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10375",
@@ -10827,7 +10827,7 @@ const PREPARSED_QUESTIONS = [
         "text": "HDFS不适合流式数据访问"
       }
     ],
-    "answer": "ABCDE",
+    "answer": "BDE",
     "explanation": "正确答案是A. HDFS适合存储大量小文件；B. HDFS支持并发写入；C. HDFS具有高吞吐量；D. HDFS放宽了部分POSIX要求；E. HDFS不适合流式数据访问。多选题需选出所有正确选项，少选或多选均不得分。",
     "topic": "",
     "id": "GEN10378",
