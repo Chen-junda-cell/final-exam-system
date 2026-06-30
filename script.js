@@ -580,14 +580,18 @@ class DataManager {
       // 恢复旧错题本(跨版本保留)：用title匹配找到新题目替代旧记录
       if (savedWrongBook && savedWrongBook.length > 0 && this.wrongBook.length === 0) {
         const restored = [];
+        const seenTitles = new Set();
         for (const old of savedWrongBook) {
-          const match = this.questions.find(nq => nq.title.substring(0, 60) === (old.title||'').substring(0, 60));
+          const key = (old.title||'').substring(0, 60);
+          if (seenTitles.has(key)) continue;
+          seenTitles.add(key);
+          const match = this.questions.find(nq => nq.title.substring(0, 60) === key);
           if (match) restored.push({...match, wrongTime: old.wrongTime || Date.now(), retryCount: old.retryCount || 1});
         }
         if (restored.length > 0) {
           this.wrongBook = restored;
           this.save();
-          console.log('📝 恢复错题本: ' + restored.length + ' 题');
+          console.log('📝 恢复错题本: ' + restored.length + ' 题(已去重)');
         }
       }
       const p = localStorage.getItem('exam_progress');
