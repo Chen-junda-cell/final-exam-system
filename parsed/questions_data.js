@@ -17588,7 +17588,7 @@ const PREPARSED_QUESTIONS = [
       }
     ],
     "answer": "C",
-    "explanation": "正确答案是A. ResourceManager。本题考察Hadoop大数据技术相关知识点。",
+    "explanation": "ApplicationMaster管理单个应用程序的执行(资源申请/任务调度/状态监控)。ResourceManager管理全局资源，NodeManager管理单节点资源，Container是资源抽象单元。",
     "topic": "",
     "id": "GEN10606",
     "level": "B",
