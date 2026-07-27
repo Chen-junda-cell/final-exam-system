@@ -1,4 +1,4 @@
-// 六科完整题库 — 1082题
+// 七科完整题库 — 1277题
 const PREPARSED_QUESTIONS = [
   {
     "subject": "Java Web",
@@ -31010,6 +31010,4826 @@ const PREPARSED_QUESTIONS = [
     "topic": "重点",
     "id": "GEN0782",
     "level": "A",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 是由哪家公司主导开发的开源可视化库？",
+    "options": [
+      {
+        "label": "A",
+        "text": "百度"
+      },
+      {
+        "label": "B",
+        "text": "阿里巴巴"
+      },
+      {
+        "label": "C",
+        "text": "腾讯"
+      },
+      {
+        "label": "D",
+        "text": "华为"
+      }
+    ],
+    "answer": "A",
+    "explanation": "ECharts 由百度前端团队（现 Apache 基金会顶级项目）主导开发，最初源于百度内部的商业数据可视化需求。",
+    "topic": "ECharts 概述",
+    "id": "GEN10795",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "在 ECharts 中，初始化图表实例的正确方法是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "echarts.init(document.getElementById('main'))"
+      },
+      {
+        "label": "B",
+        "text": "new ECharts('#main')"
+      },
+      {
+        "label": "C",
+        "text": "echarts.create('#main')"
+      },
+      {
+        "label": "D",
+        "text": "ECharts.render('#main')"
+      }
+    ],
+    "answer": "A",
+    "explanation": "echarts.init(dom) 是初始化 ECharts 实例的标准方法，传入一个 DOM 容器元素。",
+    "topic": "ECharts 初始化",
+    "id": "GEN10796",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中用于设置图表的配置项的方法是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "setConfig()"
+      },
+      {
+        "label": "B",
+        "text": "setOption()"
+      },
+      {
+        "label": "C",
+        "text": "updateChart()"
+      },
+      {
+        "label": "D",
+        "text": "renderChart()"
+      }
+    ],
+    "answer": "B",
+    "explanation": "setOption() 是 ECharts 实例的核心方法，用于设置图表的所有配置项和数据。",
+    "topic": "ECharts setOption 方法",
+    "id": "GEN10797",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "以下哪个不是 ECharts 中常用的坐标系类型？",
+    "options": [
+      {
+        "label": "A",
+        "text": "直角坐标系"
+      },
+      {
+        "label": "B",
+        "text": "极坐标系"
+      },
+      {
+        "label": "C",
+        "text": "地理坐标系"
+      },
+      {
+        "label": "D",
+        "text": "对数坐标系"
+      }
+    ],
+    "answer": "D",
+    "explanation": "ECharts 支持直角坐标系（grid）、极坐标系（polar）、地理坐标系（geo）、单轴坐标系等，但不支持对数坐标系作为独立坐标系。",
+    "topic": "ECharts 坐标系",
+    "id": "GEN10798",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "在 ECharts 配置项中，title 组件用于设置什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "图表标题"
+      },
+      {
+        "label": "B",
+        "text": "图例"
+      },
+      {
+        "label": "C",
+        "text": "提示框"
+      },
+      {
+        "label": "D",
+        "text": "工具栏"
+      }
+    ],
+    "answer": "A",
+    "explanation": "title 组件用于设置图表的标题，包括主标题和副标题，支持位置、样式等配置。",
+    "topic": "ECharts title 组件",
+    "id": "GEN10799",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中 tooltip 组件的 trigger 属性设置为 'axis' 表示？",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据项触发"
+      },
+      {
+        "label": "B",
+        "text": "不触发"
+      },
+      {
+        "label": "C",
+        "text": "坐标轴触发"
+      },
+      {
+        "label": "D",
+        "text": "自动触发"
+      }
+    ],
+    "answer": "C",
+    "explanation": "trigger: 'axis' 表示坐标轴触发，主要用于柱状图、折线图等，鼠标悬停在坐标轴上时显示该轴上所有数据项。trigger: 'item' 表示数据项触发。",
+    "topic": "ECharts tooltip 触发方式",
+    "id": "GEN10800",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中 legend 组件的默认位置是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "垂直居左"
+      },
+      {
+        "label": "B",
+        "text": "水平居中在上方"
+      },
+      {
+        "label": "C",
+        "text": "水平居中在下方"
+      },
+      {
+        "label": "D",
+        "text": "垂直居右"
+      }
+    ],
+    "answer": "B",
+    "explanation": "legend 图例组件默认水平居中显示在图表上方，可通过 orient、left、top 等属性修改。",
+    "topic": "ECharts legend 图例",
+    "id": "GEN10801",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中 toolbox 组件的 feature 中，用于保存图片的功能是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "saveAsImage"
+      },
+      {
+        "label": "B",
+        "text": "dataView"
+      },
+      {
+        "label": "C",
+        "text": "magicType"
+      },
+      {
+        "label": "D",
+        "text": "restore"
+      }
+    ],
+    "answer": "A",
+    "explanation": "toolbox.feature.saveAsImage 提供将图表保存为图片的功能；dataView 是数据视图，magicType 是动态类型切换，restore 是还原。",
+    "topic": "ECharts toolbox 工具栏",
+    "id": "GEN10802",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中 grid 组件的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "绘制背景网格线"
+      },
+      {
+        "label": "B",
+        "text": "显示数据表格"
+      },
+      {
+        "label": "C",
+        "text": "定义极坐标系"
+      },
+      {
+        "label": "D",
+        "text": "定义直角坐标系的绘图网格区域"
+      }
+    ],
+    "answer": "D",
+    "explanation": "grid 组件定义了直角坐标系内绘图区域的网格，可以控制图表在容器中的位置和大小。",
+    "topic": "ECharts grid 组件",
+    "id": "GEN10803",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "在 ECharts 中，series 数组中每个对象的 type 属性用于指定？",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据来源"
+      },
+      {
+        "label": "B",
+        "text": "图表类型"
+      },
+      {
+        "label": "C",
+        "text": "颜色主题"
+      },
+      {
+        "label": "D",
+        "text": "渲染方式"
+      }
+    ],
+    "answer": "B",
+    "explanation": "series 中 type 属性指定图表类型，如 'line'（折线图）、'bar'（柱状图）、'pie'（饼图）等。",
+    "topic": "ECharts series 系列",
+    "id": "GEN10804",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中设置柱状图的 type 属性值应为？",
+    "options": [
+      {
+        "label": "A",
+        "text": "bar"
+      },
+      {
+        "label": "B",
+        "text": "histogram"
+      },
+      {
+        "label": "C",
+        "text": "column"
+      },
+      {
+        "label": "D",
+        "text": "pillar"
+      }
+    ],
+    "answer": "A",
+    "explanation": "type: 'bar' 表示柱状图；type: 'line' 表示折线图；type: 'pie' 表示饼图；type: 'scatter' 表示散点图。",
+    "topic": "ECharts 图表类型",
+    "id": "GEN10805",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中 visualMap 组件的主要功能是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "控制图表缩放"
+      },
+      {
+        "label": "B",
+        "text": "切换图表类型"
+      },
+      {
+        "label": "C",
+        "text": "将数据值映射到视觉元素"
+      },
+      {
+        "label": "D",
+        "text": "设置图例显示"
+      }
+    ],
+    "answer": "C",
+    "explanation": "visualMap 是视觉映射组件，用于将数据值映射到视觉通道（颜色、大小、透明度等），常用于热力图、地图等。",
+    "topic": "ECharts visualMap 视觉映射",
+    "id": "GEN10806",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中 dataZoom 组件的功能是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "放大图表文字"
+      },
+      {
+        "label": "B",
+        "text": "调整图表尺寸"
+      },
+      {
+        "label": "C",
+        "text": "区域缩放和数据筛选"
+      },
+      {
+        "label": "D",
+        "text": "放大图片"
+      }
+    ],
+    "answer": "C",
+    "explanation": "dataZoom 用于实现区域缩放和滚动，支持框选缩放、鼠标滚轮缩放、滑动条缩放等多种交互方式。",
+    "topic": "ECharts dataZoom 区域缩放",
+    "id": "GEN10807",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中 xAxis 的 type 设置为 'category' 表示？",
+    "options": [
+      {
+        "label": "A",
+        "text": "类目轴"
+      },
+      {
+        "label": "B",
+        "text": "数值轴"
+      },
+      {
+        "label": "C",
+        "text": "时间轴"
+      },
+      {
+        "label": "D",
+        "text": "对数轴"
+      }
+    ],
+    "answer": "A",
+    "explanation": "type: 'category' 表示类目轴，适用于离散的类目数据（如产品名称、月份等）；'value' 表示数值轴；'time' 表示时间轴；'log' 表示对数轴。",
+    "topic": "ECharts 坐标轴类型",
+    "id": "GEN10808",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "以下哪个不是 ECharts 支持的 series 图表类型？",
+    "options": [
+      {
+        "label": "A",
+        "text": "candlestick"
+      },
+      {
+        "label": "B",
+        "text": "funnel"
+      },
+      {
+        "label": "C",
+        "text": "gauge"
+      },
+      {
+        "label": "D",
+        "text": "flowchart"
+      }
+    ],
+    "answer": "D",
+    "explanation": "ECharts 支持 line、bar、pie、scatter、radar、map、candlestick、heatmap、tree、treemap、sunburst、funnel、gauge 等多种图表类型。'boxplot' 虽然也是常用图表，但在一些旧版本中可能不内置。实际上 boxplot（箱线图）在较新版本 ECharts 中是支持的，这里需要更仔细地选择一个真正不被支持的。",
+    "topic": "ECharts 图表类型",
+    "id": "GEN10809",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中设置饼图时，series 的 type 属性应设置为？",
+    "options": [
+      {
+        "label": "A",
+        "text": "circle"
+      },
+      {
+        "label": "B",
+        "text": "round"
+      },
+      {
+        "label": "C",
+        "text": "pie"
+      },
+      {
+        "label": "D",
+        "text": "sector"
+      }
+    ],
+    "answer": "C",
+    "explanation": "type: 'pie' 表示饼图（或环形图），通过 radius 属性可以控制是否为环形图。",
+    "topic": "ECharts 饼图",
+    "id": "GEN10810",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中 pie 图表的 radius 属性设置为 ['40%', '70%'] 表示？",
+    "options": [
+      {
+        "label": "A",
+        "text": "饼图半径为40%到70%之间随机"
+      },
+      {
+        "label": "B",
+        "text": "环形图，内径40%，外径70%"
+      },
+      {
+        "label": "C",
+        "text": "两个嵌套饼图"
+      },
+      {
+        "label": "D",
+        "text": "饼图放大到140%"
+      }
+    ],
+    "answer": "B",
+    "explanation": "radius 为数组 [内半径, 外半径]，设置为 ['40%', '70%'] 表示内半径为40%、外半径为70%的环形图（甜甜圈图）。",
+    "topic": "ECharts 环形图",
+    "id": "GEN10811",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中折线图 line 的 smooth 属性设为 true 表示？",
+    "options": [
+      {
+        "label": "A",
+        "text": "虚线样式"
+      },
+      {
+        "label": "B",
+        "text": "阶梯线"
+      },
+      {
+        "label": "C",
+        "text": "平滑曲线"
+      },
+      {
+        "label": "D",
+        "text": "隐藏折线"
+      }
+    ],
+    "answer": "C",
+    "explanation": "smooth: true 表示使用平滑曲线绘制折线，而非直线连接；false（默认）表示用直线段连接各数据点。",
+    "topic": "ECharts 折线图平滑",
+    "id": "GEN10812",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中 markPoint 用于？",
+    "options": [
+      {
+        "label": "A",
+        "text": "标注数据点（如最大值、最小值）"
+      },
+      {
+        "label": "B",
+        "text": "标注线条"
+      },
+      {
+        "label": "C",
+        "text": "高亮区域"
+      },
+      {
+        "label": "D",
+        "text": "添加水印"
+      }
+    ],
+    "answer": "A",
+    "explanation": "markPoint 是图表标注点，可以在图表上标注最大值、最小值、自定义点等；markLine 是标注线。",
+    "topic": "ECharts 标注点",
+    "id": "GEN10813",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中 markLine 用于？",
+    "options": [
+      {
+        "label": "A",
+        "text": "标注数据点"
+      },
+      {
+        "label": "B",
+        "text": "标注参考线（如平均值线）"
+      },
+      {
+        "label": "C",
+        "text": "绘制网格线"
+      },
+      {
+        "label": "D",
+        "text": "分割图表区域"
+      }
+    ],
+    "answer": "B",
+    "explanation": "markLine 是图表标注线，用于标记平均值线、阈值线等参考线。",
+    "topic": "ECharts 标注线",
+    "id": "GEN10814",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 主题（theme）的默认内置主题是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "light"
+      },
+      {
+        "label": "B",
+        "text": "macarons"
+      },
+      {
+        "label": "C",
+        "text": "默认亮色主题（无特定名称）"
+      },
+      {
+        "label": "D",
+        "text": "vintage"
+      }
+    ],
+    "answer": "C",
+    "explanation": "ECharts 默认主题未命名（light 风格），内置了 'dark' 主题。用户也可以自定义或通过在线工具生成主题。",
+    "topic": "ECharts 主题",
+    "id": "GEN10815",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中如何启用 dark（暗色）内置主题？",
+    "options": [
+      {
+        "label": "A",
+        "text": "echarts.init(dom, 'dark')"
+      },
+      {
+        "label": "B",
+        "text": "theme: 'dark' 写在 option 中"
+      },
+      {
+        "label": "C",
+        "text": "echarts.darkMode(true)"
+      },
+      {
+        "label": "D",
+        "text": "setTheme('dark')"
+      }
+    ],
+    "answer": "A",
+    "explanation": "在 echarts.init() 第二个参数传入 'dark' 即可启用暗色主题：echarts.init(dom, 'dark')。",
+    "topic": "ECharts 暗色主题",
+    "id": "GEN10816",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 是哪个编程语言的数据可视化库？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Java"
+      },
+      {
+        "label": "B",
+        "text": "Python"
+      },
+      {
+        "label": "C",
+        "text": "JavaScript"
+      },
+      {
+        "label": "D",
+        "text": "R"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Matplotlib 是 Python 最主流的数据可视化库之一，提供了类似 MATLAB 的绘图 API。",
+    "topic": "Matplotlib 概述",
+    "id": "GEN10817",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中最常用的绘图模块导入方式是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "import matplotlib as mp"
+      },
+      {
+        "label": "B",
+        "text": "from matplotlib import pyplot"
+      },
+      {
+        "label": "C",
+        "text": "import matplotlib.pyplot as plt"
+      },
+      {
+        "label": "D",
+        "text": "import plt from matplotlib"
+      }
+    ],
+    "answer": "C",
+    "explanation": "import matplotlib.pyplot as plt 是 Matplotlib 最标准的导入方式，plt 是约定俗成的别名。",
+    "topic": "Matplotlib 导入",
+    "id": "GEN10818",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "在 Matplotlib 中，Figure 对象代表什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "整个图形窗口/画布"
+      },
+      {
+        "label": "B",
+        "text": "单个子图"
+      },
+      {
+        "label": "C",
+        "text": "坐标轴"
+      },
+      {
+        "label": "D",
+        "text": "图例"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Figure 是整个图形窗口/画布的顶层容器，包含一个或多个 Axes（子图）。",
+    "topic": "Matplotlib Figure 对象",
+    "id": "GEN10819",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "在 Matplotlib 中，Axes 对象代表什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "整个画布"
+      },
+      {
+        "label": "B",
+        "text": "单个子图区域（包含坐标轴和绘图区）"
+      },
+      {
+        "label": "C",
+        "text": "X轴或Y轴"
+      },
+      {
+        "label": "D",
+        "text": "图例对象"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Axes 是 Figure 中的子图区域，包含坐标轴（Axis）、数据绘图区域、标题、标签等。一个 Figure 可以包含多个 Axes。",
+    "topic": "Matplotlib Axes 对象",
+    "id": "GEN10820",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中使用 plt.plot() 绘制的是什么类型的图表？",
+    "options": [
+      {
+        "label": "A",
+        "text": "折线图"
+      },
+      {
+        "label": "B",
+        "text": "散点图"
+      },
+      {
+        "label": "C",
+        "text": "柱状图"
+      },
+      {
+        "label": "D",
+        "text": "饼图"
+      }
+    ],
+    "answer": "A",
+    "explanation": "plt.plot() 默认绘制折线图（线图），是 Matplotlib 最基础的绘图函数。",
+    "topic": "Matplotlib plot 函数",
+    "id": "GEN10821",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中 plt.scatter() 用于绘制？",
+    "options": [
+      {
+        "label": "A",
+        "text": "散点图"
+      },
+      {
+        "label": "B",
+        "text": "折线图"
+      },
+      {
+        "label": "C",
+        "text": "直方图"
+      },
+      {
+        "label": "D",
+        "text": "饼图"
+      }
+    ],
+    "answer": "A",
+    "explanation": "plt.scatter() 用于绘制散点图，每个点可以单独设置大小、颜色等属性。",
+    "topic": "Matplotlib scatter 散点图",
+    "id": "GEN10822",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中 plt.bar() 用于绘制？",
+    "options": [
+      {
+        "label": "A",
+        "text": "水平柱状图"
+      },
+      {
+        "label": "B",
+        "text": "垂直柱状图"
+      },
+      {
+        "label": "C",
+        "text": "饼图"
+      },
+      {
+        "label": "D",
+        "text": "直方图"
+      }
+    ],
+    "answer": "B",
+    "explanation": "plt.bar() 用于绘制垂直柱状图；plt.barh() 用于绘制水平柱状图。",
+    "topic": "Matplotlib bar 柱状图",
+    "id": "GEN10823",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中 plt.hist() 用于绘制？",
+    "options": [
+      {
+        "label": "A",
+        "text": "柱状图"
+      },
+      {
+        "label": "B",
+        "text": "饼图"
+      },
+      {
+        "label": "C",
+        "text": "直方图"
+      },
+      {
+        "label": "D",
+        "text": "折线图"
+      }
+    ],
+    "answer": "C",
+    "explanation": "plt.hist() 用于绘制直方图，展示数据分布情况。bins 参数控制分箱数量。",
+    "topic": "Matplotlib hist 直方图",
+    "id": "GEN10824",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中 plt.pie() 用于绘制？",
+    "options": [
+      {
+        "label": "A",
+        "text": "柱状图"
+      },
+      {
+        "label": "B",
+        "text": "散点图"
+      },
+      {
+        "label": "C",
+        "text": "直方图"
+      },
+      {
+        "label": "D",
+        "text": "饼图"
+      }
+    ],
+    "answer": "D",
+    "explanation": "plt.pie() 用于绘制饼图，通过 labels 设置标签，autopct 设置百分比显示格式。",
+    "topic": "Matplotlib pie 饼图",
+    "id": "GEN10825",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中 plt.xlabel() 的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "设置 X 轴标签"
+      },
+      {
+        "label": "B",
+        "text": "设置图表标题"
+      },
+      {
+        "label": "C",
+        "text": "设置图例"
+      },
+      {
+        "label": "D",
+        "text": "设置 Y 轴标签"
+      }
+    ],
+    "answer": "A",
+    "explanation": "plt.xlabel() 设置 X 轴的标签文本；plt.ylabel() 设置 Y 轴的标签文本。",
+    "topic": "Matplotlib 坐标轴标签",
+    "id": "GEN10826",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中 plt.title() 的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "设置X轴标签"
+      },
+      {
+        "label": "B",
+        "text": "设置图表标题"
+      },
+      {
+        "label": "C",
+        "text": "设置图例标题"
+      },
+      {
+        "label": "D",
+        "text": "设置文件标题"
+      }
+    ],
+    "answer": "B",
+    "explanation": "plt.title() 用于设置当前图表的标题，可通过 fontsize、color 等参数控制样式。",
+    "topic": "Matplotlib 图表标题",
+    "id": "GEN10827",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中 plt.legend() 的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "设置标题"
+      },
+      {
+        "label": "B",
+        "text": "设置坐标轴范围"
+      },
+      {
+        "label": "C",
+        "text": "显示图例"
+      },
+      {
+        "label": "D",
+        "text": "添加网格线"
+      }
+    ],
+    "answer": "C",
+    "explanation": "plt.legend() 用于显示图例，需配合绘图时传入的 label 参数使用。",
+    "topic": "Matplotlib 图例",
+    "id": "GEN10828",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中 plt.savefig() 的功能是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "将当前图表保存为图片文件"
+      },
+      {
+        "label": "B",
+        "text": "读取图片到图表"
+      },
+      {
+        "label": "C",
+        "text": "保存数据到文件"
+      },
+      {
+        "label": "D",
+        "text": "截图当前窗口"
+      }
+    ],
+    "answer": "A",
+    "explanation": "plt.savefig() 将当前 Figure 保存为图片文件（如 PNG、JPG、SVG、PDF 等格式）。",
+    "topic": "Matplotlib 保存图片",
+    "id": "GEN10829",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中 plt.show() 的功能是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "隐藏图表"
+      },
+      {
+        "label": "B",
+        "text": "关闭图表"
+      },
+      {
+        "label": "C",
+        "text": "打印图表信息"
+      },
+      {
+        "label": "D",
+        "text": "显示图表窗口"
+      }
+    ],
+    "answer": "D",
+    "explanation": "plt.show() 用于显示所有已创建的图表窗口，通常在脚本末尾调用。",
+    "topic": "Matplotlib 显示图表",
+    "id": "GEN10830",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中 plt.subplot() 的参数 (2, 2, 1) 表示？",
+    "options": [
+      {
+        "label": "A",
+        "text": "创建1个子图"
+      },
+      {
+        "label": "B",
+        "text": "2行2列的子图网格，选中第1个"
+      },
+      {
+        "label": "C",
+        "text": "创建4个子图"
+      },
+      {
+        "label": "D",
+        "text": "2行1列的子图网格"
+      }
+    ],
+    "answer": "B",
+    "explanation": "plt.subplot(2, 2, 1) 表示创建一个 2 行 × 2 列的子图网格，并选中第 1 个位置（编号从 1 开始，按行排列）。",
+    "topic": "Matplotlib subplot 子图",
+    "id": "GEN10831",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中 plt.subplots() 返回的对象是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "仅 Figure 对象"
+      },
+      {
+        "label": "B",
+        "text": "仅 Axes 对象"
+      },
+      {
+        "label": "C",
+        "text": "(Figure, Axes) 元组"
+      },
+      {
+        "label": "D",
+        "text": "Axes 列表"
+      }
+    ],
+    "answer": "C",
+    "explanation": "plt.subplots() 返回 (fig, axes) 元组，fig 是 Figure 对象，axes 是 Axes 对象（或多个 Axes 构成的数组）。",
+    "topic": "Matplotlib subplots 函数",
+    "id": "GEN10832",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中设置线条颜色的参数是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "color"
+      },
+      {
+        "label": "B",
+        "text": "style"
+      },
+      {
+        "label": "C",
+        "text": "width"
+      },
+      {
+        "label": "D",
+        "text": "alpha"
+      }
+    ],
+    "answer": "A",
+    "explanation": "color（或简写 c）参数用于设置线条或标记的颜色，支持颜色名称（如 'red'）、十六进制（如 '#FF0000'）、RGB 元组等。",
+    "topic": "Matplotlib 线条颜色",
+    "id": "GEN10833",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中设置线条宽度的参数是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "markersize"
+      },
+      {
+        "label": "B",
+        "text": "fontsize"
+      },
+      {
+        "label": "C",
+        "text": "thickness"
+      },
+      {
+        "label": "D",
+        "text": "linewidth"
+      }
+    ],
+    "answer": "D",
+    "explanation": "linewidth（或简写 lw）参数用设置线条宽度，单位为磅（point）。",
+    "topic": "Matplotlib 线条样式",
+    "id": "GEN10834",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中 plot() 的第三个参数 'ro--' 表示什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "红色、无标记、实线"
+      },
+      {
+        "label": "B",
+        "text": "红色、圆形标记、虚线"
+      },
+      {
+        "label": "C",
+        "text": "随机颜色、圆形标记、虚线"
+      },
+      {
+        "label": "D",
+        "text": "红色、圆形标记、实线"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'ro--' 是一种格式字符串：'r' 表示红色（red），'o' 表示圆形标记，'--' 表示虚线。",
+    "topic": "Matplotlib 格式字符串",
+    "id": "GEN10835",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中 plt.xlim() 的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "设置或获取 X 轴的显示范围"
+      },
+      {
+        "label": "B",
+        "text": "设置 X 轴标签"
+      },
+      {
+        "label": "C",
+        "text": "设置 X 轴刻度"
+      },
+      {
+        "label": "D",
+        "text": "设置 X 轴类型"
+      }
+    ],
+    "answer": "A",
+    "explanation": "plt.xlim() 用于获取或设置 X 轴的显示范围；plt.ylim() 同理设置 Y 轴范围。",
+    "topic": "Matplotlib 坐标轴范围",
+    "id": "GEN10836",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中 plt.grid() 的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "创建新子图"
+      },
+      {
+        "label": "B",
+        "text": "设置背景色"
+      },
+      {
+        "label": "C",
+        "text": "显示/隐藏网格线"
+      },
+      {
+        "label": "D",
+        "text": "绘制网格图表"
+      }
+    ],
+    "answer": "C",
+    "explanation": "plt.grid(True) 用于显示网格线，可通过 axis 参数控制显示 x/y/both 方向的网格。",
+    "topic": "Matplotlib 网格线",
+    "id": "GEN10837",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中 plt.text() 的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "设置图表标题"
+      },
+      {
+        "label": "B",
+        "text": "在指定坐标添加文本"
+      },
+      {
+        "label": "C",
+        "text": "设置刻度标签"
+      },
+      {
+        "label": "D",
+        "text": "添加图例文字"
+      }
+    ],
+    "answer": "B",
+    "explanation": "plt.text(x, y, 'text') 在指定坐标位置添加文本。plt.annotate() 则可添加带箭头的注释。",
+    "topic": "Matplotlib 文本注释",
+    "id": "GEN10838",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中 plt.annotate() 相比 plt.text() 的额外功能是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "支持多行文本"
+      },
+      {
+        "label": "B",
+        "text": "支持旋转文本"
+      },
+      {
+        "label": "C",
+        "text": "支持着色文本"
+      },
+      {
+        "label": "D",
+        "text": "支持添加箭头指向"
+      }
+    ],
+    "answer": "D",
+    "explanation": "plt.annotate() 除了添加文本外，还支持通过 arrowprops 参数添加箭头指向特定数据点。",
+    "topic": "Matplotlib 注释",
+    "id": "GEN10839",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中雷达图（radar）的坐标系定义在哪个配置项中？",
+    "options": [
+      {
+        "label": "A",
+        "text": "polar"
+      },
+      {
+        "label": "B",
+        "text": "radar"
+      },
+      {
+        "label": "C",
+        "text": "geo"
+      },
+      {
+        "label": "D",
+        "text": "grid"
+      }
+    ],
+    "answer": "B",
+    "explanation": "雷达图使用 radar 组件定义雷达坐标系（指示器、形状、中心位置等），series 中 type: 'radar' 引用该坐标系。",
+    "topic": "ECharts 雷达图",
+    "id": "GEN10840",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中 K 线图（蜡烛图）的 series type 是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "candlestick"
+      },
+      {
+        "label": "B",
+        "text": "kline"
+      },
+      {
+        "label": "C",
+        "text": "ohlc"
+      },
+      {
+        "label": "D",
+        "text": "stock"
+      }
+    ],
+    "answer": "A",
+    "explanation": "type: 'candlestick' 用于绘制 K 线图，数据格式通常是 [open, close, low, high]。",
+    "topic": "ECharts K线图",
+    "id": "GEN10841",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中 sankey（桑基图）属于哪种图表？",
+    "options": [
+      {
+        "label": "A",
+        "text": "柱状图变体"
+      },
+      {
+        "label": "B",
+        "text": "折线图变体"
+      },
+      {
+        "label": "C",
+        "text": "关系图/流向图"
+      },
+      {
+        "label": "D",
+        "text": "饼图变体"
+      }
+    ],
+    "answer": "C",
+    "explanation": "桑基图（sankey）是一种展示流向和流量的关系图，常用于展示能量流动、用户转化路径等。",
+    "topic": "ECharts 桑基图",
+    "id": "GEN10842",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中 heatmap（热力图）需要配合哪个坐标系使用？",
+    "options": [
+      {
+        "label": "A",
+        "text": "直角坐标系（grid）"
+      },
+      {
+        "label": "B",
+        "text": "极坐标系（polar）"
+      },
+      {
+        "label": "C",
+        "text": "只有地理坐标系"
+      },
+      {
+        "label": "D",
+        "text": "不需要坐标系"
+      }
+    ],
+    "answer": "A",
+    "explanation": "热力图通常配合直角坐标系（grid）使用，X 轴和 Y 轴均为类目轴，通过 visualMap 映射颜色深度。也可配合 geo 地理坐标系使用。",
+    "topic": "ECharts 热力图",
+    "id": "GEN10843",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中 graphic 组件的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "绘制图表背景"
+      },
+      {
+        "label": "B",
+        "text": "控制图表样式"
+      },
+      {
+        "label": "C",
+        "text": "管理图表交互"
+      },
+      {
+        "label": "D",
+        "text": "添加自定义图形元素"
+      }
+    ],
+    "answer": "D",
+    "explanation": "graphic 是原生图形组件，支持添加自定义图形元素（圆形、矩形、文本、图片等）到图表中。",
+    "topic": "ECharts graphic 原生图形",
+    "id": "GEN10844",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中 dataset 组件的主要优势是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "提高渲染速度"
+      },
+      {
+        "label": "B",
+        "text": "减少内存占用"
+      },
+      {
+        "label": "C",
+        "text": "实现数据与配置分离，多个系列共享数据"
+      },
+      {
+        "label": "D",
+        "text": "自动生成图表"
+      }
+    ],
+    "answer": "C",
+    "explanation": "dataset 组件允许将数据与配置分离，多个 series 可共享同一份数据源，便于数据管理和复用。",
+    "topic": "ECharts dataset 数据集",
+    "id": "GEN10845",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 的渲染模式默认是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Canvas"
+      },
+      {
+        "label": "B",
+        "text": "SVG"
+      },
+      {
+        "label": "C",
+        "text": "WebGL"
+      },
+      {
+        "label": "D",
+        "text": "DOM"
+      }
+    ],
+    "answer": "A",
+    "explanation": "ECharts 默认使用 Canvas 渲染，也可通过 opts.renderer 切换为 SVG 渲染。Canvas 适合数据量大的场景，SVG 适合元素较少的场景。",
+    "topic": "ECharts 渲染模式",
+    "id": "GEN10846",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中 series 的 stack 属性用于？",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据排序"
+      },
+      {
+        "label": "B",
+        "text": "数据堆叠"
+      },
+      {
+        "label": "C",
+        "text": "数据过滤"
+      },
+      {
+        "label": "D",
+        "text": "数据分组"
+      }
+    ],
+    "answer": "B",
+    "explanation": "stack 属性用于数据堆叠，相同 stack 值的系列将叠加显示，常用于堆积柱状图或堆积面积图。",
+    "topic": "ECharts 堆叠图表",
+    "id": "GEN10847",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中 emphasis 状态表示？",
+    "options": [
+      {
+        "label": "A",
+        "text": "正常状态"
+      },
+      {
+        "label": "B",
+        "text": "禁用状态"
+      },
+      {
+        "label": "C",
+        "text": "高亮/强调状态"
+      },
+      {
+        "label": "D",
+        "text": "选中状态"
+      }
+    ],
+    "answer": "C",
+    "explanation": "emphasis 是高亮（强调）状态，当鼠标悬停或选中数据项时触发，可配置该状态的样式（如放大、变色等）。",
+    "topic": "ECharts 交互状态",
+    "id": "GEN10848",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中 plt.figure() 的 figsize 参数用于？",
+    "options": [
+      {
+        "label": "A",
+        "text": "设置图形画布的尺寸（英寸）"
+      },
+      {
+        "label": "B",
+        "text": "设置字体大小"
+      },
+      {
+        "label": "C",
+        "text": "设置数据点大小"
+      },
+      {
+        "label": "D",
+        "text": "设置线条粗细"
+      }
+    ],
+    "answer": "A",
+    "explanation": "figsize=(width, height) 设置 Figure 的尺寸，单位为英寸。如 plt.figure(figsize=(10, 6)) 表示宽10英寸、高6英寸。",
+    "topic": "Matplotlib Figure 尺寸",
+    "id": "GEN10849",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中 plt.figure() 的 dpi 参数用于？",
+    "options": [
+      {
+        "label": "A",
+        "text": "设置数据精度"
+      },
+      {
+        "label": "B",
+        "text": "设置颜色深度"
+      },
+      {
+        "label": "C",
+        "text": "设置图形的分辨率（每英寸点数）"
+      },
+      {
+        "label": "D",
+        "text": "设置图形透明度"
+      }
+    ],
+    "answer": "C",
+    "explanation": "dpi（dots per inch）设置图形的分辨率，影响图形在屏幕上的大小和保存图片的清晰度。",
+    "topic": "Matplotlib DPI 分辨率",
+    "id": "GEN10850",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中 plt.tight_layout() 的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "锁定图形布局"
+      },
+      {
+        "label": "B",
+        "text": "自动调整子图间距，避免重叠"
+      },
+      {
+        "label": "C",
+        "text": "压缩图形尺寸"
+      },
+      {
+        "label": "D",
+        "text": "展开所有子图"
+      }
+    ],
+    "answer": "B",
+    "explanation": "plt.tight_layout() 自动调整子图参数，使子图之间不重叠，标签不被裁剪。",
+    "topic": "Matplotlib 布局调整",
+    "id": "GEN10851",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中面向对象方式绘图获取 Axes 对象的方法是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "ax = plt.Axes()"
+      },
+      {
+        "label": "B",
+        "text": "ax = plt.get_axes()"
+      },
+      {
+        "label": "C",
+        "text": "fig, ax = plt.subplots()"
+      },
+      {
+        "label": "D",
+        "text": "ax = plt.figure.add()"
+      }
+    ],
+    "answer": "C",
+    "explanation": "fig, ax = plt.subplots() 是面向对象绘图的推荐方式，返回的 ax 就是 Axes 对象。然后使用 ax.plot() 等方法操作。",
+    "topic": "Matplotlib 面向对象绘图",
+    "id": "GEN10852",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中 plt.rcParams 用于？",
+    "options": [
+      {
+        "label": "A",
+        "text": "设置全局图形样式参数"
+      },
+      {
+        "label": "B",
+        "text": "读取数据文件"
+      },
+      {
+        "label": "C",
+        "text": "控制动画播放"
+      },
+      {
+        "label": "D",
+        "text": "管理多个图形窗口"
+      }
+    ],
+    "answer": "A",
+    "explanation": "plt.rcParams 是 Matplotlib 的全局配置字典，用于设置默认字体、大小、颜色等全局样式参数。",
+    "topic": "Matplotlib rcParams 全局配置",
+    "id": "GEN10853",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中如何支持中文显示？",
+    "options": [
+      {
+        "label": "A",
+        "text": "直接使用中文，自动识别"
+      },
+      {
+        "label": "B",
+        "text": "安装中文字体后自动生效"
+      },
+      {
+        "label": "C",
+        "text": "设置 rcParams['font.sans-serif'] 为中文字体"
+      },
+      {
+        "label": "D",
+        "text": "Matplotlib 不支持中文"
+      }
+    ],
+    "answer": "C",
+    "explanation": "需要通过 plt.rcParams['font.sans-serif'] 设置中文字体（如 'SimHei'），并通过 plt.rcParams['axes.unicode_minus'] = False 解决负号显示问题。",
+    "topic": "Matplotlib 中文支持",
+    "id": "GEN10854",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中折线图的 areaStyle 属性设置为 {} 的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "设置背景色"
+      },
+      {
+        "label": "B",
+        "text": "填充折线下方区域，变为面积图"
+      },
+      {
+        "label": "C",
+        "text": "显示数据点"
+      },
+      {
+        "label": "D",
+        "text": "隐藏折线"
+      }
+    ],
+    "answer": "B",
+    "explanation": "设置 areaStyle: {} 会在折线下方填充半透明区域，将折线图变为面积图。可通过 color 属性控制填充颜色。",
+    "topic": "ECharts 面积图",
+    "id": "GEN10855",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中如何实现图表的响应式（随窗口大小自适应）？",
+    "options": [
+      {
+        "label": "A",
+        "text": "设置 responsive: true"
+      },
+      {
+        "label": "B",
+        "text": "调用 myChart.resize()"
+      },
+      {
+        "label": "C",
+        "text": "设置 width: 'auto'"
+      },
+      {
+        "label": "D",
+        "text": "使用 rem 单位"
+      }
+    ],
+    "answer": "B",
+    "explanation": "监听 window 的 resize 事件，在回调中调用 myChart.resize() 即可实现图表自适应容器大小。",
+    "topic": "ECharts 响应式",
+    "id": "GEN10856",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 的 tooltip 组件中，formatter 属性的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "设置提示框的位置"
+      },
+      {
+        "label": "B",
+        "text": "设置提示框的触发方式"
+      },
+      {
+        "label": "C",
+        "text": "自定义提示框的显示内容"
+      },
+      {
+        "label": "D",
+        "text": "控制提示框的显示/隐藏"
+      }
+    ],
+    "answer": "C",
+    "explanation": "formatter 用于自定义 tooltip（提示框）的显示内容和格式，支持字符串模板和回调函数两种形式。",
+    "topic": "ECharts tooltip 格式化",
+    "id": "GEN10857",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中 plt.barh() 与 plt.bar() 的区别是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "barh 绘制水平柱状图，bar 绘制垂直柱状图"
+      },
+      {
+        "label": "B",
+        "text": "barh 绘制堆叠柱状图"
+      },
+      {
+        "label": "C",
+        "text": "barh 绘制分组柱状图"
+      },
+      {
+        "label": "D",
+        "text": "两者完全相同"
+      }
+    ],
+    "answer": "A",
+    "explanation": "plt.bar() 绘制垂直柱状图（柱子竖直），plt.barh() 绘制水平柱状图（柱子水平）。",
+    "topic": "Matplotlib 柱状图方向",
+    "id": "GEN10858",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中 fill_between() 的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "填充柱状图颜色"
+      },
+      {
+        "label": "B",
+        "text": "绘制彩色折线"
+      },
+      {
+        "label": "C",
+        "text": "填充饼图扇区"
+      },
+      {
+        "label": "D",
+        "text": "填充两条曲线之间的区域"
+      }
+    ],
+    "answer": "D",
+    "explanation": "plt.fill_between(x, y1, y2) 在两条曲线（或曲线与基线）之间填充颜色区域，常用于显示置信区间、误差范围等。",
+    "topic": "Matplotlib 区域填充",
+    "id": "GEN10859",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中 color 属性用于设置？",
+    "options": [
+      {
+        "label": "A",
+        "text": "背景颜色"
+      },
+      {
+        "label": "B",
+        "text": "系列的颜色调色板"
+      },
+      {
+        "label": "C",
+        "text": "文字颜色"
+      },
+      {
+        "label": "D",
+        "text": "网格线颜色"
+      }
+    ],
+    "answer": "B",
+    "explanation": "option 顶层的 color 属性是一个颜色数组，定义了系列（series）的默认颜色调色板，系列按顺序循环使用。",
+    "topic": "ECharts 调色板",
+    "id": "GEN10860",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中如何为柱状图添加背景阴影（背景柱）？",
+    "options": [
+      {
+        "label": "A",
+        "text": "使用 shadow 组件"
+      },
+      {
+        "label": "B",
+        "text": "设置 backgroundColor"
+      },
+      {
+        "label": "C",
+        "text": "设置 series 中的 showBackground: true"
+      },
+      {
+        "label": "D",
+        "text": "添加额外 bar 系列"
+      }
+    ],
+    "answer": "C",
+    "explanation": "使用 series 中的 showBackground: true 可以为柱状图系列添加背景阴影柱，并通过 backgroundStyle 控制样式。",
+    "topic": "ECharts 背景柱",
+    "id": "GEN10861",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中 barGap 属性用于控制？",
+    "options": [
+      {
+        "label": "A",
+        "text": "不同系列柱子之间的间距"
+      },
+      {
+        "label": "B",
+        "text": "柱子宽度"
+      },
+      {
+        "label": "C",
+        "text": "柱子高度"
+      },
+      {
+        "label": "D",
+        "text": "类目间距"
+      }
+    ],
+    "answer": "A",
+    "explanation": "barGap 控制同一坐标轴上不同系列的柱子之间的间距，值为百分比或绝对值。barCategoryGap 控制不同类目之间的间距。",
+    "topic": "ECharts 柱状图间距",
+    "id": "GEN10862",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中 plt.xticks() 的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "设置或获取 X 轴刻度位置和标签"
+      },
+      {
+        "label": "B",
+        "text": "设置 X 轴标签"
+      },
+      {
+        "label": "C",
+        "text": "设置 X 轴范围"
+      },
+      {
+        "label": "D",
+        "text": "旋转 X 轴标签"
+      }
+    ],
+    "answer": "A",
+    "explanation": "plt.xticks() 用于获取或设置 X 轴刻度的位置和标签文本，可用于自定义刻度显示。",
+    "topic": "Matplotlib 刻度设置",
+    "id": "GEN10863",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中哪种颜色格式不是有效的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "颜色名称 'red'"
+      },
+      {
+        "label": "B",
+        "text": "十六进制 '#FF0000'"
+      },
+      {
+        "label": "C",
+        "text": "RGB元组 (1.0, 0, 0)"
+      },
+      {
+        "label": "D",
+        "text": "HSL 字符串 'hsl(0,100%,50%)'"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Matplotlib 支持多种颜色格式：颜色名（'red'）、十六进制（'#FF0000'）、RGB/RGBA 元组（(1,0,0)）、灰度字符串（'0.5'）等。HSL 字符串不是直接支持的格式。",
+    "topic": "Matplotlib 颜色格式",
+    "id": "GEN10864",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中 geo 组件用于？",
+    "options": [
+      {
+        "label": "A",
+        "text": "极坐标系"
+      },
+      {
+        "label": "B",
+        "text": "地理坐标系/地图"
+      },
+      {
+        "label": "C",
+        "text": "直角坐标系"
+      },
+      {
+        "label": "D",
+        "text": "3D 坐标系"
+      }
+    ],
+    "answer": "B",
+    "explanation": "geo 是地理坐标系组件，用于地图可视化，需要配合地图数据（GeoJSON）或使用 ECharts 内置的地图（需注册）。",
+    "topic": "ECharts 地理坐标系",
+    "id": "GEN10865",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中 timeline 组件的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "显示当前时间"
+      },
+      {
+        "label": "B",
+        "text": "设置 X 轴时间格式"
+      },
+      {
+        "label": "C",
+        "text": "在不同时间点的数据之间切换和播放"
+      },
+      {
+        "label": "D",
+        "text": "记录操作历史"
+      }
+    ],
+    "answer": "C",
+    "explanation": "timeline 组件提供时间轴效果，支持在不同时间点的数据之间切换、播放动画，常用于展示数据随时间的变化趋势。",
+    "topic": "ECharts timeline 时间轴",
+    "id": "GEN10866",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中 plt.subplots_adjust() 的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "自动调整子图布局"
+      },
+      {
+        "label": "B",
+        "text": "增加新的子图"
+      },
+      {
+        "label": "C",
+        "text": "手动调整子图之间的边距和间距"
+      },
+      {
+        "label": "D",
+        "text": "删除子图"
+      }
+    ],
+    "answer": "C",
+    "explanation": "plt.subplots_adjust() 用于手动调整子图之间的间距（left, right, bottom, top, wspace, hspace 等参数）。",
+    "topic": "Matplotlib 子图间距",
+    "id": "GEN10867",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中 series 的 label 属性用于？",
+    "options": [
+      {
+        "label": "A",
+        "text": "设置系列名称"
+      },
+      {
+        "label": "B",
+        "text": "控制图例文字"
+      },
+      {
+        "label": "C",
+        "text": "设置坐标轴标签"
+      },
+      {
+        "label": "D",
+        "text": "控制数据标签的显示和样式"
+      }
+    ],
+    "answer": "D",
+    "explanation": "label 属性控制数据项上标签的显示，包括位置、格式、样式等。show: true 显示标签，formatter 控制格式。",
+    "topic": "ECharts 数据标签",
+    "id": "GEN10868",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib 中 plt.errorbar() 用于？",
+    "options": [
+      {
+        "label": "A",
+        "text": "绘制柱状图"
+      },
+      {
+        "label": "B",
+        "text": "绘制带误差线的图表"
+      },
+      {
+        "label": "C",
+        "text": "显示错误信息"
+      },
+      {
+        "label": "D",
+        "text": "绘制箱线图"
+      }
+    ],
+    "answer": "B",
+    "explanation": "plt.errorbar() 用于绘制带误差线（error bars）的图表，可指定 xerr 和 yerr 参数。",
+    "topic": "Matplotlib 误差线",
+    "id": "GEN10869",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "以下哪些是 ECharts 支持的图表类型？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "line"
+      },
+      {
+        "label": "B",
+        "text": "bar"
+      },
+      {
+        "label": "C",
+        "text": "pie"
+      },
+      {
+        "label": "D",
+        "text": "histogram"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "ECharts 支持折线图（line）、柱状图（bar）、饼图（pie）、散点图（scatter）等常见图表类型。histogram 不是直接的 type 值（应使用 bar 配合数据处理实现直方图）。",
+    "topic": "ECharts 图表类型",
+    "id": "GEN10870",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "ECharts 中 tooltip 的 trigger 有哪些取值？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "item"
+      },
+      {
+        "label": "B",
+        "text": "axis"
+      },
+      {
+        "label": "C",
+        "text": "click"
+      },
+      {
+        "label": "D",
+        "text": "none"
+      }
+    ],
+    "answer": "ABD",
+    "explanation": "trigger 支持三种取值：'item'（数据项触发）、'axis'（坐标轴触发）、'none'（不触发）。",
+    "topic": "ECharts tooltip 触发方式",
+    "id": "GEN10871",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "ECharts 中以下哪些是 toolbox 的内置功能？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "saveAsImage"
+      },
+      {
+        "label": "B",
+        "text": "dataView"
+      },
+      {
+        "label": "C",
+        "text": "magicType"
+      },
+      {
+        "label": "D",
+        "text": "restore"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "toolbox 内置功能包括 saveAsImage（保存图片）、dataView（数据视图）、magicType（动态类型切换）、restore（还原）、dataZoom（区域缩放）等。",
+    "topic": "ECharts toolbox 功能",
+    "id": "GEN10872",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "ECharts 支持以下哪些坐标系？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "直角坐标系（grid）"
+      },
+      {
+        "label": "B",
+        "text": "极坐标系（polar）"
+      },
+      {
+        "label": "C",
+        "text": "地理坐标系（geo）"
+      },
+      {
+        "label": "D",
+        "text": "平行坐标系（parallel）"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "ECharts 支持直角坐标系（grid）、极坐标系（polar）、地理坐标系（geo）、单轴坐标系（singleAxis）、平行坐标系（parallel）、日历坐标系（calendar）等。",
+    "topic": "ECharts 坐标系类型",
+    "id": "GEN10873",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "以下哪些是 ECharts 支持的渲染方式？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "Canvas"
+      },
+      {
+        "label": "B",
+        "text": "SVG"
+      },
+      {
+        "label": "C",
+        "text": "HTML5"
+      },
+      {
+        "label": "D",
+        "text": "VML"
+      }
+    ],
+    "answer": "AB",
+    "explanation": "ECharts 支持 Canvas 和 SVG 两种渲染方式，通过 init() 的第三个参数 opts.renderer 指定。WebGL 在 echarts-gl 扩展中支持。",
+    "topic": "ECharts 渲染模式",
+    "id": "GEN10874",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "ECharts 中 visualMap 组件支持哪些映射类型？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "continuous（连续型）"
+      },
+      {
+        "label": "B",
+        "text": "piecewise（分段型）"
+      },
+      {
+        "label": "C",
+        "text": "discrete（离散型）"
+      },
+      {
+        "label": "D",
+        "text": "linear（线性型）"
+      }
+    ],
+    "answer": "AB",
+    "explanation": "visualMap 支持 continuous（连续型，如 0-100 渐变）和 piecewise（分段型，如 0-30、30-60、60-100 分段）两种类型。",
+    "topic": "ECharts visualMap 类型",
+    "id": "GEN10875",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "ECharts 中以下哪些组件可以用于数据的交互筛选？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "dataZoom"
+      },
+      {
+        "label": "B",
+        "text": "brush"
+      },
+      {
+        "label": "C",
+        "text": "legend"
+      },
+      {
+        "label": "D",
+        "text": "tooltip"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "dataZoom 实现区域缩放筛选，brush 实现框选，legend 可以切换系列的显示/隐藏。tooltip 仅显示而不筛选。",
+    "topic": "ECharts 交互组件",
+    "id": "GEN10876",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "以下哪些是 Matplotlib 支持的输出图片格式？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "PNG"
+      },
+      {
+        "label": "B",
+        "text": "SVG"
+      },
+      {
+        "label": "C",
+        "text": "PDF"
+      },
+      {
+        "label": "D",
+        "text": "EPS"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "Matplotlib 的 savefig() 支持 PNG、JPG、SVG、PDF、EPS、TIFF 等多种输出格式。",
+    "topic": "Matplotlib 图片格式",
+    "id": "GEN10877",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "Matplotlib 中以下哪些方法可以设置图表标题？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "plt.title()"
+      },
+      {
+        "label": "B",
+        "text": "ax.set_title()"
+      },
+      {
+        "label": "C",
+        "text": "fig.suptitle()"
+      },
+      {
+        "label": "D",
+        "text": "plt.heading()"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "plt.title() 设置当前 Axes 标题；ax.set_title() 面向对象方式设置；fig.suptitle() 设置 Figure 的总标题。plt.heading() 不存在。",
+    "topic": "Matplotlib 标题设置",
+    "id": "GEN10878",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "Matplotlib 中 plt.plot() 支持以下哪些格式字符串？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "'r--'"
+      },
+      {
+        "label": "B",
+        "text": "'go'"
+      },
+      {
+        "label": "C",
+        "text": "'b-'"
+      },
+      {
+        "label": "D",
+        "text": "'ks'"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "plt.plot() 支持颜色字符、标记字符和线型字符的组合，如 'r--'（红色虚线）、'go'（绿色圆点）、'b-'（蓝色实线）、'ks'（黑色方块）。都是有效的格式字符串。",
+    "topic": "Matplotlib 格式字符串",
+    "id": "GEN10879",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "Matplotlib 中以下哪些参数可用于 plt.bar()？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "color"
+      },
+      {
+        "label": "B",
+        "text": "width"
+      },
+      {
+        "label": "C",
+        "text": "label"
+      },
+      {
+        "label": "D",
+        "text": "bottom"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "plt.bar() 支持 color（颜色）、width（宽度）、label（图例标签）、bottom（底部起始位置，用于堆叠）等参数。",
+    "topic": "Matplotlib bar 参数",
+    "id": "GEN10880",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "ECharts 中 pie 图表的 label 支持以下哪些显示位置？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "inside"
+      },
+      {
+        "label": "B",
+        "text": "outside"
+      },
+      {
+        "label": "C",
+        "text": "center"
+      },
+      {
+        "label": "D",
+        "text": "top"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "pie 的 label.position 支持 'inside'（扇区内部）、'outside'（扇区外部），以及 'center'（圆心位置）。'top' 不是有效位置。",
+    "topic": "ECharts 饼图标签位置",
+    "id": "GEN10881",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "ECharts 的 xAxis 支持哪些 type 值？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "category"
+      },
+      {
+        "label": "B",
+        "text": "value"
+      },
+      {
+        "label": "C",
+        "text": "time"
+      },
+      {
+        "label": "D",
+        "text": "log"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "xAxis 的 type 支持 'category'（类目轴）、'value'（数值轴）、'time'（时间轴）、'log'（对数轴）四种。",
+    "topic": "ECharts 坐标轴类型",
+    "id": "GEN10882",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "Matplotlib 中以下哪些是有效的线型（linestyle）？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "'-'（实线）"
+      },
+      {
+        "label": "B",
+        "text": "'--'（虚线）"
+      },
+      {
+        "label": "C",
+        "text": "'-.'（点划线）"
+      },
+      {
+        "label": "D",
+        "text": "':'（点线）"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "Matplotlib 支持 '-'（实线）、'--'（虚线）、'-.'（点划线）、':'（点线）四种基本线型。",
+    "topic": "Matplotlib 线型",
+    "id": "GEN10883",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "以下哪些属于 Matplotlib 面向对象绘图 API？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "ax.plot()"
+      },
+      {
+        "label": "B",
+        "text": "ax.set_xlabel()"
+      },
+      {
+        "label": "C",
+        "text": "fig.add_subplot()"
+      },
+      {
+        "label": "D",
+        "text": "plt.plot()"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "ax.plot()、ax.set_xlabel()、fig.add_subplot() 都是面向对象 API。plt.plot() 是 pyplot 函数式 API（基于状态机）。",
+    "topic": "Matplotlib 面向对象 API",
+    "id": "GEN10884",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "ECharts 中 series 支持以下哪些 type 值用于展示关系数据？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "graph"
+      },
+      {
+        "label": "B",
+        "text": "sankey"
+      },
+      {
+        "label": "C",
+        "text": "tree"
+      },
+      {
+        "label": "D",
+        "text": "line"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "graph（关系图/力导向图）、sankey（桑基图）、tree（树图）都用于展示关系/层级数据。line 是趋势图表。",
+    "topic": "ECharts 关系图表",
+    "id": "GEN10885",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "Matplotlib 中 plt.pie() 支持以下哪些参数？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "labels"
+      },
+      {
+        "label": "B",
+        "text": "startangle"
+      },
+      {
+        "label": "C",
+        "text": "shadow"
+      },
+      {
+        "label": "D",
+        "text": "autopct"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "plt.pie() 支持 labels（标签）、colors（颜色）、startangle（起始角度）、shadow（阴影）、explode（分离）、autopct（百分比）等。",
+    "topic": "Matplotlib 饼图参数",
+    "id": "GEN10886",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "以下哪些是 ECharts 的事件类型？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "click"
+      },
+      {
+        "label": "B",
+        "text": "legendselectchanged"
+      },
+      {
+        "label": "C",
+        "text": "datazoom"
+      },
+      {
+        "label": "D",
+        "text": "mouseover"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "ECharts 支持 click、dblclick、mousedown、mousemove、mouseup、mouseover、mouseout、legendselectchanged、datazoom 等多种事件。",
+    "topic": "ECharts 事件处理",
+    "id": "GEN10887",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "Matplotlib 中以下哪些方式可以修改全局默认字体？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "plt.rcParams['font.sans-serif'] = ['SimHei']"
+      },
+      {
+        "label": "B",
+        "text": "修改 matplotlibrc 配置文件"
+      },
+      {
+        "label": "C",
+        "text": "使用 font_manager 添加字体"
+      },
+      {
+        "label": "D",
+        "text": "plt.set_font('SimHei')"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "可以通过 rcParams 字典、matplotlibrc 配置文件、font_manager 来配置字体。plt.set_font() 不存在。",
+    "topic": "Matplotlib 字体配置",
+    "id": "GEN10888",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "ECharts 中以下哪些方式可以加载数据？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "直接在 series 的 data 中设置"
+      },
+      {
+        "label": "B",
+        "text": "通过 dataset 组件"
+      },
+      {
+        "label": "C",
+        "text": "异步加载后 setOption"
+      },
+      {
+        "label": "D",
+        "text": "通过 dataSource 配置 URL 自动加载"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "ECharts 支持直接在 option 中设置数据、通过 dataset 组件、以及异步加载（AJAX/Fetch）后再 setOption。不支持直接从 CSV 文件自动加载。",
+    "topic": "ECharts 数据加载",
+    "id": "GEN10889",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "Matplotlib 中以下哪些图适用于展示数据分布？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "hist（直方图）"
+      },
+      {
+        "label": "B",
+        "text": "boxplot（箱线图）"
+      },
+      {
+        "label": "C",
+        "text": "violinplot（小提琴图）"
+      },
+      {
+        "label": "D",
+        "text": "pie（饼图）"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "直方图（hist）、箱线图（boxplot）、小提琴图（violinplot）都用于展示数据分布。饼图（pie）展示的是比例关系。",
+    "topic": "Matplotlib 数据分布图",
+    "id": "GEN10890",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "ECharts 的 series.label 支持以下哪些位置？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "top"
+      },
+      {
+        "label": "B",
+        "text": "inside"
+      },
+      {
+        "label": "C",
+        "text": "bottom"
+      },
+      {
+        "label": "D",
+        "text": "right"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "对于柱状图/折线图，label.position 支持 'top'（上方）、'inside'（内部）、'bottom'（下方）、'left'、'right' 等。",
+    "topic": "ECharts label 位置",
+    "id": "GEN10891",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "Matplotlib 中以下哪些可以设置颜色映射（colormap）？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "plt.scatter(cmap='viridis')"
+      },
+      {
+        "label": "B",
+        "text": "plt.imshow(data, cmap='hot')"
+      },
+      {
+        "label": "C",
+        "text": "plt.pcolormesh(cmap='coolwarm')"
+      },
+      {
+        "label": "D",
+        "text": "plt.bar(cmap='jet')"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "scatter 通过 cmap 参数设置颜色映射；imshow 通过 cmap 参数；pcolormesh 也支持 cmap。bar 通常不使用 colormap。",
+    "topic": "Matplotlib 颜色映射",
+    "id": "GEN10892",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "ECharts 中以下哪些可以设置折线图的线条样式？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "lineStyle"
+      },
+      {
+        "label": "B",
+        "text": "areaStyle"
+      },
+      {
+        "label": "C",
+        "text": "itemStyle"
+      },
+      {
+        "label": "D",
+        "text": "smooth"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "lineStyle 控制线条样式（颜色、宽度、类型等）；areaStyle 控制面积填充；itemStyle 控制数据点样式。smooth 控制曲线平滑度但不直接控制线条样式。",
+    "topic": "ECharts 折线样式",
+    "id": "GEN10893",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "Matplotlib 中以下哪些方法可以关闭/隐藏坐标轴？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "plt.axis('off')"
+      },
+      {
+        "label": "B",
+        "text": "ax.set_axis_off()"
+      },
+      {
+        "label": "C",
+        "text": "ax.get_xaxis().set_visible(False)"
+      },
+      {
+        "label": "D",
+        "text": "plt.hide_axis()"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "plt.axis('off') 隐藏整个坐标轴；ax.set_axis_off() 面向对象方式；ax.get_xaxis().set_visible(False) 隐藏 X 轴。plt.hide_axis() 不存在。",
+    "topic": "Matplotlib 隐藏坐标轴",
+    "id": "GEN10894",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 初始化图表实例的方法是 ________。",
+    "options": [],
+    "answer": "echarts.init()",
+    "explanation": "echarts.init(domElement) 用于初始化 ECharts 实例，传入要绑定的 DOM 元素。",
+    "topic": "ECharts 初始化",
+    "id": "GEN10895",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 中设置图表配置项的方法是 ________。",
+    "options": [],
+    "answer": "setOption()",
+    "explanation": "myChart.setOption(option) 将配置项和数据应用到图表实例中。",
+    "topic": "ECharts setOption",
+    "id": "GEN10896",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 中柱状图的 type 值是 ________。",
+    "options": [],
+    "answer": "bar",
+    "explanation": "在 series 中设置 type: 'bar' 即绘制柱状图。",
+    "topic": "ECharts 柱状图",
+    "id": "GEN10897",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 中折线图的 type 值是 ________。",
+    "options": [],
+    "answer": "line",
+    "explanation": "在 series 中设置 type: 'line' 即绘制折线图。",
+    "topic": "ECharts 折线图",
+    "id": "GEN10898",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 中饼图的 type 值是 ________。",
+    "options": [],
+    "answer": "pie",
+    "explanation": "在 series 中设置 type: 'pie' 即绘制饼图。",
+    "topic": "ECharts 饼图",
+    "id": "GEN10899",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 中散点图的 type 值是 ________。",
+    "options": [],
+    "answer": "scatter",
+    "explanation": "在 series 中设置 type: 'scatter' 即绘制散点图。",
+    "topic": "ECharts 散点图",
+    "id": "GEN10900",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 中 K 线图的 type 值是 ________。",
+    "options": [],
+    "answer": "candlestick",
+    "explanation": "在 series 中设置 type: 'candlestick' 即绘制 K 线图。",
+    "topic": "ECharts K线图",
+    "id": "GEN10901",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 中雷达图的 type 值是 ________。",
+    "options": [],
+    "answer": "radar",
+    "explanation": "在 series 中设置 type: 'radar' 即绘制雷达图，需配合 radar 组件使用。",
+    "topic": "ECharts 雷达图",
+    "id": "GEN10902",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 中仪表盘的 type 值是 ________。",
+    "options": [],
+    "answer": "gauge",
+    "explanation": "在 series 中设置 type: 'gauge' 即绘制仪表盘图表。",
+    "topic": "ECharts 仪表盘",
+    "id": "GEN10903",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 中 tooltip 的触发方式 trigger 设为坐标轴触发时应填 ________。",
+    "options": [],
+    "answer": "axis",
+    "explanation": "trigger: 'axis' 表示坐标轴触发，鼠标悬停在坐标轴范围内时显示所有系列在该轴位置的数据。",
+    "topic": "ECharts tooltip 触发",
+    "id": "GEN10904",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 中 tooltip 的数据项触发方式应填 ________。",
+    "options": [],
+    "answer": "item",
+    "explanation": "trigger: 'item' 表示数据项触发，鼠标悬停在具体数据项时显示该数据项的提示框。",
+    "topic": "ECharts tooltip",
+    "id": "GEN10905",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 中启用暗色内置主题，init 方法的第二个参数应传入 ________。",
+    "options": [],
+    "answer": "dark",
+    "explanation": "echarts.init(dom, 'dark') 启用暗色主题；不传或传 null 使用默认亮色。",
+    "topic": "ECharts 主题",
+    "id": "GEN10906",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 中使折线图变为平滑曲线，series 中应设置 ________: true。",
+    "options": [],
+    "answer": "smooth",
+    "explanation": "smooth: true 会使折线图使用贝塞尔曲线进行平滑绘制。",
+    "topic": "ECharts 平滑曲线",
+    "id": "GEN10907",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 中实现图表自适应容器大小变化的方法是 ________。",
+    "options": [],
+    "answer": "resize()",
+    "explanation": "myChart.resize() 会重新计算并渲染图表以适应新的容器尺寸。",
+    "topic": "ECharts resize",
+    "id": "GEN10908",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 中用于区域缩放的组件是 ________。",
+    "options": [],
+    "answer": "dataZoom",
+    "explanation": "dataZoom 组件实现区域缩放和滚动筛选功能。",
+    "topic": "ECharts dataZoom",
+    "id": "GEN10909",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 中用于视觉映射的组件是 ________。",
+    "options": [],
+    "answer": "visualMap",
+    "explanation": "visualMap 组件将数据映射为视觉元素（颜色、大小等）。",
+    "topic": "ECharts visualMap",
+    "id": "GEN10910",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 中用于数据集中管理的组件是 ________。",
+    "options": [],
+    "answer": "dataset",
+    "explanation": "dataset 组件实现数据与配置分离，多个系列可共用同一数据源。",
+    "topic": "ECharts dataset",
+    "id": "GEN10911",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 饼图设置环形图效果需要配置的 series 属性是 ________。",
+    "options": [],
+    "answer": "radius",
+    "explanation": "设置 radius 为数组形式 [内半径, 外半径]，如 radius: ['40%', '70%']。",
+    "topic": "ECharts 环形图",
+    "id": "GEN10912",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 中 title 组件设置主标题文本的属性是 ________。",
+    "options": [],
+    "answer": "text",
+    "explanation": "title: { text: '主标题' }，text 属性用于设置主标题文本。subtext 用于副标题。",
+    "topic": "ECharts title",
+    "id": "GEN10913",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 中 legend 组件设置水平排列的属性是 orient: '________'。",
+    "options": [],
+    "answer": "horizontal",
+    "explanation": "orient: 'horizontal' 表示水平排列；orient: 'vertical' 表示垂直排列。",
+    "topic": "ECharts legend 方向",
+    "id": "GEN10914",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib 中最常用的导入方式是 import matplotlib.pyplot as ________。",
+    "options": [],
+    "answer": "plt",
+    "explanation": "plt 是业界的约定俗成缩写，import matplotlib.pyplot as plt。",
+    "topic": "Matplotlib 导入约定",
+    "id": "GEN10915",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib 中绘制折线图的函数是 plt.________()。",
+    "options": [],
+    "answer": "plot",
+    "explanation": "plt.plot(x, y) 是最基础的绘图函数，默认绘制折线图。",
+    "topic": "Matplotlib plot",
+    "id": "GEN10916",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib 中绘制散点图的函数是 plt.________()。",
+    "options": [],
+    "answer": "scatter",
+    "explanation": "plt.scatter(x, y) 用于绘制散点图。",
+    "topic": "Matplotlib scatter",
+    "id": "GEN10917",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib 中绘制垂直柱状图的函数是 plt.________()。",
+    "options": [],
+    "answer": "bar",
+    "explanation": "plt.bar(x, height) 绘制垂直柱状图。",
+    "topic": "Matplotlib bar",
+    "id": "GEN10918",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib 中绘制水平柱状图的函数是 plt.________()。",
+    "options": [],
+    "answer": "barh",
+    "explanation": "plt.barh(y, width) 绘制水平柱状图。",
+    "topic": "Matplotlib barh",
+    "id": "GEN10919",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib 中绘制直方图的函数是 plt.________()。",
+    "options": [],
+    "answer": "hist",
+    "explanation": "plt.hist(data, bins=10) 用于绘制直方图，bins 控制分箱数量。",
+    "topic": "Matplotlib hist",
+    "id": "GEN10920",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib 中绘制饼图的函数是 plt.________()。",
+    "options": [],
+    "answer": "pie",
+    "explanation": "plt.pie(values, labels=labels, autopct='%1.1f%%') 用于绘制饼图。",
+    "topic": "Matplotlib pie",
+    "id": "GEN10921",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib 中绘制箱线图的函数是 plt.________()。",
+    "options": [],
+    "answer": "boxplot",
+    "explanation": "plt.boxplot(data) 用于绘制箱线图，展示数据分布。",
+    "topic": "Matplotlib boxplot",
+    "id": "GEN10922",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib 中显示图表的函数是 plt.________()。",
+    "options": [],
+    "answer": "show",
+    "explanation": "plt.show() 显示所有已创建的图形窗口。",
+    "topic": "Matplotlib show",
+    "id": "GEN10923",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib 中保存图表为文件的函数是 plt.________()。",
+    "options": [],
+    "answer": "savefig",
+    "explanation": "plt.savefig('filename.png', dpi=300) 将图表保存为图片文件。",
+    "topic": "Matplotlib savefig",
+    "id": "GEN10924",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib 中设置 X 轴标签的函数是 plt.________()。",
+    "options": [],
+    "answer": "xlabel",
+    "explanation": "plt.xlabel('标签文本') 设置 X 轴标签。",
+    "topic": "Matplotlib xlabel",
+    "id": "GEN10925",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib 中设置图表标题的函数是 plt.________()。",
+    "options": [],
+    "answer": "title",
+    "explanation": "plt.title('标题文本') 设置当前 Axes 的标题。",
+    "topic": "Matplotlib title",
+    "id": "GEN10926",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib 中显示图例的函数是 plt.________()。",
+    "options": [],
+    "answer": "legend",
+    "explanation": "plt.legend() 显示图例，需配合绘图时的 label 参数。",
+    "topic": "Matplotlib legend",
+    "id": "GEN10927",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib 中显示网格线的函数是 plt.________()。",
+    "options": [],
+    "answer": "grid",
+    "explanation": "plt.grid(True) 显示网格线；plt.grid(False) 隐藏网格线。",
+    "topic": "Matplotlib grid",
+    "id": "GEN10928",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib 中创建子图（返回 Figure 和 Axes）的便捷函数是 plt.________()。",
+    "options": [],
+    "answer": "subplots",
+    "explanation": "fig, ax = plt.subplots() 是创建子图的推荐方式。",
+    "topic": "Matplotlib subplots",
+    "id": "GEN10929",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib 中设置图形尺寸的参数是 ________，单位是英寸。",
+    "options": [],
+    "answer": "figsize",
+    "explanation": "plt.figure(figsize=(10, 6)) 设置图形宽10英寸、高6英寸。",
+    "topic": "Matplotlib figsize",
+    "id": "GEN10930",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib 中设置图形分辨率的参数是 ________，单位是每英寸点数。",
+    "options": [],
+    "answer": "dpi",
+    "explanation": "plt.figure(dpi=150) 设置图形分辨率为 150 DPI。",
+    "topic": "Matplotlib dpi",
+    "id": "GEN10931",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib 中 plot() 格式字符串 'r--' 中 r 表示 ________ 色。",
+    "options": [],
+    "answer": "红",
+    "explanation": "'r--' 中 r 表示红色（red），'--' 表示虚线。",
+    "topic": "Matplotlib 格式字符串",
+    "id": "GEN10932",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib 中 plot() 格式字符串 'go' 中 o 表示 ________ 形标记。",
+    "options": [],
+    "answer": "圆",
+    "explanation": "'go' 中 g 表示绿色，o 表示圆形标记。",
+    "topic": "Matplotlib 标记",
+    "id": "GEN10933",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib 中设置线条宽度的参数是 ________。",
+    "options": [],
+    "answer": "linewidth 或 lw",
+    "explanation": "plt.plot(x, y, linewidth=2) 或简写 lw=2 设置线条宽度。",
+    "topic": "Matplotlib linewidth",
+    "id": "GEN10934",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib 中设置数据点标记大小的参数是 ________。",
+    "options": [],
+    "answer": "markersize 或 ms",
+    "explanation": "plt.plot(x, y, marker='o', markersize=8) 或简写 ms=8。",
+    "topic": "Matplotlib markersize",
+    "id": "GEN10935",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib 中解决中文显示问题需要设置 rcParams 的 ________ 键。",
+    "options": [],
+    "answer": "font.sans-serif",
+    "explanation": "plt.rcParams['font.sans-serif'] = ['SimHei'] 设置中文字体。",
+    "topic": "Matplotlib 中文配置",
+    "id": "GEN10936",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib 中使用样式表 'ggplot' 的语句是 plt.style.use('________')。",
+    "options": [],
+    "answer": "ggplot",
+    "explanation": "plt.style.use('ggplot') 切换为类似 R 语言 ggplot2 的图表风格。",
+    "topic": "Matplotlib 样式表",
+    "id": "GEN10937",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 中地图图表需要注册地图数据，注册方法为 echarts.________()。",
+    "options": [],
+    "answer": "registerMap",
+    "explanation": "echarts.registerMap('地图名称', geoJsonData) 用于注册自定义地图数据。",
+    "topic": "ECharts 地图注册",
+    "id": "GEN10938",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 中 tooltip 的 ________ 属性可用于自定义提示框内容格式。",
+    "options": [],
+    "answer": "formatter",
+    "explanation": "tooltip.formatter 支持字符串模板和回调函数两种方式自定义提示框内容。",
+    "topic": "ECharts tooltip formatter",
+    "id": "GEN10939",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 中 xAxis 的 type 设为 ________ 时表示数值轴。",
+    "options": [],
+    "answer": "value",
+    "explanation": "xAxis: { type: 'value' } 表示数值轴，数据按数值大小在轴上定位。",
+    "topic": "ECharts 数值轴",
+    "id": "GEN10940",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 中 xAxis 的 type 设为 ________ 时表示类目轴。",
+    "options": [],
+    "answer": "category",
+    "explanation": "xAxis: { type: 'category' } 表示类目轴，适用于离散的分组数据。",
+    "topic": "ECharts 类目轴",
+    "id": "GEN10941",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib 中设置坐标轴等比例的函数是 plt.axis('________')。",
+    "options": [],
+    "answer": "equal",
+    "explanation": "plt.axis('equal') 设置 X 和 Y 轴比例一致，确保圆形不变形。",
+    "topic": "Matplotlib axis equal",
+    "id": "GEN10942",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 中折线图的面积填充效果通过开启 ________ 属性实现。",
+    "options": [],
+    "answer": "areaStyle",
+    "explanation": "series 中设置 areaStyle: {} 即可在折线下方填充颜色。",
+    "topic": "ECharts 面积图",
+    "id": "GEN10943",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib 中给饼图添加阴影效果，plt.pie() 需设置参数 ________=True。",
+    "options": [],
+    "answer": "shadow",
+    "explanation": "plt.pie(values, shadow=True) 为饼图添加阴影效果。",
+    "topic": "Matplotlib 饼图阴影",
+    "id": "GEN10944",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 ECharts 的基本使用步骤。",
+    "options": [],
+    "answer": "引入库 → 准备 DOM 容器 → echarts.init() 初始化 → 配置 option → setOption() 渲染 → 可选 resize() 自适应",
+    "explanation": "ECharts 的标准使用步骤包括：①引入 ECharts 库；②准备一个具有宽高的 DOM 容器；③使用 echarts.init() 初始化图表实例；④编写 option 配置项；⑤调用 setOption() 渲染图表；⑥（可选）监听窗口 resize 事件调用 resize() 实现自适应。",
+    "topic": "ECharts 使用流程",
+    "id": "GEN10945",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 ECharts 中 Canvas 和 SVG 两种渲染模式的区别及适用场景。",
+    "options": [],
+    "answer": "Canvas：像素渲染，适合大数据量（万级以上），内存低；SVG：矢量渲染，适合小数据量，缩放不失真，DOM 交互友好",
+    "explanation": "Canvas 基于像素绘制，适合数据量大（万级以上）的场景，内存占用较低；SVG 基于矢量图形，适合数据量较小、需要支持缩放不失真或交互元素多的场景。",
+    "topic": "ECharts 渲染模式",
+    "id": "GEN10946",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 ECharts 中 visualMap 组件的作用及两种类型。",
+    "options": [],
+    "answer": "数据→视觉映射。continuous 连续渐变；piecewise 分段映射",
+    "explanation": "visualMap 将数据值映射到视觉通道（颜色、大小等）。continuous（连续型）用渐变色带映射，适合连续数值；piecewise（分段型）用分段颜色映射，适合分档数据。",
+    "topic": "ECharts visualMap",
+    "id": "GEN10947",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 ECharts 中 dataset 组件的优势和使用场景。",
+    "options": [],
+    "answer": "数据配置分离，多系列共享数据源，支持数据转换过滤，便于对接后端表格数据",
+    "explanation": "dataset 实现数据与图表配置的分离，多个 series 可共用同一数据源，支持数据过滤和转换，便于数据的统一管理和复用，也方便对接后端返回的表格型数据。",
+    "topic": "ECharts dataset",
+    "id": "GEN10948",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 ECharts 中 dataZoom 组件的两种主要类型。",
+    "options": [],
+    "answer": "inside（内置型）：在坐标系内通过滚轮/拖拽操作；slider（滑动条型）：独立滑动条控件",
+    "explanation": "dataZoom 分为内置型（inside）和滑动条型（slider）。inside 型通过鼠标滚轮、拖拽等直接在坐标系内操作；slider 型通过独立的滑动条控件操作。两者可同时配置。",
+    "topic": "ECharts dataZoom",
+    "id": "GEN10949",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 ECharts 中如何实现图表联动。",
+    "options": [],
+    "answer": "echarts.connect([chart1, chart2]) 或设置相同 group 值，实现 dataZoom、tooltip 等联动",
+    "explanation": "多个图表实例可以通过共享的 group 属性和 connect() 方法实现联动。联动后，一个图表的 dataZoom、tooltip 等交互会同步影响其他图表。",
+    "topic": "ECharts 图表联动",
+    "id": "GEN10950",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 ECharts 中 tooltip 的 formatter 回调函数的使用方式。",
+    "options": [],
+    "answer": "formatter: function(params) { return '自定义HTML'; }，params 包含 seriesName、data、value 等信息",
+    "explanation": "formatter 可以是一个函数，接收 params 参数（包含数据信息），返回 HTML 字符串。可自定义复杂的提示框内容和样式。",
+    "topic": "ECharts formatter",
+    "id": "GEN10951",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 ECharts 中如何实现柱状图的堆叠效果。",
+    "options": [],
+    "answer": "多个 bar 系列设置相同 stack 属性值（如 stack: 'total'）即可堆叠",
+    "explanation": "在多个 bar 系列中设置相同的 stack 属性值（如 stack: 'total'），这些系列就会上下堆叠显示，形成堆积柱状图。",
+    "topic": "ECharts 堆叠柱状图",
+    "id": "GEN10952",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 Matplotlib 中 pyplot 函数式 API 与面向对象 API 的区别及各自适用场景。",
+    "options": [],
+    "answer": "函数式：plt.plot()，基于状态机，简单快捷；面向对象：ax.plot()，显式控制对象，适合复杂布局",
+    "explanation": "pyplot 函数式 API（如 plt.plot()）基于全局状态机，简单快捷，适合快速绘图和交互式探索；面向对象 API（如 fig, ax = plt.subplots()；ax.plot()）显式控制 Figure 和 Axes 对象，适合复杂多子图场景和精细控制。",
+    "topic": "Matplotlib API 风格",
+    "id": "GEN10953",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 Matplotlib 中 Figure、Axes、Axis 三者的关系。",
+    "options": [],
+    "answer": "Figure（画布）⊃ Axes（子图区域）⊃ Axis（坐标轴）。嵌套关系：Figure > Axes > Axis",
+    "explanation": "Figure 是整个画布容器；Axes 是 Figure 中的子图区域，包含数据绘图区、标题、标签等；Axis 是 Axes 中的坐标轴（X 轴或 Y 轴），管理刻度、刻度标签、轴标签等。一个 Figure 可包含多个 Axes，每个 Axes 包含两个（2D）或三个（3D）Axis。",
+    "topic": "Matplotlib 图形结构",
+    "id": "GEN10954",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 Matplotlib 中 plt.subplots() 的返回值及用法。",
+    "options": [],
+    "answer": "返回 (fig, axes)：fig 是画布，axes 是子图数组，通过索引 axes[i,j] 操作子图",
+    "explanation": "plt.subplots(nrows, ncols) 返回 (fig, axes) 元组。fig 是 Figure 对象；axes 是 Axes 对象数组（单子图时是单个 Axes 对象，多子图时是二维 NumPy 数组）。可以使用 axes[i, j].plot() 等方式操作各子图。",
+    "topic": "Matplotlib subplots",
+    "id": "GEN10955",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 Matplotlib 中使用 plt.savefig() 时需要注意的关键参数。",
+    "options": [],
+    "answer": "dpi（分辨率）、bbox_inches='tight'（去白边）、facecolor（背景色）、transparent（透明度）；需在 show() 前调用",
+    "explanation": "关键参数有：dpi（分辨率）、bbox_inches（裁剪范围，'tight' 可去除多余白边）、facecolor（背景色）、transparent（透明背景）。注意 savefig() 要在 show() 之前调用，否则可能保存空白图。",
+    "topic": "Matplotlib 保存图片",
+    "id": "GEN10956",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 ECharts 和 Matplotlib 各自的优势和适用场景。",
+    "options": [],
+    "answer": "ECharts：Web 交互可视化、仪表盘、动态效果；Matplotlib：科研论文、数据分析、静态出版级图表",
+    "explanation": "ECharts 基于 JavaScript，适合 Web 端交互式可视化，支持丰富的交互效果、动画和响应式，适合仪表盘和数据产品；Matplotlib 基于 Python，适合静态科研论文图表，支持精细的出版级排版控制，适合数据分析和学术写作。",
+    "topic": "ECharts vs Matplotlib 对比",
+    "id": "GEN10957",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 ECharts 中如何为图表绑定点击事件并获取点击的数据。",
+    "options": [],
+    "answer": "myChart.on('click', function(params) { console.log(params.data); })；params 包含点击数据详情",
+    "explanation": "使用 myChart.on('click', function(params) {...}) 绑定点击事件。params 对象包含 data、seriesName、value 等数据信息，可用于数据下钻或跳转。",
+    "topic": "ECharts 事件处理",
+    "id": "GEN10958",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 ECharts 中 series 的 emphasis 状态的作用。",
+    "options": [],
+    "answer": "鼠标悬停时的强调状态，可配置放大、变色、显示额外标签等效果",
+    "explanation": "emphasis 是鼠标悬停时的高亮强调状态。通过 emphasis 配置可以设置悬停时的样式变化，如放大效果（scale）、颜色变化、标签显示等，增强交互体验。",
+    "topic": "ECharts emphasis",
+    "id": "GEN10959",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 Matplotlib 中如何在一个 Figure 中绘制多个不同类型的图表。",
+    "options": [],
+    "answer": "plt.subplots() 创建多个 Axes，在不同 Axes 上调用不同绘图方法（plot/bar/pie等）",
+    "explanation": "使用 plt.subplots() 创建子图网格，获取各 Axes 对象后，在不同 Axes 上分别调用不同的绘图方法（如 ax[0].plot() 绘制折线图，ax[1].bar() 绘制柱状图）。",
+    "topic": "Matplotlib 多类型子图",
+    "id": "GEN10960",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 ECharts 中如何配置 toolbox 实现动态切换图表类型。",
+    "options": [],
+    "answer": "toolbox.feature.magicType: { type: ['line', 'bar'] } 实现折线/柱状切换",
+    "explanation": "在 toolbox.feature.magicType 中配置 type 数组，如 type: ['line', 'bar', 'stack', 'tiled']，即可通过工具栏按钮在折线图、柱状图、堆叠图等之间切换。",
+    "topic": "ECharts toolbox magicType",
+    "id": "GEN10961",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 Matplotlib 中 plt.fill_between() 的典型应用场景。",
+    "options": [],
+    "answer": "填充曲线间区域，常用于显示置信区间、误差范围、突出区域",
+    "explanation": "fill_between() 用于填充两条曲线之间的区域。典型场景包括：显示数据的置信区间/误差范围、突出某个区域、可视化累积差异等。",
+    "topic": "Matplotlib fill_between",
+    "id": "GEN10962",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 ECharts 中如何使用 series 的 encode 配合 dataset 进行数据映射。",
+    "options": [],
+    "answer": "dataset 定义行列数据，series.encode 指定维度→属性映射（如 x: '年份', y: '销量'）",
+    "explanation": "在 dataset 中定义数据（按行列存储），在 series 中使用 encode 指定数据维度到图形属性的映射，如 encode: {x: '年份', y: '销售额'}，实现灵活的数据绑定。",
+    "topic": "ECharts encode + dataset",
+    "id": "GEN10963",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 Matplotlib 中颜色映射（colormap）的作用及常用场景。",
+    "options": [],
+    "answer": "数值→颜色映射，用于热力图、散点图第三维着色等；常用：viridis、hot、coolwarm",
+    "explanation": "colormap 将数值映射到颜色，用于表示数据的大小和变化趋势。常用场景：热力图（imshow）、散点图按第三维着色（scatter c=values, cmap='viridis'）、伪彩色图（pcolormesh）。常用 colormap 有 'viridis', 'plasma', 'hot', 'coolwarm' 等。",
+    "topic": "Matplotlib colormap",
+    "id": "GEN10964",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 ECharts 中雷达图的配置要点。",
+    "options": [],
+    "answer": "radar.indicator 定义维度（name+max）→ series type='radar' 填入数据 → shape 控制形状",
+    "explanation": "雷达图需要两步配置：① radar 组件定义坐标系维度（indicator 数组，每项含 name 和 max）；② series 中 type: 'radar' 并设置 data（每个数据项对应各维度值）。可配置 shape 控制形状（polygon/circle）。",
+    "topic": "ECharts 雷达图配置",
+    "id": "GEN10965",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 Matplotlib 中 plt.errorbar() 的作用及关键参数。",
+    "options": [],
+    "answer": "绘制误差线；关键参数：xerr、yerr（误差值）、capsize（端帽大小）、fmt（格式）",
+    "explanation": "errorbar() 用于绘制带误差线的数据点。关键参数：xerr/yerr（水平/垂直误差值）、capsize（误差线端帽大小）、elinewidth（误差线宽度）、fmt（数据点格式字符串）。",
+    "topic": "Matplotlib 误差线",
+    "id": "GEN10966",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 ECharts 中 grid 组件的主要配置项及其作用。",
+    "options": [],
+    "answer": "left/right/top/bottom 控制边距，containLabel 决定是否含标签，可设 backgroundColor",
+    "explanation": "grid 组件定义直角坐标系绘图区域。主要配置：left/right/top/bottom（边距，可百分比或像素）、width/height（网格宽高）、containLabel（是否包含坐标轴标签计算边距）、backgroundColor（背景色）。",
+    "topic": "ECharts grid 配置",
+    "id": "GEN10967",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 Matplotlib 中如何通过 rcParams 全局设置图表样式。",
+    "options": [],
+    "answer": "修改 rcParams 字典全局生效，如 rcParams['font.size']=12，rcParams['figure.dpi']=150",
+    "explanation": "plt.rcParams 是 Matplotlib 的全局配置字典，可设置默认字体（font.sans-serif）、字体大小（font.size）、线条宽度（lines.linewidth）、图形尺寸（figure.figsize）、DPI（figure.dpi）等。设置后全局生效。",
+    "topic": "Matplotlib rcParams",
+    "id": "GEN10968",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 ECharts 中折线图如何实现双 Y 轴（左右各一个数值轴）。",
+    "options": [],
+    "answer": "yAxis 数组定义两个轴（position: left/right），series 中 yAxisIndex 指定使用哪个轴",
+    "explanation": "在 yAxis 数组中定义两个对象，分别设置 name 和 position（'left'/'right'）。series 中各系列通过 yAxisIndex: 0 或 1 指定使用哪个 Y 轴。",
+    "topic": "ECharts 双Y轴",
+    "id": "GEN10969",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 Matplotlib 中 plt.pie() 的 explode 参数的作用和用法。",
+    "options": [],
+    "answer": "explode=[0, 0.1, 0, 0] 将第二个扇区偏移突出显示，数组长度与数据一致",
+    "explanation": "explode 接收一个与数据等长的数组，每个值为该扇区偏移圆心的比例（0为不偏移）。典型用法：explode=(0, 0.1, 0, 0) 将第二个扇区拉出 0.1 的偏移量，起到突出强调的效果。",
+    "topic": "Matplotlib 饼图分离",
+    "id": "GEN10970",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 ECharts 中 visualMap 的 inRange 和 outOfRange 属性的区别。",
+    "options": [],
+    "answer": "inRange：范围内数据的视觉样式；outOfRange：超出范围数据的样式（通常灰色表示）",
+    "explanation": "inRange 定义在 visualMap 映射范围内的视觉样式（如颜色、大小等）；outOfRange 定义超出映射范围的数据项的视觉样式，通常设置为灰色或其他区分颜色表示数据超出范围。",
+    "topic": "ECharts visualMap 范围",
+    "id": "GEN10971",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 Matplotlib 中三维绘图的基本步骤。",
+    "options": [],
+    "answer": "导入 Axes3D → add_subplot(projection='3d') → 使用 plot3D/scatter3D/plot_surface → show()",
+    "explanation": "① from mpl_toolkits.mplot3d import Axes3D；② 创建 Figure 并添加 3D 子图：ax = fig.add_subplot(111, projection='3d')；③ 使用 ax.plot3D()、ax.scatter3D()、ax.plot_surface() 等方法绘制；④ 设置标签后 show()。",
+    "topic": "Matplotlib 3D 绘图",
+    "id": "GEN10972",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 ECharts 中 brush 组件与 dataZoom 组件的功能区别。",
+    "options": [],
+    "answer": "brush：框选数据区域（用于联动/高亮）；dataZoom：缩放筛选数据范围（用于查看细节）",
+    "explanation": "brush 是区域框选工具，用于选中特定数据区域（矩形选择），通常用于数据联动和高亮；dataZoom 是区域缩放工具，用于放大查看数据细节并筛选显示范围。",
+    "topic": "ECharts brush vs dataZoom",
+    "id": "GEN10973",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "请简述 Matplotlib 中 stacked bar chart（堆叠柱状图）的实现方法。",
+    "options": [],
+    "answer": "多次调用 plt.bar()，后续调用的 bottom 参数设为之前柱子高度的累积值\r\n\r\n第五部分：编程题（共15题）",
+    "explanation": "使用 plt.bar() 的 bottom 参数。先绘制第一组柱子，后续组传入 bottom=前一组柱子的高度值，形成堆叠效果。需通过 NumPy 累加计算 bottom 值。",
+    "topic": "Matplotlib 堆叠柱状图",
+    "id": "GEN10974",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "程序题",
+    "title": "【程序填空·ECharts】补全以下代码，完成一个基本的折线图：\r\n📄 代码：\r\n// HTML: <div id=\"main\" style=\"width:600px;height:400px;\"></div>\r\n// 初始化图表实例\r\nvar myChart = ______________________________;\r\n\r\nvar option = {\r\n    title: { text: '月度销售趋势' },\r\n    xAxis: {\r\n        type: 'category',\r\n        data: ['1月', '2月', '3月', '4月', '5月', '6月']\r\n    },\r\n    yAxis: {\r\n        type: 'value'\r\n    },\r\n    series: [{\r\n        _______________;  // 指定图表类型为折线图\r\n        _______________   // 填入数据数组\r\n    }]\r\n};\r\n\r\nmyChart.setOption(option);",
+    "options": [],
+    "answer": "✅ 答案/要点：echarts.init(document.getElementById('main')); type: 'line'; data: [5, 20, 36, 10, 10, 20]",
+    "explanation": "需要正确初始化 ECharts 实例并配置 option 中的 xAxis、yAxis、series 等关键项。type: 'line' 指定为折线图。",
+    "topic": "ECharts 折线图基础",
+    "id": "GEN10975",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "程序题",
+    "title": "【程序填空·Matplotlib】补全以下代码，完成一个包含标题、标签和图例的折线图：\r\n📄 代码：\r\n___________________________  # 导入 Matplotlib\r\n\r\nx = ['1月', '2月', '3月', '4月', '5月', '6月']\r\ny = [100, 150, 130, 180, 200, 170]\r\n\r\nplt.plot(x, y, marker='o', __________)  # 设置图例标签\r\nplt.___________('销售趋势')   # 设置标题\r\nplt.___________('月份')        # 设置 X 轴标签\r\nplt.___________('销售额(万元)')  # 设置 Y 轴标签\r\nplt.___________()              # 显示图例\r\nplt.show()",
+    "options": [],
+    "answer": "✅ 答案/要点：import matplotlib.pyplot as plt; label='销售额'; plt.title('销售趋势'); plt.xlabel('月份'); plt.ylabel('销售额(万元)'); plt.legend(); plt.show()",
+    "explanation": "plt.plot() 接收 x, y 数据和格式参数；plt.title()、plt.xlabel()、plt.ylabel() 设置标签；plt.legend() 显示图例。",
+    "topic": "Matplotlib 折线图完整绘制",
+    "id": "GEN10976",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "程序题",
+    "title": "【整段代码·ECharts】编写一个完整的 ECharts 柱状图，要求：①显示 2024 年四个季度的销售额（自定义数据）；②包含标题、图例、tooltip；③柱子颜色为 #5470C6；④具备数据标签。\r\n📄 代码：\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <script src=\"https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js\"></script>\r\n</head>\r\n<body>\r\n    <div id=\"main\" style=\"width:600px;height:400px;\"></div>\r\n    <script>\r\n    var myChart = echarts.init(document.getElementById('main'));\r\n    var option = {\r\n        title: { text: '2024年季度销售额', left: 'center' },\r\n        tooltip: { trigger: 'axis' },\r\n        legend: { data: ['销售额'], bottom: 0 },\r\n        xAxis: {\r\n            type: 'category',\r\n            data: ['Q1', 'Q2', 'Q3', 'Q4']\r\n        },\r\n        yAxis: { type: 'value', name: '万元' },\r\n        series: [{\r\n            name: '销售额',\r\n            type: 'bar',\r\n            data: [320, 450, 380, 520],\r\n            itemStyle: { color: '#5470C6' },\r\n            label: {\r\n                show: true,\r\n                position: 'top',\r\n                formatter: '{c} 万元'\r\n            }\r\n        }]\r\n    };\r\n    myChart.setOption(option);\r\n    window.addEventListener('resize', function() { myChart.resize(); });\r\n    </script>\r\n</body>\r\n</html>",
+    "options": [],
+    "answer": "✅ 答案/要点：参考代码如下：完整的 HTML+JS 代码，包含所有要求的配置项。",
+    "explanation": "综合运用 title、tooltip、legend、xAxis、yAxis、series 配置，series 中使用 label.show 显示数据标签，itemStyle.color 设置柱子颜色。",
+    "topic": "ECharts 柱状图完整配置",
+    "id": "GEN10977",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "程序题",
+    "title": "【整段代码·Matplotlib】编写 Python 代码，使用 Matplotlib 绘制一个包含多系列的折线图：①两条折线分别表示产品A和产品B的月度销量；②包含标题、轴标签、图例、网格线；③两条折线使用不同颜色和标记样式。\r\n📄 代码：\r\nimport matplotlib.pyplot as plt\r\n\r\nmonths = ['1月', '2月', '3月', '4月', '5月', '6月']\r\nproduct_a = [120, 135, 148, 162, 155, 170]\r\nproduct_b = [80, 95, 110, 105, 125, 140]\r\n\r\nplt.figure(figsize=(10, 6))\r\nplt.plot(months, product_a, marker='o', color='#5470C6', linewidth=2, label='产品A')\r\nplt.plot(months, product_b, marker='s', color='#FC8452', linewidth=2, label='产品B')\r\n\r\nplt.title('产品月度销量对比', fontsize=16, fontweight='bold')\r\nplt.xlabel('月份', fontsize=12)\r\nplt.ylabel('销量（件）', fontsize=12)\r\nplt.legend(loc='upper left')\r\nplt.grid(True, alpha=0.3)\r\nplt.tight_layout()\r\nplt.show()",
+    "options": [],
+    "answer": "✅ 答案/要点：参考代码如下：",
+    "explanation": "使用两次 plt.plot() 分别绘制两条折线，设置不同的颜色、标记（marker）、label，最后调用 legend() 和 grid()。",
+    "topic": "Matplotlib 多系列折线图",
+    "id": "GEN10978",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "程序题",
+    "title": "【程序填空·ECharts】补全以下饼图代码，要求显示为环形图，并显示百分比标签：\r\n📄 代码：\r\nvar option = {\r\n    title: { text: '市场份额分布', left: 'center' },\r\n    tooltip: { trigger: 'item' },\r\n    series: [{\r\n        _______________;  // 图表类型\r\n        _______________;  // 环形图半径设置\r\n        data: [\r\n            { value: 335, name: '产品A' },\r\n            { value: 310, name: '产品B' },\r\n            { value: 234, name: '产品C' },\r\n            { value: 135, name: '产品D' }\r\n        ],\r\n        label: {\r\n            formatter: _______________  // 显示名称和百分比\r\n        }\r\n    }]\r\n};",
+    "options": [],
+    "answer": "✅ 答案/要点：type: 'pie'; radius: ['40%', '70%']; formatter: '{b}: {d}%'",
+    "explanation": "radius 设为二维数组实现环形，label 中 formatter: '{b}: {d}%' 显示名称和百分比。",
+    "topic": "ECharts 环形图 + label 配置",
+    "id": "GEN10979",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "程序题",
+    "title": "【整段代码·Matplotlib】编写代码，使用 Matplotlib 绘制一个 2×2 子图布局，分别包含：①折线图、②柱状图、③散点图、④饼图。要求设置总标题和各自子图标题。\r\n📄 代码：\r\nimport matplotlib.pyplot as plt\r\nimport numpy as np\r\n\r\n# 创建数据\r\nx = np.arange(1, 6)\r\ny1 = [2, 4, 6, 8, 10]\r\ny2 = [3, 5, 2, 7, 6]\r\n\r\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\r\nfig.suptitle('Matplotlib 综合子图示例', fontsize=18, fontweight='bold')\r\n\r\n# (1) 折线图\r\naxes[0, 0].plot(x, y1, 'o-', color='#5470C6', linewidth=2)\r\naxes[0, 0].set_title('折线图')\r\naxes[0, 0].set_xlabel('X'); axes[0, 0].set_ylabel('Y')\r\naxes[0, 0].grid(True, alpha=0.3)\r\n\r\n# (2) 柱状图\r\naxes[0, 1].bar(x, y2, color=['#FC8452', '#3BA272', '#5470C6', '#91CC75', '#FAC858'])\r\naxes[0, 1].set_title('柱状图')\r\naxes[0, 1].set_xlabel('类别'); axes[0, 1].set_ylabel('数值')\r\n\r\n# (3) 散点图\r\nnp.random.seed(42)\r\naxes[1, 0].scatter(np.random.rand(30)*10, np.random.rand(30)*10, \r\n                   c=np.random.rand(30)*100, cmap='viridis', s=80, alpha=0.7)\r\naxes[1, 0].set_title('散点图')\r\naxes[1, 0].set_xlabel('X'); axes[1, 0].set_ylabel('Y')\r\n\r\n# (4) 饼图\r\nsizes = [35, 25, 20, 15, 5]\r\nlabels = ['A', 'B', 'C', 'D', 'E']\r\ncolors = ['#5470C6', '#FC8452', '#3BA272', '#91CC75', '#FAC858']\r\nwedges, texts, autotexts = axes[1, 1].pie(sizes, labels=labels, \r\n    colors=colors, autopct='%1.1f%%', startangle=90)\r\naxes[1, 1].set_title('饼图')\r\n\r\nplt.tight_layout()\r\nplt.show()",
+    "options": [],
+    "answer": "✅ 答案/要点：参考代码如下：",
+    "explanation": "使用 plt.subplots(2,2) 创建子图网格，在各个 axes 上调用不同的绘图方法，fig.suptitle() 设置总标题。",
+    "topic": "Matplotlib 多子图综合",
+    "id": "GEN10980",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "程序题",
+    "title": "【程序填空·ECharts】补全以下代码，实现柱状图的数据堆叠效果：\r\n📄 代码：\r\nvar option = {\r\n    xAxis: { type: 'category', data: ['Q1', 'Q2', 'Q3', 'Q4'] },\r\n    yAxis: { type: 'value' },\r\n    series: [\r\n        {\r\n            name: '线上销售',\r\n            type: 'bar',\r\n            data: [120, 200, 150, 80],\r\n            _______________;  // 设置堆叠标识\r\n        },\r\n        {\r\n            name: '线下销售',\r\n            type: 'bar',\r\n            data: [80, 90, 100, 120],\r\n            _______________;  // 设置相同堆叠标识\r\n        }\r\n    ]\r\n};",
+    "options": [],
+    "answer": "✅ 答案/要点：stack: 'total'（两个系列设置相同值即可）",
+    "explanation": "多个 bar 系列设置相同的 stack 值实现堆叠。相同 stack 名称的系列会叠加在一起。",
+    "topic": "ECharts 堆叠柱状图",
+    "id": "GEN10981",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "程序题",
+    "title": "【程序填空·Matplotlib】补全以下代码，使用面向对象方式绘制带误差线的柱状图：\r\n📄 代码：\r\nimport matplotlib.pyplot as plt\r\nimport numpy as np\r\n\r\ncategories = ['A', 'B', 'C', 'D']\r\nvalues = [23, 45, 36, 28]\r\nerrors = [3, 5, 4, 2]\r\n\r\n_______________ = plt.subplots(figsize=(8, 5))\r\n_______________(categories, values, __________, capsize=5, \r\n               color='#5470C6', edgecolor='white')\r\nax._________________('各品类销量（含误差）')\r\nax._________________('品类')\r\nax._________________('销量')\r\nplt.show()",
+    "options": [],
+    "answer": "✅ 答案/要点：plt.subplots(); ax.bar(); yerr=error; ax.set_title(); ax.set_xlabel(); ax.set_ylabel()",
+    "explanation": "使用 fig, ax = plt.subplots() 获取 Axes 对象，调用 ax.bar() 并用 yerr 参数设置误差值。",
+    "topic": "Matplotlib 面向对象 + 误差线",
+    "id": "GEN10982",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "程序题",
+    "title": "【整段代码·ECharts】编写一个完整的 ECharts 散点图，要求：①使用 dataset 组件管理数据；②X 轴为「身高」，Y 轴为「体重」；③通过 encode 进行数据映射；④根据第三个维度「年龄」使用 visualMap 对颜色进行连续映射。\r\n📄 代码：\r\nvar myChart = echarts.init(document.getElementById('main'));\r\nvar option = {\r\n    title: { text: '身高体重年龄散点图' },\r\n    dataset: {\r\n        dimensions: ['身高(cm)', '体重(kg)', '年龄'],\r\n        source: [\r\n            [165, 55, 22], [172, 68, 28], [158, 50, 25],\r\n            [180, 80, 35], [168, 62, 30], [175, 72, 27],\r\n            [162, 53, 21], [170, 65, 33], [178, 75, 40],\r\n            [160, 48, 19]\r\n        ]\r\n    },\r\n    xAxis: { name: '身高(cm)', type: 'value' },\r\n    yAxis: { name: '体重(kg)', type: 'value' },\r\n    visualMap: {\r\n        type: 'continuous',\r\n        dimension: 2,\r\n        min: 18, max: 45,\r\n        inRange: { color: ['#50A3BA', '#EAC736', '#D94E5D'] },\r\n        text: ['高年龄', '低年龄']\r\n    },\r\n    series: [{\r\n        type: 'scatter',\r\n        encode: { x: '身高(cm)', y: '体重(kg)' },\r\n        symbolSize: 12\r\n    }],\r\n    tooltip: { trigger: 'item' }\r\n};\r\nmyChart.setOption(option);",
+    "options": [],
+    "answer": "✅ 答案/要点：参考代码如下：",
+    "explanation": "综合使用 dataset 组件定义数据、series 的 encode 映射维度、visualMap 连续型映射颜色。",
+    "topic": "ECharts dataset + encode + visualMap",
+    "id": "GEN10983",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "程序题",
+    "title": "【整段代码·Matplotlib】编写代码实现数据分布可视化：使用 Matplotlib 同时展示直方图和箱线图，共享同一份随机生成的正态分布数据。\r\n📄 代码：\r\nimport matplotlib.pyplot as plt\r\nimport numpy as np\r\n\r\n# 生成正态分布数据\r\nnp.random.seed(42)\r\ndata = np.random.normal(loc=70, scale=15, size=500)\r\n\r\n# 支持中文\r\nplt.rcParams['font.sans-serif'] = ['SimHei']\r\nplt.rcParams['axes.unicode_minus'] = False\r\n\r\nfig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))\r\nfig.suptitle('数据分布可视化', fontsize=16, fontweight='bold')\r\n\r\n# 左图：直方图\r\nax1.hist(data, bins=30, color='#5470C6', edgecolor='white', alpha=0.8)\r\nax1.set_title('直方图')\r\nax1.set_xlabel('数值')\r\nax1.set_ylabel('频数')\r\nax1.axvline(np.mean(data), color='red', linestyle='--', label=f'均值={np.mean(data):.1f}')\r\nax1.legend()\r\n\r\n# 右图：箱线图\r\nbp = ax2.boxplot(data, vert=True, patch_artist=True,\r\n                boxprops=dict(facecolor='#91CC75', color='#3BA272'),\r\n                medianprops=dict(color='red', linewidth=2))\r\nax2.set_title('箱线图')\r\nax2.set_ylabel('数值')\r\nax2.set_xticklabels(['样本数据'])\r\n\r\nplt.tight_layout()\r\nplt.show()",
+    "options": [],
+    "answer": "✅ 答案/要点：参考代码如下：",
+    "explanation": "使用 np.random.normal() 生成数据，plt.subplots() 创建两个并排子图，分别调用 hist() 和 boxplot()。",
+    "topic": "Matplotlib 直方图 + 箱线图 + 子图",
+    "id": "GEN10984",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "程序题",
+    "title": "【程序填空·ECharts】补全以下代码，为图表添加 tooltip 和 toolbox 配置：\r\n📄 代码：\r\nvar option = {\r\n    title: { text: '数据分析' },\r\n    _______________: {  // tooltip 配置\r\n        _______________;  // 坐标轴触发\r\n        formatter: function(params) {\r\n            return params[0].name + '<br/>' +\r\n                   '销售额：' + params[0].value + ' 万元';\r\n        }\r\n    },\r\n    _______________: {  // toolbox 配置\r\n        feature: {\r\n            _______________: {},  // 保存为图片\r\n            _______________: { readOnly: false }  // 数据视图\r\n        }\r\n    },\r\n    xAxis: { type: 'category', data: ['A', 'B', 'C', 'D'] },\r\n    yAxis: { type: 'value' },\r\n    series: [{ type: 'bar', data: [120, 200, 150, 80] }]\r\n};",
+    "options": [],
+    "answer": "✅ 答案/要点：trigger: 'axis'; formatter 自定义格式；toolbox: feature: { saveAsImage: {}, dataView: {} }",
+    "explanation": "tooltip 配置 trigger 和 formatter；toolbox 配置 feature 包含 saveAsImage 和 dataView 等。",
+    "topic": "ECharts tooltip + toolbox 配置",
+    "id": "GEN10985",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "程序题",
+    "title": "【整段代码·Matplotlib】编写代码，使用面向对象 API 绘制一个完整的柱状对比图：①分组柱状图展示两个部门的季度业绩；②柱子并排显示；③包含数值标签在柱顶；④设置专业的配色和样式。\r\n📄 代码：\r\nimport matplotlib.pyplot as plt\r\nimport numpy as np\r\n\r\nplt.rcParams['font.sans-serif'] = ['SimHei']\r\nplt.rcParams['axes.unicode_minus'] = False\r\n\r\nquarters = ['Q1', 'Q2', 'Q3', 'Q4']\r\ndept_a = [140, 160, 175, 190]\r\ndept_b = [120, 145, 155, 210]\r\n\r\nx = np.arange(len(quarters))\r\nwidth = 0.35\r\n\r\nfig, ax = plt.subplots(figsize=(10, 6))\r\nbars1 = ax.bar(x - width/2, dept_a, width, label='部门A', \r\n               color='#5470C6', edgecolor='white', linewidth=0.5)\r\nbars2 = ax.bar(x + width/2, dept_b, width, label='部门B', \r\n               color='#FC8452', edgecolor='white', linewidth=0.5)\r\n\r\n# 添加数据标签\r\nax.bar_label(bars1, padding=3, fontsize=10, fontweight='bold')\r\nax.bar_label(bars2, padding=3, fontsize=10, fontweight='bold')\r\n\r\nax.set_xlabel('季度', fontsize=13)\r\nax.set_ylabel('业绩（万元）', fontsize=13)\r\nax.set_title('两部门季度业绩对比', fontsize=16, fontweight='bold')\r\nax.set_xticks(x)\r\nax.set_xticklabels(quarters, fontsize=12)\r\nax.legend(loc='upper left', fontsize=11)\r\nax.set_ylim(0, 250)\r\nax.grid(axis='y', alpha=0.3, linestyle='--')\r\n\r\nplt.tight_layout()\r\nplt.show()",
+    "options": [],
+    "answer": "✅ 答案/要点：参考代码如下：",
+    "explanation": "使用 NumPy 调整柱子位置实现分组；使用 ax.bar_label() 或手动添加文本实现数据标签。",
+    "topic": "Matplotlib 分组柱状图 + 数据标签",
+    "id": "GEN10986",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "程序题",
+    "title": "【程序填空·ECharts】补全以下代码，实现折线图的阶梯效果并添加 markLine 标记平均值：\r\n📄 代码：\r\nvar option = {\r\n    xAxis: { type: 'category', data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'] },\r\n    yAxis: { type: 'value' },\r\n    series: [{\r\n        name: '访问量',\r\n        type: 'line',\r\n        data: [150, 230, 224, 218, 135],\r\n        _______________;  // 阶梯效果（middle/start/end）\r\n        _______________: {  // 标记线\r\n            data: [\r\n                { type: 'average', name: '平均值' }\r\n            ]\r\n        }\r\n    }]\r\n};",
+    "options": [],
+    "answer": "✅ 答案/要点：step: 'middle'; markLine: { data: [{ type: 'average', name: '平均值' }] }",
+    "explanation": "step: 'middle' 实现阶梯效果；markLine 中 type: 'average' 标记平均值线。",
+    "topic": "ECharts 阶梯图 + markLine",
+    "id": "GEN10987",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "程序题",
+    "title": "【整段代码·ECharts】编写一个完整的 ECharts 仪表盘（gauge）图表，要求：①显示完成率百分比；②设置不同区间颜色（绿/黄/红）；③指针指向当前数值 73.5%；④显示标题和数值标签。\r\n📄 代码：\r\nvar myChart = echarts.init(document.getElementById('main'));\r\nvar option = {\r\n    title: { text: '年度目标完成率', left: 'center', top: 20 },\r\n    series: [{\r\n        type: 'gauge',\r\n        startAngle: 210,\r\n        endAngle: -30,\r\n        center: ['50%', '55%'],\r\n        radius: '85%',\r\n        min: 0,\r\n        max: 100,\r\n        splitNumber: 10,\r\n        axisLine: {\r\n            lineStyle: {\r\n                width: 20,\r\n                color: [\r\n                    [0.3, '#67C23A'],   // 0-30% 绿色\r\n                    [0.7, '#E6A23C'],   // 30-70% 黄色\r\n                    [1.0, '#F56C6C']    // 70-100% 红色\r\n                ]\r\n            }\r\n        },\r\n        pointer: {\r\n            length: '70%',\r\n            width: 6,\r\n            itemStyle: { color: '#303133' }\r\n        },\r\n        axisTick: { distance: -20, length: 8 },\r\n        splitLine: { distance: -26, length: 16 },\r\n        axisLabel: { distance: 35, fontSize: 12 },\r\n        detail: {\r\n            valueAnimation: true,\r\n            formatter: '{value}%',\r\n            fontSize: 28,\r\n            fontWeight: 'bold',\r\n            offsetCenter: [0, '80%']\r\n        },\r\n        data: [{ value: 73.5, name: '完成率' }]\r\n    }]\r\n};\r\nmyChart.setOption(option);",
+    "options": [],
+    "answer": "✅ 答案/要点：参考代码如下：",
+    "explanation": "type: 'gauge'，配置 detail 显示数值，axisLine.lineStyle.color 设置分段颜色，data 中 value 设置指针位置。",
+    "topic": "ECharts gauge 仪表盘",
+    "id": "GEN10988",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "程序题",
+    "title": "【整段代码·Matplotlib】编写代码绘制雷达图（蜘蛛图），展示一个学生在五个科目上的成绩，使用 Matplotlib 的极坐标。\r\n📄 代码：\r\nimport matplotlib.pyplot as plt\r\nimport numpy as np\r\n\r\nplt.rcParams['font.sans-serif'] = ['SimHei']\r\nplt.rcParams['axes.unicode_minus'] = False\r\n\r\nsubjects = ['语文', '数学', '英语', '物理', '化学']\r\nscores = [88, 92, 78, 85, 90]\r\n\r\n# 计算角度（闭合图形）\r\nnum = len(subjects)\r\nangles = np.linspace(0, 2 * np.pi, num, endpoint=False).tolist()\r\nangles += angles[:1]  # 闭合\r\n\r\nscores_closed = scores + scores[:1]\r\n\r\nfig, ax = plt.subplots(figsize=(8, 8), subplot_kw=dict(projection='polar'))\r\nax.fill(angles, scores_closed, color='#5470C6', alpha=0.25)\r\nax.plot(angles, scores_closed, color='#5470C6', linewidth=2, marker='o', markersize=8)\r\n\r\nax.set_xticks(angles[:-1])\r\nax.set_xticklabels(subjects, fontsize=13)\r\nax.set_ylim(0, 100)\r\nax.set_yticks(range(20, 101, 20))\r\nax.set_yticklabels([str(i) for i in range(20, 101, 20)], fontsize=9)\r\nax.set_title('学生各科成绩雷达图', fontsize=16, fontweight='bold', pad=25)\r\nax.grid(True, alpha=0.3)\r\n\r\nplt.tight_layout()\r\nplt.show()",
+    "options": [],
+    "answer": "✅ 答案/要点：参考代码如下：",
+    "explanation": "使用 plt.subplot(projection='polar') 创建极坐标子图，手动计算角度并闭合图形，使用 fill() 填充区域。",
+    "topic": "Matplotlib 雷达图/极坐标",
+    "id": "GEN10989",
+    "level": "B",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
