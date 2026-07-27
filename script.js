@@ -146,6 +146,7 @@ const SUBJECTS = [
   {id:'HBase / ZooKeeper', icon:'🗄️', name:'HBase / ZooKeeper / 大数据概念', fileStart:4702, fileEnd:5482},
   {id:'Scala & Spark', icon:'⚡', name:'Scala & Spark', fileStart:5482, fileEnd:99999},
   {id:'Web前端', icon:'🌐', name:'Web前端 (HTML/CSS/JS)'},
+  {id:'ECharts & Matplotlib', icon:'📊', name:'ECharts & Matplotlib 数据可视化'},
 ];
 
 // 五天计划数据
@@ -548,12 +549,12 @@ class DataManager {
       // 保存旧错题本ID，版本升级后恢复
       let savedWrongBook = null;
       try { savedWrongBook = JSON.parse(localStorage.getItem('exam_wrongbook') || 'null'); } catch(e) {}
-      if (dataVersion !== 'v8') {
+      if (dataVersion !== 'v9') {
         localStorage.removeItem('exam_questions');
         localStorage.removeItem('exam_wrongbook');
         localStorage.removeItem('exam_progress');
         localStorage.removeItem('exam_reviews');
-        localStorage.setItem('exam_data_version', 'v8');
+        localStorage.setItem('exam_data_version', 'v9');
       }
       // 加载预解析数据（如果localStorage没有则自动导入）
       if (typeof PREPARSED_QUESTIONS !== 'undefined' && PREPARSED_QUESTIONS.length > 0) {
@@ -2091,8 +2092,8 @@ class ExamApp {
   populateChecklistSubjects() {
     const sel = document.getElementById('clSubject');
     if (!sel || sel.options.length > 1) return;
-    const subjects = ['Java Web', 'Linux', 'Hadoop', 'Scala & Spark', 'HBase / ZooKeeper', 'Web前端'];
-    const icons = { 'Java Web':'☕', 'Linux':'🐧', 'Hadoop':'🐘', 'Scala & Spark':'⚡', 'HBase / ZooKeeper':'🗄️', 'Web前端':'🌐' };
+    const subjects = ['Java Web', 'Linux', 'Hadoop', 'Scala & Spark', 'HBase / ZooKeeper', 'Web前端', 'ECharts & Matplotlib'];
+    const icons = { 'Java Web':'☕', 'Linux':'🐧', 'Hadoop':'🐘', 'Scala & Spark':'⚡', 'HBase / ZooKeeper':'🗄️', 'Web前端':'🌐', 'ECharts & Matplotlib':'📊' };
     for (const s of subjects) {
       const n = CHECKLIST.filter(it => it.subj === s).length;
       sel.innerHTML += `<option value="${s}">${icons[s]} ${s} (${n}点)</option>`;
