@@ -1,4 +1,4 @@
-// 七科完整题库 — 1277题
+// 七科完整题库 — 1386题
 const PREPARSED_QUESTIONS = [
   {
     "subject": "Java Web",
@@ -35829,6 +35829,2471 @@ const PREPARSED_QUESTIONS = [
     "explanation": "使用 plt.subplot(projection='polar') 创建极坐标子图，手动计算角度并闭合图形，使用 fill() 填充区域。",
     "topic": "Matplotlib 雷达图/极坐标",
     "id": "GEN10989",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib的核心承载绘图元素的对象是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "canvas"
+      },
+      {
+        "label": "B",
+        "text": "figure"
+      },
+      {
+        "label": "C",
+        "text": "window"
+      }
+    ],
+    "answer": "B",
+    "explanation": "figure代表画布，是Matplotlib所有绘图元素的载体。",
+    "topic": "",
+    "id": "GEN10990",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "下列不属于Matplotlib基础图表的是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "折线图"
+      },
+      {
+        "label": "B",
+        "text": "柱状图"
+      },
+      {
+        "label": "C",
+        "text": "桑基图"
+      }
+    ],
+    "answer": "C",
+    "explanation": "桑基图属于高级可视化图表，折线、柱状、散点为基础图表。",
+    "topic": "",
+    "id": "GEN10991",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib中展示绘制完成图像的函数是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "plt.show()"
+      },
+      {
+        "label": "B",
+        "text": "plt.display()"
+      },
+      {
+        "label": "C",
+        "text": "plt.print()"
+      }
+    ],
+    "answer": "A",
+    "explanation": "plt.show()是Matplotlib标准图像渲染展示函数。",
+    "topic": "",
+    "id": "GEN10992",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts底层基于哪种编程语言开发（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "Python"
+      },
+      {
+        "label": "B",
+        "text": "JavaScript"
+      },
+      {
+        "label": "C",
+        "text": "Java"
+      }
+    ],
+    "answer": "B",
+    "explanation": "ECharts是百度开源、基于JavaScript的前端可视化库。",
+    "topic": "",
+    "id": "GEN10993",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Pyecharts库的核心功能是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "Python封装ECharts，快速生成交互式图表"
+      },
+      {
+        "label": "B",
+        "text": "提升Matplotlib绘图速度"
+      },
+      {
+        "label": "C",
+        "text": "网络爬虫数据采集"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Pyecharts封装ECharts，使用Python语法生成网页交互图表。",
+    "topic": "",
+    "id": "GEN10994",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts中配置图表标题的关键字段是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "legend"
+      },
+      {
+        "label": "B",
+        "text": "title"
+      },
+      {
+        "label": "C",
+        "text": "tooltip"
+      }
+    ],
+    "answer": "B",
+    "explanation": "title配置标题；legend图例；tooltip悬浮提示框。",
+    "topic": "",
+    "id": "GEN10995",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib中plt.xlabel()函数的作用是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "设置横轴刻度数值"
+      },
+      {
+        "label": "B",
+        "text": "设置X轴坐标轴名称"
+      },
+      {
+        "label": "C",
+        "text": "设置Y轴坐标轴名称"
+      }
+    ],
+    "answer": "B",
+    "explanation": "xlabel定义坐标轴名称，xticks调整刻度。",
+    "topic": "",
+    "id": "GEN10996",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts控制图例是否显示的属性是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "legend.show"
+      },
+      {
+        "label": "B",
+        "text": "title.show"
+      },
+      {
+        "label": "C",
+        "text": "series.show"
+      }
+    ],
+    "answer": "A",
+    "explanation": "legend.show为布尔值，true显示图例，false隐藏。",
+    "topic": "",
+    "id": "GEN10997",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "最适合展示数据随时间连续变化趋势的图表是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "饼图"
+      },
+      {
+        "label": "B",
+        "text": "折线图"
+      },
+      {
+        "label": "C",
+        "text": "柱状图"
+      }
+    ],
+    "answer": "B",
+    "explanation": "折线图核心用途：展示时序数据变化、波动趋势。",
+    "topic": "",
+    "id": "GEN10998",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib中将图表保存为本地文件的函数是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "plt.saveimg()"
+      },
+      {
+        "label": "B",
+        "text": "plt.savefig()"
+      },
+      {
+        "label": "C",
+        "text": "plt.write()"
+      }
+    ],
+    "answer": "B",
+    "explanation": "savefig是Matplotlib专用图像保存函数，支持png、jpg、svg格式。",
+    "topic": "",
+    "id": "GEN10999",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts中series配置项的核心作用是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "配置坐标轴样式"
+      },
+      {
+        "label": "B",
+        "text": "存放图表数据、定义图表类型"
+      },
+      {
+        "label": "C",
+        "text": "配置悬浮提示框"
+      }
+    ],
+    "answer": "B",
+    "explanation": "series是图表数据核心，包含type图表类型、data数据集、图形样式。",
+    "topic": "",
+    "id": "GEN11000",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "堆叠柱状图最适合的数据场景是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "单组数据趋势分析"
+      },
+      {
+        "label": "B",
+        "text": "同时展示细分数据与整体总量"
+      },
+      {
+        "label": "C",
+        "text": "两个变量相关性分析"
+      }
+    ],
+    "answer": "B",
+    "explanation": "堆叠柱状可直观看到分项数值，同时对比整体总和。",
+    "topic": "",
+    "id": "GEN11001",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib中实现一张画布多张子图的函数是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "plt.subplot()"
+      },
+      {
+        "label": "B",
+        "text": "plt.figure()"
+      },
+      {
+        "label": "C",
+        "text": "plt.grid()"
+      }
+    ],
+    "answer": "A",
+    "explanation": "subplot划分画布，创建多个独立绘图区域。",
+    "topic": "",
+    "id": "GEN11002",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "专门展示各类别占总体百分比的ECharts图表是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "折线图"
+      },
+      {
+        "label": "B",
+        "text": "饼图"
+      },
+      {
+        "label": "C",
+        "text": "阶梯图"
+      }
+    ],
+    "answer": "B",
+    "explanation": "饼图、环形图用于占比可视化。",
+    "topic": "",
+    "id": "GEN11003",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "使用ECharts绘图必须提前完成的操作是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "定义数据集"
+      },
+      {
+        "label": "B",
+        "text": "创建带固定宽高的DOM容器"
+      },
+      {
+        "label": "C",
+        "text": "配置图例"
+      }
+    ],
+    "answer": "B",
+    "explanation": "ECharts图表必须挂载在有宽高尺寸的DOM标签中，是初始化前置条件。 二、多项选择题（共5小题，每题2分，共10分；多选、少选、错选不得分）",
+    "topic": "",
+    "id": "GEN11004",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "数据可视化的主要目的是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "增加数据存储空间"
+      },
+      {
+        "label": "B",
+        "text": "删除无用数据"
+      },
+      {
+        "label": "C",
+        "text": "将数据通过图形方式直观展示"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11005",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "下列属于数据可视化工具的是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "MySQL"
+      },
+      {
+        "label": "B",
+        "text": "Word"
+      },
+      {
+        "label": "C",
+        "text": "Echarts"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11006",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Echarts主要使用的语言是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "Java"
+      },
+      {
+        "label": "B",
+        "text": "Python"
+      },
+      {
+        "label": "C",
+        "text": "JavaScript"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11007",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Echarts中用于设置图表整体配置的是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "option"
+      },
+      {
+        "label": "B",
+        "text": "data"
+      },
+      {
+        "label": "C",
+        "text": "function"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11008",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Echarts中表示横坐标轴的是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "yAxis"
+      },
+      {
+        "label": "B",
+        "text": "title"
+      },
+      {
+        "label": "C",
+        "text": "xAxis"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11009",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Echarts中设置标题使用的是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "title"
+      },
+      {
+        "label": "B",
+        "text": "toolbox"
+      },
+      {
+        "label": "C",
+        "text": "tooltip"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11010",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "下列哪一个属于Echarts常用图形（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "饼图"
+      },
+      {
+        "label": "B",
+        "text": "柱状图"
+      },
+      {
+        "label": "C",
+        "text": "折线图"
+      }
+    ],
+    "answer": "D",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11011",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib主要用于（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据库存储"
+      },
+      {
+        "label": "B",
+        "text": "数据可视化绘图"
+      },
+      {
+        "label": "C",
+        "text": "网络通信"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11012",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib中绘制折线图的方法是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "bar()"
+      },
+      {
+        "label": "B",
+        "text": "pie()"
+      },
+      {
+        "label": "C",
+        "text": "plot()"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11013",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Echarts中提示框组件是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "legend"
+      },
+      {
+        "label": "B",
+        "text": "tooltip"
+      },
+      {
+        "label": "C",
+        "text": "title"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11014",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Echarts中图例配置项是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "legend"
+      },
+      {
+        "label": "B",
+        "text": "series"
+      },
+      {
+        "label": "C",
+        "text": "xAxis"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11015",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "下列哪个不是Echarts数据格式（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "数组"
+      },
+      {
+        "label": "B",
+        "text": "JSON"
+      },
+      {
+        "label": "C",
+        "text": "数据集dataset"
+      }
+    ],
+    "answer": "D",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11016",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Echarts中series主要用于（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "设置网页背景"
+      },
+      {
+        "label": "B",
+        "text": "设置数据系列"
+      },
+      {
+        "label": "C",
+        "text": "设置标题"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11017",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "数据可视化常见图形包括（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "柱状图"
+      },
+      {
+        "label": "B",
+        "text": "饼图"
+      },
+      {
+        "label": "C",
+        "text": "折线图"
+      }
+    ],
+    "answer": "D",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11018",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib属于（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "Python第三方库"
+      },
+      {
+        "label": "B",
+        "text": "操作系统"
+      },
+      {
+        "label": "C",
+        "text": "数据库"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11019",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "数据可视化的主要作用是将数据通过图形方式直观展示。 解析： 数据可视化是利用图形、图表、动画等形式，将复杂的数据转换成容易理解的信息。 常见形式： 柱状图：比较大小 折线图：观察变化趋势 饼图：显示比例关系 散点图：观察数据分布 因此数据可视化的核心不是存储数据，也不是删除数据，而是帮助用户理解数据。",
+    "options": [],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11020",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Echarts属于数据可视化工具。 解析： Echarts是一款开源的数据可视化图表库，主要用于网页端制作各种交互式图表。 常见数据可视化工具： Echarts Matplotlib Tableau PowerBI 其他选项： MySQL： 用于数据库管理。 Word： 用于文字编辑。 Windows： 属于操作系统。",
+    "options": [],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11021",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Echarts主要基于JavaScript语言开发。 解析： Echarts运行在浏览器环境中，核心开发语言是JavaScript。 使用Echarts通常需要： 引入echarts.js文件 创建图表容器 编写option配置 使用setOption生成图表 其他语言： Java： 主要用于后端开发。 Python： 常用于Matplotlib、Pandas等。 C语言： 主要用于系统开发。",
+    "options": [],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11022",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "option是Echarts最核心的配置对象。 解析： Echarts绘制图表主要依靠option对象。 option中可以包含： title（标题） legend（图例） xAxis（X轴） yAxis（Y轴） series（数据） 例如： option={ title:{ text:\"销售统计\" }, series:[ { type:\"bar\", data:[10,20,30] } ] } 最后： chart.setOption(option) 将配置应用到图表。",
+    "options": [],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11023",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "xAxis表示X轴。 解析： Echarts坐标轴配置： xAxis： 表示横坐标。 yAxis： 表示纵坐标。 例如柱状图： 横坐标： 商品名称 纵坐标： 销量 所以： xAxis = X轴 yAxis = Y轴",
+    "options": [],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11024",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "title用于设置图表标题。 解析： Echarts常用配置： title： 标题 例如： title:{ text:\"学生成绩统计\" } tooltip： 提示框 legend： 图例 series： 数据",
+    "options": [],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11025",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Echarts支持柱状图、饼图、折线图等多种图形。 解析： Echarts常见图形类型： 类型 英文 柱状图 bar 折线图 line 饼图 pie 散点图 scatter 因此A、B、C都正确。",
+    "options": [],
+    "answer": "D",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11026",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib主要用于数据可视化绘图。 解析： Matplotlib是Python中最常用的绘图库之一。 可以绘制： 折线图 柱状图 散点图 饼图 它不是数据库，也不是网络工具。",
+    "options": [],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11027",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "plot()用于绘制折线图。 解析： Matplotlib常见函数： plot() 绘制折线图 bar() 绘制柱状图 pie() 绘制饼图 scatter() 绘制散点图 例如： plt.plot(x,y) 表示绘制x和y之间的折线关系。",
+    "options": [],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11028",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "tooltip用于显示数据提示信息。 解析： tooltip表示提示框。 作用： 当鼠标移动到图形上时显示详细数据。 例如： 鼠标放在柱状图： 显示： 苹果销量：100 其他： title： 标题 legend： 图例 grid： 网格",
+    "options": [],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11029",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "legend用于设置图例。 解析： legend表示图例。 作用： 帮助用户区分不同数据系列。 例如： 学生成绩： 男生 ■ 女生 ■ 其中男生、女生就是图例。",
+    "options": [],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11030",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "dataset 用于管理大量数据。 Word属于文档格式，不能直接作为Echarts数据。",
+    "options": [],
+    "answer": "D",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11031",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "series用于设置数据系列。 解析： series是Echarts中非常重要的配置项。 主要负责： 图表类型 数据内容 例如： series:[ { type:'bar', data:[10,20,30] } ] 其中： type： 图形类型 data： 数据",
+    "options": [],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11032",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "柱状图、折线图、饼图都属于数据可视化图形。 解析： 常见可视化图： 柱状图： 比较不同类别数据 折线图： 表示趋势变化 饼图： 表示比例 C语言程序不是图形。",
+    "options": [],
+    "answer": "D",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11033",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib属于Python第三方库。 解析： Matplotlib需要安装： pip install matplotlib 属于Python扩展库。 常与： NumPy Pandas 一起使用。",
+    "options": [],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11034",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "在数据可视化完整流程中，哪一项是整个可视化流程的核心环节（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据采集"
+      },
+      {
+        "label": "B",
+        "text": "数据处理"
+      },
+      {
+        "label": "C",
+        "text": "可视化映射"
+      }
+    ],
+    "answer": "C",
+    "explanation": "可视化映射负责将数据转化为视觉元素，是数据可视化流程的核心环节。",
+    "topic": "",
+    "id": "GEN11035",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts是一个基于什么技术的可视化库？ A.Java B.JavaScript C.Python D.C++",
+    "options": [],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11036",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "在 ECharts tooltip 组件中，用来设置提示框触发类型的属性是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "trigger"
+      },
+      {
+        "label": "B",
+        "text": "triggerOn"
+      },
+      {
+        "label": "C",
+        "text": "formatter"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A trigger：设置提示框触发类型（item /axis/none）；B triggerOn：控制触发提示框的鼠标事件（mousemove、click）；C formatter：自定义提示框展示内容；D type：不属于 tooltip 配置属性",
+    "topic": "",
+    "id": "GEN11037",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "在ECharts中，哪个属性用于设置图例的显示？",
+    "options": [
+      {
+        "label": "A",
+        "text": "legend.show"
+      },
+      {
+        "label": "B",
+        "text": "title.show"
+      },
+      {
+        "label": "C",
+        "text": "xAxis.show"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11038",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Pyecharts是一个什么语言的数据可视化库？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Java"
+      },
+      {
+        "label": "B",
+        "text": "JavaScript"
+      },
+      {
+        "label": "C",
+        "text": "Python"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11039",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Pyecharts的底层技术主要基于哪个JavaScript可视化库？",
+    "options": [
+      {
+        "label": "A",
+        "text": "D3.js"
+      },
+      {
+        "label": "B",
+        "text": "ECharts"
+      },
+      {
+        "label": "C",
+        "text": "Highcharts"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11040",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "在ECharts中，哪个属性用于设置坐标轴的名称？",
+    "options": [
+      {
+        "label": "A",
+        "text": "name"
+      },
+      {
+        "label": "B",
+        "text": "type"
+      },
+      {
+        "label": "C",
+        "text": "axisLabel"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11041",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts中，哪个属性用于设置饼图的扇区颜色？",
+    "options": [
+      {
+        "label": "A",
+        "text": "series.color"
+      },
+      {
+        "label": "B",
+        "text": "series.itemStyle"
+      },
+      {
+        "label": "C",
+        "text": "series.data"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11042",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "在HTML中使用ECharts时，通常需要首先执行哪个步骤？",
+    "options": [
+      {
+        "label": "A",
+        "text": "引入ECharts的JavaScript文件"
+      },
+      {
+        "label": "B",
+        "text": "创建ECharts实例"
+      },
+      {
+        "label": "C",
+        "text": "准备DOM容器"
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11043",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "在HTML中使用ECharts时，以下哪个步骤是必须的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "创建HTML页面，但不需要引入echarts.min.js"
+      },
+      {
+        "label": "B",
+        "text": "为ECharts准备一个具备高宽的DOM容器"
+      },
+      {
+        "label": "C",
+        "text": "只需设置ECharts的配置信息，无需定义数据"
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11044",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 底层依赖的矢量图形渲染库是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "jQuery"
+      },
+      {
+        "label": "B",
+        "text": "ZRender"
+      },
+      {
+        "label": "C",
+        "text": "Vue"
+      }
+    ],
+    "answer": "B",
+    "explanation": "教案明确 ECharts 底层依靠 ZRender 实现图形绘制。",
+    "topic": "",
+    "id": "GEN11045",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "想要实现图表系列堆叠效果，series 中需要配置的属性是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "type"
+      },
+      {
+        "label": "B",
+        "text": "stack"
+      },
+      {
+        "label": "C",
+        "text": "areaStyle"
+      }
+    ],
+    "answer": "B",
+    "explanation": "相同 stack 字符串的系列会堆叠展示，是堆叠柱状 / 折线图核心属性。",
+    "topic": "",
+    "id": "GEN11046",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "南丁格尔玫瑰图需要在 pie 系列中配置哪个属性开启（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "radius"
+      },
+      {
+        "label": "B",
+        "text": "roseType"
+      },
+      {
+        "label": "C",
+        "text": "dataZoom"
+      }
+    ],
+    "answer": "B",
+    "explanation": "roseType 支持 radius/area 两种玫瑰展示模式。",
+    "topic": "",
+    "id": "GEN11047",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts 中单独统一管理多系列共用数据的配置项是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "legend"
+      },
+      {
+        "label": "B",
+        "text": "dataset"
+      },
+      {
+        "label": "C",
+        "text": "tooltip"
+      }
+    ],
+    "answer": "B",
+    "explanation": "dataset 组件实现数据与样式分离，一份数据可被多个系列复用。",
+    "topic": "",
+    "id": "GEN11048",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "监听图表柱子点击事件，需要使用图表实例的哪个方法（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "setOption"
+      },
+      {
+        "label": "B",
+        "text": "init"
+      },
+      {
+        "label": "C",
+        "text": "on"
+      }
+    ],
+    "answer": "C",
+    "explanation": "myChart.on ('click', 回调) 用于绑定鼠标、图例等交互事件。 二．多选题（5个）",
+    "topic": "",
+    "id": "GEN11049",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "Matplotlib原生支持绘制的图表包含（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "折线图"
+      },
+      {
+        "label": "B",
+        "text": "柱状图"
+      },
+      {
+        "label": "C",
+        "text": "散点图"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "Matplotlib支持基础图表、热力图、直方图、箱线图等多种可视化。",
+    "topic": "",
+    "id": "GEN11050",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "ECharts四大核心配置项为（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "title"
+      },
+      {
+        "label": "B",
+        "text": "legend"
+      },
+      {
+        "label": "C",
+        "text": "tooltip"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "分别对应标题、图例、悬浮提示、数据系列，为绘图必备配置。",
+    "topic": "",
+    "id": "GEN11051",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "关于折线图与面积图描述正确的是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "两者均可展示时序数据变化趋势"
+      },
+      {
+        "label": "B",
+        "text": "面积图在线条下方填充色块，视觉体量更强"
+      },
+      {
+        "label": "C",
+        "text": "只有折线图能展示时间序列数据"
+      }
+    ],
+    "answer": "AB",
+    "explanation": "折线、面积图都适配时序数据，均支持多系列对比。",
+    "topic": "",
+    "id": "GEN11052",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "Pyecharts工具的优势有（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "使用Python语法，学习成本低"
+      },
+      {
+        "label": "B",
+        "text": "生成图表支持缩放、悬浮提示交互"
+      },
+      {
+        "label": "C",
+        "text": "可导出高清图片、HTML文件"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "Pyecharts生成html文件，必须浏览器打开查看图表。",
+    "topic": "",
+    "id": "GEN11053",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "Matplotlib中用于美化图表的函数有（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "plt.grid()"
+      },
+      {
+        "label": "B",
+        "text": "plt.axis()"
+      },
+      {
+        "label": "C",
+        "text": "plt.legend()"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "网格线、坐标轴调整、图例、标题均用于优化图表展示效果。 三、填空题（共10空，每空1分，共10分）",
+    "topic": "",
+    "id": "GEN11054",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "数据可视化的作用包括（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "发现数据规律"
+      },
+      {
+        "label": "B",
+        "text": "提高数据理解效率"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11055",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "Echarts常用配置包括（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "title"
+      },
+      {
+        "label": "B",
+        "text": "legend"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11056",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "常见的数据图形有（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "柱状图"
+      },
+      {
+        "label": "B",
+        "text": "折线图"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11057",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "Matplotlib可以绘制（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "折线图"
+      },
+      {
+        "label": "B",
+        "text": "柱状图"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11058",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "Echarts读取数据方式包括（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "数组数据"
+      },
+      {
+        "label": "B",
+        "text": "JSON数据"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11059",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "数据可视化的作用包括： A.发现数据规律 B.提高数据理解效率 C.直观展示数据关系 解析： 数据可视化目的： ① 让数据更加直观 ② 发现隐藏规律 ③ 帮助分析人员快速理解数据 三个选项均正确。",
+    "options": [],
+    "answer": "ABC",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11060",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "Echarts常用配置包括： A.title B.legend C.tooltip 解析： Echarts基础配置： title： 设置标题 legend： 设置图例 tooltip： 设置提示框 这些都是option中的常见配置。",
+    "options": [],
+    "answer": "ABC",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11061",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "Echarts支持的常见图形： A.柱状图 B.折线图 C.饼图 解析： Echarts提供多种series类型： bar： 柱状图 line： 折线图 pie： 饼图 均属于基础图形。",
+    "options": [],
+    "answer": "ABC",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11062",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "Matplotlib可以绘制： A.折线图 B.柱状图 C.散点图 解析： Matplotlib常用绘图函数： plot() 折线图 bar() 柱状图 scatter() 散点图 因此ABC正确。",
+    "options": [],
+    "answer": "ABC",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11063",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "Echarts读取数据方式包括： A.数组 B.JSON数据 C.dataset数据集 解析： Echarts支持多种数据来源： ① 普通数组 例如： [10,20,30] ② JSON格式 ③ dataset数据集 dataset适合处理大量结构化数据。",
+    "options": [],
+    "answer": "ABC",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11064",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "在 ECharts title 配置项中，下列说法正确的有（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "text 属性用于设置图表主标题文本"
+      },
+      {
+        "label": "B",
+        "text": "subtext 属性用于设置图表副标题文本"
+      },
+      {
+        "label": "C",
+        "text": "textAlign 属性可以设置主副标题的水平对齐方式"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11065",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "下列属于 ECharts 可监听事件的有（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "鼠标基础事件：click、mousemove、dblclick"
+      },
+      {
+        "label": "B",
+        "text": "组件交互事件：legendselectchanged（图例切换）"
+      },
+      {
+        "label": "C",
+        "text": "缩放事件：datazoom"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "D 不属于 ECharts 图表内置事件，是 window 原生事件。",
+    "topic": "",
+    "id": "GEN11066",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "使用 jQuery 异步读取本地 JSON 渲染饼图，正确操作是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "本地 html 直接双击打开（file 协议）会触发跨域拦截，图表空白"
+      },
+      {
+        "label": "B",
+        "text": "必须通过 Live Server 插件运行网页才能正常加载 json 文件"
+      },
+      {
+        "label": "C",
+        "text": "$.get 回调函数内执行myChart.setOption()更新图表数据"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11067",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "饼图 解析：饼图核心用途是展示各部分数据占整体的比例关系。 四、简答题参考答案 1. 答案： （1）运行环境不同：Matplotlib基于Python后端运行，ECharts基于浏览器前端JS运行； （2）图表特性不同：Matplotlib主打静态高清图表，无交互功能；ECharts主打动态交互式图表，支持缩放、拖拽、悬浮提示等操作； （3）适用场景不同：Matplotlib适用于数据分析、科研绘图、离线报表生成；ECharts适用于网页数据大屏、后台数据展示、在线可视化平台。 2. 答案： （1）引入ECharts JS文件； （2）定义HTML容器，设置图表展示宽高； （3）通过echarts.init()初始化图表实例； （4）配置option参数（标题、图例、数据系列、提示框等）； （5）调用setOption()方法渲染图表。 3. 答案： （1）导入matplotlib.pyplot库； （2）定义横轴、纵轴对应数据集； （3）创建画布（可选，自定义画布大小）； （4）调用plt.plot()绘制折线图； （5）配置标题、坐标轴标签、图例、网格线等样式； （6）调用plt.show()展示图表。 4. 答案： （1）根据数据关系选择：对比关系用柱状图、趋势关系用折线图、占比关系用饼图、分布关系用直方图； （2）遵循简洁性原则：摒弃多余装饰，突出数据核心信息； （3）保证数据准确性：图表样式、比例不得误导数据解读； （4）适配展示场景：离线报表选用静态图表，在线展示选用交互式图表。 五、编程题参考答案及解析 1. 程序填空题（6分，每空2分）",
+    "options": [],
+    "answer": "plot、legend、show",
+    "explanation": "依次调用绘图函数、图例展示函数、图表展示函数，完成基础折线图绘制。 2. 基础编码题（8分） 参考答案代码： python   import matplotlib.pyplot as plt      # 定义数据   product = ['A','B','C','D','E']   money = [200,280,190,320,250]      # 创建画布   plt.figure(figsize=(8,5))   # 绘制柱状图   plt.bar(product, money, color='skyblue', label='产品销售额')      # 样式配置   plt.title('各产品销售额统计图')   plt.xlabel('产品名称')   plt.ylabel('销售额（万元）')   plt.legend()   plt.grid(axis='y',",
+    "topic": "",
+    "id": "GEN11068",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib中添加网格线的函数是________。",
+    "options": [],
+    "answer": "plt.grid()",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11069",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts中单独设置柱、扇形图形颜色样式的配置项是series.________。",
+    "options": [],
+    "answer": "itemStyle",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11070",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "散点图主要用于表现两组数值变量之间的________。",
+    "options": [],
+    "answer": "相关性",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11071",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Pyecharts是基于前端可视化库________封装而成的Python工具。",
+    "options": [],
+    "answer": "ECharts",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11072",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib中创建空白画布的函数为________。",
+    "options": [],
+    "answer": "plt.figure()",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11073",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "堆叠折线图适合展示多组连续时序数据的________变化趋势。",
+    "options": [],
+    "answer": "累加",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11074",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts中配置鼠标悬浮弹出数据提示框的字段是________。",
+    "options": [],
+    "answer": "tooltip",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11075",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "直方图用于统计数据的________分布规律。",
+    "options": [],
+    "answer": "频次",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11076",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "Matplotlib中展示图例的函数是________。",
+    "options": [],
+    "answer": "plt.legend()",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11077",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "阶梯图适合表现数据________式变化，不适合平滑连续数据。",
+    "options": [],
+    "answer": "阶段突变",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11078",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts toolbox 工具栏组件中，feature.__________ 工具支持图表另存为图片；feature.__________ 实现图表类型动态切换。",
+    "options": [],
+    "answer": "saveAsImage；magicType",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11079",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 具备________数据渲染能力，无需重新初始化即可刷新柱状图内容。",
+    "options": [],
+    "answer": "动态",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11080",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "饼图除展示占比外，借助 tooltip 组件能够显示每一项的________。",
+    "options": [],
+    "answer": "具体数值",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11081",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "用于呈现时间序列数据波动规律的基础图表是________。",
+    "options": [],
+    "answer": "折线图",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11082",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "设置相同stack属性的多系列柱状图称为________柱状图，可查看分类合计。",
+    "options": [],
+    "answer": "堆叠",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11083",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "对比堆叠柱状图，________更适配长期连续数据走势分析。",
+    "options": [],
+    "answer": "堆叠折线图",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11084",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "在折线基础添加areaStyle填充配置，即可生成________图。",
+    "options": [],
+    "answer": "面积",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11085",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "仅在固定时间节点呈现数值变化、线条呈台阶样式的图表是________。",
+    "options": [],
+    "answer": "阶梯图",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11086",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "填空题",
+    "title": "ECharts 内置导出功能，可将图表保存为图片或________文件。",
+    "options": [],
+    "answer": "PDF",
+    "explanation": "",
+    "topic": "",
+    "id": "GEN11087",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "简述折线图、柱状图、饼图各自最适用的数据场景",
+    "options": [],
+    "answer": "1. **折线图**：面向连续时间序列数据，核心展示数据变化趋势和波动幅度",
+    "explanation": "图表选型是数据可视化的核心能力。折线图强调趋势，柱状图强调对比，饼图强调占比。选错图表类型会误导读者。",
+    "topic": "",
+    "id": "GEN11088",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "简述柱状图与直方图的三大核心区分点",
+    "options": [],
+    "answer": "1. **X轴含义**：柱状图X轴为文字分类标签（离散）；直方图X轴为连续数值区间（分箱）",
+    "explanation": "这是常考易混点。柱状图=分类对比，直方图=分布形态。虽然外观相似，但本质完全不同。",
+    "topic": "",
+    "id": "GEN11089",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "简述南丁格尔玫瑰图 roseType 两种模式（radius、area）的区别与适用场景",
+    "options": [],
+    "answer": "- **roseType: 'radius'**：扇形圆心角与数据占比挂钩，半径代表数值大小；适合同时查看各分类占比+具体数值（如各产品销售额及市场份额）",
+    "explanation": "玫瑰图是南丁格尔发明的经典图表。radius模式=饼图变体（角+径双编码），area模式=极坐标柱状图（仅径编码）。",
+    "topic": "",
+    "id": "GEN11090",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "简述堆叠柱状图的作用与实现方法",
+    "options": [],
+    "answer": "- **作用**：①直观展示每个分类下各子项数值；②可查看每个分类数据总和，对比分类总体大小",
+    "explanation": "在 ECharts 中设置 `series: [{type:'bar', stack:'total', data:[...]}, {type:'bar', stack:'total', data:[...]}]` 即可实现堆叠。Matplotlib 则需多次调用 bar() 并传入 bottom 参数。",
+    "topic": "",
+    "id": "GEN11091",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "简述 Matplotlib 与 ECharts 的核心区别及适用场景",
+    "options": [],
+    "answer": "- **运行环境**：Matplotlib 基于 Python 本地运行，输出静态图片；ECharts 基于 JavaScript，浏览器运行，生成可交互网页图表",
+    "explanation": "两者互补而非竞争——Matplotlib 做分析探索和论文图表，ECharts 做产品级交互式可视化。",
+    "topic": "",
+    "id": "GEN11092",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "简答题",
+    "title": "简述 ECharts 绘图的完整五大步骤",
+    "options": [],
+    "answer": "1. **引入 ECharts JS 库**（CDN/npm/本地文件）",
+    "explanation": "五大步骤是 ECharts 开发的基石，任何图表都遵循这个流程。可附加第六步：监听 resize 事件实现自适应。",
+    "topic": "",
+    "id": "GEN11093",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "程序题",
+    "title": "【程序填空·ECharts】补全 ECharts 柱状图的 HTML 代码（5个标准步骤填空）",
+    "options": [],
+    "answer": "- ① `<script src=\"js/echarts.js\"></script>`",
+    "explanation": "五大步骤是 ECharts 开发的标准流程，缺一不可。",
+    "topic": "",
+    "id": "GEN11094",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "程序题",
+    "title": "【整段代码·ECharts】编写完整 HTML+ECharts 圆环图，展示家庭月度开支",
+    "options": [],
+    "answer": "```html",
+    "explanation": "圆环图的关键配置是 `radius: [\"内半径%\", \"外半径%\"]`。本题还综合了 legend.orient、tooltip.formatter 等常用配置。",
+    "topic": "",
+    "id": "GEN11095",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "程序题",
+    "title": "【整段代码·ECharts】编写 AJAX 异步加载数据的饼图",
+    "options": [],
+    "answer": "```html",
+    "explanation": "这是 ECharts 异步数据加载的经典模式——先初始化空图表，AJAX 获取数据后通过 setOption 更新。注意本地直接打开会跨域，需 Live Server。",
+    "topic": "",
+    "id": "GEN11096",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "程序题",
+    "title": "【整段代码·Matplotlib】使用 Matplotlib 绘制年度销量折线图",
+    "options": [],
+    "answer": "```python",
+    "explanation": "plt.plot() 默认绘制折线图。marker='o' 添加数据点标记，grid(True) 开启网格提升可读性。",
+    "topic": "",
+    "id": "GEN11097",
+    "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "程序题",
+    "title": "【整段代码·Pyecharts】使用 Pyecharts 绘制学科成绩占比饼图，保存为 HTML",
+    "options": [],
+    "answer": "```python",
+    "explanation": "Pyecharts 采用链式调用，Pie() → .add() 添加数据 → .set_global_opts() 全局配置 → .set_series_opts() 系列配置 → .render() 输出 HTML。这是 Python 开发者使用 ECharts 的便捷方式。",
+    "topic": "",
+    "id": "GEN11098",
     "level": "B",
     "correctCount": 0,
     "wrongCount": 0,
