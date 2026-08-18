@@ -566,12 +566,12 @@ class DataManager {
       // 保存旧错题本ID，版本升级后恢复
       let savedWrongBook = null;
       try { savedWrongBook = JSON.parse(localStorage.getItem('exam_wrongbook') || 'null'); } catch(e) {}
-      if (dataVersion !== 'v9') {
+      if (dataVersion !== 'v10') {
         localStorage.removeItem('exam_questions');
         localStorage.removeItem('exam_wrongbook');
         localStorage.removeItem('exam_progress');
         localStorage.removeItem('exam_reviews');
-        localStorage.setItem('exam_data_version', 'v9');
+        localStorage.setItem('exam_data_version', 'v10');
       }
       // 加载预解析数据（如果localStorage没有则自动导入）
       if (typeof PREPARSED_QUESTIONS !== 'undefined' && PREPARSED_QUESTIONS.length > 0) {
