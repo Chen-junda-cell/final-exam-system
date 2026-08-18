@@ -1,0 +1,2 @@
+[permissions]
+allow = ["Bash(cd \"D:\\HuaweiMoveData\\Users\\86147\\Desktop\\期末\" && grep -c \"^### \" questions.md)", "Bash(grep '\"subject\"' parsed/questions_data.js | sed 's/.*\"subject\": \"\\([^\"]*\\)\".*/\\1/' | sort | uniq -c | sort -rn)", "Bash(grep \"subj:\" checklist_data.js | sed 's/.*subj:.//' | sed 's/..*$//' | sort | uniq -c)", "Bash(grep -n '\"Linux\":\\|\"Hadoop\":\\|\"Scala & Spark\":\\|\"HBase\\|\"Java Web\":' keypoints_data.js)"]

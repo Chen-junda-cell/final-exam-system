@@ -136,6 +136,22 @@ const KNOWLEDGE_BASE = {
       {id:'em10',name:'Matplotlib 高级图表',level:'B',freq:5,content:'箱线图：plt.boxplot()显示数据分布(中位数/四分位数/异常值)。雷达图：plt.subplot(projection=polar)极坐标，手动算角度，fill()填充。plt.rcParams配置中文字体：font.sans-serif=[SimHei]，axes.unicode_minus=False。',keywords:['boxplot','箱线图','雷达图','polar','rcParams','中文字体']},
       {id:'em11',name:'ECharts 高级功能',level:'B',freq:5,content:'MarkPoint标注点(最大最小值)、MarkLine标记线(平均值)、MarkArea标记区域。dataset统一数据源。transform数据变换。异步加载：showLoading()+ajax+hideLoading()+setOption。自适应：window.onresize+chart.resize()。',keywords:['MarkPoint','MarkLine','dataset','showLoading','resize','自适应','异步']},
     ]
+  },
+  'Redis': {
+    subject:'Redis',
+    topics:[
+      {id:'rd1',name:'Redis 概述与特性',level:'A',freq:10,content:'Redis(Remote Dictionary Server)是完全开源免费的、高性能的 Key/Value 内存数据库，由意大利 Merzia 公司的 Salvatore Sanfilippo 开发。默认端口 6379，默认 16 个数据库(0~15)，用 select n 切换；单线程执行命令，天然原子。',keywords:['Redis','远程字典服务','Merzia','6379','16个数据库','select','端口','内存','开源免费']},
+      {id:'rd2',name:'NoSQL 基础',level:'A',freq:8,content:'NoSQL 即 Not only SQL，泛指非关系型数据库，是关系型数据库的补充。分类：键值存储(Redis)、文档型(MongoDB)、列存储(HBase)、图形数据库。适合高并发、大数据量、数据模型简单的场景。',keywords:['NoSQL','非关系型','键值','文档型','列存储','图形','MongoDB','关系型']},
+      {id:'rd3',name:'String 类型',level:'A',freq:12,content:'最基础类型，key 固定为字符串，value 最大 512MB。命令：set/get/mset/mget/append/strlen/del。数值操作 incr/decr/incrby/decrby(整数)、incrbyfloat(浮点)，最大值对应 Java 的 long。setex/psetex 设置过期。典型场景：计数、JSON 缓存、限时投票。',keywords:['string','set','get','incr','decr','mset','mget','setex','512MB','字符串','自增','append']},
+      {id:'rd4',name:'Hash 类型',level:'A',freq:11,content:'适合存对象，可单独修改某属性。命令：hset/hget/hdel/hmset/hmget/hgetall/hkeys/hvals/hlen/hexists/hsetnx/hincrby/hincrbyfloat。value 只能存字符串。典型场景：购物车、抢购库存、用户多属性。',keywords:['hash','hset','hget','hdel','hgetall','hincrby','hsetnx','购物车','库存','字段']},
+      {id:'rd5',name:'List 类型',level:'A',freq:10,content:'底层双向链表，两端增删效率高，随机访问慢。命令：lpush/rpush(添加)、lpop/rpop(弹出)、lrange/lindex/llen(读)、lrem(删除)、blpop/brpop(阻塞)。lpush+lpop 模拟栈，lpush+rpop 模拟队列。',keywords:['list','lpush','rpush','lpop','rpop','lrange','lindex','blpop','双向链表','队列','栈']},
+      {id:'rd6',name:'Set 与 Sorted Set',level:'B',freq:7,content:'set 无序不重复，支持集合运算(交集/并集/差集)，用于共同好友、去重。sorted_set 有序集合，按 score 排序，用于排行榜。',keywords:['set','sorted_set','zset','集合','排行榜','score']},
+      {id:'rd7',name:'Redis 事务',level:'A',freq:10,content:'MULTI 开启事务→命令入队→EXEC 执行；DISCARD 取消。语法错误全队不执行，运行期错误仅出错命令报错、不回滚。WATCH 监控 key 实现乐观锁，被修改则 EXEC 返回 nil。',keywords:['事务','MULTI','EXEC','DISCARD','WATCH','乐观锁','回滚']},
+      {id:'rd8',name:'过期时间与内存淘汰',level:'A',freq:9,content:'EXPIRE(秒)/PEXPIRE(毫秒)设置过期，TTL/PTTL 查询，PERSIST 清除。惰性删除：访问时才检查过期。内存淘汰策略 maxmemory-policy：noeviction(默认)/allkeys-lru/volatile-lru/volatile-ttl 等。',keywords:['过期','EXPIRE','PEXPIRE','TTL','PTTL','PERSIST','noeviction','淘汰','lru']},
+      {id:'rd9',name:'通用命令与 SORT',level:'B',freq:7,content:'通用命令：keys/del/exists/type/help。help 命令名 查单个命令，help @组名 查分组。SORT 排序，参数 DESC 倒序、ALPHA 字典序、BY 参照字段、LIMIT 分页、STORE 保存结果。',keywords:['SORT','help','keys','del','exists','DESC','ALPHA','LIMIT','STORE']},
+      {id:'rd10',name:'持久化 — RDB',level:'A',freq:10,content:'RDB 是某一时刻数据快照，默认文件 dump.rdb，LZF 压缩，rdbchecksum 校验。save 同步阻塞主线程，bgsave fork 子进程异步执行(线上推荐)。save 60 10000 表示 60 秒改 10000 个 key 自动 bgsave。恢复快，但两次快照间会丢数据。',keywords:['RDB','dump.rdb','save','bgsave','快照','LZF','rdbchecksum']},
+      {id:'rd11',name:'持久化 — AOF',level:'A',freq:10,content:'AOF 记录所有写入命令，默认文件 appendonly.aof。appendfsync 三策略：always(零丢失慢)/everysec(默认丢1秒)/no。bgrewriteaof 重写压缩，auto-aof-rewrite-min-size/percentage 自动重写。数据更安全但文件更大。',keywords:['AOF','appendonly.aof','appendfsync','everysec','always','bgrewriteaof','重写']},
+    ]
   }
 };
 // 六科信息
@@ -147,6 +163,7 @@ const SUBJECTS = [
   {id:'Scala & Spark', icon:'⚡', name:'Scala & Spark', fileStart:5482, fileEnd:99999},
   {id:'Web前端', icon:'🌐', name:'Web前端 (HTML/CSS/JS)'},
   {id:'ECharts & Matplotlib', icon:'📊', name:'ECharts & Matplotlib 数据可视化'},
+  {id:'Redis', icon:'🗃️', name:'Redis 内存数据库'},
 ];
 
 // 五天计划数据
@@ -1483,7 +1500,7 @@ class ExamApp {
     const spDiv = document.getElementById('subjectProgress');
     spDiv.innerHTML = SUBJECTS.map(s => {
       const d = stats.bySubject[s.id] || {total:0, done:0, pct:0};
-      const cls = s.id === 'Java Web' ? 'java' : s.id === 'Linux' ? 'linux' : s.id === 'Hadoop' ? 'hadoop' : s.id === 'Scala & Spark' ? 'scala' : s.id === 'Web前端' ? 'web' : 'hbase';
+      const cls = s.id === 'Java Web' ? 'java' : s.id === 'Linux' ? 'linux' : s.id === 'Hadoop' ? 'hadoop' : s.id === 'Scala & Spark' ? 'scala' : s.id === 'Web前端' ? 'web' : s.id === 'ECharts & Matplotlib' ? 'echarts' : 'redis';
       return `<div class="progress-bar-wrap">
         <div class="progress-bar-label"><span>${s.icon} ${s.name}</span><span>${d.done}/${d.total} (${d.pct}%)</span></div>
         <div class="progress-bar-track"><div class="progress-bar-fill ${cls}" style="width:${d.pct}%"></div></div>

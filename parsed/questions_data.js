@@ -1,4 +1,4 @@
-// 七科完整题库 — 1386题
+// 八科完整题库 — 1578题
 const PREPARSED_QUESTIONS = [
   {
     "subject": "Java Web",
@@ -38295,6 +38295,5282 @@ const PREPARSED_QUESTIONS = [
     "topic": "",
     "id": "GEN11098",
     "level": "B",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "Redis数据库的起源于以下哪家公司（    ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "Apache Software Foundation 公司"
+      },
+      {
+        "label": "B",
+        "text": "微软（Microsoft）"
+      },
+      {
+        "label": "C",
+        "text": "意大利的创业公司Merzia"
+      },
+      {
+        "label": "D",
+        "text": "IBM"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Redis 由意大利创业公司 Merzia 的 Salvatore Sanfilippo 于 2009 年开发。",
+    "id": "GEN11099",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "以下哪个Redis的版本是稳定版本（    ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "5.3.4"
+      },
+      {
+        "label": "B",
+        "text": "1.3.5"
+      },
+      {
+        "label": "C",
+        "text": "2.1.4"
+      },
+      {
+        "label": "D",
+        "text": "1.2.1"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Redis 版本号第二位为偶数表示稳定版，1.2.1 是稳定版本。",
+    "id": "GEN11100",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "关于NoSQL的说法，错误的一项是（   ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "NoSQL数据库的代表有Redis、Oracle、MangoDB"
+      },
+      {
+        "label": "B",
+        "text": "NoSQL，即 Not only SQL,是关系型数据库的一种良好补充"
+      },
+      {
+        "label": "C",
+        "text": "NoSQL泛指非关系型数据库，内存存储，访问速度非常快"
+      },
+      {
+        "label": "D",
+        "text": "为了解决高并发、大数据存储而产生的一种数据库解决方案"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Oracle 是关系型数据库，不是 NoSQL 的代表。",
+    "id": "GEN11101",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "Redis支持的数据结构中，以下描述不正确的是（   ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "列表类型"
+      },
+      {
+        "label": "B",
+        "text": "字符串类型"
+      },
+      {
+        "label": "C",
+        "text": "逻辑类型"
+      },
+      {
+        "label": "D",
+        "text": "散列类型"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Redis 没有“逻辑类型”，常见类型有 string/hash/list/set/zset 等。",
+    "id": "GEN11102",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "已知数据库中存储了key/value类型的结构数据：name -> “ Jack”，如何获取Jack的值（   ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "get  “Jack”"
+      },
+      {
+        "label": "B",
+        "text": "get Jack"
+      },
+      {
+        "label": "C",
+        "text": "get name"
+      },
+      {
+        "label": "D",
+        "text": "set name “Jack”"
+      }
+    ],
+    "answer": "C",
+    "explanation": "name 是 key，取值应使用 get name；get 后跟 key 而不是 value。",
+    "id": "GEN11103",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "Redis数据库默认的端口是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1521"
+      },
+      {
+        "label": "B",
+        "text": "3386"
+      },
+      {
+        "label": "C",
+        "text": "6379"
+      },
+      {
+        "label": "D",
+        "text": "8080"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Redis 默认端口为 6379。",
+    "id": "GEN11104",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "Redis默认支持多少个数据库",
+    "options": [
+      {
+        "label": "A",
+        "text": "1个"
+      },
+      {
+        "label": "B",
+        "text": "8个"
+      },
+      {
+        "label": "C",
+        "text": "5个"
+      },
+      {
+        "label": "D",
+        "text": "16个"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Redis 默认提供 16 个数据库，编号 0~15。",
+    "id": "GEN11105",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "退出Redis客户端的操作或命令，正确的有（   ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "指令quit"
+      },
+      {
+        "label": "B",
+        "text": "指令：q"
+      },
+      {
+        "label": "C",
+        "text": "指令exit"
+      },
+      {
+        "label": "D",
+        "text": "指令ctrl+c"
+      }
+    ],
+    "answer": "ACD",
+    "explanation": "quit、exit 和 Ctrl+C 均可退出 redis-cli；q 不是标准退出命令。",
+    "id": "GEN11106",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "以下关于NoSQL数据库的应用场景描述，正确的有",
+    "options": [
+      {
+        "label": "A",
+        "text": "对于给定key，比较容易映射复杂值的环境"
+      },
+      {
+        "label": "B",
+        "text": "对数据库性能要求较高"
+      },
+      {
+        "label": "C",
+        "text": "灵活性要求不太强的IT系统"
+      },
+      {
+        "label": "D",
+        "text": "数据模型比较简单"
+      }
+    ],
+    "answer": "ABD",
+    "explanation": "NoSQL 适合数据模型简单、性能要求高、key 能映射复杂值的场景；不适合灵活性要求弱的系统。",
+    "id": "GEN11107",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "NoSQL数据库的分类有（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "文档型数据库"
+      },
+      {
+        "label": "B",
+        "text": "图形数据库"
+      },
+      {
+        "label": "C",
+        "text": "列存储数据库"
+      },
+      {
+        "label": "D",
+        "text": "键值存储（Key/Value）数据库"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "NoSQL 主要分为文档型、图形、列存储、键值存储四类。",
+    "id": "GEN11108",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "以下关于Redis数据库的特性，描述正确的是（   ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "内存存储与持久化机制"
+      },
+      {
+        "label": "B",
+        "text": "支持多种类型存储结构"
+      },
+      {
+        "label": "C",
+        "text": "功能比较丰富，可以做缓存、队列、消息订阅/发布"
+      },
+      {
+        "label": "D",
+        "text": "简单稳定（相比SQL而言更加简单）"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "四项都是 Redis 的特性。",
+    "id": "GEN11109",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "获取单个 key 对应 value 的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "mget"
+      },
+      {
+        "label": "B",
+        "text": "append"
+      },
+      {
+        "label": "C",
+        "text": "get"
+      },
+      {
+        "label": "D",
+        "text": "strlen"
+      }
+    ],
+    "answer": "C",
+    "explanation": "get key 获取单个 key 的 value。",
+    "id": "GEN11110",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "给字符串数值自增 1 的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "incr"
+      },
+      {
+        "label": "B",
+        "text": "incrbyfloat"
+      },
+      {
+        "label": "C",
+        "text": "decr"
+      },
+      {
+        "label": "D",
+        "text": "incrby"
+      }
+    ],
+    "answer": "A",
+    "explanation": "incr key 自增 1；incrby 指定步长，decr 自减。",
+    "id": "GEN11111",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "设置单个键值对数据的基础命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "set"
+      },
+      {
+        "label": "B",
+        "text": "mset"
+      },
+      {
+        "label": "C",
+        "text": "del"
+      },
+      {
+        "label": "D",
+        "text": "get"
+      }
+    ],
+    "answer": "A",
+    "explanation": "set 设置单个键值对；mset 批量设置。",
+    "id": "GEN11112",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "Redis 数值操作支持的最大值对应 Java 中哪种类型上限(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "double"
+      },
+      {
+        "label": "B",
+        "text": "int"
+      },
+      {
+        "label": "C",
+        "text": "long"
+      },
+      {
+        "label": "D",
+        "text": "float"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Redis 整数范围为 64 位有符号整数，对应 Java 的 long。",
+    "id": "GEN11113",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "设置 key 多少秒后过期的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "append"
+      },
+      {
+        "label": "B",
+        "text": "set"
+      },
+      {
+        "label": "C",
+        "text": "psetex"
+      },
+      {
+        "label": "D",
+        "text": "setex"
+      }
+    ],
+    "answer": "D",
+    "explanation": "setex key 秒数 value 设置过期时间（秒）；psetex 单位为毫秒。",
+    "id": "GEN11114",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "Redis 字符串单个 value 最大存储容量为(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "128MB"
+      },
+      {
+        "label": "B",
+        "text": "256MB"
+      },
+      {
+        "label": "C",
+        "text": "512MB"
+      },
+      {
+        "label": "D",
+        "text": "1GB"
+      }
+    ],
+    "answer": "C",
+    "explanation": "单个 string value 最大 512MB。",
+    "id": "GEN11115",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "查看单个命令帮助文档的指令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "quit"
+      },
+      {
+        "label": "B",
+        "text": "help @string"
+      },
+      {
+        "label": "C",
+        "text": "help get"
+      },
+      {
+        "label": "D",
+        "text": "clear"
+      }
+    ],
+    "answer": "C",
+    "explanation": "help 命令名 查看该命令帮助；help @组名 查看分组帮助。",
+    "id": "GEN11116",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "Redis 中所有数据存储的 key 的数据类型固定为(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "Hash"
+      },
+      {
+        "label": "B",
+        "text": "数字"
+      },
+      {
+        "label": "C",
+        "text": "List"
+      },
+      {
+        "label": "D",
+        "text": "字符串"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Redis 的 key 一律为字符串类型。",
+    "id": "GEN11117",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "Redis 客户端退出指令不包含以下哪个(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "ESC"
+      },
+      {
+        "label": "B",
+        "text": "exit"
+      },
+      {
+        "label": "C",
+        "text": "clear"
+      },
+      {
+        "label": "D",
+        "text": "quit"
+      }
+    ],
+    "answer": "C",
+    "explanation": "clear 是清屏工具命令，不是退出指令。",
+    "id": "GEN11118",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "一次性获取多个 key 对应值的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "strlen"
+      },
+      {
+        "label": "B",
+        "text": "mget"
+      },
+      {
+        "label": "C",
+        "text": "del"
+      },
+      {
+        "label": "D",
+        "text": "get"
+      }
+    ],
+    "answer": "B",
+    "explanation": "mget key1 key2 ... 批量获取多个 key 的值。",
+    "id": "GEN11119",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "Redis 字符串数值递减相关命令包含(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "incrbyfloat"
+      },
+      {
+        "label": "B",
+        "text": "decr"
+      },
+      {
+        "label": "C",
+        "text": "decrby"
+      },
+      {
+        "label": "D",
+        "text": "incr"
+      }
+    ],
+    "answer": "BC",
+    "explanation": "decr 减 1、decrby 按步长递减。",
+    "id": "GEN11120",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "以下属于 Redis 客户端基础工具命令的是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "clear"
+      },
+      {
+        "label": "B",
+        "text": "setex"
+      },
+      {
+        "label": "C",
+        "text": "help"
+      },
+      {
+        "label": "D",
+        "text": "quit"
+      }
+    ],
+    "answer": "ACD",
+    "explanation": "clear/help/quit 是客户端工具命令；setex 是数据操作命令。",
+    "id": "GEN11121",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "Redis 使用 string 类型的典型业务场景有(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "限时投票活动"
+      },
+      {
+        "label": "B",
+        "text": "数据库主键自增 ID 生成"
+      },
+      {
+        "label": "C",
+        "text": "用户结构化完整信息 JSON 缓存"
+      },
+      {
+        "label": "D",
+        "text": "网站大 V 粉丝数缓存"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "四项都适合用 string（计数、JSON 缓存、粉丝数等）。",
+    "id": "GEN11122",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "以下属于 Redis 字符串基础操作命令的有(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "get"
+      },
+      {
+        "label": "B",
+        "text": "hset"
+      },
+      {
+        "label": "C",
+        "text": "set"
+      },
+      {
+        "label": "D",
+        "text": "mget"
+      },
+      {
+        "label": "E",
+        "text": "mset"
+      }
+    ],
+    "answer": "ACDE",
+    "explanation": "hset 是 hash 命令，不属于字符串命令。",
+    "id": "GEN11123",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "Redis 支持的五大基础数据类型包含(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "set"
+      },
+      {
+        "label": "B",
+        "text": "sorted_set"
+      },
+      {
+        "label": "C",
+        "text": "string"
+      },
+      {
+        "label": "D",
+        "text": "list"
+      },
+      {
+        "label": "E",
+        "text": "hash"
+      }
+    ],
+    "answer": "ABCDE",
+    "explanation": "五大基础类型：string、list、hash、set、sorted_set。",
+    "id": "GEN11124",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "下列哪种数据类型适合存储对象、可单独修改对象某一个属性，无需整体更新 JSON?(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "string"
+      },
+      {
+        "label": "B",
+        "text": "hash"
+      },
+      {
+        "label": "C",
+        "text": "list"
+      },
+      {
+        "label": "D",
+        "text": "set"
+      }
+    ],
+    "answer": "B",
+    "explanation": "hash 可对单个 field 独立读写，适合存储对象并单独修改某个属性。",
+    "id": "GEN11125",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "向 hash 中添加 / 修改单个字段数据的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "hget"
+      },
+      {
+        "label": "B",
+        "text": "hset"
+      },
+      {
+        "label": "C",
+        "text": "hdel"
+      },
+      {
+        "label": "D",
+        "text": "hlen"
+      }
+    ],
+    "answer": "B",
+    "explanation": "hset key field value 添加或修改单个字段。",
+    "id": "GEN11126",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "获取 hash 中单个字段对应值的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "hgetall"
+      },
+      {
+        "label": "B",
+        "text": "hmget"
+      },
+      {
+        "label": "C",
+        "text": "hget"
+      },
+      {
+        "label": "D",
+        "text": "hkeys"
+      }
+    ],
+    "answer": "C",
+    "explanation": "hget key field 获取单个字段的值。",
+    "id": "GEN11127",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "获取 hash 内全部字段和对应值的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "hget"
+      },
+      {
+        "label": "B",
+        "text": "hgetall"
+      },
+      {
+        "label": "C",
+        "text": "hvals"
+      },
+      {
+        "label": "D",
+        "text": "hkeys"
+      }
+    ],
+    "answer": "B",
+    "explanation": "hgetall 返回全部 field 和 value。",
+    "id": "GEN11128",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "删除 hash 中指定字段的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "del"
+      },
+      {
+        "label": "B",
+        "text": "hdel"
+      },
+      {
+        "label": "C",
+        "text": "hexists"
+      },
+      {
+        "label": "D",
+        "text": "hmset"
+      }
+    ],
+    "answer": "B",
+    "explanation": "hdel key field 删除指定字段。",
+    "id": "GEN11129",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "仅当 hash 字段不存在时才赋值，字段存在则操作无效的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "hset"
+      },
+      {
+        "label": "B",
+        "text": "hmset"
+      },
+      {
+        "label": "C",
+        "text": "hsetnx"
+      },
+      {
+        "label": "D",
+        "text": "hincrby"
+      }
+    ],
+    "answer": "C",
+    "explanation": "hsetnx 仅在字段不存在时赋值，存在则不操作。",
+    "id": "GEN11130",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "给 hash 指定字段数值增减整数的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "hincrbyfloat"
+      },
+      {
+        "label": "B",
+        "text": "hincrby"
+      },
+      {
+        "label": "C",
+        "text": "incr"
+      },
+      {
+        "label": "D",
+        "text": "decr"
+      }
+    ],
+    "answer": "B",
+    "explanation": "hincrby key field 步长 对整数字段增减。",
+    "id": "GEN11131",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "查看 hash 中字段总数量的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "hexists"
+      },
+      {
+        "label": "B",
+        "text": "hlen"
+      },
+      {
+        "label": "C",
+        "text": "hkeys"
+      },
+      {
+        "label": "D",
+        "text": "hvals"
+      }
+    ],
+    "answer": "B",
+    "explanation": "hlen key 返回 hash 内字段数量。",
+    "id": "GEN11132",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "hash 类型中 value 允许存储的数据类型是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "hash 嵌套"
+      },
+      {
+        "label": "B",
+        "text": "列表"
+      },
+      {
+        "label": "C",
+        "text": "字符串"
+      },
+      {
+        "label": "D",
+        "text": "set 集合"
+      }
+    ],
+    "answer": "C",
+    "explanation": "hash 的 value 只能存字符串，不支持嵌套。",
+    "id": "GEN11133",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "电商购物车场景中，用户 id 作为 hash 的 key，商品编号作为 field，商品数量作为 value，减少商品库存可使用(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "hincrby 字段 -1"
+      },
+      {
+        "label": "B",
+        "text": "hset"
+      },
+      {
+        "label": "C",
+        "text": "hdel"
+      },
+      {
+        "label": "D",
+        "text": "hgetall"
+      }
+    ],
+    "answer": "A",
+    "explanation": "hincrby key 商品编号 -1 原子地减少商品数量。",
+    "id": "GEN11134",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "属于 Hash 哈希类型基础操作命令的有(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "hset"
+      },
+      {
+        "label": "B",
+        "text": "hget"
+      },
+      {
+        "label": "C",
+        "text": "hdel"
+      },
+      {
+        "label": "D",
+        "text": "hmset"
+      },
+      {
+        "label": "E",
+        "text": "mset"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "hset/hget/hdel/hmset 都是 hash 命令；mset 是 string 命令。",
+    "id": "GEN11135",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "能够一次性操作 hash 多个字段的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "hmset"
+      },
+      {
+        "label": "B",
+        "text": "hmget"
+      },
+      {
+        "label": "C",
+        "text": "hset"
+      },
+      {
+        "label": "D",
+        "text": "hget"
+      }
+    ],
+    "answer": "AB",
+    "explanation": "hmset 批量设置、hmget 批量读取多个字段。",
+    "id": "GEN11136",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "获取 hash 结构内字段名、字段值的命令有(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "hkeys"
+      },
+      {
+        "label": "B",
+        "text": "hvals"
+      },
+      {
+        "label": "C",
+        "text": "hgetall"
+      },
+      {
+        "label": "D",
+        "text": "hlen"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "hkeys 取字段名、hvals 取字段值、hgetall 取字段名和值；hlen 是数量。",
+    "id": "GEN11137",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "Hash 数值自增相关命令包含(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "hincrby"
+      },
+      {
+        "label": "B",
+        "text": "hincrbyfloat"
+      },
+      {
+        "label": "C",
+        "text": "incr"
+      },
+      {
+        "label": "D",
+        "text": "decrby"
+      }
+    ],
+    "answer": "AB",
+    "explanation": "hincrby 整数自增、hincrbyfloat 浮点自增。",
+    "id": "GEN11138",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "Hash 类型典型业务应用场景包含(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "电商用户购物车存储"
+      },
+      {
+        "label": "B",
+        "text": "双 11 商品抢购库存控制"
+      },
+      {
+        "label": "C",
+        "text": "存储用户多属性信息(姓名、粉丝、博文数)"
+      },
+      {
+        "label": "D",
+        "text": "数据库主键自增 ID"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "购物车、抢购库存、用户多属性都用 hash；主键自增 ID 用 string 的 incr。",
+    "id": "GEN11139",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "Hash 类型使用注意事项描述正确的是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "value 只能存字符串，不支持嵌套 hash"
+      },
+      {
+        "label": "B",
+        "text": "单个 hash 最多存储 2³²-1 个 field-value 键值对"
+      },
+      {
+        "label": "C",
+        "text": "hash 适合存储大批量对象列表"
+      },
+      {
+        "label": "D",
+        "text": "hgetall 在 field 数量过多时会产生性能瓶颈"
+      }
+    ],
+    "answer": "ABD",
+    "explanation": "hash 不适合存大批量对象列表；其余三项正确。",
+    "id": "GEN11140",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "Redis List 底层采用的数据结构是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "哈希表"
+      },
+      {
+        "label": "B",
+        "text": "双向链表"
+      },
+      {
+        "label": "C",
+        "text": "平衡树"
+      },
+      {
+        "label": "D",
+        "text": "数组"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Redis List 底层是双向链表。",
+    "id": "GEN11141",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "从列表左侧头部添加元素的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "rpush"
+      },
+      {
+        "label": "B",
+        "text": "lpush"
+      },
+      {
+        "label": "C",
+        "text": "lpop"
+      },
+      {
+        "label": "D",
+        "text": "rpop"
+      }
+    ],
+    "answer": "B",
+    "explanation": "lpush 从左侧（头部）添加。",
+    "id": "GEN11142",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "从列表右侧尾部添加元素的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "lpush"
+      },
+      {
+        "label": "B",
+        "text": "rpush"
+      },
+      {
+        "label": "C",
+        "text": "lrange"
+      },
+      {
+        "label": "D",
+        "text": "llen"
+      }
+    ],
+    "answer": "B",
+    "explanation": "rpush 从右侧（尾部）添加。",
+    "id": "GEN11143",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "查看列表指定索引位置元素的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "lrange"
+      },
+      {
+        "label": "B",
+        "text": "lindex"
+      },
+      {
+        "label": "C",
+        "text": "llen"
+      },
+      {
+        "label": "D",
+        "text": "lrem"
+      }
+    ],
+    "answer": "B",
+    "explanation": "lindex key index 查看指定下标元素。",
+    "id": "GEN11144",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "获取列表全部元素时，终止索引应填写(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "-1"
+      },
+      {
+        "label": "C",
+        "text": "end"
+      },
+      {
+        "label": "D",
+        "text": "all"
+      }
+    ],
+    "answer": "B",
+    "explanation": "-1 表示最后一个元素，0~-1 即全部。",
+    "id": "GEN11145",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "从列表左侧弹出并移除头部元素的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "rpop"
+      },
+      {
+        "label": "B",
+        "text": "lpop"
+      },
+      {
+        "label": "C",
+        "text": "blpop"
+      },
+      {
+        "label": "D",
+        "text": "brpop"
+      }
+    ],
+    "answer": "B",
+    "explanation": "lpop 弹出并移除左侧（头部）元素。",
+    "id": "GEN11146",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "实现阻塞读取列表左侧数据、无数据则等待指定时长的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "lpop"
+      },
+      {
+        "label": "B",
+        "text": "blpop"
+      },
+      {
+        "label": "C",
+        "text": "lrem"
+      },
+      {
+        "label": "D",
+        "text": "llen"
+      }
+    ],
+    "answer": "B",
+    "explanation": "blpop 阻塞式弹出左侧元素。",
+    "id": "GEN11147",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "删除列表中指定数量、指定值元素的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "lpop"
+      },
+      {
+        "label": "B",
+        "text": "rpop"
+      },
+      {
+        "label": "C",
+        "text": "lrem"
+      },
+      {
+        "label": "D",
+        "text": "lindex"
+      }
+    ],
+    "answer": "C",
+    "explanation": "lrem key count value 删除指定数量、指定值的元素。",
+    "id": "GEN11148",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "获取列表中元素总个数的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "lrange"
+      },
+      {
+        "label": "B",
+        "text": "llen"
+      },
+      {
+        "label": "C",
+        "text": "lindex"
+      },
+      {
+        "label": "D",
+        "text": "lrem"
+      }
+    ],
+    "answer": "B",
+    "explanation": "llen key 获取列表元素总数。",
+    "id": "GEN11149",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "下列哪项不属于 List 典型业务场景(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "朋友圈有序点赞列表"
+      },
+      {
+        "label": "B",
+        "text": "微博关注有序列表"
+      },
+      {
+        "label": "C",
+        "text": "购物车商品属性存储"
+      },
+      {
+        "label": "D",
+        "text": "多服务器日志有序汇总"
+      }
+    ],
+    "answer": "C",
+    "explanation": "购物车商品属性适合用 hash，不属于 List 场景。",
+    "id": "GEN11150",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "属于 Redis List 添加元素命令的有(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "lpush"
+      },
+      {
+        "label": "B",
+        "text": "rpush"
+      },
+      {
+        "label": "C",
+        "text": "lpop"
+      },
+      {
+        "label": "D",
+        "text": "rpop"
+      }
+    ],
+    "answer": "AB",
+    "explanation": "lpush/rpush 是添加；lpop/rpop 是弹出。",
+    "id": "GEN11151",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "List 读取数据相关命令包含(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "lrange"
+      },
+      {
+        "label": "B",
+        "text": "lindex"
+      },
+      {
+        "label": "C",
+        "text": "llen"
+      },
+      {
+        "label": "D",
+        "text": "lrem"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "lrange/lindex/llen 是读取；lrem 是删除。",
+    "id": "GEN11152",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "List 阻塞弹出数据的命令有(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "blpop"
+      },
+      {
+        "label": "B",
+        "text": "brpop"
+      },
+      {
+        "label": "C",
+        "text": "brpoplpush"
+      },
+      {
+        "label": "D",
+        "text": "lpop"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "blpop/brpop/brpoplpush 都支持阻塞。",
+    "id": "GEN11153",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "Redis List 类型特点描述正确的是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "存储全部为 string 类型数据"
+      },
+      {
+        "label": "B",
+        "text": "底层双向链表，两端增删效率高"
+      },
+      {
+        "label": "C",
+        "text": "最多可存储 2³²-1 个元素"
+      },
+      {
+        "label": "D",
+        "text": "随机索引查询速度极快"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "链表随机访问慢，故 D 错误；其余三项正确。",
+    "id": "GEN11154",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "适合使用 Redis List 实现的业务场景有(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "按时间顺序展示新闻资讯"
+      },
+      {
+        "label": "B",
+        "text": "朋友圈点赞有序记录、取消点赞删除用户"
+      },
+      {
+        "label": "C",
+        "text": "任务消息队列(阻塞读取)"
+      },
+      {
+        "label": "D",
+        "text": "单个用户姓名、年龄存储"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "前三个是有序列表/队列场景；用户姓名年龄适合 hash。",
+    "id": "GEN11155",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "关于 lrange 命令说法正确的是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "可截取列表一段范围数据，实现分页"
+      },
+      {
+        "label": "B",
+        "text": "lrange key 0 -1 可以查看列表全部元素"
+      },
+      {
+        "label": "C",
+        "text": "只能读取列表前 10 个元素"
+      },
+      {
+        "label": "D",
+        "text": "支持自定义起始、结束索引"
+      }
+    ],
+    "answer": "ABD",
+    "explanation": "lrange 支持任意起始/结束索引，不限于前 10 个。",
+    "id": "GEN11156",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "事务队列存在语法错误时，执行 EXEC 后结果为(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确命令执行，错误报错"
+      },
+      {
+        "label": "B",
+        "text": "自动回滚已执行命令"
+      },
+      {
+        "label": "C",
+        "text": "全部命令都不执行"
+      },
+      {
+        "label": "D",
+        "text": "忽略错误继续执行"
+      }
+    ],
+    "answer": "C",
+    "explanation": "语法错误在入队时即被识别，EXEC 时整个事务全部不执行。",
+    "id": "GEN11157",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "SORT 实现英文字母字典排序需要追加参数(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "LIMIT"
+      },
+      {
+        "label": "B",
+        "text": "BY"
+      },
+      {
+        "label": "C",
+        "text": "ALPHA"
+      },
+      {
+        "label": "D",
+        "text": "DESC"
+      }
+    ],
+    "answer": "C",
+    "explanation": "ALPHA 表示按字典序（字母）排序。",
+    "id": "GEN11158",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "将带过期 key 转为永久有效、清除失效时间的命令(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "DEL"
+      },
+      {
+        "label": "B",
+        "text": "PTTL"
+      },
+      {
+        "label": "C",
+        "text": "EXPIRE"
+      },
+      {
+        "label": "D",
+        "text": "PERSIST"
+      }
+    ],
+    "answer": "D",
+    "explanation": "PERSIST 清除 key 的过期时间，使其永久有效。",
+    "id": "GEN11159",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "实现乐观锁、监控指定 key 变动的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "UNWATCH"
+      },
+      {
+        "label": "B",
+        "text": "WATCH"
+      },
+      {
+        "label": "C",
+        "text": "TTL"
+      },
+      {
+        "label": "D",
+        "text": "EXPIRE"
+      }
+    ],
+    "answer": "B",
+    "explanation": "WATCH 监控 key 实现乐观锁。",
+    "id": "GEN11160",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "下列哪种操作会清除 key 原有过期时间(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "INCR"
+      },
+      {
+        "label": "B",
+        "text": "LPUSH"
+      },
+      {
+        "label": "C",
+        "text": "HSET"
+      },
+      {
+        "label": "D",
+        "text": "SET"
+      }
+    ],
+    "answer": "D",
+    "explanation": "SET/GETSET 会清除原有过期时间；INCR/LPUSH/HSET 不会。",
+    "id": "GEN11161",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "Redis 内存超限时默认淘汰策略是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "volatile-ttl"
+      },
+      {
+        "label": "B",
+        "text": "allkeys-lru"
+      },
+      {
+        "label": "C",
+        "text": "volatile-lru"
+      },
+      {
+        "label": "D",
+        "text": "noeviction"
+      }
+    ],
+    "answer": "D",
+    "explanation": "默认 maxmemory-policy 为 noeviction（不淘汰、拒绝写入）。",
+    "id": "GEN11162",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "Redis 事务开启的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "WATCH"
+      },
+      {
+        "label": "B",
+        "text": "DISCARD"
+      },
+      {
+        "label": "C",
+        "text": "MULTI"
+      },
+      {
+        "label": "D",
+        "text": "EXEC"
+      }
+    ],
+    "answer": "C",
+    "explanation": "MULTI 开启事务。",
+    "id": "GEN11163",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "取消所有 WATCH 监控的指令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "WATCH"
+      },
+      {
+        "label": "B",
+        "text": "PERSIST"
+      },
+      {
+        "label": "C",
+        "text": "UNWATCH"
+      },
+      {
+        "label": "D",
+        "text": "DISCARD"
+      }
+    ],
+    "answer": "C",
+    "explanation": "UNWATCH 取消对所有 key 的监控。",
+    "id": "GEN11164",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "SORT 倒序排序的参数是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "DESC"
+      },
+      {
+        "label": "B",
+        "text": "GET"
+      },
+      {
+        "label": "C",
+        "text": "ALPHA"
+      },
+      {
+        "label": "D",
+        "text": "STORE"
+      }
+    ],
+    "answer": "A",
+    "explanation": "DESC 表示倒序（降序）排序。",
+    "id": "GEN11165",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "取消未执行事务、清空命令队列的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "WATCH"
+      },
+      {
+        "label": "B",
+        "text": "EXEC"
+      },
+      {
+        "label": "C",
+        "text": "PERSIST"
+      },
+      {
+        "label": "D",
+        "text": "DISCARD"
+      }
+    ],
+    "answer": "D",
+    "explanation": "DISCARD 取消事务并清空命令队列。",
+    "id": "GEN11166",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "Redis 通用排序核心命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "SORT"
+      },
+      {
+        "label": "B",
+        "text": "ZREVRANGE"
+      },
+      {
+        "label": "C",
+        "text": "ZRANGE"
+      },
+      {
+        "label": "D",
+        "text": "LRANGE"
+      }
+    ],
+    "answer": "A",
+    "explanation": "SORT 是 Redis 通用排序命令。",
+    "id": "GEN11167",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "提交执行事务队列所有命令的指令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "EXEC"
+      },
+      {
+        "label": "B",
+        "text": "MULTI"
+      },
+      {
+        "label": "C",
+        "text": "DISCARD"
+      },
+      {
+        "label": "D",
+        "text": "UNWATCH"
+      }
+    ],
+    "answer": "A",
+    "explanation": "EXEC 执行事务队列中的所有命令。",
+    "id": "GEN11168",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "内存满了拒绝写入、不删除任何 key 的策略是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "allkeys-random"
+      },
+      {
+        "label": "B",
+        "text": "volatile-random"
+      },
+      {
+        "label": "C",
+        "text": "volatile-lru"
+      },
+      {
+        "label": "D",
+        "text": "noeviction"
+      }
+    ],
+    "answer": "D",
+    "explanation": "noeviction 不删除任何 key、直接拒绝写入。",
+    "id": "GEN11169",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "设置 key 过期时间单位为秒的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "PEXPIRE"
+      },
+      {
+        "label": "B",
+        "text": "TTL"
+      },
+      {
+        "label": "C",
+        "text": "PTTL"
+      },
+      {
+        "label": "D",
+        "text": "EXPIRE"
+      }
+    ],
+    "answer": "D",
+    "explanation": "EXPIRE 单位为秒；PEXPIRE 单位为毫秒。",
+    "id": "GEN11170",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "查询 key 剩余过期毫秒数的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "PERSIST"
+      },
+      {
+        "label": "B",
+        "text": "TTL"
+      },
+      {
+        "label": "C",
+        "text": "EXPIRE"
+      },
+      {
+        "label": "D",
+        "text": "PTTL"
+      }
+    ],
+    "answer": "D",
+    "explanation": "PTTL 返回剩余过期时间的毫秒数。",
+    "id": "GEN11171",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "属于 Redis 事务专用命令的有(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "WATCH"
+      },
+      {
+        "label": "B",
+        "text": "MULTI"
+      },
+      {
+        "label": "C",
+        "text": "DISCARD"
+      },
+      {
+        "label": "D",
+        "text": "EXEC"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "WATCH/MULTI/DISCARD/EXEC 都是事务相关命令。",
+    "id": "GEN11172",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "maxmemory-policy 内存淘汰策略有(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "allkeys-lru"
+      },
+      {
+        "label": "B",
+        "text": "volatile-ttl"
+      },
+      {
+        "label": "C",
+        "text": "volatile-lru"
+      },
+      {
+        "label": "D",
+        "text": "noeviction"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "四项都是 Redis 内存淘汰策略。",
+    "id": "GEN11173",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "SORT 命令支持的核心参数有(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "DESC"
+      },
+      {
+        "label": "B",
+        "text": "ALPHA"
+      },
+      {
+        "label": "C",
+        "text": "BY/GET/STORE"
+      },
+      {
+        "label": "D",
+        "text": "LIMIT"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "DESC/ALPHA/BY/GET/STORE/LIMIT 都是 SORT 支持的参数。",
+    "id": "GEN11174",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "Redis 过期 key 清理机制分为(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "内存淘汰清理"
+      },
+      {
+        "label": "B",
+        "text": "定时全库扫描"
+      },
+      {
+        "label": "C",
+        "text": "定期主动清理"
+      },
+      {
+        "label": "D",
+        "text": "惰性被动删除"
+      }
+    ],
+    "answer": "ACD",
+    "explanation": "过期清理包括内存淘汰、定期主动清理、惰性被动删除；没有定时全库扫描。",
+    "id": "GEN11175",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "Redis 事务完整执行三阶段包含(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "WATCH 监控"
+      },
+      {
+        "label": "B",
+        "text": "命令入队"
+      },
+      {
+        "label": "C",
+        "text": "开启事务 MULTI"
+      },
+      {
+        "label": "D",
+        "text": "EXEC 执行"
+      }
+    ],
+    "answer": "BCD",
+    "explanation": "三阶段：MULTI 开启事务、命令入队、EXEC 执行；WATCH 在开启前完成。",
+    "id": "GEN11176",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "不会清除 key 原有过期时间的操作是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "INCR"
+      },
+      {
+        "label": "B",
+        "text": "HSET"
+      },
+      {
+        "label": "C",
+        "text": "LPUSH"
+      },
+      {
+        "label": "D",
+        "text": "ZADD"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "除 SET/GETSET 外，这些操作都不会清除过期时间。",
+    "id": "GEN11177",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "下列关于 Redis 事务描述正确的是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "逻辑错误正确命令仍执行"
+      },
+      {
+        "label": "B",
+        "text": "执行期间其他客户端命令无法插入队列"
+      },
+      {
+        "label": "C",
+        "text": "不支持数据库级回滚"
+      },
+      {
+        "label": "D",
+        "text": "语法错误全队作废"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "四项都是 Redis 事务的特点。",
+    "id": "GEN11178",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "Redis 过期时间相关命令包含(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "TTL/PTTL"
+      },
+      {
+        "label": "B",
+        "text": "PEXPIRE"
+      },
+      {
+        "label": "C",
+        "text": "PERSIST"
+      },
+      {
+        "label": "D",
+        "text": "EXPIRE"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "TTL/PTTL 查询、EXPIRE/PEXPIRE 设置、PERSIST 清除过期时间。",
+    "id": "GEN11179",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "系统宕机最多丢失 1 秒数据的 AOF 同步策略是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "always"
+      },
+      {
+        "label": "B",
+        "text": "everysec"
+      },
+      {
+        "label": "C",
+        "text": "no"
+      },
+      {
+        "label": "D",
+        "text": "all"
+      }
+    ],
+    "answer": "B",
+    "explanation": "everysec 每秒同步一次，宕机最多丢失 1 秒数据。",
+    "id": "GEN11180",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "RDB 开启数据校验的配置项是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "rdbcompression"
+      },
+      {
+        "label": "B",
+        "text": "rdbchecksum"
+      },
+      {
+        "label": "C",
+        "text": "stop-writes-on-bgsave-error"
+      },
+      {
+        "label": "D",
+        "text": "dir"
+      }
+    ],
+    "answer": "B",
+    "explanation": "rdbchecksum yes 开启 RDB 文件校验。",
+    "id": "GEN11181",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "RDB 默认生成的文件名称为(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "appendonly.aof"
+      },
+      {
+        "label": "B",
+        "text": "dump.rdb"
+      },
+      {
+        "label": "C",
+        "text": "redis.rdb"
+      },
+      {
+        "label": "D",
+        "text": "data.aof"
+      }
+    ],
+    "answer": "B",
+    "explanation": "RDB 默认文件名为 dump.rdb。",
+    "id": "GEN11182",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "Redis RDB 持久化存储的是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "每条操作日志"
+      },
+      {
+        "label": "B",
+        "text": "某一时刻数据快照"
+      },
+      {
+        "label": "C",
+        "text": "读写指令"
+      },
+      {
+        "label": "D",
+        "text": "过期 key 记录"
+      }
+    ],
+    "answer": "B",
+    "explanation": "RDB 保存的是某一时刻的数据快照。",
+    "id": "GEN11183",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "后台异步生成 RDB 文件、不阻塞客户端的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "save"
+      },
+      {
+        "label": "B",
+        "text": "bgsave"
+      },
+      {
+        "label": "C",
+        "text": "flushdb"
+      },
+      {
+        "label": "D",
+        "text": "dump"
+      }
+    ],
+    "answer": "B",
+    "explanation": "bgsave fork 子进程后台生成 RDB，不阻塞客户端。",
+    "id": "GEN11184",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "不重启 Redis 开启 AOF 的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "config set appendonly yes"
+      },
+      {
+        "label": "B",
+        "text": "set appendonly yes"
+      },
+      {
+        "label": "C",
+        "text": "appendonly on"
+      },
+      {
+        "label": "D",
+        "text": "redis-cli appendonly enable"
+      }
+    ],
+    "answer": "A",
+    "explanation": "config set appendonly yes 可在线开启 AOF。",
+    "id": "GEN11185",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "RDB 使用的压缩算法是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "gzip"
+      },
+      {
+        "label": "B",
+        "text": "LZF"
+      },
+      {
+        "label": "C",
+        "text": "zstd"
+      },
+      {
+        "label": "D",
+        "text": "snappy"
+      }
+    ],
+    "answer": "B",
+    "explanation": "RDB 使用 LZF 算法压缩。",
+    "id": "GEN11186",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "执行后会阻塞 Redis 主线程、线上不推荐的 RDB 命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "bgsave"
+      },
+      {
+        "label": "B",
+        "text": "save"
+      },
+      {
+        "label": "C",
+        "text": "bgrewriteaof"
+      },
+      {
+        "label": "D",
+        "text": "config set appendonly yes"
+      }
+    ],
+    "answer": "B",
+    "explanation": "save 在主线程同步执行会阻塞，线上不推荐。",
+    "id": "GEN11187",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "配置项save 60 10000代表含义正确的是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "60 秒内修改 10000 个 key 自动 bgsave"
+      },
+      {
+        "label": "B",
+        "text": "60 分钟写入 10000 条命令自动 save"
+      },
+      {
+        "label": "C",
+        "text": "每 60 秒强制保存 10000 次"
+      },
+      {
+        "label": "D",
+        "text": "内存超过 10000KB 每 60 秒持久化"
+      }
+    ],
+    "answer": "A",
+    "explanation": "save 60 10000 表示 60 秒内修改 10000 个 key 自动触发 bgsave。",
+    "id": "GEN11188",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "手动触发 AOF 文件重写压缩的命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "bgsave"
+      },
+      {
+        "label": "B",
+        "text": "bgrewriteaof"
+      },
+      {
+        "label": "C",
+        "text": "save"
+      },
+      {
+        "label": "D",
+        "text": "rewrite"
+      }
+    ],
+    "answer": "B",
+    "explanation": "bgrewriteaof 手动触发 AOF 重写。",
+    "id": "GEN11189",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "AOF 自动重写最小文件大小配置是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "auto-aof-rewrite-percentage"
+      },
+      {
+        "label": "B",
+        "text": "auto-aof-rewrite-min-size"
+      },
+      {
+        "label": "C",
+        "text": "appendfilename"
+      },
+      {
+        "label": "D",
+        "text": "appendfsync"
+      }
+    ],
+    "answer": "B",
+    "explanation": "auto-aof-rewrite-min-size 指定触发重写的最小文件大小。",
+    "id": "GEN11190",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "AOF 默认同步策略 appendfsync 的值为(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "always"
+      },
+      {
+        "label": "B",
+        "text": "everysec"
+      },
+      {
+        "label": "C",
+        "text": "no"
+      },
+      {
+        "label": "D",
+        "text": "none"
+      }
+    ],
+    "answer": "B",
+    "explanation": "appendfsync 默认值为 everysec。",
+    "id": "GEN11191",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "AOF 每次写入立刻同步磁盘、数据零丢失但性能差的策略是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "everysec"
+      },
+      {
+        "label": "B",
+        "text": "always"
+      },
+      {
+        "label": "C",
+        "text": "no"
+      },
+      {
+        "label": "D",
+        "text": "everymin"
+      }
+    ],
+    "answer": "B",
+    "explanation": "always 每次写命令都同步磁盘，零丢失但性能差。",
+    "id": "GEN11192",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "AOF 重写时，对 list 等集合类型单条命令最多写入多少个元素(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "32"
+      },
+      {
+        "label": "B",
+        "text": "64"
+      },
+      {
+        "label": "C",
+        "text": "128"
+      },
+      {
+        "label": "D",
+        "text": "100"
+      }
+    ],
+    "answer": "B",
+    "explanation": "AOF 重写时集合类型单条命令最多合并 64 个元素。",
+    "id": "GEN11193",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "单选题",
+    "title": "AOF 持久化记录的内容是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "内存快照"
+      },
+      {
+        "label": "B",
+        "text": "所有写入操作命令"
+      },
+      {
+        "label": "C",
+        "text": "key 过期记录"
+      },
+      {
+        "label": "D",
+        "text": "内存占用日志"
+      }
+    ],
+    "answer": "B",
+    "explanation": "AOF 记录所有写入操作命令。",
+    "id": "GEN11194",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "AOF 重写带来的好处有(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "缩小 AOF 文件体积"
+      },
+      {
+        "label": "B",
+        "text": "加快数据恢复速度"
+      },
+      {
+        "label": "C",
+        "text": "减少磁盘 IO 开销"
+      },
+      {
+        "label": "D",
+        "text": "实时同步所有操作"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "重写能缩小体积、加快恢复、减少 IO；但并非“实时同步所有操作”。",
+    "id": "GEN11195",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "save 与 bgsave 对比描述正确的有(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "save 同步阻塞主线程"
+      },
+      {
+        "label": "B",
+        "text": "bgsave fork 子进程异步执行"
+      },
+      {
+        "label": "C",
+        "text": "save 会占用额外内存"
+      },
+      {
+        "label": "D",
+        "text": "bgsave 不会阻塞客户端读写"
+      }
+    ],
+    "answer": "ABD",
+    "explanation": "save 不额外 fork 子进程、不占额外内存，故 C 错；其余正确。",
+    "id": "GEN11196",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "AOF 三种刷盘同步策略包含(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "always"
+      },
+      {
+        "label": "B",
+        "text": "everysec"
+      },
+      {
+        "label": "C",
+        "text": "no"
+      },
+      {
+        "label": "D",
+        "text": "everyhour"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "AOF 三种同步策略：always、everysec、no。",
+    "id": "GEN11197",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "Redis 两大持久化方案是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "RDB"
+      },
+      {
+        "label": "B",
+        "text": "AOF"
+      },
+      {
+        "label": "C",
+        "text": "Binlog"
+      },
+      {
+        "label": "D",
+        "text": "Mysql 备份"
+      }
+    ],
+    "answer": "AB",
+    "explanation": "Redis 持久化方案为 RDB 和 AOF。",
+    "id": "GEN11198",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "AOF 重写时会忽略哪些无效指令(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "del key"
+      },
+      {
+        "label": "B",
+        "text": "set 多次覆盖同一 key"
+      },
+      {
+        "label": "C",
+        "text": "hdel"
+      },
+      {
+        "label": "D",
+        "text": "lpush 合并多条"
+      }
+    ],
+    "answer": "ABD",
+    "explanation": "重写会忽略已删除 key、覆盖写、合并多条写命令。",
+    "id": "GEN11199",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "RDB 持久化的优点包含(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "文件紧凑二进制，占用空间小"
+      },
+      {
+        "label": "B",
+        "text": "恢复速度远快于 AOF"
+      },
+      {
+        "label": "C",
+        "text": "适合定时全量备份、异地灾备"
+      },
+      {
+        "label": "D",
+        "text": "实时持久化，不会丢数据"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "RDB 非实时、会丢数据，故 D 错。",
+    "id": "GEN11200",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "属于 RDB 相关配置的有(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "dbfilename"
+      },
+      {
+        "label": "B",
+        "text": "rdbcompression"
+      },
+      {
+        "label": "C",
+        "text": "rdbchecksum"
+      },
+      {
+        "label": "D",
+        "text": "dir"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "四项都是 RDB 相关配置。",
+    "id": "GEN11201",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "多选题",
+    "title": "从 RDB 切换 AOF 需要执行的 redis-cli 命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "config set appendonly yes"
+      },
+      {
+        "label": "B",
+        "text": "config set save \"\""
+      },
+      {
+        "label": "C",
+        "text": "bgrewriteaof"
+      },
+      {
+        "label": "D",
+        "text": "bgsave"
+      }
+    ],
+    "answer": "AB",
+    "explanation": "切换 AOF 需要 config set appendonly yes 并关闭 RDB（config set save \"\"）。",
+    "id": "GEN11202",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "Redis在16个数据库之间可以相互切换，如果要切换到数据库4，则使用           实现。",
+    "options": [],
+    "answer": "1. select 4",
+    "explanation": "",
+    "id": "GEN11203",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "            、                    、                            简写为Redis，是完全开源免费的，是一个高性能的Key/Value数据库。",
+    "options": [],
+    "answer": "1. REmote  2. DIctionary  3. Server",
+    "explanation": "",
+    "id": "GEN11204",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "查询命令分组帮助信息使用指令____+ 组名。",
+    "options": [],
+    "answer": "1. help",
+    "explanation": "",
+    "id": "GEN11205",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "psetex 设置 key 过期时间单位为____，setex 单位为____。",
+    "options": [],
+    "answer": "1. 毫秒  2. 秒",
+    "explanation": "",
+    "id": "GEN11206",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "Redis 单线程执行所有命令，所有操作具备____性，天然解决并发计数问题。",
+    "options": [],
+    "answer": "1. 原子性",
+    "explanation": "",
+    "id": "GEN11207",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "append 命令可以向已有字符串尾部____内容，key 不存在则新建。",
+    "options": [],
+    "answer": "1. 追加",
+    "explanation": "",
+    "id": "GEN11208",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "strlen 命令作用是获取字符串____。",
+    "options": [],
+    "answer": "1. 长度",
+    "explanation": "",
+    "id": "GEN11209",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "删除指定 key 数据的命令是____。",
+    "options": [],
+    "answer": "1. del",
+    "explanation": "",
+    "id": "GEN11210",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "Redis 本质是一个大 Map，数据存储格式为____:____，数据类型指的是____部分的类型。",
+    "options": [],
+    "answer": "1. key  2. value  3. value",
+    "explanation": "",
+    "id": "GEN11211",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "incrbyfloat 命令支持对数值进行____精度的增减运算。",
+    "options": [],
+    "answer": "1. 浮点（小数）",
+    "explanation": "",
+    "id": "GEN11212",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "Hash 结构整体存储格式：外层 key 对应内部一组____和____。",
+    "options": [],
+    "answer": "1. field（字段）  2. value（值）",
+    "explanation": "",
+    "id": "GEN11213",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "一次性设置 hash 多个字段与值的命令：____；一次性读取多个字段值：______。",
+    "options": [],
+    "answer": "1. hmset  2. hmget",
+    "explanation": "",
+    "id": "GEN11214",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "判断 hash 中是否存在某个字段的命令：____。",
+    "options": [],
+    "answer": "1. hexists",
+    "explanation": "",
+    "id": "GEN11215",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "hkeys key 作用是获取 hash 全部____；hvals key 获取 hash 全部____。",
+    "options": [],
+    "answer": "1. 字段名（field）  2. 字段值（value）",
+    "explanation": "",
+    "id": "GEN11216",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "hsetnx 命令仅在____不存在时执行赋值，若字段已存在则不做任何修改。",
+    "options": [],
+    "answer": "1. 字段（field）",
+    "explanation": "",
+    "id": "GEN11217",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "电商购物车设计：用户 ID 作为 hash 的____，商品编号作为____，购买数量作为 value。",
+    "options": [],
+    "answer": "1. key（键）  2. field（字段）",
+    "explanation": "",
+    "id": "GEN11218",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "hash 不支持数据嵌套，所有 value 只能存储____类型。",
+    "options": [],
+    "answer": "1. 字符串（string）",
+    "explanation": "",
+    "id": "GEN11219",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "Redis List 底层是____，支持左右两端添加、弹出数据。",
+    "options": [],
+    "answer": "1. 双向链表",
+    "explanation": "",
+    "id": "GEN11220",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "lpush 向列表____侧添加元素；rpush 向列表____侧添加元素。",
+    "options": [],
+    "answer": "1. 左（头部）  2. 右（尾部）",
+    "explanation": "",
+    "id": "GEN11221",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "lpop 移除列表____元素；rpop 移除列表____元素。",
+    "options": [],
+    "answer": "1. 左侧（头部）  2. 右侧（尾部）",
+    "explanation": "",
+    "id": "GEN11222",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "统计列表元素总数命令：；查看指定索引元素命令：。",
+    "options": [],
+    "answer": "1. llen  2. lindex",
+    "explanation": "",
+    "id": "GEN11223",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "____命令可以删除列表中指定数量、指定值的元素，适用于朋友圈取消点赞场景。",
+    "options": [],
+    "answer": "1. lrem",
+    "explanation": "",
+    "id": "GEN11224",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "阻塞式读取列表数据命令 blpop、brpop 末尾需要传入____参数，代表等待超时时间。",
+    "options": [],
+    "answer": "1. 超时时间（秒）",
+    "explanation": "",
+    "id": "GEN11225",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "List 中所有存储元素只能是____类型，单个列表最大存储元素数量为 2³²-1。",
+    "options": [],
+    "answer": "1. 字符串（string）",
+    "explanation": "",
+    "id": "GEN11226",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "SORT 命令中____参数用于指定排序参照字段，____用于保存排序结果至新 key。",
+    "options": [],
+    "answer": "1. BY  2. STORE",
+    "explanation": "",
+    "id": "GEN11227",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "执行 SET、GETSET 会清除 key 原有____;INCR、HSET 不会清除。",
+    "options": [],
+    "answer": "1. 过期时间",
+    "explanation": "",
+    "id": "GEN11228",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "EXPIRE 单位为____，PEXPIRE 单位为____。",
+    "options": [],
+    "answer": "1. 秒  2. 毫秒",
+    "explanation": "",
+    "id": "GEN11229",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "惰性删除:只有____/____过期 key 时才删除该键。",
+    "options": [],
+    "answer": "1. 访问  2. 读取",
+    "explanation": "",
+    "id": "GEN11230",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "SORT 分页参数格式为 LIMIT ____, ____。",
+    "options": [],
+    "answer": "1. offset（偏移量）  2. count（数量）",
+    "explanation": "",
+    "id": "GEN11231",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "WATCH 本质相当于____锁，监控的 key 被修改后 EXEC 会返回____。",
+    "options": [],
+    "answer": "1. 乐观  2. nil（空）",
+    "explanation": "",
+    "id": "GEN11232",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "TTL 返回 - 2 代表____，返回 - 1 代表 key 永久无过期。",
+    "options": [],
+    "answer": "1. key 不存在（已过期删除）",
+    "explanation": "",
+    "id": "GEN11233",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "手动 AOF 重写命令:____;自动重写依靠两个配置 auto-aof-rewrite-min-size 和____。",
+    "options": [],
+    "answer": "1. bgrewriteaof  2. auto-aof-rewrite-percentage",
+    "explanation": "",
+    "id": "GEN11234",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "AOF 默认文件名称:____;RDB 默认文件:____。",
+    "options": [],
+    "answer": "1. appendonly.aof  2. dump.rdb",
+    "explanation": "",
+    "id": "GEN11235",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "appendfsync everysec 策略宕机最多丢失____秒数据。",
+    "options": [],
+    "answer": "1. 1",
+    "explanation": "",
+    "id": "GEN11236",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "RDB 是____快照，AOF 是____日志。",
+    "options": [],
+    "answer": "1. 数据（内存）  2. 命令（操作）",
+    "explanation": "",
+    "id": "GEN11237",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "rdbcompression yes 代表开启____压缩算法存储 RDB 文件。",
+    "options": [],
+    "answer": "1. LZF",
+    "explanation": "",
+    "id": "GEN11238",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "AOF 重写会丢弃已____的 key，不写入新文件。",
+    "options": [],
+    "answer": "1. 过期",
+    "explanation": "",
+    "id": "GEN11239",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "save 命令同步阻塞，bgsave 通过____创建子进程后台执行持久化。",
+    "options": [],
+    "answer": "1. fork",
+    "explanation": "",
+    "id": "GEN11240",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "填空题",
+    "title": "dir 配置统一指定 RDB 与 AOF 文件的____。",
+    "options": [],
+    "answer": "1. 存储目录（路径）",
+    "explanation": "",
+    "id": "GEN11241",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "简答题",
+    "title": "Redis的应用场景有哪些？",
+    "options": [],
+    "answer": "①缓存（热点数据/页面缓存，降低数据库压力）；②计数器、限流（incr 实现访问量、点赞数、限流）；③排行榜（sorted set）；④分布式会话共享（session 共享）；⑤消息队列（list/stream）；⑥分布式锁（setnx）；⑦共同好友/关注（set 集合运算）。",
+    "explanation": "",
+    "id": "GEN11242",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "简答题",
+    "title": "什么是NoSQL？",
+    "options": [],
+    "answer": "NoSQL 即 Not only SQL，泛指非关系型数据库，是对传统关系型数据库（SQL）的补充。它用键值对、文档、列族、图等非表格方式存储数据，通常基于内存、读写速度快，适合高并发、大数据量、数据模型灵活的场景；但一般不具备完整的 ACID 事务特性。",
+    "explanation": "",
+    "id": "GEN11243",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "简答题",
+    "title": "简述 Redis String 类型两种存储用户粉丝数据的实现方案，并说明各自优缺点。",
+    "options": [],
+    "answer": "方案一：单个键存粉丝总数，如 user:1001:fans，用 incr/decr 增减。优点：命令简单、原子计数、内存占用小；缺点：只能存数量，无法保存每个粉丝详情。方案二：用 set 存粉丝列表（或用 String 存 JSON 数组）。优点：可保存每个粉丝详情、支持去重与集合运算；缺点：内存占用大、操作相对复杂，JSON 修改需整体读写。",
+    "explanation": "",
+    "id": "GEN11244",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "简答题",
+    "title": "对比单条 set/get 与 mset/mget 批量操作的适用场景，说明批量操作优势。",
+    "options": [],
+    "answer": "单条 set/get 适合一次只读写一个 key 的场景；mset/mget 适合一次读写多个 key 的场景。批量操作优势：①减少网络往返次数（RTT），提高吞吐量；②减少客户端等待时间，整体性能更高。",
+    "explanation": "",
+    "id": "GEN11245",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "简答题",
+    "title": "简述 Redis 中 string 类型的特点，并列举至少 5 个常用操作命令。",
+    "options": [],
+    "answer": "特点：①Redis 最基础、最常用的类型；②key 固定为字符串，value 最大 512MB；③value 可为字符串、数字（可自增自减）、二进制数据；④数值操作原子执行，可安全计数。常用命令：set、get、mset、mget、append、strlen、incr、decr、incrby、decrby、setex、del 等。",
+    "explanation": "",
+    "id": "GEN11246",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "简答题",
+    "title": "说明 incr/decr 系列数值操作的底层原理，以及使用时的两点注意事项",
+    "options": [],
+    "answer": "原理：Redis 单线程串行执行命令，incr/decr 对同一 key 的数值操作天然原子，不会出现并发竞态，可安全用于计数。注意事项：①value 必须是整数（浮点数用 incrbyfloat）；②数值不能超过 long（64 位有符号整数）范围；③对非数字字符串执行会报错。",
+    "explanation": "",
+    "id": "GEN11247",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "简答题",
+    "title": "对比 String 存 JSON 对象与 Hash 存储对象属性两种方案，说明 Hash 的优势。",
+    "options": [],
+    "answer": "Hash 优势：①可对对象单个字段独立读写（hget/hset），无需整体读写整个 JSON，节省网络与内存；②支持字段级原子自增（hincrby）；③无需 JSON 序列化/反序列化。String 存 JSON 修改任一属性都要整体取出、解析、修改、再写回，效率低。",
+    "explanation": "",
+    "id": "GEN11248",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "简答题",
+    "title": "简述 hash 类型 hgetall 命令存在的性能隐患与原因。",
+    "options": [],
+    "answer": "当 hash 内 field 数量过多时，hgetall 会一次性返回所有字段和值，导致：①占用大量内存与网络带宽；②阻塞 Redis 单线程，影响其他命令执行，造成性能瓶颈。应改用 hscan 分批获取，或避免单个 hash 存过多字段。",
+    "explanation": "",
+    "id": "GEN11249",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "简答题",
+    "title": "描述 Redis Hash 实现电商购物车的完整存储方案，以及增、删、改、查对应命令。",
+    "options": [],
+    "answer": "存储方案：用户 ID 作为 hash 的 key，商品编号作为 field，购买数量作为 value。增/改：hset cart:用户ID 商品编号 数量（批量用 hmset）；查：hget 查单个商品数量、hgetall 查整个购物车、hlen 查商品种数；改数量：hincrby cart:用户ID 商品编号 增减量；删：hdel cart:用户ID 商品编号。",
+    "explanation": "",
+    "id": "GEN11250",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "简答题",
+    "title": "简述 Hash 实现抢购商品库存控制的业务模型，并写出库存扣减命令示例。",
+    "options": [],
+    "answer": "业务模型：把每个商品的库存作为 hash 的一个 field（商品 id 作 field、库存数作 value），抢购时用 hincrby 原子扣减。示例：hset stock 商品1001 100（初始化 100 件）；hincrby stock 商品1001 -1（每次抢购扣 1），扣减后判断返回值，小于 0 说明库存不足。",
+    "explanation": "",
+    "id": "GEN11251",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "简答题",
+    "title": "简述 Redis List 底层双向链表结构的优缺点。",
+    "options": [],
+    "answer": "优点：①两端（头尾）插入/删除效率高 O(1)；②可方便模拟栈和队列；③支持阻塞式弹出（blpop/brpop）实现消息队列。缺点：①按下标随机访问中间元素效率低 O(n)；②每个节点需额外指针，内存占用较高。",
+    "explanation": "",
+    "id": "GEN11252",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "简答题",
+    "title": "区分 lpush/rpush、lpop/rpop，分别说明可以模拟什么数据模型（栈 / 队列）。",
+    "options": [],
+    "answer": "lpush/rpush 分别从左侧/右侧添加，lpop/rpop 分别从左侧/右侧移除。模拟栈（先进后出）：lpush + lpop（或 rpush + rpop）同一端进出；模拟队列（先进先出）：lpush + rpop（左进右出）或 rpush + lpop（右进左出）。",
+    "explanation": "",
+    "id": "GEN11253",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "简答题",
+    "title": "Redis 事务和传统数据库事务区别（原子性、回滚）",
+    "options": [],
+    "answer": "①原子性：Redis 只保证一组命令要么全部排队执行、要么全不执行（语法错误时全部不执行），但不保证执行中途某命令失败时回滚已执行命令；传统数据库具备严格原子性，出错回滚。②回滚：Redis 不支持回滚，运行期错误只让出错命令报错、其余照常执行；传统数据库支持完整回滚（ROLLBACK）。",
+    "explanation": "",
+    "id": "GEN11254",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "简答题",
+    "title": "简述 Redis 事务两大异常执行场景区别",
+    "options": [],
+    "answer": "①语法（编译期/入队）错误：命令入队时报错，整个队列作废，EXEC 时全部命令都不执行。②运行期（逻辑）错误：命令能正常入队，EXEC 执行时只有出错的那条命令报错，其余命令照常执行，不支持回滚。",
+    "explanation": "",
+    "id": "GEN11255",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "简答题",
+    "title": "简述 WATCH 乐观锁工作原理",
+    "options": [],
+    "answer": "WATCH 监控一个或多个 key，本质是乐观锁。EXEC 执行前若被监控 key 被其他客户端修改过，则本次事务被放弃（EXEC 返回 nil），客户端需重试。通过“先监控、再检查、不阻塞”实现并发控制，不加悲观锁阻塞其他客户端；UNWATCH 可取消监控。",
+    "explanation": "",
+    "id": "GEN11256",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "简答题",
+    "title": "简述 RDB 持久化优缺点",
+    "options": [],
+    "answer": "优点：①文件是紧凑的二进制快照，占用空间小；②恢复速度快，适合全量备份与灾难恢复；③对服务性能影响小（bgsave fork 子进程异步执行）。缺点：①两次快照之间数据可能丢失（非实时持久化）；②save 会阻塞主线程，bgsave 大数据量 fork 可能耗时并占用额外内存。",
+    "explanation": "",
+    "id": "GEN11257",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "Redis",
+    "type": "简答题",
+    "title": "简述 save 和 bgsave 的核心区别，线上环境推荐使用哪一个?",
+    "options": [],
+    "answer": "save 在主线程同步执行，执行期间阻塞所有客户端请求；bgsave 通过 fork 子进程在后台异步生成 RDB 文件，主线程继续处理请求。线上环境推荐使用 bgsave（或配置自动触发 bgsave），避免阻塞服务。",
+    "explanation": "",
+    "id": "GEN11258",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "判断题",
+    "title": "Echarts支持动态数据更新，可以实时展示柱状图的变化。",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "对",
+    "explanation": "ECharts 提供动态数据接口，可实时更新数据并刷新图表。",
+    "id": "GEN11259",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "判断题",
+    "title": "饼图主要用于展示数据的比例关系，不能显示具体数值。",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "错",
+    "explanation": "饼图主要展示比例，但借助 label/tooltip 也能显示具体数值或百分比。",
+    "id": "GEN11260",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "判断题",
+    "title": "折线图通常用于展示数据随时间的变化趋势。",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "对",
+    "explanation": "折线图是最常见的展示时间序列变化趋势的图表。",
+    "id": "GEN11261",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "判断题",
+    "title": "堆叠柱状图能够展示不同类别下各个子类别的数据总和。",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "对",
+    "explanation": "堆叠柱状图把不同子类别柱子堆叠，可展示总和与各自比例。",
+    "id": "GEN11262",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "判断题",
+    "title": "堆叠折线图与堆叠柱状图的功能类似，但更适合展示连续变化的数据。",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "对",
+    "explanation": "堆叠折线图更适合连续变化数据的展示。",
+    "id": "GEN11263",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "判断题",
+    "title": "面积图与折线图类似，但增加了数据区域的填充，可以更好地强调数据的变化趋势。",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "对",
+    "explanation": "面积图填充折线与 x 轴之间的区域，更直观展示趋势。",
+    "id": "GEN11264",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "判断题",
+    "title": "阶梯图通常用于展示数据在特定时间点的变化，而非连续变化。",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "对",
+    "explanation": "阶梯图数据点间用水平线连接，适合展示特定时间点的变化。",
+    "id": "GEN11265",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "判断题",
+    "title": "散点图主要用于展示两个变量之间的关系，而不是单个变量的分布情况。",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "对",
+    "explanation": "散点图用于展示两个变量之间的相关性或趋势。",
+    "id": "GEN11266",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "判断题",
+    "title": "Echarts的所有图表类型都支持交互功能，如放大、缩小、拖拽等。",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "错",
+    "explanation": "大部分图表支持交互，但并非所有类型都支持所有交互功能。",
+    "id": "GEN11267",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "判断题",
+    "title": "Echarts的图表可以方便地导出为图片或PDF格式。",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "对",
+    "explanation": "ECharts 提供导出功能，可保存为图片或 PDF。",
+    "id": "GEN11268",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "ECharts主要用于哪种类型的数据可视化？",
+    "options": [
+      {
+        "label": "A",
+        "text": "柱状图"
+      },
+      {
+        "label": "B",
+        "text": "地图"
+      },
+      {
+        "label": "C",
+        "text": "饼图"
+      },
+      {
+        "label": "D",
+        "text": "所有以上选项"
+      }
+    ],
+    "answer": "D",
+    "explanation": "ECharts 支持柱状图、地图、饼图等多种可视化类型。",
+    "id": "GEN11269",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "在ECharts中，哪个属性用于设置图表的标题？",
+    "options": [
+      {
+        "label": "A",
+        "text": "title"
+      },
+      {
+        "label": "B",
+        "text": "legend"
+      },
+      {
+        "label": "C",
+        "text": "xAxis"
+      },
+      {
+        "label": "D",
+        "text": "yAxis"
+      }
+    ],
+    "answer": "A",
+    "explanation": "title 属性用于设置图表标题。",
+    "id": "GEN11270",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib绘图时，约定俗成的导入别名是?(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "import matplotlib as plt"
+      },
+      {
+        "label": "B",
+        "text": "import matplotlib.pyplot as plt"
+      },
+      {
+        "label": "C",
+        "text": "import matplotlib.plt as pyplot"
+      },
+      {
+        "label": "D",
+        "text": "import plot as plt"
+      }
+    ],
+    "answer": "B",
+    "explanation": "约定俗成写法为 import matplotlib.pyplot as plt。",
+    "id": "GEN11271",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "安装Matplotlib国内清华镜像源命令正确的是?(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "pip install matplotlib.pyplot -i https://pypi.tuna.tsinghua.edu.cn/simple"
+      },
+      {
+        "label": "B",
+        "text": "pip install matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple"
+      },
+      {
+        "label": "C",
+        "text": "pip matplotlib install -i https://pypi.tuna.tsinghua.edu.cn/simple"
+      },
+      {
+        "label": "D",
+        "text": "conda install matplotlib simple"
+      }
+    ],
+    "answer": "B",
+    "explanation": "正确命令为 pip install matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple。",
+    "id": "GEN11272",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "以下不属于Matplotlib图表基础组成部分的是?(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "画布(figure)"
+      },
+      {
+        "label": "B",
+        "text": "坐标轴"
+      },
+      {
+        "label": "C",
+        "text": "tooltip提示框"
+      },
+      {
+        "label": "D",
+        "text": "图例legend"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Matplotlib 没有 tooltip 提示框（ECharts 才有）。",
+    "id": "GEN11273",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "Matplotlib绘制折线图的核心函数是?(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "plt.bar(        )"
+      },
+      {
+        "label": "B",
+        "text": "plt.pie(        )"
+      },
+      {
+        "label": "C",
+        "text": "plt.plot(        )"
+      },
+      {
+        "label": "D",
+        "text": "plt.scatter(        )"
+      }
+    ],
+    "answer": "C",
+    "explanation": "plt.plot() 用于绘制折线图。",
+    "id": "GEN11274",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "plt.plot(        )中`linestyle='--'`代表线条样式为?(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "实线"
+      },
+      {
+        "label": "B",
+        "text": "虚线"
+      },
+      {
+        "label": "C",
+        "text": "点划线"
+      },
+      {
+        "label": "D",
+        "text": "双划线"
+      }
+    ],
+    "answer": "D",
+    "explanation": "按教材约定 linestyle='--' 表示双划线。",
+    "id": "GEN11275",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "plt.plot(        )参数`marker`的作用是?(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "设置线条颜色"
+      },
+      {
+        "label": "B",
+        "text": "设置数据点标记形状"
+      },
+      {
+        "label": "C",
+        "text": "设置线条粗细"
+      },
+      {
+        "label": "D",
+        "text": "设置画布大小"
+      }
+    ],
+    "answer": "B",
+    "explanation": "marker 用于设置数据点标记形状。",
+    "id": "GEN11276",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "下列哪一项是Matplotlib的适用场景?(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "网页大屏交互式图表"
+      },
+      {
+        "label": "B",
+        "text": "浏览器动态数据看板"
+      },
+      {
+        "label": "C",
+        "text": "Python离线科研静态图表、论文配图"
+      },
+      {
+        "label": "D",
+        "text": "前端页面实时数据联动"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Matplotlib 适合 Python 离线科研静态图表、论文配图。",
+    "id": "GEN11277",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "折线图中用来修改标记填充颜色的参数是?(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "color"
+      },
+      {
+        "label": "B",
+        "text": "mfc"
+      },
+      {
+        "label": "C",
+        "text": "markersize"
+      },
+      {
+        "label": "D",
+        "text": "linestyle"
+      }
+    ],
+    "answer": "B",
+    "explanation": "mfc（marker face color）修改标记填充颜色。",
+    "id": "GEN11278",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "用于控制数据标记大小的参数是?(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "ms"
+      },
+      {
+        "label": "B",
+        "text": "mfc"
+      },
+      {
+        "label": "C",
+        "text": "marker"
+      },
+      {
+        "label": "D",
+        "text": "color"
+      }
+    ],
+    "answer": "A",
+    "explanation": "ms（markersize 简写）控制标记大小。",
+    "id": "GEN11279",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "单选题",
+    "title": "以下哪种库不属于Python可视化库?(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "Matplotlib"
+      },
+      {
+        "label": "B",
+        "text": "Seaborn"
+      },
+      {
+        "label": "C",
+        "text": "ECharts"
+      },
+      {
+        "label": "D",
+        "text": "Pyecharts"
+      }
+    ],
+    "answer": "C",
+    "explanation": "ECharts 是 JavaScript 可视化库，不属于 Python 库。",
+    "id": "GEN11280",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "Matplotlib图表基础组成包含以下哪些?(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "画布"
+      },
+      {
+        "label": "B",
+        "text": "绘图区"
+      },
+      {
+        "label": "C",
+        "text": "图例"
+      },
+      {
+        "label": "D",
+        "text": "网格线"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "画布、绘图区、图例、网格线都属于图表基础组成。",
+    "id": "GEN11281",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "plt.plot(        )支持设置的参数有?(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "color 线条颜色"
+      },
+      {
+        "label": "B",
+        "text": "linestyle 线条样式"
+      },
+      {
+        "label": "C",
+        "text": "marker 标记形状"
+      },
+      {
+        "label": "D",
+        "text": "mfc 标记填充色"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "四个参数 plt.plot() 都支持。",
+    "id": "GEN11282",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "下列属于Matplotlib和ECharts核心区别的有?(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "Matplotlib基于Python，ECharts基于JS"
+      },
+      {
+        "label": "B",
+        "text": "Matplotlib适合静态图，ECharts擅长网页交互图表"
+      },
+      {
+        "label": "C",
+        "text": "Matplotlib导出图片，ECharts浏览器渲染"
+      },
+      {
+        "label": "D",
+        "text": "Matplotlib自带tooltip悬浮提示"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "Matplotlib 无自带 tooltip 悬浮提示，故 D 错。",
+    "id": "GEN11283",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "下列属于plt.plot(        )合法线条样式取值的是?(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "'-' 实线"
+      },
+      {
+        "label": "B",
+        "text": "':' 虚线"
+      },
+      {
+        "label": "C",
+        "text": "'-.' 点划线"
+      },
+      {
+        "label": "D",
+        "text": "'==' 双线"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "'==' 不是合法线型取值。",
+    "id": "GEN11284",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "多选题",
+    "title": "以下适合使用Matplotlib绘制的场景有?(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "Jupyter数据分析绘图"
+      },
+      {
+        "label": "B",
+        "text": "毕业论文静态统计图表"
+      },
+      {
+        "label": "C",
+        "text": "本地导出高清PDF图表"
+      },
+      {
+        "label": "D",
+        "text": "管理系统网页实时监控大屏"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "网页实时监控大屏适合 ECharts，不属于 Matplotlib 场景。",
+    "id": "GEN11285",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "判断题",
+    "title": "ECharts是Python端可视化库，可以直接在Python脚本运行。(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "错",
+    "explanation": "ECharts 是基于 JS 的前端库，不能直接在 Python 脚本运行。",
+    "id": "GEN11286",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "判断题",
+    "title": "import matplotlib.pyplot as plt 是行业通用标准导入写法。(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "对",
+    "explanation": "import matplotlib.pyplot as plt 是行业通用标准写法。",
+    "id": "GEN11287",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "判断题",
+    "title": "markersize简写ms，可以用来调整折线图数据点大小。(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "对",
+    "explanation": "ms 是 markersize 的简写，用于调整数据点大小。",
+    "id": "GEN11288",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "判断题",
+    "title": "Matplotlib默认自带丰富交互能力，支持鼠标悬浮自动弹出提示框。(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "错",
+    "explanation": "Matplotlib 默认无鼠标悬浮提示框等交互能力。",
+    "id": "GEN11289",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "ECharts & Matplotlib",
+    "type": "判断题",
+    "title": "linestyle=':' 代表虚线样式。(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "对",
+    "explanation": "按教材约定 linestyle=':' 表示虚线样式。",
+    "id": "GEN11290",
+    "level": "B",
+    "topic": "",
     "correctCount": 0,
     "wrongCount": 0,
     "lastPractice": null,
