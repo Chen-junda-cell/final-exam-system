@@ -36709,10 +36709,27 @@ const PREPARSED_QUESTIONS = [
   {
     "subject": "ECharts & Matplotlib",
     "type": "单选题",
-    "title": "数据可视化的主要作用是将数据通过图形方式直观展示。 解析： 数据可视化是利用图形、图表、动画等形式，将复杂的数据转换成容易理解的信息。 常见形式： 柱状图：比较大小 折线图：观察变化趋势 饼图：显示比例关系 散点图：观察数据分布 因此数据可视化的核心不是存储数据，也不是删除数据，而是帮助用户理解数据。",
-    "options": [],
+    "title": "数据可视化的主要作用是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "存储数据"
+      },
+      {
+        "label": "B",
+        "text": "删除数据"
+      },
+      {
+        "label": "C",
+        "text": "将数据通过图形方式直观展示"
+      },
+      {
+        "label": "D",
+        "text": "加密数据"
+      }
+    ],
     "answer": "C",
-    "explanation": "",
+    "explanation": "数据可视化用图形/图表把复杂数据转换成直观信息，帮助用户理解数据，而不是存储或删除数据。",
     "topic": "",
     "id": "GEN11020",
     "level": "B",
@@ -36725,10 +36742,27 @@ const PREPARSED_QUESTIONS = [
   {
     "subject": "ECharts & Matplotlib",
     "type": "单选题",
-    "title": "Echarts属于数据可视化工具。 解析： Echarts是一款开源的数据可视化图表库，主要用于网页端制作各种交互式图表。 常见数据可视化工具： Echarts Matplotlib Tableau PowerBI 其他选项： MySQL： 用于数据库管理。 Word： 用于文字编辑。 Windows： 属于操作系统。",
-    "options": [],
+    "title": "ECharts 属于（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "MySQL 数据库"
+      },
+      {
+        "label": "B",
+        "text": "Word 文字编辑软件"
+      },
+      {
+        "label": "C",
+        "text": "数据可视化工具"
+      },
+      {
+        "label": "D",
+        "text": "Windows 操作系统"
+      }
+    ],
     "answer": "C",
-    "explanation": "",
+    "explanation": "ECharts 是开源的数据可视化图表库，用于网页端交互式图表；MySQL/Word/Windows 都不是。",
     "topic": "",
     "id": "GEN11021",
     "level": "B",
@@ -36741,10 +36775,27 @@ const PREPARSED_QUESTIONS = [
   {
     "subject": "ECharts & Matplotlib",
     "type": "单选题",
-    "title": "Echarts主要基于JavaScript语言开发。 解析： Echarts运行在浏览器环境中，核心开发语言是JavaScript。 使用Echarts通常需要： 引入echarts.js文件 创建图表容器 编写option配置 使用setOption生成图表 其他语言： Java： 主要用于后端开发。 Python： 常用于Matplotlib、Pandas等。 C语言： 主要用于系统开发。",
-    "options": [],
+    "title": "ECharts 主要基于（ ）语言开发。",
+    "options": [
+      {
+        "label": "A",
+        "text": "Java"
+      },
+      {
+        "label": "B",
+        "text": "Python"
+      },
+      {
+        "label": "C",
+        "text": "JavaScript"
+      },
+      {
+        "label": "D",
+        "text": "C 语言"
+      }
+    ],
     "answer": "C",
-    "explanation": "",
+    "explanation": "ECharts 运行在浏览器环境中，核心开发语言是 JavaScript。",
     "topic": "",
     "id": "GEN11022",
     "level": "B",
@@ -36757,10 +36808,27 @@ const PREPARSED_QUESTIONS = [
   {
     "subject": "ECharts & Matplotlib",
     "type": "单选题",
-    "title": "option是Echarts最核心的配置对象。 解析： Echarts绘制图表主要依靠option对象。 option中可以包含： title（标题） legend（图例） xAxis（X轴） yAxis（Y轴） series（数据） 例如： option={ title:{ text:\"销售统计\" }, series:[ { type:\"bar\", data:[10,20,30] } ] } 最后： chart.setOption(option) 将配置应用到图表。",
-    "options": [],
+    "title": "ECharts 中最核心的配置对象是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "option"
+      },
+      {
+        "label": "B",
+        "text": "series"
+      },
+      {
+        "label": "C",
+        "text": "title"
+      },
+      {
+        "label": "D",
+        "text": "legend"
+      }
+    ],
     "answer": "A",
-    "explanation": "",
+    "explanation": "option 是 ECharts 绘制图表的核心配置对象，最终通过 chart.setOption(option) 应用。",
     "topic": "",
     "id": "GEN11023",
     "level": "B",
@@ -36773,10 +36841,27 @@ const PREPARSED_QUESTIONS = [
   {
     "subject": "ECharts & Matplotlib",
     "type": "单选题",
-    "title": "xAxis表示X轴。 解析： Echarts坐标轴配置： xAxis： 表示横坐标。 yAxis： 表示纵坐标。 例如柱状图： 横坐标： 商品名称 纵坐标： 销量 所以： xAxis = X轴 yAxis = Y轴",
-    "options": [],
+    "title": "ECharts 中表示横坐标（X 轴）的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "yAxis"
+      },
+      {
+        "label": "B",
+        "text": "title"
+      },
+      {
+        "label": "C",
+        "text": "xAxis"
+      },
+      {
+        "label": "D",
+        "text": "legend"
+      }
+    ],
     "answer": "C",
-    "explanation": "",
+    "explanation": "xAxis 表示横坐标（X 轴），yAxis 表示纵坐标（Y 轴）。",
     "topic": "",
     "id": "GEN11024",
     "level": "B",
@@ -36789,10 +36874,27 @@ const PREPARSED_QUESTIONS = [
   {
     "subject": "ECharts & Matplotlib",
     "type": "单选题",
-    "title": "title用于设置图表标题。 解析： Echarts常用配置： title： 标题 例如： title:{ text:\"学生成绩统计\" } tooltip： 提示框 legend： 图例 series： 数据",
-    "options": [],
+    "title": "ECharts 中用于设置图表标题的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "title"
+      },
+      {
+        "label": "B",
+        "text": "tooltip"
+      },
+      {
+        "label": "C",
+        "text": "legend"
+      },
+      {
+        "label": "D",
+        "text": "series"
+      }
+    ],
     "answer": "A",
-    "explanation": "",
+    "explanation": "title 配置用于设置图表标题，如 title:{text:'学生成绩统计'}。",
     "topic": "",
     "id": "GEN11025",
     "level": "B",
@@ -36805,10 +36907,27 @@ const PREPARSED_QUESTIONS = [
   {
     "subject": "ECharts & Matplotlib",
     "type": "单选题",
-    "title": "Echarts支持柱状图、饼图、折线图等多种图形。 解析： Echarts常见图形类型： 类型 英文 柱状图 bar 折线图 line 饼图 pie 散点图 scatter 因此A、B、C都正确。",
-    "options": [],
+    "title": "ECharts 支持的图形类型包括（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "柱状图"
+      },
+      {
+        "label": "B",
+        "text": "饼图"
+      },
+      {
+        "label": "C",
+        "text": "折线图"
+      },
+      {
+        "label": "D",
+        "text": "以上都是"
+      }
+    ],
     "answer": "D",
-    "explanation": "",
+    "explanation": "ECharts 支持柱状图(bar)、折线图(line)、饼图(pie)、散点图(scatter)等，故选项 A、B、C 都正确。",
     "topic": "",
     "id": "GEN11026",
     "level": "B",
@@ -36821,10 +36940,27 @@ const PREPARSED_QUESTIONS = [
   {
     "subject": "ECharts & Matplotlib",
     "type": "单选题",
-    "title": "Matplotlib主要用于数据可视化绘图。 解析： Matplotlib是Python中最常用的绘图库之一。 可以绘制： 折线图 柱状图 散点图 饼图 它不是数据库，也不是网络工具。",
-    "options": [],
+    "title": "Matplotlib 主要用于（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据库管理"
+      },
+      {
+        "label": "B",
+        "text": "网络通信"
+      },
+      {
+        "label": "C",
+        "text": "数据可视化绘图"
+      },
+      {
+        "label": "D",
+        "text": "文字处理"
+      }
+    ],
     "answer": "C",
-    "explanation": "",
+    "explanation": "Matplotlib 是 Python 最常用的绘图库，用于数据可视化绘图，不是数据库或网络工具。",
     "topic": "",
     "id": "GEN11027",
     "level": "B",
@@ -36837,10 +36973,27 @@ const PREPARSED_QUESTIONS = [
   {
     "subject": "ECharts & Matplotlib",
     "type": "单选题",
-    "title": "plot()用于绘制折线图。 解析： Matplotlib常见函数： plot() 绘制折线图 bar() 绘制柱状图 pie() 绘制饼图 scatter() 绘制散点图 例如： plt.plot(x,y) 表示绘制x和y之间的折线关系。",
-    "options": [],
+    "title": "Matplotlib 中用于绘制折线图的函数是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "bar()"
+      },
+      {
+        "label": "B",
+        "text": "pie()"
+      },
+      {
+        "label": "C",
+        "text": "plot()"
+      },
+      {
+        "label": "D",
+        "text": "scatter()"
+      }
+    ],
     "answer": "C",
-    "explanation": "",
+    "explanation": "plt.plot(x,y) 绘制折线图；bar()柱状图、pie()饼图、scatter()散点图。",
     "topic": "",
     "id": "GEN11028",
     "level": "B",
@@ -36853,10 +37006,27 @@ const PREPARSED_QUESTIONS = [
   {
     "subject": "ECharts & Matplotlib",
     "type": "单选题",
-    "title": "tooltip用于显示数据提示信息。 解析： tooltip表示提示框。 作用： 当鼠标移动到图形上时显示详细数据。 例如： 鼠标放在柱状图： 显示： 苹果销量：100 其他： title： 标题 legend： 图例 grid： 网格",
-    "options": [],
+    "title": "ECharts 中用于显示鼠标悬浮提示信息的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "title"
+      },
+      {
+        "label": "B",
+        "text": "tooltip"
+      },
+      {
+        "label": "C",
+        "text": "legend"
+      },
+      {
+        "label": "D",
+        "text": "grid"
+      }
+    ],
     "answer": "B",
-    "explanation": "",
+    "explanation": "tooltip 是提示框，当鼠标移动到图形上时显示详细数据。",
     "topic": "",
     "id": "GEN11029",
     "level": "B",
@@ -36869,10 +37039,27 @@ const PREPARSED_QUESTIONS = [
   {
     "subject": "ECharts & Matplotlib",
     "type": "单选题",
-    "title": "legend用于设置图例。 解析： legend表示图例。 作用： 帮助用户区分不同数据系列。 例如： 学生成绩： 男生 ■ 女生 ■ 其中男生、女生就是图例。",
-    "options": [],
+    "title": "ECharts 中用于设置图例的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "title"
+      },
+      {
+        "label": "B",
+        "text": "legend"
+      },
+      {
+        "label": "C",
+        "text": "tooltip"
+      },
+      {
+        "label": "D",
+        "text": "series"
+      }
+    ],
     "answer": "B",
-    "explanation": "",
+    "explanation": "legend 表示图例，用于区分不同数据系列。",
     "topic": "",
     "id": "GEN11030",
     "level": "B",
@@ -36885,10 +37072,27 @@ const PREPARSED_QUESTIONS = [
   {
     "subject": "ECharts & Matplotlib",
     "type": "单选题",
-    "title": "dataset 用于管理大量数据。 Word属于文档格式，不能直接作为Echarts数据。",
-    "options": [],
+    "title": "ECharts 中用于统一管理大量数据的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "Word 文档"
+      },
+      {
+        "label": "B",
+        "text": "Excel 表格"
+      },
+      {
+        "label": "C",
+        "text": "series"
+      },
+      {
+        "label": "D",
+        "text": "dataset"
+      }
+    ],
     "answer": "D",
-    "explanation": "",
+    "explanation": "dataset 用于统一管理大量数据；Word/Excel 是文档/表格格式，不能直接作为 ECharts 数据。",
     "topic": "",
     "id": "GEN11031",
     "level": "B",
@@ -36901,10 +37105,27 @@ const PREPARSED_QUESTIONS = [
   {
     "subject": "ECharts & Matplotlib",
     "type": "单选题",
-    "title": "series用于设置数据系列。 解析： series是Echarts中非常重要的配置项。 主要负责： 图表类型 数据内容 例如： series:[ { type:'bar', data:[10,20,30] } ] 其中： type： 图形类型 data： 数据",
-    "options": [],
+    "title": "ECharts 中用于设置数据系列的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "title"
+      },
+      {
+        "label": "B",
+        "text": "series"
+      },
+      {
+        "label": "C",
+        "text": "legend"
+      },
+      {
+        "label": "D",
+        "text": "tooltip"
+      }
+    ],
     "answer": "B",
-    "explanation": "",
+    "explanation": "series 是数据系列配置，负责图表类型(type)和数据内容(data)。",
     "topic": "",
     "id": "GEN11032",
     "level": "B",
@@ -36917,10 +37138,27 @@ const PREPARSED_QUESTIONS = [
   {
     "subject": "ECharts & Matplotlib",
     "type": "单选题",
-    "title": "柱状图、折线图、饼图都属于数据可视化图形。 解析： 常见可视化图： 柱状图： 比较不同类别数据 折线图： 表示趋势变化 饼图： 表示比例 C语言程序不是图形。",
-    "options": [],
+    "title": "以下属于数据可视化图形的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "柱状图"
+      },
+      {
+        "label": "B",
+        "text": "折线图"
+      },
+      {
+        "label": "C",
+        "text": "饼图"
+      },
+      {
+        "label": "D",
+        "text": "以上都是"
+      }
+    ],
     "answer": "D",
-    "explanation": "",
+    "explanation": "柱状图、折线图、饼图都是常见的数据可视化图形。",
     "topic": "",
     "id": "GEN11033",
     "level": "B",
@@ -36933,10 +37171,27 @@ const PREPARSED_QUESTIONS = [
   {
     "subject": "ECharts & Matplotlib",
     "type": "单选题",
-    "title": "Matplotlib属于Python第三方库。 解析： Matplotlib需要安装： pip install matplotlib 属于Python扩展库。 常与： NumPy Pandas 一起使用。",
-    "options": [],
+    "title": "Matplotlib 属于（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "Python 第三方库"
+      },
+      {
+        "label": "B",
+        "text": "Java 框架"
+      },
+      {
+        "label": "C",
+        "text": "数据库管理系统"
+      },
+      {
+        "label": "D",
+        "text": "操作系统"
+      }
+    ],
     "answer": "A",
-    "explanation": "",
+    "explanation": "Matplotlib 是 Python 第三方库，需 pip install matplotlib 安装，常与 NumPy、Pandas 一起使用。",
     "topic": "",
     "id": "GEN11034",
     "level": "B",
@@ -36978,10 +37233,27 @@ const PREPARSED_QUESTIONS = [
   {
     "subject": "ECharts & Matplotlib",
     "type": "单选题",
-    "title": "ECharts是一个基于什么技术的可视化库？ A.Java B.JavaScript C.Python D.C++",
-    "options": [],
+    "title": "ECharts是一个基于什么技术的可视化库？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Java"
+      },
+      {
+        "label": "B",
+        "text": "JavaScript"
+      },
+      {
+        "label": "C",
+        "text": "Python"
+      },
+      {
+        "label": "D",
+        "text": "C++"
+      }
+    ],
     "answer": "B",
-    "explanation": "",
+    "explanation": "ECharts 是基于 JavaScript 的开源可视化库。",
     "topic": "",
     "id": "GEN11036",
     "level": "B",
@@ -37641,10 +37913,23 @@ const PREPARSED_QUESTIONS = [
   {
     "subject": "ECharts & Matplotlib",
     "type": "多选题",
-    "title": "数据可视化的作用包括： A.发现数据规律 B.提高数据理解效率 C.直观展示数据关系 解析： 数据可视化目的： ① 让数据更加直观 ② 发现隐藏规律 ③ 帮助分析人员快速理解数据 三个选项均正确。",
-    "options": [],
+    "title": "数据可视化的作用包括（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "发现数据规律"
+      },
+      {
+        "label": "B",
+        "text": "提高数据理解效率"
+      },
+      {
+        "label": "C",
+        "text": "直观展示数据关系"
+      }
+    ],
     "answer": "ABC",
-    "explanation": "",
+    "explanation": "数据可视化能发现规律、提高理解效率、直观展示数据关系，三个选项均正确。",
     "topic": "",
     "id": "GEN11060",
     "level": "B",
@@ -37657,10 +37942,23 @@ const PREPARSED_QUESTIONS = [
   {
     "subject": "ECharts & Matplotlib",
     "type": "多选题",
-    "title": "Echarts常用配置包括： A.title B.legend C.tooltip 解析： Echarts基础配置： title： 设置标题 legend： 设置图例 tooltip： 设置提示框 这些都是option中的常见配置。",
-    "options": [],
+    "title": "ECharts 常用配置包括（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "title"
+      },
+      {
+        "label": "B",
+        "text": "legend"
+      },
+      {
+        "label": "C",
+        "text": "tooltip"
+      }
+    ],
     "answer": "ABC",
-    "explanation": "",
+    "explanation": "title(标题)、legend(图例)、tooltip(提示框) 都是 ECharts 常用配置。",
     "topic": "",
     "id": "GEN11061",
     "level": "B",
@@ -37673,10 +37971,23 @@ const PREPARSED_QUESTIONS = [
   {
     "subject": "ECharts & Matplotlib",
     "type": "多选题",
-    "title": "Echarts支持的常见图形： A.柱状图 B.折线图 C.饼图 解析： Echarts提供多种series类型： bar： 柱状图 line： 折线图 pie： 饼图 均属于基础图形。",
-    "options": [],
+    "title": "ECharts 支持的常见图形有（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "柱状图"
+      },
+      {
+        "label": "B",
+        "text": "折线图"
+      },
+      {
+        "label": "C",
+        "text": "饼图"
+      }
+    ],
     "answer": "ABC",
-    "explanation": "",
+    "explanation": "ECharts 支持柱状图(bar)、折线图(line)、饼图(pie)等基础图形。",
     "topic": "",
     "id": "GEN11062",
     "level": "B",
@@ -37689,10 +38000,23 @@ const PREPARSED_QUESTIONS = [
   {
     "subject": "ECharts & Matplotlib",
     "type": "多选题",
-    "title": "Matplotlib可以绘制： A.折线图 B.柱状图 C.散点图 解析： Matplotlib常用绘图函数： plot() 折线图 bar() 柱状图 scatter() 散点图 因此ABC正确。",
-    "options": [],
+    "title": "Matplotlib 可以绘制（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "折线图"
+      },
+      {
+        "label": "B",
+        "text": "柱状图"
+      },
+      {
+        "label": "C",
+        "text": "散点图"
+      }
+    ],
     "answer": "ABC",
-    "explanation": "",
+    "explanation": "Matplotlib 常用绘图函数：plot()折线图、bar()柱状图、scatter()散点图。",
     "topic": "",
     "id": "GEN11063",
     "level": "B",
@@ -37705,10 +38029,23 @@ const PREPARSED_QUESTIONS = [
   {
     "subject": "ECharts & Matplotlib",
     "type": "多选题",
-    "title": "Echarts读取数据方式包括： A.数组 B.JSON数据 C.dataset数据集 解析： Echarts支持多种数据来源： ① 普通数组 例如： [10,20,30] ② JSON格式 ③ dataset数据集 dataset适合处理大量结构化数据。",
-    "options": [],
+    "title": "ECharts 读取数据的方式包括（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "数组"
+      },
+      {
+        "label": "B",
+        "text": "JSON 数据"
+      },
+      {
+        "label": "C",
+        "text": "dataset 数据集"
+      }
+    ],
     "answer": "ABC",
-    "explanation": "",
+    "explanation": "ECharts 支持普通数组、JSON 数据、dataset 数据集等多种数据来源。",
     "topic": "",
     "id": "GEN11064",
     "level": "B",
