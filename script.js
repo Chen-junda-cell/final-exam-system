@@ -1262,6 +1262,145 @@ zkServer.sh status # 查看状态(Leader/Follower)`},
       ]},
     ]
   },
+  {
+    id:'redis', icon:'🗃️', title:'Redis 内存数据库', desc:'键值对内存数据库，缓存/计数/排行榜一把抓',
+    sections:[
+      {t:'先搞懂：Redis 是什么？', c:[
+        {p:'Redis = <b>Remote Dictionary Server（远程字典服务）</b>，一个开源的、基于内存的高性能 <b>Key/Value（键值对）数据库</b>，属于 NoSQL。'},
+        {p:'数据存在<b>内存</b>里，读写飞快（微秒级）。和 MySQL 这种存磁盘的关系型数据库相比，Redis 更适合做<b>缓存、计数、会话、排行榜、分布式锁</b>。'},
+        {tbl:['','MySQL(关系型)','Redis(NoSQL)'],rows:[['存储位置','磁盘','内存'],['数据格式','表格(行/列)','键值对 Key→Value'],['速度','较慢','极快'],['事务','完整ACID','简单(无回滚)'],['典型用途','业务数据','缓存/计数/队列']]},
+        {tip:'记口诀：<b>Redis = 内存 + 键值对 + 快</b>。'},
+      ]},
+      {t:'第一章 — Redis 基础', c:[
+        {h:'起源与端口'},{p:'由意大利公司 <b>Merzia</b> 开发。默认端口 <b>6379</b>，默认提供 <b>16 个数据库（0~15）</b>。'},
+        {h:'切换数据库'},{pre:'select 4   # 切换到数据库4'},
+        {h:'退出客户端'},{p:'退出 redis-cli 用 <b>quit</b> / <b>exit</b> / <b>Ctrl+C</b>。'},
+        {h:'版本号规则'},{p:'Redis 版本号第二位为<b>偶数</b>表示稳定版（如 1.2.x、2.4.x），奇数表示开发版。'},
+        {trap:'「q」不是标准退出命令！常见迷惑选项。'},
+      ]},
+      {t:'第二章 — NoSQL 基础', c:[
+        {p:'NoSQL = <b>Not only SQL</b>，泛指<b>非关系型数据库</b>，是关系型数据库的补充，解决高并发、大数据量、灵活数据模型的问题。'},
+        {h:'NoSQL 四大分类'},{tbl:['类型','代表','特点'],rows:[['键值存储','Redis','Key→Value，最快'],['文档型','MongoDB','存 JSON 文档'],['列存储','HBase','适合海量稀疏数据'],['图形数据库','Neo4j','适合关系网络']]},
+        {trap:'<b>Oracle 不是 NoSQL</b>！它是关系型数据库。考题「NoSQL 代表有 Redis、Oracle、MongoDB」是错误的。'},
+      ]},
+      {t:'第三章 — String 类型（最常用）', c:[
+        {p:'Redis 所有 <b>key 都是字符串</b>，value 可以是字符串/数字/二进制，单个 value 最大 <b>512MB</b>。'},
+        {h:'基础命令'},{tbl:['命令','作用'],rows:[['set key value','设置键值'],['get key','取值'],['mset/mget','批量设置/获取'],['append key str','尾部追加'],['strlen key','字符串长度'],['del key','删除']]},
+        {h:'数值自增（计数神器）'},{pre:'incr key      # 自增1\ndecr key      # 自减1\nincrby key 10 # 加10\nincrbyfloat key 0.5 # 浮点加'},
+        {p:'数值最大对应 Java 的 <b>long</b>（64位有符号整数）。Redis 单线程串行执行，incr/decr <b>天然原子</b>，并发计数不用加锁。'},
+        {h:'过期时间'},{pre:'setex key 秒数 value   # 秒后过期\npsetex key 毫秒 value  # 毫秒后过期'},
+        {tip:'典型场景：限时投票、主键自增ID、JSON缓存、粉丝数缓存。'},
+      ]},
+      {t:'第四章 — Hash 类型', c:[
+        {p:'Hash 适合<b>存对象</b>：外层 key 对应内部一组 <b>field → value</b>，可单独改某一个属性，不用整体更新（比 String 存 JSON 更高效）。'},
+        {h:'常用命令'},{tbl:['命令','作用'],rows:[['hset key f v','添加/修改字段'],['hget key f','取字段值'],['hdel key f','删字段'],['hgetall key','取全部字段值'],['hlen key','字段个数'],['hsetnx key f v','字段不存在才设'],['hincrby key f n','字段整数自增']]},
+        {h:'购物车 & 抢购库存'},{p:'购物车：<b>用户ID 作 key、商品编号作 field、数量作 value</b>。抢购库存用 <b>hincrby stock 商品 -1</b> 原子扣减。'},
+        {trap:'Hash 的 value 只能存<b>字符串</b>，不支持嵌套 hash；hgetall 在字段太多时会有性能瓶颈。'},
+      ]},
+      {t:'第五章 — List 类型', c:[
+        {p:'底层是<b>双向链表</b>，两端增删快 O(1)，随机访问慢 O(n)。元素全是字符串，最多 2³²-1 个。'},
+        {h:'常用命令'},{tbl:['命令','作用'],rows:[['lpush/rpush','左/右端添加'],['lpop/rpop','左/右端弹出'],['lrange key 0 -1','查看全部'],['lindex key i','按下标取'],['llen key','元素个数'],['lrem key n v','删指定数量值'],['blpop/brpop','阻塞弹出(超时秒)']]},
+        {h:'模拟栈和队列'},{p:'<b>栈(先进后出)</b>：lpush+lpop（同端进出）。<b>队列(先进先出)</b>：lpush+rpop（左进右出）。'},
+        {tip:'典型场景：新闻按时间展示、朋友圈点赞有序列表、任务消息队列（阻塞读取）。'},
+      ]},
+      {t:'第六章 — 事务', c:[
+        {p:'Redis 事务：<b>MULTI 开启 → 命令入队 → EXEC 执行</b>；<b>DISCARD</b> 取消。'},
+        {h:'两大异常'},{tbl:['错误类型','EXEC 结果'],rows:[['语法错误(入队时报错)','全部命令都不执行'],['运行期错误(逻辑错误)','仅出错命令报错，其余照常执行']]},
+        {h:'乐观锁 WATCH'},{p:'<b>WATCH key</b> 监控 key，EXEC 前若被改则事务放弃(返回 nil)。<b>UNWATCH</b> 取消监控。'},
+        {trap:'Redis 事务<b>不支持回滚</b>！这是和传统数据库事务的最大区别。'},
+      ]},
+      {t:'第七章 — 过期与内存淘汰', c:[
+        {h:'过期命令'},{tbl:['命令','作用'],rows:[['EXPIRE key 秒','设过期(秒)'],['PEXPIRE key 毫秒','设过期(毫秒)'],['TTL/PTTL key','查剩余过期时间'],['PERSIST key','清除过期，永久有效']]},
+        {p:'TTL 返回 <b>-2 表示 key 不存在（已过期删除）</b>，<b>-1 表示永久无过期</b>。'},
+        {h:'过期清理机制'},{p:'①惰性删除：访问时才检查过期；②定期主动清理；③内存淘汰。<b>SET/GETSET 会清除原有过期时间</b>，INCR/HSET/LPUSH 不会。'},
+        {h:'内存淘汰策略'},{p:'maxmemory-policy 默认 <b>noeviction</b>（满了拒绝写入、不删数据）；还有 allkeys-lru、volatile-lru、volatile-ttl 等。'},
+      ]},
+      {t:'第八章 — 持久化 RDB / AOF', c:[
+        {h:'RDB（快照）'},{p:'某一时刻的<b>数据快照</b>，默认文件 <b>dump.rdb</b>，LZF 压缩。save 同步阻塞、bgsave fork 子进程异步（线上用 bgsave）。恢复快，但两次快照间会丢数据。'},
+        {h:'AOF（日志）'},{p:'记录<b>所有写入命令</b>，默认文件 <b>appendonly.aof</b>。appendfsync 三策略：<b>always</b>(零丢失慢)/<b>everysec</b>(默认丢1秒)/no。bgrewriteaof 重写压缩。'},
+        {tbl:['','RDB','AOF'],rows:[['内容','数据快照','写入命令日志'],['默认文件','dump.rdb','appendonly.aof'],['恢复速度','快','慢'],['数据安全','丢较多','更安全']]},
+        {tip:'口诀：RDB=快照恢复快，AOF=日志更安全。'},
+      ]},
+      {t:'📌 考试速查清单 — Redis', c:[
+        {p:'✅ 端口6379 / 16个库 / select n 切换 / 起源 Merzia<br>✅ key 固定字符串 / value 最大512MB / 数值上限=long<br>✅ set get mset mget append strlen del / incr decr incrby<br>✅ setex(秒) psetex(毫秒)<br>✅ hash: hset hget hdel hgetall hlen hsetnx hincrby<br>✅ list: lpush rpush lpop rpop lrange lindex llen lrem blpop<br>✅ 事务: MULTI→入队→EXEC / DISCARD取消 / WATCH乐观锁<br>✅ 语法错误全队不执行 / 逻辑错误只错一条 / 不回滚<br>✅ 过期: EXPIRE PEXPIRE TTL PTTL PERSIST / TTL=-2不存在 -1永久<br>✅ 淘汰默认 noeviction<br>✅ RDB=dump.rdb快照 / AOF=appendonly.aof日志 / everysec丢1秒'},
+      ]},
+    ]
+  },
+  {
+    id:'echarts', icon:'📊', title:'ECharts & Matplotlib 数据可视化', desc:'网页交互图表(ECharts) + Python静态图表(Matplotlib)',
+    sections:[
+      {t:'先搞懂：两大可视化工具', c:[
+        {p:'<b>ECharts</b>：百度开源的 <b>JavaScript</b> 可视化库，跑在浏览器里，做网页<b>交互式</b>图表（能缩放、悬浮提示）。'},
+        {p:'<b>Matplotlib</b>：<b>Python</b> 的 2D 绘图库，跑在 Python 脚本里，做<b>静态</b>科研图/论文配图，导出图片/PDF。'},
+        {tbl:['','ECharts','Matplotlib'],rows:[['语言','JavaScript','Python'],['运行环境','浏览器','Python后端'],['交互','强(缩放/拖拽/悬浮)','弱(默认无)'],['输出','网页渲染','图片/PDF'],['代表','网页大屏/看板','科研/论文/离线图']]},
+        {trap:'<b>ECharts 不是 Python 库</b>！Pyecharts 才是 Python 封装（底层仍是 ECharts）。Matplotlib 默认<b>没有</b> tooltip 悬浮提示。'},
+      ]},
+      {t:'ECharts — 初始化与配置', c:[
+        {h:'使用四步'},{pre:'1. 引入 <script src="echarts.min.js">\n2. 准备有宽高的 DOM 容器 <div id="main">\n3. echarts.init(document.getElementById("main")) 初始化\n4. chart.setOption(option) 设置配置并渲染'},
+        {h:'option 核心配置'},{tbl:['配置项','作用'],rows:[['title','标题'],['legend','图例'],['tooltip','悬浮提示(trigger:axis/item)'],['xAxis/yAxis','坐标轴(type:category/value)'],['series','数据系列(type:bar/line/pie...)'],['grid','绘图网格']]},
+        {p:'饼图扇区颜色用 <b>series.color</b>；坐标轴名称用 <b>name</b> 属性。'},
+      ]},
+      {t:'ECharts — 图表类型', c:[
+        {tbl:['series.type','图表'],rows:[['bar','柱状图'],['line','折线图'],['pie','饼图'],['scatter','散点图'],['radar','雷达图'],['map','地图'],['candlestick','K线图'],['funnel','漏斗图'],['gauge','仪表盘'],['heatmap','热力图']]},
+        {p:'<b>堆叠</b>：多个 series 设置相同 <b>stack</b> 属性。折线加 <b>areaStyle</b> 变面积图。'},
+      ]},
+      {t:'Matplotlib — 基础绘图', c:[
+        {h:'标准导入'},{pre:'import matplotlib.pyplot as plt'},
+        {h:'常用绘图函数'},{tbl:['函数','图表'],rows:[['plt.plot(x,y)','折线图'],['plt.scatter()','散点图'],['plt.bar()','柱状图'],['plt.pie()','饼图'],['plt.hist()','直方图']]},
+        {h:'plot 参数'},{tbl:['参数','作用'],rows:[['color','线条颜色'],['linestyle','线型(--虚线)'],['marker','数据点形状'],['mfc','标记填充色'],['ms(markersize)','标记大小']]},
+        {p:'安装：<b>pip install matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple</b>（清华镜像源）。'},
+      ]},
+      {t:'Matplotlib — 装饰与输出', c:[
+        {h:'常用装饰'},{tbl:['函数','作用'],rows:[['plt.title()','标题'],['plt.xlabel()/ylabel()','轴标签'],['plt.xlim()/ylim()','轴范围'],['plt.legend()','图例'],['plt.grid()','网格线'],['plt.text()','文本注释']]},
+        {h:'子图与保存'},{p:'plt.subplot(行,列,序号) 或 plt.subplots() 创建子图；plt.savefig() 保存图片；plt.show() 显示。'},
+      ]},
+      {t:'📌 考试速查清单 — ECharts & Matplotlib', c:[
+        {p:'✅ ECharts基于JS / Matplotlib基于Python / Pyecharts底层是ECharts<br>✅ 初始化 echarts.init(dom) → setOption(option)<br>✅ 标题title 图例legend 提示tooltip 坐标xAxis/yAxis 数据series<br>✅ 饼图颜色 series.color / 坐标轴名 name<br>✅ 图表类型 bar line pie scatter radar map<br>✅ Matplotlib导入 import matplotlib.pyplot as plt<br>✅ plt.plot折线 scatter散点 bar柱状 pie饼图 hist直方图<br>✅ plot参数 color linestyle marker mfc ms<br>✅ 折线图/柱状图/饼图/面积图/堆叠/阶梯/散点 各自用途'},
+      ]},
+    ]
+  },
+  {
+    id:'bigdata', icon:'📡', title:'大数据采集技术 (爬虫)', desc:'数据采集 + Python爬虫 + 解析 + Scrapy',
+    sections:[
+      {t:'先搞懂：数据采集与爬虫', c:[
+        {p:'<b>数据采集</b>：从各种数据源（数据库/日志/网页/传感器/纸质）获取原始数据的过程。'},
+        {p:'<b>网络爬虫</b>：模拟浏览器发送 HTTP 请求、获取响应并<b>自动解析提取数据</b>的程序。'},
+        {h:'大数据处理流程'},{p:'<b>收集 → 预处理(清洗/去重/去噪/填缺失) → 存储 → 分析 → 可视化</b>。'},
+        {h:'数据类型'},{tbl:['类型','例子'],rows:[['结构化','数据库表格'],['半结构化','JSON/XML/日志'],['非结构化','音频/视频/文本']]},
+      ]},
+      {t:'爬虫基础', c:[
+        {h:'爬虫运行流程'},{p:'①发送请求 → ②获取响应 → ③解析提取数据/URL → ④保存数据 → ⑤翻页循环。'},
+        {h:'爬虫分类'},{p:'按功能：<b>通用爬虫</b>(搜索引擎) / <b>聚焦爬虫</b>(定向主题)；按方式：通用、聚焦、<b>增量式</b>、深层爬虫。'},
+        {h:'HTTP 与请求头'},{tbl:['','HTTP','HTTPS'],rows:[['协议','明文','HTTP+SSL/TLS加密'],['端口','80','443'],['安全','低','高']]},
+        {p:'伪装浏览器身份的关键请求头：<b>User-Agent</b>；还有 Cookie、Referer。状态码：200成功 / 403拒绝 / 404找不到。'},
+      ]},
+      {t:'urllib 与 requests', c:[
+        {h:'urllib（标准库，无需安装）'},{p:'urlopen()发起请求、Request()构建请求、urlretrieve()下载、urlencode()字典转URL编码。'},
+        {h:'requests（第三方库，更简洁）'},{pre:'import requests\nresp = requests.get(url, headers=headers, params={"key":"v"})\nresp.text        # 字符串\nresp.content     # 字节\nresp.status_code # 状态码\nresp.json()      # JSON'},
+        {h:'常用参数'},{tbl:['参数','作用'],rows:[['params','GET 传参'],['data/json','POST 传数据'],['proxies','代理IP(防封)'],['verify=False','忽略SSL证书'],['timeout','超时(秒)'],['cookies','携带Cookie']]},
+        {h:'会话与伪装'},{p:'保持会话用 <b>requests.Session()</b>；模拟浏览器要设置 <b>User-Agent</b> 请求头。中文乱码：<b>resp.encoding = "utf-8"</b>。'},
+      ]},
+      {t:'正则 / XPath / JSON 解析', c:[
+        {h:'正则（re）'},{tbl:['符号','含义'],rows:[['*','0次或多次'],['+','1次或多次'],['?','0次或1次 / 贪婪改懒惰'],['{n}','恰好n次']]},
+        {p:'re.match()从开头匹配、re.search()任意位置、<b>findall()返回列表</b>。'},
+        {h:'XPath（lxml）'},{tbl:['语法','含义'],rows:[['/','直接子节点'],['//','任意后代'],['@href','取属性'],['text()','取文本'],['..','父节点'],['[n]','索引'],['contains(@class,"x")','包含匹配']]},
+        {pre:'from lxml import etree\ntree = etree.HTML(html_str)\nitems = tree.xpath("//a/@href")'},
+        {h:'JSON'},{p:'<b>json.loads()</b> 字符串→字典、json.dumps() 字典→字符串；JSONPath 用 <b>$..key</b> 递归查找。'},
+      ]},
+      {t:'Scrapy 框架', c:[
+        {h:'常用命令'},{pre:'scrapy startproject 项目名      # 创建项目\nscrapy genspider 爬虫名 域名    # 生成爬虫\nscrapy crawl 爬虫名            # 运行爬虫'},
+        {h:'五大核心组件'},{tbl:['组件','职责'],rows:[['引擎 Engine','协调各组件'],['调度器 Scheduler','请求排队去重'],['下载器 Downloader','下载网页'],['爬虫 Spider','解析提取Item/URL'],['管道 Pipeline','清洗存储']]},
+        {p:'items.py 定义数据模型、spider 写 parse 解析、pipelines.py 写管道、settings.py 配置（ROBOTSTXT_OBEY=False、DOWNLOAD_DELAY、User-Agent、ITEM_PIPELINES）。'},
+      ]},
+      {t:'Selenium 与 BeautifulSoup', c:[
+        {h:'Selenium（模拟浏览器）'},{p:'<b>driver.find_element(By.ID/XPATH/CSS_SELECTOR, 值)</b> 定位元素；<b>.text</b> 取文本、<b>.get_attribute()</b> 取属性；<b>send_keys()</b> 输入内容；switch_to.window() 切窗口。'},
+        {h:'BeautifulSoup'},{p:'<b>find()</b>查第一个、<b>find_all()</b>查所有、<b>select()</b>CSS选择器、get_text()取文本、get()取属性。解析器：html.parser(内置)、<b>lxml(最快)</b>、html5lib(容错好)。'},
+      ]},
+      {t:'📌 考试速查清单 — 大数据采集技术', c:[
+        {p:'✅ 流程：收集→预处理→存储→分析→可视化<br>✅ 类型：结构化/半结构化(JSON/XML/日志)/非结构化(音视频)<br>✅ 采集要求：全面性 多维性 及时性 / 范围：数据库 日志 互联网 纸质<br>✅ 爬虫：发请求→取响应→解析→保存 / 通用爬虫&聚焦爬虫<br>✅ 端口：HTTP 80 / HTTPS 443 / 伪装身份 User-Agent<br>✅ urllib标准库 / requests第三方库(更简洁)<br>✅ requests参数：params data json proxies verify timeout cookies<br>✅ 正则 +*/?{n} / findall返回列表<br>✅ XPath：/ // @ text() .. [n] contains<br>✅ lxml：etree.HTML()解析 + xpath()提取<br>✅ json.loads() / JSONPath $..key<br>✅ Scrapy：startproject/genspider/crawl + 5大组件<br>✅ Selenium：find_element + text + send_keys<br>✅ BeautifulSoup：find/find_all/select + lxml解析器最快'},
+      ]},
+    ]
+  }
 ];
 
 // ==================== 教程渲染器 ====================
