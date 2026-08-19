@@ -822,5 +822,139 @@ spark.stop()`,
         ]
       }
     ]
+  },
+  "大数据采集技术": {
+    icon: "📡",
+    title: "大数据采集技术 考试复习重点",
+    source: "考试重点内容 + 课件整理",
+    intro: "覆盖数据采集、网络爬虫、urllib/requests、XPath/lxml/JSON 解析、Scrapy 框架、Selenium/BeautifulSoup 六大板块。⭐ 为老师反复强调的必考点，题库中已同步标记「重点」标签。",
+    chapters: [
+      {
+        num: "一", title: "大数据采集基础", icon: "📊",
+        sections: [
+          { title: "大数据处理流程", type: "numbered", badge: "⭐ 必考",
+            items: ["数据收集", "数据预处理（清洗/去重/去噪/填充缺失值）", "数据存储", "数据分析", "数据可视化"] },
+          { title: "数据采集的概念与特点", type: "text",
+            text: "概念：从各种数据源获取原始数据的过程。特点：数据源多样化、数据量大类型复杂、实时性要求高、采集方式多样（爬虫/日志/数据库/传感器）。" },
+          { title: "数据类型 / 范围 / 要求 / 来源 / 流程", type: "list", badge: "⭐ 必考",
+            items: [
+              { label: "数据类型", desc: "结构化（表格）、半结构化（JSON/XML/日志）、非结构化（音视频/文本）" },
+              { label: "采集范围", desc: "数据库数据、日志数据、互联网数据、纸质文档数据" },
+              { label: "采集要求", desc: "全面性、多维性、及时性、准确性、高效性" },
+              { label: "采集来源", desc: "数据库、日志文件、互联网(网页/API)、传感器、纸质文档(OCR)" },
+              { label: "采集流程", desc: "明确目标→确定数据源→选择方式→执行采集→清洗预处理→存储" }
+            ] }
+        ]
+      },
+      {
+        num: "二", title: "网络爬虫与反爬", icon: "🕷️",
+        sections: [
+          { title: "爬虫概念 / 流程 / 分类", type: "list", badge: "⭐ 必考",
+            items: [
+              { label: "概念", desc: "模拟浏览器发 HTTP 请求、获取响应并自动解析提取数据的程序" },
+              { label: "流程", desc: "①发送请求→②获取响应→③解析提取数据/URL→④保存数据→⑤翻页循环" },
+              { label: "分类", desc: "按功能：通用爬虫/聚焦爬虫；按方式：通用/聚焦/增量式/深层爬虫" }
+            ] },
+          { title: "常见反爬手段", type: "list", badge: "⭐ 高频",
+            items: [
+              { label: "headers 反爬", desc: "通过 User-Agent 等识别爬虫" },
+              { label: "频率/IP 反爬", desc: "限制请求频率或封 IP" },
+              { label: "验证码", desc: "图形/滑块验证" },
+              { label: "登录/Cookie", desc: "需登录才能访问" },
+              { label: "假数据/动态渲染", desc: "返回假数据或用 JS 渲染" }
+            ] },
+          { title: "代理 IP 参数", type: "text", badge: "⭐ 必考",
+            text: "requests 用 proxies 参数解决 IP 封禁：requests.get(url, proxies={'http':'http://ip:port','https':'https://ip:port'})。" }
+        ]
+      },
+      {
+        num: "三", title: "urllib 与 requests", icon: "🐍",
+        sections: [
+          { title: "urllib 模块（标准库）", type: "list", badge: "⭐ 必考",
+            items: [
+              { label: "主要作用", desc: "发送 HTTP 请求、处理 URL、获取网页响应，无需额外安装" },
+              { label: "常用函数", desc: "urlopen()发起请求、Request()构建请求、urlretrieve()下载、urlencode()字典转URL编码、quote()/unquote()编解码" },
+              { label: "中文乱码", desc: "读取字节后按正确编码解码：response.read().decode('utf-8')（或 gbk）" }
+            ] },
+          { title: "requests 模块（第三方库）", type: "list", badge: "⭐ 必考",
+            items: [
+              { label: "与 urllib 区别", desc: "requests 是第三方库、API 更简洁、处理 Cookie/会话/解压更方便" },
+              { label: "response 属性/方法", desc: "text、content、status_code、json()、encoding、headers、cookies" },
+              { label: "带参数请求", desc: "GET 用 params，POST 用 data 或 json" },
+              { label: "GET/POST", desc: "requests.get(url)；requests.post(url, data=...) 或 json=..." },
+              { label: "会话对象", desc: "Session：s = requests.Session() 自动保持 Cookie" },
+              { label: "模拟浏览器", desc: "设置 User-Agent 等请求头" }
+            ] },
+          { title: "爬取淘宝首页保存到文件", type: "code", badge: "⭐ 常考",
+            code: "import requests\nurl = 'https://www.taobao.com/'\nheaders = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/115.0.0.0 Safari/537.36'}\nresp = requests.get(url, headers=headers)\nresp.encoding = 'utf-8'\nwith open('taobao.html', 'w', encoding='utf-8') as f:\n    f.write(resp.text)" }
+        ]
+      },
+      {
+        num: "四", title: "XPath / lxml / JSON 解析", icon: "🧩",
+        sections: [
+          { title: "XPath 基础节点选择", type: "list", badge: "⭐ 必考",
+            items: [
+              { label: "/", desc: "直接子节点" },
+              { label: "//", desc: "任意后代" },
+              { label: "@", desc: "选取属性（如 //a/@href）" },
+              { label: "text()", desc: "取文本内容" },
+              { label: ".. / .", desc: "父节点 / 当前节点" },
+              { label: "[n] / [@id=\"x\"] / contains()", desc: "索引 / 属性筛选 / 包含匹配" }
+            ] },
+          { title: "lxml 常用方法", type: "list",
+            items: [
+              { label: "导入", desc: "from lxml import etree" },
+              { label: "解析", desc: "etree.HTML(html_str) 字符串→Element 对象" },
+              { label: "提取", desc: "element.xpath(表达式)" },
+              { label: "序列化", desc: "etree.tostring(element)" }
+            ] },
+          { title: "JSON 解析方法", type: "list",
+            items: [
+              { label: "json.loads()", desc: "JSON 字符串 → Python 字典" },
+              { label: "json.dumps()", desc: "字典 → JSON 字符串" },
+              { label: "JSONPath", desc: "$..key 递归查找任意位置 key" }
+            ] }
+        ]
+      },
+      {
+        num: "五", title: "Scrapy 框架", icon: "🕸️",
+        sections: [
+          { title: "Scrapy 是什么", type: "text",
+            text: "基于 Python 的快速、高效网络爬虫框架，用于抓取网页并提取结构化数据，支持异步、中间件、管道。" },
+          { title: "主要组件及功能", type: "list", badge: "⭐ 必考",
+            items: [
+              { label: "引擎 Engine", desc: "核心，协调各组件数据流" },
+              { label: "调度器 Scheduler", desc: "请求排队与去重" },
+              { label: "下载器 Downloader", desc: "下载网页响应" },
+              { label: "爬虫 Spider", desc: "解析响应、提取 Item 和新 URL" },
+              { label: "管道 Pipeline", desc: "清洗、去重、持久化" }
+            ] },
+          { title: "工作流程", type: "numbered", badge: "⭐ 必考",
+            items: ["Spider 起始 URL → Engine", "Engine → Scheduler 排队", "Scheduler 返回下一请求", "Downloader 下载", "响应回 Spider 解析提取 Item/URL", "Item 交 Pipeline 存储，新 URL 回 Scheduler 循环"] },
+          { title: "创建运行项目步骤", type: "code", badge: "⭐ 常考",
+            code: "scrapy startproject 项目名      # 创建项目\ncd 项目名\nscrapy genspider 爬虫名 域名    # 生成爬虫\n# items.py 定义模型 / spider 写 parse / pipelines.py 写管道 / settings.py 配置\nscrapy crawl 爬虫名            # 运行爬虫" },
+          { title: "安居客二手房爬虫", type: "list",
+            items: [
+              { label: "思路", desc: "AnjukeItem(title/name/address/desc) + parse 用 XPath 提取 + yield Request 翻页 + 管道写 anjuke.json + settings 反爬配置" }
+            ] }
+        ]
+      },
+      {
+        num: "六", title: "Selenium 与 BeautifulSoup", icon: "🤖",
+        sections: [
+          { title: "Selenium 定位与提取", type: "list", badge: "⭐ 高频",
+            items: [
+              { label: "定位元素", desc: "driver.find_element(By.ID/CLASS_NAME/XPATH/CSS_SELECTOR, 值)" },
+              { label: "提取数据", desc: ".text 取文本、.get_attribute('href') 取属性、driver.page_source 取源码" },
+              { label: "send_keys", desc: "input_box.send_keys('关键词') 向输入框输入" }
+            ] },
+          { title: "BeautifulSoup 方法 / 解析器", type: "list", badge: "⭐ 高频",
+            items: [
+              { label: "常用方法", desc: "find()查第一个、find_all()查所有、select()CSS选择器、get_text()取文本、get()取属性" },
+              { label: "常用解析器", desc: "html.parser（内置）、lxml（速度快）、html5lib（容错好）—— lxml 最快" }
+            ] }
+        ]
+      }
+    ]
   }
 };
