@@ -157,6 +157,7 @@ h1 { font-size: 24px; margin-bottom: 24px; color: var(--text); }
 .progress-bar-fill.web { background: #6c5ce7; }
 .progress-bar-fill.echarts { background: #00cec9; }
 .progress-bar-fill.redis { background: #d63031; }
+.progress-bar-fill.bigdata { background: #e17055; }
 
 /* ===== Hot Topics ===== */
 .hot-topics {

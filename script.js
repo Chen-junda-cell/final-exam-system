@@ -152,6 +152,21 @@ const KNOWLEDGE_BASE = {
       {id:'rd10',name:'持久化 — RDB',level:'A',freq:10,content:'RDB 是某一时刻数据快照，默认文件 dump.rdb，LZF 压缩，rdbchecksum 校验。save 同步阻塞主线程，bgsave fork 子进程异步执行(线上推荐)。save 60 10000 表示 60 秒改 10000 个 key 自动 bgsave。恢复快，但两次快照间会丢数据。',keywords:['RDB','dump.rdb','save','bgsave','快照','LZF','rdbchecksum']},
       {id:'rd11',name:'持久化 — AOF',level:'A',freq:10,content:'AOF 记录所有写入命令，默认文件 appendonly.aof。appendfsync 三策略：always(零丢失慢)/everysec(默认丢1秒)/no。bgrewriteaof 重写压缩，auto-aof-rewrite-min-size/percentage 自动重写。数据更安全但文件更大。',keywords:['AOF','appendonly.aof','appendfsync','everysec','always','bgrewriteaof','重写']},
     ]
+  },
+  '大数据采集技术': {
+    subject:'大数据采集技术',
+    topics:[
+      {id:'dc1',name:'大数据处理流程与数据类型',level:'A',freq:10,content:'处理流程：数据收集→数据预处理(清洗/去重/去噪/填充缺失值)→数据存储→数据分析→数据可视化。数据类型：结构化(数据库表格)、半结构化(JSON/XML/日志)、非结构化(音频/视频/文本)。',keywords:['数据收集','数据预处理','数据存储','数据分析','数据可视化','结构化','半结构化','非结构化','日志','JSON','XML']},
+      {id:'dc2',name:'数据采集概述',level:'A',freq:9,content:'数据采集要求：全面性、多维性、及时性等。采集范围：数据库数据、日志数据、互联网数据、纸质文档数据。采集方式：全量采集、增量采集(只采集新增数据)。流程：采集→清洗→存储。',keywords:['数据采集','全面性','多维性','及时性','增量采集','全量采集','清洗','存储']},
+      {id:'dc3',name:'网络爬虫基础',level:'A',freq:11,content:'爬虫是模拟浏览器发送HTTP请求、获取响应并自动解析提取数据的程序。流程：发请求→获取响应→解析提取数据→保存。分类：通用爬虫(搜索引擎)与聚焦爬虫；通用、聚焦、增量式、深层爬虫。',keywords:['爬虫','Spider','HTTP请求','通用爬虫','聚焦爬虫','增量式','robots']},
+      {id:'dc4',name:'HTTP/HTTPS与请求头',level:'A',freq:9,content:'HTTP明文、默认端口80；HTTPS=HTTP+SSL/TLS加密、默认端口443、更安全。常用状态码：200成功、403拒绝处理、404找不到。伪装浏览器身份的关键请求头：User-Agent；还有Cookie、Referer、Host。',keywords:['HTTP','HTTPS','SSL','443','80','User-Agent','Cookie','Referer','状态码','403','404']},
+      {id:'dc5',name:'urllib与requests库',level:'A',freq:10,content:'urllib是标准库；Request构建请求、urlopen执行请求、urlencode字典转URL编码、urlretrieve下载。requests是第三方库、API简洁；response.text(str)/content(bytes)/status_code/json()；params传GET参数、data传POST表单、proxies代理、verify忽略证书、timeout超时、cookies携带Cookie。',keywords:['urllib','requests','urlopen','Request','urlencode','response','params','proxies','verify','timeout','cookies']},
+      {id:'dc6',name:'正则表达式',level:'A',freq:10,content:'量词：*出现0+次、+出现1+次、?出现0或1次、{n}恰好n次。贪婪改懒惰在量词后加?。re.match从开头匹配、re.search任意位置、findall返回列表、finditer迭代器。捕获组用括号()。',keywords:['正则','re','match','search','findall','量词','贪婪','懒惰','捕获组']},
+      {id:'dc7',name:'XPath与lxml',level:'A',freq:10,content:'XPath：/直接子节点、//任意后代、@选取属性、text()取文本、..父节点、[n]索引、contains()包含。lxml中etree.HTML()把HTML字符串解析为Element，etree.tostring()序列化。提取href用//a/@href。',keywords:['XPath','lxml','etree','@href','contains','text()','父节点','SelectorList']},
+      {id:'dc8',name:'JSONPath与JSON解析',level:'B',freq:7,content:'json模块：json.loads()把JSON字符串转字典、json.dumps()字典转字符串。JSONPath：$表示根、$..key递归查找任意位置key。',keywords:['json','json.loads','json.dumps','JSONPath','$..']},
+      {id:'dc9',name:'反爬虫与应对策略',level:'A',freq:10,content:'常见反爬：headers(User-Agent)反爬、请求频率/IP反爬、验证码反爬、登录/Cookie反爬、假数据/动态渲染反爬。应对：设置完整请求头、延时+代理IP池、打码平台/OCR、模拟登录携带Cookie、抓包分析真实接口或Selenium渲染。',keywords:['反爬','User-Agent','验证码','代理IP','Cookie','Selenium','抓包','延时']},
+      {id:'dc10',name:'Scrapy框架',level:'A',freq:11,content:'命令：scrapy startproject创建项目、scrapy genspider生成爬虫、scrapy crawl启动爬虫。核心组件：引擎(Engine)协调、调度器(Scheduler)排队去重、下载器(Downloader)下载、爬虫(Spider)解析、管道(Item Pipeline)清洗存储。items.py定义模型、parse解析、process_item处理。ROBOTSTXT_OBEY=False忽略robots。',keywords:['Scrapy','startproject','genspider','crawl','Engine','Scheduler','Downloader','Spider','Pipeline','items.py','parse','process_item']},
+    ]
   }
 };
 // 六科信息
@@ -164,6 +179,7 @@ const SUBJECTS = [
   {id:'Web前端', icon:'🌐', name:'Web前端 (HTML/CSS/JS)'},
   {id:'ECharts & Matplotlib', icon:'📊', name:'ECharts & Matplotlib 数据可视化'},
   {id:'Redis', icon:'🗃️', name:'Redis 内存数据库'},
+  {id:'大数据采集技术', icon:'📡', name:'大数据采集技术 (爬虫/数据采集)'},
 ];
 
 // 五天计划数据
@@ -566,12 +582,12 @@ class DataManager {
       // 保存旧错题本ID，版本升级后恢复
       let savedWrongBook = null;
       try { savedWrongBook = JSON.parse(localStorage.getItem('exam_wrongbook') || 'null'); } catch(e) {}
-      if (dataVersion !== 'v10') {
+      if (dataVersion !== 'v11') {
         localStorage.removeItem('exam_questions');
         localStorage.removeItem('exam_wrongbook');
         localStorage.removeItem('exam_progress');
         localStorage.removeItem('exam_reviews');
-        localStorage.setItem('exam_data_version', 'v10');
+        localStorage.setItem('exam_data_version', 'v11');
       }
       // 加载预解析数据（如果localStorage没有则自动导入）
       if (typeof PREPARSED_QUESTIONS !== 'undefined' && PREPARSED_QUESTIONS.length > 0) {
@@ -1500,7 +1516,7 @@ class ExamApp {
     const spDiv = document.getElementById('subjectProgress');
     spDiv.innerHTML = SUBJECTS.map(s => {
       const d = stats.bySubject[s.id] || {total:0, done:0, pct:0};
-      const cls = s.id === 'Java Web' ? 'java' : s.id === 'Linux' ? 'linux' : s.id === 'Hadoop' ? 'hadoop' : s.id === 'Scala & Spark' ? 'scala' : s.id === 'Web前端' ? 'web' : s.id === 'ECharts & Matplotlib' ? 'echarts' : 'redis';
+      const cls = s.id === 'Java Web' ? 'java' : s.id === 'Linux' ? 'linux' : s.id === 'Hadoop' ? 'hadoop' : s.id === 'Scala & Spark' ? 'scala' : s.id === 'Web前端' ? 'web' : s.id === 'ECharts & Matplotlib' ? 'echarts' : s.id === 'Redis' ? 'redis' : 'bigdata';
       return `<div class="progress-bar-wrap">
         <div class="progress-bar-label"><span>${s.icon} ${s.name}</span><span>${d.done}/${d.total} (${d.pct}%)</span></div>
         <div class="progress-bar-track"><div class="progress-bar-fill ${cls}" style="width:${d.pct}%"></div></div>

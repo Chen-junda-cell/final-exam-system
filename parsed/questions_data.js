@@ -1,4 +1,4 @@
-// 八科完整题库 — 1578题
+// 九科完整题库 — 1664题
 const PREPARSED_QUESTIONS = [
   {
     "subject": "Java Web",
@@ -43906,6 +43906,2746 @@ const PREPARSED_QUESTIONS = [
     "answer": "对",
     "explanation": "按教材约定 linestyle=':' 表示虚线样式。",
     "id": "GEN11290",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "大数据处理流程中，数据收集之后的第一步操作是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据分析"
+      },
+      {
+        "label": "B",
+        "text": "数据可视化"
+      },
+      {
+        "label": "C",
+        "text": "数据存储"
+      },
+      {
+        "label": "D",
+        "text": "数据预处理"
+      }
+    ],
+    "answer": "D",
+    "explanation": "大数据处理流程：收集→预处理→存储→分析→可视化，收集之后先做预处理。",
+    "id": "GEN11291",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "以下哪种数据类型属于非结构化数据?(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "MySQL数据库中的表格数据"
+      },
+      {
+        "label": "B",
+        "text": "JSON文档"
+      },
+      {
+        "label": "C",
+        "text": "音频文件"
+      },
+      {
+        "label": "D",
+        "text": "XML文档"
+      }
+    ],
+    "answer": "C",
+    "explanation": "音频/视频等属于非结构化数据；表格数据是结构化，JSON/XML 是半结构化。",
+    "id": "GEN11292",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "数据采集中，\"增量采集\"的含义是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "每次从第一条数据开始收集"
+      },
+      {
+        "label": "B",
+        "text": "只采集之前没有采集过的数据"
+      },
+      {
+        "label": "C",
+        "text": "采集所有类型的数据"
+      },
+      {
+        "label": "D",
+        "text": "只采集结构化数据"
+      }
+    ],
+    "answer": "B",
+    "explanation": "增量采集只采集新增/变化的数据，避免重复采集。",
+    "id": "GEN11293",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "以下哪个不是数据采集的要求?(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "全面性"
+      },
+      {
+        "label": "B",
+        "text": "多维性"
+      },
+      {
+        "label": "C",
+        "text": "随机性"
+      },
+      {
+        "label": "D",
+        "text": "及时性"
+      }
+    ],
+    "answer": "C",
+    "explanation": "数据采集要求全面性、多维性、及时性等，随机性不是要求。",
+    "id": "GEN11294",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "数据采集流程主要包括(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "采集、分析、可视化"
+      },
+      {
+        "label": "B",
+        "text": "采集、清洗、存储"
+      },
+      {
+        "label": "C",
+        "text": "采集、存储、分析"
+      },
+      {
+        "label": "D",
+        "text": "清洗、存储、可视化"
+      }
+    ],
+    "answer": "B",
+    "explanation": "采集流程主要是采集→清洗→存储。",
+    "id": "GEN11295",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "关于爬虫的描述，正确的是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "爬虫可以获取浏览器未展示的数据"
+      },
+      {
+        "label": "B",
+        "text": "爬虫模拟浏览器发送请求，获取响应"
+      },
+      {
+        "label": "C",
+        "text": "爬虫只能获取静态网页数据"
+      },
+      {
+        "label": "D",
+        "text": "爬虫不需要遵循任何规则"
+      }
+    ],
+    "answer": "B",
+    "explanation": "爬虫通过模拟浏览器发送请求并解析响应来获取数据。",
+    "id": "GEN11296",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "HTTPS协议默认端口号是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "80"
+      },
+      {
+        "label": "B",
+        "text": "443"
+      },
+      {
+        "label": "C",
+        "text": "8080"
+      },
+      {
+        "label": "D",
+        "text": "21"
+      }
+    ],
+    "answer": "B",
+    "explanation": "HTTPS 默认端口 443，HTTP 默认端口 80。",
+    "id": "GEN11297",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "爬虫特别关注的请求头字段中，用于伪装浏览器身份的是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "Host"
+      },
+      {
+        "label": "B",
+        "text": "Connection"
+      },
+      {
+        "label": "C",
+        "text": "User-Agent"
+      },
+      {
+        "label": "D",
+        "text": "Content-Type"
+      }
+    ],
+    "answer": "C",
+    "explanation": "User-Agent 用于标识浏览器身份，爬虫常伪装它。",
+    "id": "GEN11298",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "HTTP状态码403表示(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "请求成功"
+      },
+      {
+        "label": "B",
+        "text": "找不到该页面"
+      },
+      {
+        "label": "C",
+        "text": "服务器内部错误"
+      },
+      {
+        "label": "D",
+        "text": "资源不可用，服务器拒绝处理"
+      }
+    ],
+    "answer": "D",
+    "explanation": "403 Forbidden 表示服务器拒绝处理请求。",
+    "id": "GEN11299",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "关于浏览器的运行过程，下列说法错误的是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "浏览器会发送多个请求获取页面资源"
+      },
+      {
+        "label": "B",
+        "text": "浏览器具有渲染能力"
+      },
+      {
+        "label": "C",
+        "text": "爬虫和浏览器获取的页面内容完全相同"
+      },
+      {
+        "label": "D",
+        "text": "浏览器最终展示的结果由多个响应共同渲染"
+      }
+    ],
+    "answer": "C",
+    "explanation": "浏览器会渲染 JS/图片，爬虫通常只拿原始 HTML，内容可能不同。",
+    "id": "GEN11300",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "谷歌浏览器中，用于观察首次访问网站时不携带cookie的模式是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "普通窗口"
+      },
+      {
+        "label": "B",
+        "text": "无痕窗口"
+      },
+      {
+        "label": "C",
+        "text": "开发者工具"
+      },
+      {
+        "label": "D",
+        "text": "隐私模式"
+      }
+    ],
+    "answer": "B",
+    "explanation": "无痕窗口不携带已有 Cookie，便于观察首次访问。",
+    "id": "GEN11301",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "urllib模块中，用于构建复杂请求对象的类是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "urlopen"
+      },
+      {
+        "label": "B",
+        "text": "Request"
+      },
+      {
+        "label": "C",
+        "text": "urlretrieve"
+      },
+      {
+        "label": "D",
+        "text": "urlencode"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Request 类用于构建可带请求头的请求对象。",
+    "id": "GEN11302",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "以下关于urlopen(        )和Request(        )的描述，正确的是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "urlopen()可以设置请求头"
+      },
+      {
+        "label": "B",
+        "text": "Request()用于执行请求"
+      },
+      {
+        "label": "C",
+        "text": "Request()创建的对象需要传递给urlopen()执行"
+      },
+      {
+        "label": "D",
+        "text": "urlopen()不能发送POST请求"
+      }
+    ],
+    "answer": "C",
+    "explanation": "先创建 Request 对象，再交给 urlopen() 执行请求。",
+    "id": "GEN11303",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "正则表达式中，表示\"前面的字符至少出现一次\"的量词是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "*"
+      },
+      {
+        "label": "B",
+        "text": "+"
+      },
+      {
+        "label": "C",
+        "text": "?"
+      },
+      {
+        "label": "D",
+        "text": "{1}"
+      }
+    ],
+    "answer": "B",
+    "explanation": "+ 表示前面字符出现 1 次或多次。",
+    "id": "GEN11304",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "re模块中，用于查找所有符合条件的匹配项并返回列表的方法是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "search()"
+      },
+      {
+        "label": "B",
+        "text": "match()"
+      },
+      {
+        "label": "C",
+        "text": "findall()"
+      },
+      {
+        "label": "D",
+        "text": "finditer()"
+      }
+    ],
+    "answer": "C",
+    "explanation": "findall() 返回所有匹配项的列表。",
+    "id": "GEN11305",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "正则表达式模式 r\"^\\w+@\\w+.(com|cn|org)$\" 中，捕获组的数量是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "A",
+    "explanation": "只有 (com|cn|org) 一个捕获组。",
+    "id": "GEN11306",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "re.match(        )和re.search(        )的主要区别是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "match()返回匹配对象，search()返回字符串"
+      },
+      {
+        "label": "B",
+        "text": "match()从开头匹配，search()在任意位置搜索"
+      },
+      {
+        "label": "C",
+        "text": "match()只能匹配数字，search()能匹配所有字符"
+      },
+      {
+        "label": "D",
+        "text": "两者没有区别"
+      }
+    ],
+    "answer": "B",
+    "explanation": "match 从字符串开头匹配，search 在任意位置搜索。",
+    "id": "GEN11307",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "正则表达式中，将贪婪模式切换为懒惰模式的符号是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "^"
+      },
+      {
+        "label": "B",
+        "text": "$"
+      },
+      {
+        "label": "C",
+        "text": "?"
+      },
+      {
+        "label": "D",
+        "text": ""
+      },
+      {
+        "label": "E",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "在量词后加 ? 可把贪婪匹配改为懒惰匹配。",
+    "id": "GEN11308",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "以下哪个是基于身份识别的反爬手段?(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "基于请求频率限制"
+      },
+      {
+        "label": "B",
+        "text": "通过User-Agent字段反爬"
+      },
+      {
+        "label": "C",
+        "text": "通过假数据反爬"
+      },
+      {
+        "label": "D",
+        "text": "阻塞任务队列"
+      }
+    ],
+    "answer": "B",
+    "explanation": "通过 User-Agent 识别爬虫身份属于基于身份识别的反爬。",
+    "id": "GEN11309",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "关于反爬虫策略，下列说法正确的是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "状态码200一定表示返回了真实数据"
+      },
+      {
+        "label": "B",
+        "text": "所有状态码都可信"
+      },
+      {
+        "label": "C",
+        "text": "状态码不可信，应以抓包获取的响应数据为准"
+      },
+      {
+        "label": "D",
+        "text": "状态码404表示反爬成功"
+      }
+    ],
+    "answer": "C",
+    "explanation": "状态码可能被伪造，应以抓包得到的真实响应数据为准。",
+    "id": "GEN11310",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "多选题",
+    "title": "以下属于数据处理流程环节的有(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据收集"
+      },
+      {
+        "label": "B",
+        "text": "数据可视化"
+      },
+      {
+        "label": "C",
+        "text": "数据安全与隐私保护"
+      },
+      {
+        "label": "D",
+        "text": "数据删除"
+      }
+    ],
+    "answer": "AB",
+    "explanation": "数据处理流程包含收集、预处理、存储、分析、可视化等环节。",
+    "id": "GEN11311",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "多选题",
+    "title": "以下数据类型中，属于半结构化数据的有(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据库表格数据"
+      },
+      {
+        "label": "B",
+        "text": "日志文件"
+      },
+      {
+        "label": "C",
+        "text": "XML文档"
+      },
+      {
+        "label": "D",
+        "text": "JSON文档"
+      }
+    ],
+    "answer": "BCD",
+    "explanation": "日志/XML/JSON 是半结构化数据；数据库表格是结构化数据。",
+    "id": "GEN11312",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "多选题",
+    "title": "以下属于数据采集范围的有(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据库中的数据"
+      },
+      {
+        "label": "B",
+        "text": "业务系统中的日志数据"
+      },
+      {
+        "label": "C",
+        "text": "互联网的应用数据"
+      },
+      {
+        "label": "D",
+        "text": "纸质文档数据"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "四类都属于数据采集范围。",
+    "id": "GEN11313",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "多选题",
+    "title": "以下哪些属于常见的反爬手段?(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "通过headers字段反爬"
+      },
+      {
+        "label": "B",
+        "text": "基于请求频率反爬"
+      },
+      {
+        "label": "C",
+        "text": "通过验证码反爬"
+      },
+      {
+        "label": "D",
+        "text": "提供更快的服务器响应"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "前三项是常见反爬手段；提供更快响应不是。",
+    "id": "GEN11314",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "多选题",
+    "title": "以下关于urllib模块的说法，正确的有(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "urllib是Python标准库，无需额外安装"
+      },
+      {
+        "label": "B",
+        "text": "urlopen()可以设置超时时间"
+      },
+      {
+        "label": "C",
+        "text": "Request()类支持设置请求方法(GET/POST等)"
+      },
+      {
+        "label": "D",
+        "text": "urlencode()用于将字典转换为URL编码字符串"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "四项都是 urllib 的正确描述。",
+    "id": "GEN11315",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在Python中，以下哪个库是用于发送HTTP请求的标准库?",
+    "options": [
+      {
+        "label": "A",
+        "text": "requests"
+      },
+      {
+        "label": "B",
+        "text": "urllib"
+      },
+      {
+        "label": "C",
+        "text": "lxml"
+      },
+      {
+        "label": "D",
+        "text": "re"
+      }
+    ],
+    "answer": "B",
+    "explanation": "urllib 是 Python 内置标准库，requests 是第三方库。",
+    "id": "GEN11316",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "下列关于 requests 模块和 urllib 模块的说法，错误的是:",
+    "options": [
+      {
+        "label": "A",
+        "text": "requests 是第三方库，需要额外安装。"
+      },
+      {
+        "label": "B",
+        "text": "urllib 是Python标准库的一部分。"
+      },
+      {
+        "label": "C",
+        "text": "requests 的API设计比urllib更简洁，易于使用。"
+      },
+      {
+        "label": "D",
+        "text": "requests 无法处理Cookie，只能由urllib处理。"
+      }
+    ],
+    "answer": "D",
+    "explanation": "requests 也能处理 Cookie（通过 cookies 参数或 Session）。",
+    "id": "GEN11317",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在使用 requests.get(url) 获取网页内容后，response.text 和 response.content 的主要区别是:",
+    "options": [
+      {
+        "label": "A",
+        "text": "response.text 返回的是字节类型(bytes)，response.content 返回的是字符串类型(str)。"
+      },
+      {
+        "label": "B",
+        "text": "response.text 返回的是字符串类型(str)，response.content 返回的是字节类型(bytes)。"
+      },
+      {
+        "label": "C",
+        "text": "两者返回的都是字符串类型，没有区别。"
+      },
+      {
+        "label": "D",
+        "text": "两者返回的都是字节类型，没有区别。"
+      }
+    ],
+    "answer": "B",
+    "explanation": "response.text 返回 str，response.content 返回 bytes。",
+    "id": "GEN11318",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "关于爬虫的 robots.txt 协议，以下描述正确的是:",
+    "options": [
+      {
+        "label": "A",
+        "text": "它是一个强制性的防火墙协议，所有爬虫都必须遵守。"
+      },
+      {
+        "label": "B",
+        "text": "它是一个约定俗成的协议，用于告诉爬虫哪些页面可以抓取，哪些不可以。"
+      },
+      {
+        "label": "C",
+        "text": "它存储在网站的根目录下，但爬虫无法读取到它。"
+      },
+      {
+        "label": "D",
+        "text": "它主要用来保护网站的隐私，具有很强的法律约束力。"
+      }
+    ],
+    "answer": "B",
+    "explanation": "robots.txt 是约定俗成的协议，声明哪些页面可抓取。",
+    "id": "GEN11319",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在XPath语法中，以下哪个符号表示选取当前节点的直接子节点?",
+    "options": [
+      {
+        "label": "A",
+        "text": "//"
+      },
+      {
+        "label": "B",
+        "text": "/"
+      },
+      {
+        "label": "C",
+        "text": "."
+      },
+      {
+        "label": "D",
+        "text": ".."
+      }
+    ],
+    "answer": "B",
+    "explanation": "/ 选取当前节点的直接子节点，// 是任意后代。",
+    "id": "GEN11320",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在XPath语法中，以下哪个符号用于选取文档中所有符合条件的节点，不论它们在文档中的位置?",
+    "options": [
+      {
+        "label": "A",
+        "text": "//"
+      },
+      {
+        "label": "B",
+        "text": "/"
+      },
+      {
+        "label": "C",
+        "text": "."
+      },
+      {
+        "label": "D",
+        "text": ".."
+      }
+    ],
+    "answer": "A",
+    "explanation": "// 表示从任意位置选取符合条件的节点。",
+    "id": "GEN11321",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在XPath中，如果要从一个<a>标签中提取其 href 属性的值，正确的语法是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "//a/text()"
+      },
+      {
+        "label": "B",
+        "text": "//a/@href"
+      },
+      {
+        "label": "C",
+        "text": "//a/@href/text()"
+      },
+      {
+        "label": "D",
+        "text": "//a[href]"
+      }
+    ],
+    "answer": "B",
+    "explanation": "@href 用于选取 href 属性。",
+    "id": "GEN11322",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在 requests 库中，使用哪个参数可以设置代理服务器?",
+    "options": [
+      {
+        "label": "A",
+        "text": "timeout"
+      },
+      {
+        "label": "B",
+        "text": "verify"
+      },
+      {
+        "label": "C",
+        "text": "proxies"
+      },
+      {
+        "label": "D",
+        "text": "cookies"
+      }
+    ],
+    "answer": "C",
+    "explanation": "proxies 参数用于设置代理。",
+    "id": "GEN11323",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在 requests 库中，使用哪个参数可以忽略SSL证书验证?",
+    "options": [
+      {
+        "label": "A",
+        "text": "timeout"
+      },
+      {
+        "label": "B",
+        "text": "verify"
+      },
+      {
+        "label": "C",
+        "text": "proxies"
+      },
+      {
+        "label": "D",
+        "text": "cookies"
+      }
+    ],
+    "answer": "B",
+    "explanation": "verify=False 可忽略 SSL 证书验证。",
+    "id": "GEN11324",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "以下哪个是 lxml 库中用于将HTML字符串解析为 Element 对象的正确方法?",
+    "options": [
+      {
+        "label": "A",
+        "text": "etree.parse(html_str)"
+      },
+      {
+        "label": "B",
+        "text": "etree.HTML(html_str)"
+      },
+      {
+        "label": "C",
+        "text": "etree.XML(html_str)"
+      },
+      {
+        "label": "D",
+        "text": "etree.tostring(html_str)"
+      }
+    ],
+    "answer": "B",
+    "explanation": "etree.HTML() 把 HTML 字符串解析为 Element 对象。",
+    "id": "GEN11325",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "使用 jsonpath 模块提取数据时，$..key6 代表什么含义?",
+    "options": [
+      {
+        "label": "A",
+        "text": "从根节点开始，逐级查找名为 key6 的直接子节点。"
+      },
+      {
+        "label": "B",
+        "text": "从根节点开始，查找任意位置名为 key6 的子孙节点。"
+      },
+      {
+        "label": "C",
+        "text": "查找根节点本身。"
+      },
+      {
+        "label": "D",
+        "text": "查找名为 key6 的属性。"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$..key6 表示从根开始递归查找任意位置的 key6 节点。",
+    "id": "GEN11326",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "以下哪个Python内置模块专门用于处理JSON数据?",
+    "options": [
+      {
+        "label": "A",
+        "text": "json"
+      },
+      {
+        "label": "B",
+        "text": "pickle"
+      },
+      {
+        "label": "C",
+        "text": "csv"
+      },
+      {
+        "label": "D",
+        "text": "xml"
+      }
+    ],
+    "answer": "A",
+    "explanation": "json 模块专门处理 JSON 数据。",
+    "id": "GEN11327",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在 requests 库中，timeout 参数的作用是:",
+    "options": [
+      {
+        "label": "A",
+        "text": "设置请求的等待时间，如果服务器在该时间内未响应，则抛出异常。"
+      },
+      {
+        "label": "B",
+        "text": "设置请求的缓存时间。"
+      },
+      {
+        "label": "C",
+        "text": "设置请求的Cookie过期时间。"
+      },
+      {
+        "label": "D",
+        "text": "设置请求的超时重试次数。"
+      }
+    ],
+    "answer": "A",
+    "explanation": "timeout 设置请求等待超时时间。",
+    "id": "GEN11328",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "以下哪个是正确的爬虫伪装请求头的写法?",
+    "options": [
+      {
+        "label": "A",
+        "text": "headers = {'User-Agent': 'python-requests/2.32.4'}"
+      },
+      {
+        "label": "B",
+        "text": "headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}"
+      },
+      {
+        "label": "C",
+        "text": "headers = {'User-Agent': 'Chrome/115.0.0.0'}"
+      },
+      {
+        "label": "D",
+        "text": "headers = {'User-Agent': 'BaiduSpider'}"
+      }
+    ],
+    "answer": "B",
+    "explanation": "B 是真实浏览器 UA，最接近浏览器身份。",
+    "id": "GEN11329",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "XPath表达式 //div[contains(@class, \"item\")] 的含义是:",
+    "options": [
+      {
+        "label": "A",
+        "text": "选取所有 class 属性等于 \"item\" 的 div 元素。"
+      },
+      {
+        "label": "B",
+        "text": "选取所有 class 属性包含 \"item\" 字符串的 div 元素。"
+      },
+      {
+        "label": "C",
+        "text": "选取所有 <div> 元素中包含 <item> 子元素的元素。"
+      },
+      {
+        "label": "D",
+        "text": "选取所有 <div> 元素的 class 属性值。"
+      }
+    ],
+    "answer": "B",
+    "explanation": "contains() 表示属性值包含指定字符串。",
+    "id": "GEN11330",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在 lxml 中，etree.tostring(element) 函数的作用是:",
+    "options": [
+      {
+        "label": "A",
+        "text": "将一个 Element 对象序列化为HTML或XML的字节字符串。"
+      },
+      {
+        "label": "B",
+        "text": "将一个 Element 对象转换为Python的字典。"
+      },
+      {
+        "label": "C",
+        "text": "从字符串中解析出一个 Element 对象。"
+      },
+      {
+        "label": "D",
+        "text": "提取 Element 对象中的文本内容。"
+      }
+    ],
+    "answer": "A",
+    "explanation": "etree.tostring 把 Element 对象序列化为字节字符串。",
+    "id": "GEN11331",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "json.loads('{\"name\": \"张三\"}') 代码的返回结果是:",
+    "options": [
+      {
+        "label": "A",
+        "text": "'{\"name\": \"张三\"}'"
+      },
+      {
+        "label": "B",
+        "text": "{\"name\": \"张三\"} (Python字典)"
+      },
+      {
+        "label": "C",
+        "text": "(\"name\", \"张三\")"
+      },
+      {
+        "label": "D",
+        "text": "一个 json 对象"
+      }
+    ],
+    "answer": "B",
+    "explanation": "json.loads 把 JSON 字符串解析为 Python 字典。",
+    "id": "GEN11332",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "关于XPath中的 text() 函数，以下说法正确的是:",
+    "options": [
+      {
+        "label": "A",
+        "text": "用于获取一个标签的 text 属性值。"
+      },
+      {
+        "label": "B",
+        "text": "用于获取一个标签的开闭标签之间的文本内容。"
+      },
+      {
+        "label": "C",
+        "text": "用于获取一个标签的内部HTML代码。"
+      },
+      {
+        "label": "D",
+        "text": "用于匹配文本内容为指定值的标签。"
+      }
+    ],
+    "answer": "B",
+    "explanation": "text() 获取标签开闭之间的文本内容。",
+    "id": "GEN11333",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "通过 response.cookies 获取到的Cookie对象是什么类型?",
+    "options": [
+      {
+        "label": "A",
+        "text": "字典 (dict)"
+      },
+      {
+        "label": "B",
+        "text": "列表 (list)"
+      },
+      {
+        "label": "C",
+        "text": "RequestsCookieJar 对象"
+      },
+      {
+        "label": "D",
+        "text": "字符串 (str)"
+      }
+    ],
+    "answer": "C",
+    "explanation": "response.cookies 返回 RequestsCookieJar 对象。",
+    "id": "GEN11334",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "爬取数据时，如果网站返回的HTML内容不完整或缺少结束标签，使用lxml.etree.HTML()解析时，它会:",
+    "options": [
+      {
+        "label": "A",
+        "text": "直接抛出解析异常。"
+      },
+      {
+        "label": "B",
+        "text": "返回空的 Element 对象。"
+      },
+      {
+        "label": "C",
+        "text": "自动补全缺失的标签，生成一个完整的HTML文档树。"
+      },
+      {
+        "label": "D",
+        "text": "丢弃不完整的部分，只解析完整的标签。"
+      }
+    ],
+    "answer": "C",
+    "explanation": "etree.HTML 会自动补全缺失标签，生成完整文档树。",
+    "id": "GEN11335",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "多选题",
+    "title": "以下哪些是 requests 模块响应对象(response)的常见属性或方法?",
+    "options": [
+      {
+        "label": "A",
+        "text": "response.text"
+      },
+      {
+        "label": "B",
+        "text": "response.content"
+      },
+      {
+        "label": "C",
+        "text": "response.status_code"
+      },
+      {
+        "label": "D",
+        "text": "response.json()"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "四者都是 response 的常见属性/方法。",
+    "id": "GEN11336",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "多选题",
+    "title": "关于 requests 模块中的 cookies 参数，以下说法正确的是:",
+    "options": [
+      {
+        "label": "A",
+        "text": "它接收一个字典形式的Cookie。"
+      },
+      {
+        "label": "B",
+        "text": "它的用法是 requests.get(url, cookies=cookie_dict)。"
+      },
+      {
+        "label": "C",
+        "text": "它和直接在 headers 中设置Cookie字符串的效果是一样的。"
+      },
+      {
+        "label": "D",
+        "text": "通过 cookies 参数设置的Cookie在请求之间会自动管理和更新。"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "cookies 参数接收字典；自动管理和更新是 Session 的 cookies 特性，不是 cookies 参数。",
+    "id": "GEN11337",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "多选题",
+    "title": "XPath中的节点修饰语法包括哪些?",
+    "options": [
+      {
+        "label": "A",
+        "text": "通过索引修饰节点，如 div[3]"
+      },
+      {
+        "label": "B",
+        "text": "通过属性值修饰节点，如 div[@id=\"main\"]"
+      },
+      {
+        "label": "C",
+        "text": "通过子节点的值修饰节点，如 div[span > 100]"
+      },
+      {
+        "label": "D",
+        "text": "通过包含修饰，如 div[contains(@class, \"item\")]"
+      }
+    ],
+    "answer": "ABCD",
+    "explanation": "四种都是 XPath 节点修饰语法。",
+    "id": "GEN11338",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "多选题",
+    "title": "以下哪些是数据解析的常用技术或库?",
+    "options": [
+      {
+        "label": "A",
+        "text": "正则表达式 (re)"
+      },
+      {
+        "label": "B",
+        "text": "XPath (lxml)"
+      },
+      {
+        "label": "C",
+        "text": "JSONPath (jsonpath)"
+      },
+      {
+        "label": "D",
+        "text": "urllib"
+      }
+    ],
+    "answer": "ABC",
+    "explanation": "re/lxml/jsonpath 用于解析；urllib 是请求库。",
+    "id": "GEN11339",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "多选题",
+    "title": "以下哪些行为可以提高网络爬虫的稳健性和合法性?",
+    "options": [
+      {
+        "label": "A",
+        "text": "设置合理的请求头(User-Agent)。"
+      },
+      {
+        "label": "B",
+        "text": "遵守目标网站的 robots.txt 协议。"
+      },
+      {
+        "label": "C",
+        "text": "使用高频率、多线程的请求，以最快速度获取数据。"
+      },
+      {
+        "label": "D",
+        "text": "在请求之间加上适当的延时(如 time.sleep())。"
+      }
+    ],
+    "answer": "ABD",
+    "explanation": "高频多线程请求会加大被封风险，不可取。",
+    "id": "GEN11340",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "Scrapy框架中，启动爬虫的正确命令是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "scrapy startproject 爬虫名"
+      },
+      {
+        "label": "B",
+        "text": "scrapy genspider 爬虫名"
+      },
+      {
+        "label": "C",
+        "text": "scrapy crawl 爬虫名"
+      },
+      {
+        "label": "D",
+        "text": "scrapy run 爬虫名"
+      }
+    ],
+    "answer": "C",
+    "explanation": "scrapy crawl 爬虫名 用于启动已定义的爬虫。",
+    "id": "GEN11341",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在Scrapy中，用于存储爬取数据的模型类定义在哪个文件中(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "settings.py"
+      },
+      {
+        "label": "B",
+        "text": "pipelines.py"
+      },
+      {
+        "label": "C",
+        "text": "items.py"
+      },
+      {
+        "label": "D",
+        "text": "middlewares.py"
+      }
+    ],
+    "answer": "C",
+    "explanation": "items.py 定义数据模型(Item)。",
+    "id": "GEN11342",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "下列哪个命令用于创建一个新的Scrapy项目(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "scrapy genspider"
+      },
+      {
+        "label": "B",
+        "text": "scrapy crawl"
+      },
+      {
+        "label": "C",
+        "text": "scrapy startproject"
+      },
+      {
+        "label": "D",
+        "text": "scrapy run"
+      }
+    ],
+    "answer": "C",
+    "explanation": "scrapy startproject 项目名 创建新项目。",
+    "id": "GEN11343",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "Scrapy爬虫中，解析函数必须命名为(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "parse_item"
+      },
+      {
+        "label": "B",
+        "text": "parse"
+      },
+      {
+        "label": "C",
+        "text": "handle_response"
+      },
+      {
+        "label": "D",
+        "text": "process_response"
+      }
+    ],
+    "answer": "B",
+    "explanation": "默认解析函数必须命名为 parse。",
+    "id": "GEN11344",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在Scrapy的settings.py中，设置ROBOTSTXT_OBEY = False的作用是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "启用robots.txt协议"
+      },
+      {
+        "label": "B",
+        "text": "忽略robots.txt协议限制"
+      },
+      {
+        "label": "C",
+        "text": "设置爬取速度"
+      },
+      {
+        "label": "D",
+        "text": "启用中间件"
+      }
+    ],
+    "answer": "B",
+    "explanation": "ROBOTSTXT_OBEY=False 表示不遵守 robots.txt 限制。",
+    "id": "GEN11345",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "response.xpath(        )方法返回的对象类型是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "list"
+      },
+      {
+        "label": "B",
+        "text": "dict"
+      },
+      {
+        "label": "C",
+        "text": "SelectorList"
+      },
+      {
+        "label": "D",
+        "text": "str"
+      }
+    ],
+    "answer": "C",
+    "explanation": "response.xpath() 返回 SelectorList 对象。",
+    "id": "GEN11346",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在Scrapy管道中，必须重写的方法是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "init"
+      },
+      {
+        "label": "B",
+        "text": "process_item"
+      },
+      {
+        "label": "C",
+        "text": "close_spider"
+      },
+      {
+        "label": "D",
+        "text": "open_spider"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Item Pipeline 必须重写 process_item()。",
+    "id": "GEN11347",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "使用yield scrapy.Request(url, callback=self.parse)发送请求时，callback参数的作用是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "指定请求方法"
+      },
+      {
+        "label": "B",
+        "text": "指定响应数据的解析函数"
+      },
+      {
+        "label": "C",
+        "text": "指定请求头"
+      },
+      {
+        "label": "D",
+        "text": "指定超时时间"
+      }
+    ],
+    "answer": "B",
+    "explanation": "callback 指定响应返回后调用的解析函数。",
+    "id": "GEN11348",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在Scrapy中，提取选择器列表中第一个字符串数据的方法是(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "extract()"
+      },
+      {
+        "label": "B",
+        "text": "get()"
+      },
+      {
+        "label": "C",
+        "text": "extract_first()"
+      },
+      {
+        "label": "D",
+        "text": "get_all()"
+      }
+    ],
+    "answer": "B",
+    "explanation": "get() 返回第一个匹配结果(新API)；extract_first 为旧写法。",
+    "id": "GEN11349",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "下列哪个不是Scrapy框架的核心组件(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "引擎(Engine)"
+      },
+      {
+        "label": "B",
+        "text": "调度器(Scheduler)"
+      },
+      {
+        "label": "C",
+        "text": "数据库(Database)"
+      },
+      {
+        "label": "D",
+        "text": "下载器(Downloader)"
+      }
+    ],
+    "answer": "C",
+    "explanation": "核心组件为引擎、调度器、下载器、爬虫、管道；数据库不是。",
+    "id": "GEN11350",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "大数据处理流程中，数据清洗、去重、去噪、填充缺失值等操作属于哪个阶段?(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据收集"
+      },
+      {
+        "label": "B",
+        "text": "数据存储"
+      },
+      {
+        "label": "C",
+        "text": "数据预处理"
+      },
+      {
+        "label": "D",
+        "text": "数据可视化"
+      }
+    ],
+    "answer": "C",
+    "explanation": "清洗/去重/去噪/填充缺失值属于数据预处理。",
+    "id": "GEN11351",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "以下哪种数据类型属于非结构化数据?(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "关系型数据库中的表格数据"
+      },
+      {
+        "label": "B",
+        "text": "JSON文档"
+      },
+      {
+        "label": "C",
+        "text": "XML文档"
+      },
+      {
+        "label": "D",
+        "text": "音频/视频信息"
+      }
+    ],
+    "answer": "D",
+    "explanation": "音频/视频信息是非结构化数据；JSON/XML 是半结构化。",
+    "id": "GEN11352",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "爬虫的运行流程中，发送请求获取响应后，下一步应进行的操作是(        )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "直接保存数据"
+      },
+      {
+        "label": "B",
+        "text": "从响应中提取数据或进一步的URL"
+      },
+      {
+        "label": "C",
+        "text": "关闭连接"
+      },
+      {
+        "label": "D",
+        "text": "打印日志"
+      }
+    ],
+    "answer": "B",
+    "explanation": "获取响应后需从响应中提取数据或进一步 URL。",
+    "id": "GEN11353",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "HTTP与HTTPS的主要区别是(        )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "HTTP速度更快"
+      },
+      {
+        "label": "B",
+        "text": "HTTPS = HTTP + SSL，更安全"
+      },
+      {
+        "label": "C",
+        "text": "HTTP默认端口为443"
+      },
+      {
+        "label": "D",
+        "text": "HTTPS不支持加密传输"
+      }
+    ],
+    "answer": "B",
+    "explanation": "HTTPS=HTTP+SSL/TLS，加密传输更安全。",
+    "id": "GEN11354",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在爬虫中，用于伪装浏览器身份的最重要的请求头字段是(        )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cookie"
+      },
+      {
+        "label": "B",
+        "text": "Referer"
+      },
+      {
+        "label": "C",
+        "text": "User-Agent"
+      },
+      {
+        "label": "D",
+        "text": "Host"
+      }
+    ],
+    "answer": "C",
+    "explanation": "User-Agent 标识浏览器身份。",
+    "id": "GEN11355",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在Python的urllib模块中，用于将字典转换为URL编码字符串的函数是(        )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "urllib.parse.urlencode()"
+      },
+      {
+        "label": "B",
+        "text": "urllib.parse.quote()"
+      },
+      {
+        "label": "C",
+        "text": "urllib.parse.unquote()"
+      },
+      {
+        "label": "D",
+        "text": "urllib.request.urlopen()"
+      }
+    ],
+    "answer": "A",
+    "explanation": "urlencode() 把字典转换为 URL 编码字符串。",
+    "id": "GEN11356",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在urllib中，如果要发送携带请求头的复杂请求，需要先创建哪个对象?(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "Request对象"
+      },
+      {
+        "label": "B",
+        "text": "Response对象"
+      },
+      {
+        "label": "C",
+        "text": "Handler对象"
+      },
+      {
+        "label": "D",
+        "text": "Opener对象"
+      }
+    ],
+    "answer": "A",
+    "explanation": "先创建 Request 对象携带请求头。",
+    "id": "GEN11357",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "正则表达式中，+号表示的含义是(        )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "前面的字符出现0次或1次"
+      },
+      {
+        "label": "B",
+        "text": "前面的字符出现0次或多次"
+      },
+      {
+        "label": "C",
+        "text": "前面的字符出现1次或多次"
+      },
+      {
+        "label": "D",
+        "text": "前面的字符出现恰好n次"
+      }
+    ],
+    "answer": "C",
+    "explanation": "+ 表示前面字符出现 1 次或多次。",
+    "id": "GEN11358",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在Python的re模块中，re.search()与re.match()的区别是(        )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "search()从字符串开头匹配，match()从任意位置匹配"
+      },
+      {
+        "label": "B",
+        "text": "match()从字符串开头匹配，search()从任意位置匹配"
+      },
+      {
+        "label": "C",
+        "text": "两者功能完全相同"
+      },
+      {
+        "label": "D",
+        "text": "search()只返回第一个匹配，match()返回所有匹配"
+      }
+    ],
+    "answer": "B",
+    "explanation": "match 从开头匹配，search 在任意位置搜索。",
+    "id": "GEN11359",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在requests模块中，response.text和response.content的区别是(        )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "text返回bytes类型，content返回str类型"
+      },
+      {
+        "label": "B",
+        "text": "text返回str类型，content返回bytes类型"
+      },
+      {
+        "label": "C",
+        "text": "两者返回类型相同"
+      },
+      {
+        "label": "D",
+        "text": "text是编码后的数据，content是未编码的数据"
+      }
+    ],
+    "answer": "B",
+    "explanation": "text 返回 str，content 返回 bytes。",
+    "id": "GEN11360",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在requests模块中，发送带参数的GET请求应使用哪个参数?(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "data"
+      },
+      {
+        "label": "B",
+        "text": "json"
+      },
+      {
+        "label": "C",
+        "text": "params"
+      },
+      {
+        "label": "D",
+        "text": "body"
+      }
+    ],
+    "answer": "C",
+    "explanation": "GET 请求用 params 传参；POST 表单用 data。",
+    "id": "GEN11361",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在requests模块中，设置代理IP应使用哪个参数?(        )",
+    "options": [
+      {
+        "label": "A",
+        "text": "proxy"
+      },
+      {
+        "label": "B",
+        "text": "proxies"
+      },
+      {
+        "label": "C",
+        "text": "proxy_server"
+      },
+      {
+        "label": "D",
+        "text": "forward"
+      }
+    ],
+    "answer": "B",
+    "explanation": "proxies 参数设置代理。",
+    "id": "GEN11362",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "以下关于XPath语法的描述，错误的是(        )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "/表示从根节点选取"
+      },
+      {
+        "label": "B",
+        "text": "//表示从匹配选择的当前节点选择文档中的节点，不考虑位置"
+      },
+      {
+        "label": "C",
+        "text": "@用于选取属性"
+      },
+      {
+        "label": "D",
+        "text": "text()用于选取属性的值"
+      }
+    ],
+    "answer": "D",
+    "explanation": "text() 用于选取文本内容，@ 才用于选取属性。",
+    "id": "GEN11363",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在XPath中，选取当前节点的父节点应使用(        )。",
+    "options": [
+      {
+        "label": "A",
+        "text": ".."
+      },
+      {
+        "label": "B",
+        "text": "."
+      },
+      {
+        "label": "C",
+        "text": "parent"
+      },
+      {
+        "label": "D",
+        "text": "^"
+      }
+    ],
+    "answer": "A",
+    "explanation": ".. 表示父节点，. 表示当前节点。",
+    "id": "GEN11364",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在lxml模块中，etree.HTML(html_str)方法的作用是(        )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "将HTML字符串转换为bytes类型"
+      },
+      {
+        "label": "B",
+        "text": "将HTML字符串转换为Element对象"
+      },
+      {
+        "label": "C",
+        "text": "将Element对象转换为HTML字符串"
+      },
+      {
+        "label": "D",
+        "text": "对HTML字符串进行加密"
+      }
+    ],
+    "answer": "B",
+    "explanation": "etree.HTML() 把 HTML 字符串转换为 Element 对象。",
+    "id": "GEN11365",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在Scrapy框架中，用于存放爬取数据模型的文件是(        )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "settings.py"
+      },
+      {
+        "label": "B",
+        "text": "pipelines.py"
+      },
+      {
+        "label": "C",
+        "text": "items.py"
+      },
+      {
+        "label": "D",
+        "text": "middlewares.py"
+      }
+    ],
+    "answer": "C",
+    "explanation": "items.py 存放数据模型。",
+    "id": "GEN11366",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在Scrapy中，启动一个名为itcast的爬虫应使用的命令是(        )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "scrapy run itcast"
+      },
+      {
+        "label": "B",
+        "text": "scrapy start itcast"
+      },
+      {
+        "label": "C",
+        "text": "scrapy crawl itcast"
+      },
+      {
+        "label": "D",
+        "text": "scrapy spider itcast"
+      }
+    ],
+    "answer": "C",
+    "explanation": "scrapy crawl itcast 启动爬虫。",
+    "id": "GEN11367",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在Scrapy的settings.py中，设置ROBOTSTXT_OBEY = False的作用是(        )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "启用robots.txt协议"
+      },
+      {
+        "label": "B",
+        "text": "禁用robots.txt协议，允许爬取被禁止的页面"
+      },
+      {
+        "label": "C",
+        "text": "启用日志记录"
+      },
+      {
+        "label": "D",
+        "text": "设置下载延迟"
+      }
+    ],
+    "answer": "B",
+    "explanation": "ROBOTSTXT_OBEY=False 禁用 robots.txt 协议。",
+    "id": "GEN11368",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在Selenium中，切换标签页(窗口)应使用的方法是(        )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "driver.switch_to.frame()"
+      },
+      {
+        "label": "B",
+        "text": "driver.switch_to.window()"
+      },
+      {
+        "label": "C",
+        "text": "driver.switch_to.alert()"
+      },
+      {
+        "label": "D",
+        "text": "driver.switch_to.default_content()"
+      }
+    ],
+    "answer": "B",
+    "explanation": "switch_to.window() 切换标签页/窗口。",
+    "id": "GEN11369",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "单选题",
+    "title": "在BeautifulSoup中，根据CSS选择器查找元素应使用的方法是(        )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "find()"
+      },
+      {
+        "label": "B",
+        "text": "find_all()"
+      },
+      {
+        "label": "C",
+        "text": "select()"
+      },
+      {
+        "label": "D",
+        "text": "search()"
+      }
+    ],
+    "answer": "C",
+    "explanation": "select() 根据 CSS 选择器查找元素。",
+    "id": "GEN11370",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "简答题",
+    "title": "简述数据采集的流程，并说明网页爬取和日志数据类型的数据采集流程分别是什么？",
+    "options": [],
+    "answer": "通用数据采集流程：明确采集目标→确定数据源→选择采集方式→执行采集→数据清洗/预处理→数据存储。网页爬取流程：确定目标网站→分析页面结构→发送HTTP请求→获取响应→解析提取数据(正则/XPath/JSONPath)→清洗→存储，有翻页则循环请求下一页。日志采集流程：确定日志来源(服务器/业务系统)→部署日志采集工具(如Flume)→实时/定时采集→解析格式化→去重清洗→存储到日志系统或大数据平台。",
+    "explanation": "",
+    "id": "GEN11371",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "简答题",
+    "title": "请详细说明爬虫是什么？爬虫的运行流程是怎样的？爬虫可以分为哪几类？",
+    "options": [],
+    "answer": "①概念：网络爬虫(Web Crawler/Spider)是模拟浏览器向服务器发送HTTP请求、获取响应并自动解析提取数据的程序。②运行流程：发送请求→获取响应→解析提取数据或进一步的URL→保存数据→(翻页/跟进URL)循环。③分类：按功能分为通用爬虫(搜索引擎)和聚焦爬虫(定向主题)；按抓取方式分为通用网络爬虫、聚焦爬虫、增量式爬虫、深层网络爬虫。",
+    "explanation": "",
+    "id": "GEN11372",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "简答题",
+    "title": "请阐述HTTP和HTTPS的区别，列举常见的反爬手段并说明对应的解决思路。",
+    "options": [],
+    "answer": "①区别：HTTP明文传输，HTTPS=HTTP+SSL/TLS加密传输、更安全；默认端口HTTP为80、HTTPS为443；HTTPS有证书校验，安全性高但握手更复杂、性能略慢。②常见反爬及解决思路：User-Agent等headers反爬→设置完整浏览器请求头伪装；请求频率/IP反爬→加延时(time.sleep)、使用代理IP池、降低频率；验证码反爬→手动识别/打码平台/OCR识别；登录/Cookie反爬→模拟登录获取Cookie并在请求中携带；动态渲染/假数据反爬→抓包分析真实接口或使用Selenium模拟浏览器。",
+    "explanation": "",
+    "id": "GEN11373",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "简答题",
+    "title": "请简述Scrapy框架的工作流程(从起始URL到数据保存的完整过程)。",
+    "options": [],
+    "answer": "Scrapy工作流程：①Spider把起始URL交给Engine；②Engine把URL放入Scheduler排队；③Scheduler把下一请求返回Engine；④Engine经下载器中间件把请求交给Downloader下载；⑤Downloader把响应返回Engine再交给Spider；⑥Spider用parse()等回调解析响应，提取Item或新的URL；⑦Item交给Item Pipeline清洗、去重、持久化；⑧新URL回到Scheduler，重复②-⑦直到无新请求。",
+    "explanation": "",
+    "id": "GEN11374",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "简答题",
+    "title": "请简述Scrapy框架中各个核心组件(引擎、调度器、下载器、爬虫、管道)的作用及其在整个工作流程中的职责。",
+    "options": [],
+    "answer": "①引擎(Engine)：核心，协调各组件间数据流、触发事务；②调度器(Scheduler)：维护待爬取请求队列，负责排队与去重；③下载器(Downloader)：发送请求、下载网页响应并交给引擎；④爬虫(Spider)：解析响应，提取数据(Item)和新的URL请求；⑤管道(Item Pipeline)：处理Spider提取的数据，负责清洗、校验、去重、持久化存储。",
+    "explanation": "",
+    "id": "GEN11375",
+    "level": "B",
+    "topic": "",
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastPractice": null,
+    "nextReview": null,
+    "reviewStage": 0
+  },
+  {
+    "subject": "大数据采集技术",
+    "type": "程序题",
+    "title": "案例：完成一个基于 Scrapy 的安居客自己家乡的二手房爬虫，要求爬取房源的标题、房源名、地址、房源描述，并将数据保存到anjuke.json文件中，并实现翻页功能。（比较重要，直接将答案写到空白处）",
+    "options": [],
+    "answer": "① Items 模型定义（items.py）\nimport scrapy\n\nclass AnjukeItem(scrapy.Item):\n    title = scrapy.Field()      # 房源标题\n    name = scrapy.Field()       # 房源名/小区名\n    address = scrapy.Field()    # 地址\n    desc = scrapy.Field()       # 房源描述\n\n② 爬虫核心逻辑（数据提取 + 翻页）\nimport scrapy\nfrom ..items import AnjukeItem\n\nclass AnjukeSpider(scrapy.Spider):\n    name = 'anjuke'\n    allowed_domains = ['anjuke.com']\n    start_urls = ['https://xx.anjuke.com/sale/']   # xx 换成家乡城市拼音\n\n    def parse(self, response):\n        for li in response.xpath('//ul[@class=\"houselist-mod-new\"]/li'):\n            item = AnjukeItem()\n            item['title'] = li.xpath('.//div[@class=\"house-title\"]/a/text()').get(default='').strip()\n            item['name'] = li.xpath('.//div[@class=\"comm-address\"]//a/text()').get(default='').strip()\n            item['address'] = li.xpath('.//div[@class=\"comm-address\"]/span/text()').get(default='').strip()\n            item['desc'] = ' | '.join(li.xpath('.//div[@class=\"house-details\"]//span/text()').getall())\n            yield item\n        # 翻页\n        next_page = response.xpath('//a[@class=\"aNxt\"]/@href').get()\n        if next_page:\n            yield scrapy.Request(response.urljoin(next_page), callback=self.parse)\n\n③ 数据管道处理（pipelines.py）\nimport json\n\nclass AnjukePipeline:\n    def open_spider(self, spider):\n        self.file = open('anjuke.json', 'w', encoding='utf-8')\n    def process_item(self, item, spider):\n        self.file.write(json.dumps(dict(item), ensure_ascii=False) + '\\n')\n        return item\n    def close_spider(self, spider):\n        self.file.close()\n\n④ Settings 配置（反爬 + 管道启用）\nROBOTSTXT_OBEY = False\nDOWNLOAD_DELAY = 1.5            # 请求延时，防频率反爬\nDEFAULT_REQUEST_HEADERS = {\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36',\n}\nITEM_PIPELINES = {\n    'anjuke.pipelines.AnjukePipeline': 300,\n}",
+    "explanation": "",
+    "id": "GEN11376",
     "level": "B",
     "topic": "",
     "correctCount": 0,
